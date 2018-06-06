@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+  height: 100vh;
+  font-size: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 0 2rem;
+}
+
+pre {
+  display: block;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-y: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover .code-a {
+  color: #004d00;
+}
+a:hover .code-b {
+  color: #0000cc;
+}
+a:hover .code-c {
+  color: #cc0000;
+}
+
+.code-a {
+  color: green;
+}
+
+.code-b {
+  color: blue;
+}
+
+.code-c {
+  color: red;
+}
+
+.code-d {
+  color: black;
+}
