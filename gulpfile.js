@@ -24,7 +24,13 @@ gulp.task('assets', function() {
       .pipe(reload({ stream: true }));
 });
 
-gulp.task('build', ['styles', 'assets']);
+gulp.task('netlify-stuff', function() {
+  gulp.src('_redirects')
+      .pipe(gulp.dest('build/'))
+      .pipe(reload({ stream: true }));
+});
+
+gulp.task('build', ['styles', 'assets', 'netlify-stuff']);
 
 gulp.task('clean', function() {
   del(['build/**']);
