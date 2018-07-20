@@ -2,7 +2,7 @@ class PyConCA2018(PyCon):
     """PyCon Canada 2018"""
 
     location = 'Toronto, Ontario, Canada'
-    date = 'Autumn 2018'
+    date = 'November 9-13'
 
     def join_our_mailing_list(self):
         return 'http://eepurl.com/bs9mG9'
