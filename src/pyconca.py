@@ -10,6 +10,9 @@ class PyConCA2018(PyCon):
     def join_our_volunteer_mailing_list(self):
         return 'https://mailchi.mp/a7731abffa7b/pycon-canada-2018-volunteers'
 
+    def submit_a_talk(self):
+        return 'https://papercall.io/pyconca2018'
+
     def sponsor_pyconca_2018(self):
         return 'sponsorship@pycon.ca'
 
