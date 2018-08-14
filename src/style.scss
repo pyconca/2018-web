@@ -1,4 +1,14 @@
+$body-bg-colour: rgb(39, 43, 54);
+$body-colour: rgb(242, 248, 243);
+
+$colour-green: rgb(0, 245, 110);
+$colour-red: rgb(238, 242, 152);
+$colour-blue: rgb(107, 233, 245);
+$colour-white: $body-colour;
+
 body {
+  background-color: $body-bg-colour;
+  color: $body-colour;
   margin: 0 auto;
   height: 100vh;
   font-size: 20px;
@@ -20,27 +30,27 @@ a {
 }
 
 a:hover .code-a {
-  color: #004d00;
+  color: $body-colour;
 }
 a:hover .code-b {
-  color: #0000cc;
+  color: $body-colour;
 }
 a:hover .code-c {
-  color: #cc0000;
+  color: $body-colour;
 }
 
 .code-a {
-  color: green;
+  color: $colour-green;
 }
 
 .code-b {
-  color: blue;
+  color: $colour-blue;
 }
 
 .code-c {
-  color: red;
+  color: $colour-red;
 }
 
 .code-d {
-  color: black;
+  color: $colour-white;
 }
