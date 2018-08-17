@@ -3,7 +3,8 @@ $colour-midnight-blue: rgb(6, 31, 57);
 $colour-red: rgb(220, 72, 73);
 
 $theme-colors: (
-  "primary": $colour-dark-cyan
+  'primary': $colour-dark-cyan,
+  'secondary': $colour-midnight-blue
 );
 
 $pycon-colours: (
@@ -26,4 +27,8 @@ $pycon-colours: (
   .btn-outline-#{$colour} {
     @include button-outline-variant($value, $value);
   }
+}
+
+.spacer {
+  height: 4rem;
 }
