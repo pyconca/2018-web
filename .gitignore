@@ -1,7 +1,7 @@
 .python-version
 .idea
 .venv
-.doit.db
+.doit.db.*
 *.pyc
 __pycache__/
 cache/

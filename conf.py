@@ -2,6 +2,7 @@
 
 from __future__ import unicode_literals
 import time
+import os
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
@@ -22,9 +23,12 @@ BLOG_TITLE = "Pycon Canada 2018"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://2018.pycon.ca/"
+
+
 # This is the URL where Nikola's output will be deployed.
-# If not set, defaults to SITE_URL
-# BASE_URL = "https://2018.pycon.ca/"
+# We will grabe the BASE_URL from environment. If it's not set, assume 
+# local development. 
+BASE_URL = os.environ.get('BASE_URL', 'http://localhost:8000')
 BLOG_EMAIL = "n.tesla@example.com"
 BLOG_DESCRIPTION = "Official website for Pycon Canada 2018"  # (translatable)
 
