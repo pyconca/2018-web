@@ -1,14 +1,18 @@
-@import 'bootstrap';
-
 $colour-dark-cyan: rgb(21, 143, 168);
 $colour-midnight-blue: rgb(6, 31, 57);
 $colour-red: rgb(220, 72, 73);
+
+$theme-colors: (
+  "primary": $colour-dark-cyan
+);
 
 $pycon-colours: (
   'dark-cyan': $colour-dark-cyan,
   'midnight-blue': $colour-midnight-blue,
   'red': $colour-red
 );
+
+@import 'bootstrap';
 
 @each $colour, $value in $pycon-colours {
   @include bg-variant('.bg-#{$colour}', $value);
