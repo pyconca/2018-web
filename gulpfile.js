@@ -5,11 +5,16 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     del = require('del'),
     browserSync = require('browser-sync'),
+    path = require('path'),
     reload = browserSync.reload;
 
 gulp.task('styles', function() {
   gulp.src('src/*.scss')
-      .pipe(sass().on('error', sass.logError))
+      .pipe(sass({
+        includePaths: [
+          path.join(__dirname, '/node_modules/bootstrap/scss/'),
+        ]
+      }).on('error', sass.logError))
       .pipe(autoprefixer({
         browsers: ['last 2 versions'],
         cascade: false

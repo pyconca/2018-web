@@ -1,56 +1,25 @@
-$body-bg-colour: rgb(39, 43, 54);
-$body-colour: rgb(242, 248, 243);
+@import 'bootstrap';
 
-$colour-green: rgb(0, 245, 110);
-$colour-red: rgb(238, 242, 152);
-$colour-blue: rgb(107, 233, 245);
-$colour-white: $body-colour;
+$colour-dark-cyan: rgb(21, 143, 168);
+$colour-midnight-blue: rgb(6, 31, 57);
+$colour-red: rgb(220, 72, 73);
 
-body {
-  background-color: $body-bg-colour;
-  color: $body-colour;
-  margin: 0 auto;
-  height: 100vh;
-  font-size: 20px;
-  font-family: 'IBM Plex Mono', monospace;
-  padding: 0 2rem;
-}
+$pycon-colours: (
+  'dark-cyan': $colour-dark-cyan,
+  'midnight-blue': $colour-midnight-blue,
+  'red': $colour-red
+);
 
-pre {
-  display: block;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  word-wrap: break-word;
-  overflow-y: hidden;
-}
+@each $colour, $value in $pycon-colours {
+  @include bg-variant('.bg-#{$colour}', $value);
 
-a {
-  text-decoration: none;
-}
+  @include text-emphasis-variant('.text-#{$colour}', $value);
 
-a:hover .code-a {
-  color: $body-colour;
-}
-a:hover .code-b {
-  color: $body-colour;
-}
-a:hover .code-c {
-  color: $body-colour;
-}
+  .btn-#{$colour} {
+    @include button-variant($value, $value);
+  }
 
-.code-a {
-  color: $colour-green;
-}
-
-.code-b {
-  color: $colour-blue;
-}
-
-.code-c {
-  color: $colour-red;
-}
-
-.code-d {
-  color: $colour-white;
+  .btn-outline-#{$colour} {
+    @include button-outline-variant($value, $value);
+  }
 }
