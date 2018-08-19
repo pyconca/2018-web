@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo 'install node dependencies'
+npm install
+
 echo 'upgrade pip'
 pip install --upgrade pip
 
