@@ -24,7 +24,7 @@ gulp.task('styles', function() {
 });
 
 gulp.task('assets', function() {
-  gulp.src(['src/*.html', 'src/*.woff'])
+  gulp.src(['src/*.html', 'src/*.woff', 'src/*.js'])
       .pipe(gulp.dest('files/'))
       .pipe(reload({ stream: true }));
 });

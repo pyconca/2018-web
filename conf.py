@@ -138,15 +138,29 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        ("#", "About"),
+        ("#", "Sponsors"),
+        ("#", "Schedule"),
+        ("#", "Venue"),
+        ("#", "Volunteer"),
+        ("#", "Financial Aid"),
+        ("#", "Code of Conduct"),
+        # ("/archive.html", "Archive"),
+        # ("/categories/", "Tags"),
+        # ("/rss.xml", "RSS feed"),
     ),
 
     "fr": (
-        ("/fr/archive.html", "Archives"),
-        ("/fr/categories/", "Étiquettes"),
-        ("/fr/rss.xml", "Flux RSS"),
+        ("#", "Sur"),
+        ("#", "Commanditaires"),
+        ("#", "Programme"),
+        ("#", "Venue"),
+        ("#", "Lieu"),
+        ("#", "Aide financière"),
+        ("#", "Code de conduite"),
+        # ("/fr/archive.html", "Archives"),
+        # ("/fr/categories/", "Étiquettes"),
+        # ("/fr/rss.xml", "Flux RSS"),
     ),
 }
 
