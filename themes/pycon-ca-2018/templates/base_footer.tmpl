@@ -1,0 +1,89 @@
+{#  -*- coding: utf-8 -*- #}
+
+{% macro html_footer() %}
+    <hr class="border-0 spacer">
+
+    <footer class="jumbotron jumbotron-fluid bg-midnight-blue text-light mb-0">
+        <div class="container">
+            <div class="row">
+                {% if lang == 'en' %}
+                    {# English footer #}
+                    <div class="col-md-3 col-sm-6">
+                        <ul class="list-unstyled">
+                            <li class="text-red">Event</li>
+                            <li><a href="#" class="text-white">Schedule</a></li>
+                            <li><a href="#" class="text-white">Venue</a></li>
+                            <li><a href="#" class="text-white">About</a></li>
+                            <li><a href="#" class="text-white">Sponsors</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <ul class="list-unstyled">
+                            <li class="text-red">Participate</li>
+                            <li><a href="#" class="text-white">Financial Aid</a></li>
+                            <li><a href="#" class="text-white">Newsletter</a></li>
+                            <li><a href="#" class="text-white">Become a Volunteer</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <ul class="list-unstyled">
+                            <li class="text-red">Information</li>
+                            <li><a href="#" class="text-white">Code of Conduct</a></li>
+                            <li><a href="#" class="text-white">Contact</a></li>
+                            <li><a href="#" class="text-white">Newsletter Archive</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <ul class="list-unstyled">
+                            <li class="text-red">Follow us</li>
+                            <li><a href="#" class="text-white">Facebook</a></li>
+                            <li><a href="#" class="text-white">Twitter</a></li>
+                            <li><a href="#" class="text-white">YouTube</a></li>
+                        </ul>
+                    </div>
+                {% else %}
+                    {# French footer #}
+                    <div class="col-md-3 col-sm-6">
+                        <ul class="list-unstyled">
+                            <li class="text-red">un événement</li>
+                            <li><a href="#" class="text-white">Programme</a></li>
+                            <li><a href="#" class="text-white">Lieu</a></li>
+                            <li><a href="#" class="text-white">Sur</a></li>
+                            <li><a href="#" class="text-white">Commanditaires</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <ul class="list-unstyled">
+                            <li class="text-red">Participer</li>
+                            <li><a href="#" class="text-white">Aide financière</a></li>
+                            <li><a href="#" class="text-white">Bulletin</a></li>
+                            <li><a href="#" class="text-white">Devenir bénévole</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <ul class="list-unstyled">
+                            <li class="text-red">Information</li>
+                            <li><a href="#" class="text-white">Code de conduite</a></li>
+                            <li><a href="#" class="text-white">Contact</a></li>
+                            <li><a href="#" class="text-white">Archive de la newsletter</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <ul class="list-unstyled">
+                            <li class="text-red">Suivez nous</li>
+                            <li><a href="#" class="text-white">Facebook</a></li>
+                            <li><a href="#" class="text-white">Gazouillement</a></li>
+                            <li><a href="#" class="text-white">Youtube</a></li>
+                        </ul>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </footer>
+{% endmacro %}
