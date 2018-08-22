@@ -29,32 +29,7 @@
 
         <hr class="border-0 spacer">
 
-        <div class="container">
-            <h2 class="display-3 text-center mb-4">Keynote Speakers</h2>
-
-            <div class="row">
-                <div class="col-sm-5 offset-sm-1">
-                    <img class="" src="https://placekitten.com/g/300/200" alt="Generic placeholder image">
-                </div>
-                <div class="col-sm-5">
-                    <h4 class="text-red mt-0">Speaker Name 1</h4>
-                    <h5 class="mt-0">Title</h5>
-                    <p>More details soon!</p>
-                </div>
-            </div>
-
-            <div class="row mt-4">
-                <div class="col-sm-5 offset-sm-1">
-                    <h4 class="text-red mt-0">Speaker Name 2</h4>
-                    <h5 class="mt-0">Title</h5>
-                    <p>More details soon!</p>
-                </div>
-                <div class="col-sm-5">
-                    <img class="w-auto mx-2" src="https://placekitten.com/g/300/200" alt="Generic placeholder image">
-                </div>
-            </div>
-        </div>
-
+        
         <hr class="border-0 spacer">
 
         <div class="container text-center">
