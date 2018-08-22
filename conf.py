@@ -26,9 +26,15 @@ SITE_URL = "https://2018.pycon.ca/"
 
 
 # This is the URL where Nikola's output will be deployed.
-# We will grabe the DEPLOY_PRIME_URL from environment. If it's not set, assume
-# local development. DEPLOY_PRIME_URL should get set from netlify.
-BASE_URL = os.environ.get('DEPLOY_PRIME_URL', 'http://localhost:8000/')
+BASE_URL = os.environ.get('URL')  # Netlify environment variable
+if not BASE_URL:
+    # Must be a branch or local test
+    BASE_URL = os.environ.get('DEPLOY_PRIME_URL', 'http://localhost:8000/')
+# To add a trailing '/'
+if BASE_URL[-1] != '/':
+    BASE_URL += '/'
+
+
 BLOG_EMAIL = "n.tesla@example.com"
 BLOG_DESCRIPTION = "Official website for Pycon Canada 2018"  # (translatable)
 
