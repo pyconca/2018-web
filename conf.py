@@ -104,7 +104,7 @@ DEFAULT_LANG = "en"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-    # "fr": "fr",
+    "fr": "fr",
 }
 
 # What will translated input files be named like?
