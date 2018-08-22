@@ -62,19 +62,22 @@
     </nav>
 
     {% block center_section %}
-        <!-- Page Header -->
-        {% block content_header %}
-            <p> content - header </p>
-        {% endblock %}
+        <div class="container">
+            <br/>
+            <!-- Page Header -->
+            {% block content_header %}
+                <p> content - header </p>
+            {% endblock %}
 
-        <!-- Page Content -->
-        {% block content_post %}
-            <p> content - post </p>
-        {% endblock %}
+            <!-- Page Content -->
+            {% block content_post %}
+                <p> content - post </p>
+            {% endblock %}
 
-        <!-- Post Navigation links -->
-        {% block bottom_nav_links %}
-        {% endblock %}
+            <!-- Post Navigation links -->
+            {% block bottom_nav_links %}
+            {% endblock %}
+        </div>
     {% endblock %}
 
 
