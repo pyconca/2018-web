@@ -104,7 +104,7 @@ DEFAULT_LANG = "en"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-    "fr": "fr",
+    # "fr": "fr",
 }
 
 # What will translated input files be named like?
@@ -161,7 +161,7 @@ NAVIGATION_LINKS = {
         ("#", "Commanditaires"),
         ("#", "Programme"),
         ("#", "Venue"),
-        ("#", "Lieu"),
+        ("https://mailchi.mp/a7731abffa7b/pycon-canada-2018-volunteers", "Lieu"),
         ("#", "Aide financière"),
         ("/fr/code-of-conduct/", "Code de conduite"),
         # ("/fr/archive.html", "Archives"),
