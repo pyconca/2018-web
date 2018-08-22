@@ -24,7 +24,7 @@
         <div class="container">
             <h2 class="display-3">Where is the event?</h2>
             <h3 class="display-4 text-red">Toronto, Ontario</h3>
-            <p class="lead">This year, PyCon Canada will be held 9th-13th November, 2018 in Toronto Ontario Canada.</p>
+            <p class="lead">This year, PyCon Canada will be held from November 9th to 13th in Toronto, Ontario.</p>
         </div>
 
         <hr class="border-0 spacer">
