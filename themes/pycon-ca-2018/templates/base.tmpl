@@ -1,0 +1,89 @@
+{% import 'base_footer.tmpl' as footer with context %}
+{{ set_locale(lang) }}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if blog_title in title %}
+        <title>{{ title|e }}</title>
+    {% else %}
+        <title>{{ title|e }} | {{ blog_title|e }}</title>
+    {% endif %}
+
+    <!-- Our custom CSS -->
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark-cyan">
+
+        <!-- Brand + icon -->
+        <a class="navbar-brand" href="{{ abs_link(_link("root", None, lang)) }}">
+            <img src="/images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            {{ blog_title|e }}
+        </a>
+
+        <!-- Mobile button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navigation links -->
+            <ul class="navbar-nav mr-auto">
+                {% for url, text in navigation_links[lang] %}
+                    {% if rel_link(permalink, url) == "#" %}
+                        {# active navigation links #}
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{{ permalink }}">{{ text|e }}<span class="sr-only">(current)</span></a>
+                        </li>
+                    {% else %}
+                        {# inactive links #}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url }}">{{ text|e }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <!-- Switch language option -->
+            <ul class="navbar-nav">
+                {% for langname in translations|sort %}
+                    {% if langname != lang %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ abs_link(_link("root", None, langname)) }}" rel="alternate" hreflang="{{ langname }}">{{ messages("LANGUAGE", langname) }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+
+    {% block center_section %}
+        <!-- Page Header -->
+        {% block content_header %}
+            <p> content - header </p>
+        {% endblock %}
+
+        <!-- Page Content -->
+        {% block content_post %}
+            <p> content - post </p>
+        {% endblock %}
+
+        <!-- Post Navigation links -->
+        {% block bottom_nav_links %}
+        {% endblock %}
+    {% endblock %}
+
+
+    <!-- Footer -->
+    {{ footer.html_footer() }}
+
+    <!-- JavaScript for Bootstrap -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/jquery-3.3.1.slim.min.js"></script>
+    <script src="/popper.min.js"></script>
+    <script src="/bootstrap.min.js"></script>
+</body>

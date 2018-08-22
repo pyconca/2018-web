@@ -1,0 +1,9 @@
+{% extends 'base.tmpl' %}
+
+{% block content_header %}
+{#    <h1>{{ post.title()|e }}</h1>#}
+{% endblock %}
+
+{% block content_post %}
+    {{ post.text() }}
+{% endblock %}
