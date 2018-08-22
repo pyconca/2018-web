@@ -25,10 +25,10 @@ BLOG_TITLE = "Pycon Canada 2018"  # (translatable)
 SITE_URL = "https://2018.pycon.ca/"
 
 
-# This is the URL where Nikola's output will be deployed.
-BASE_URL = os.environ.get('URL')  # Netlify environment variable
-if not BASE_URL:
-    # Must be a branch or local test
+# Figure out what URL we need to deploy to
+if os.environ.get('BRANCH') == 'master':  # Netlify environment variable
+    BASE_URL = os.environ.get('URL')
+else:
     BASE_URL = os.environ.get('DEPLOY_PRIME_URL', 'http://localhost:8000/')
 # To add a trailing '/'
 if BASE_URL[-1] != '/':
