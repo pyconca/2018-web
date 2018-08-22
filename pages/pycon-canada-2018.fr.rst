@@ -33,7 +33,7 @@
 
         <div class="container text-center">
             <h3 class="display-4 text-red">Abonnez-vous à notre liste de diffusion</h3>
-            <p class="lead">Recevez tous les détails de l'événement dès qu'ils sont disponsibles.</p>
+            <p class="lead">Recevez tous les détails de l'événement dès qu'ils sont disponibles.</p>
             <a class="btn btn-dark-cyan btn-lg" href="#" role="button">S'abonner à la liste de diffusion</a>
         </div>
 
