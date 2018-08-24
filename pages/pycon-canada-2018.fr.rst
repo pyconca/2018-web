@@ -6,6 +6,7 @@
 .. link:
 .. description:
 .. type: text
+.. template: full.tmpl
 
 .. raw:: html
 
@@ -52,6 +53,3 @@
 
             <a class="btn btn-dark-cyan btn-lg" href="#" role="button">Commanditez PyCon Canada 2018</a>
         </div>
-
-
-

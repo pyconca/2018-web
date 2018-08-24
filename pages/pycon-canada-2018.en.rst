@@ -6,6 +6,7 @@
 .. link:
 .. description:
 .. type: text
+.. template: full.tmpl
 
 .. raw:: html
 
@@ -29,7 +30,7 @@
 
         <hr class="border-0 spacer">
 
-        
+
         <hr class="border-0 spacer">
 
         <div class="container text-center">
@@ -54,5 +55,3 @@
 
             <a class="btn btn-dark-cyan btn-lg" href="mailto:sponsorship@pycon.ca" role="button">Sponsor PyCon Canada 2018</a>
         </div>
-
-

@@ -20,9 +20,8 @@
     <!-- Navigation bar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark-cyan">
 
-        <!-- Brand + icon -->
         <a class="navbar-brand" href="{{ abs_link(_link("root", None, lang)) }}">
-            <img src="/images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            {# <img src="/images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt=""> #}
             {{ blog_title|e }}
         </a>
 
@@ -64,22 +63,14 @@
     </nav>
 
     {% block center_section %}
-        <div class="container">
-            <br/>
-            <!-- Page Header -->
-            {% block content_header %}
-                <p> content - header </p>
-            {% endblock %}
+        <!-- Page Header -->
+        {% block content_header %}{% endblock %}
 
-            <!-- Page Content -->
-            {% block content_post %}
-                <p> content - post </p>
-            {% endblock %}
+        <!-- Page Content -->
+        {% block content_post %}{% endblock %}
 
-            <!-- Post Navigation links -->
-            {% block bottom_nav_links %}
-            {% endblock %}
-        </div>
+        <!-- Post Navigation links -->
+        {% block bottom_nav_links %}{% endblock %}
     {% endblock %}
 
 
