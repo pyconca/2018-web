@@ -13,7 +13,7 @@ Notre objectif est de renforcer la communauté Python canadienne en nous donnant
 Joignez-vous à la conversation
 ------------------------------
 
-Assurez-vous d'utiliser `#PyConCA2017 <https://twitter.com/intent/tweet?button_hashtag=PyConCA2018>`_. Nous aimons recevoir des nouvelles de la communauté!
+Assurez-vous d'utiliser `#PyConCA2018 <https://twitter.com/intent/tweet?button_hashtag=PyConCA2018>`_. Nous aimons recevoir des nouvelles de la communauté!
 
 Contacts clés
 -------------
