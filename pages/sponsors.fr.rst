@@ -7,4 +7,4 @@ Nous remercions nos merveilleux commanditaires qui rendre cet événement possib
 
 .. raw:: html
 
-    <a class="btn btn-lg btn-primary" href="https://2017.pycon.ca/static/pdfs/pyconca2017-sponsorship-prospectus.pdf">Download our sponsorship prospectus.</a>
+    <a class="btn btn-lg btn-primary" href="/pyconca2018-prospectus.pdf">Download our sponsorship prospectus.</a>
