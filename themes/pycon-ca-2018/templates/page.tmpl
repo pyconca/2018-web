@@ -4,8 +4,8 @@
 <div class="container mt-4">
   <div class="page-title border-bottom-1 pb-1 mb-4">
     <h1 class="display-1">{{ post.title()|e }}</h1>
-    {% if post.subtitle %}
-    <h2 class="h1">{{ post.subtitle()|e }}</h2> #}
+    {% if post.meta('description') %}
+        <h2 class="h1">{{ post.meta('description') }}</h2>
     {% endif %}
   </div>
 </div>
