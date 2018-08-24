@@ -1,5 +1,5 @@
 .. title: About
-.. subtitle: PyCon Canada is an initative to strengthen the Canadian Python community.
+.. description: PyCon Canada is an initative to strengthen the Canadian Python community.
 .. slug: about
 .. date: 2018-08-23 20:27:22 UTC+04:00
 .. type: text
