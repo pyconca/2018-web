@@ -19,46 +19,47 @@
 <body>
     <!-- Navigation bar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark-cyan">
+        <div class="container">
+            <a class="navbar-brand" href="{{ abs_link(_link("root", None, lang)) }}">
+                {# <img src="/images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt=""> #}
+                {{ blog_title|e }}
+            </a>
 
-        <a class="navbar-brand" href="{{ abs_link(_link("root", None, lang)) }}">
-            {# <img src="/images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt=""> #}
-            {{ blog_title|e }}
-        </a>
+            <!-- Mobile button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- Mobile button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Navigation links -->
-            <ul class="navbar-nav mr-auto">
-                {% for url, text in navigation_links[lang] %}
-                    {% if rel_link(permalink, url) == "#" %}
-                        {# active navigation links #}
-                        <li class="nav-item active">
-                            <a class="nav-link" href="{{ permalink }}">{{ text|e }}<span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navigation links -->
+                <ul class="navbar-nav mr-auto">
+                    {% for url, text in navigation_links[lang] %}
+                        {% if rel_link(permalink, url) == "#" %}
+                            {# active navigation links #}
+                            <li class="nav-item active">
+                                <a class="nav-link" href="{{ permalink }}">{{ text|e }}<span class="sr-only">(current)</span></a>
+                            </li>
+                        {% else %}
+                            {# inactive links #}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url }}">{{ text|e }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                <!-- Switch language option -->
+                <ul class="navbar-nav">
+                    {% if permalink.startswith('/fr') %}
+                        <li class="nav-item">
+                            <a href="{{ permalink[3:] }}" class="nav-link">English</a>
                         </li>
                     {% else %}
-                        {# inactive links #}
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url }}">{{ text|e }}</a>
+                            <a href="/fr{{ permalink }}" class="nav-link">Français</a>
                         </li>
                     {% endif %}
-                {% endfor %}
-            </ul>
-            <!-- Switch language option -->
-            <ul class="navbar-nav">
-                {% if permalink.startswith('/fr') %}
-                    <li class="nav-item">
-                        <a href="{{ permalink[3:] }}" class="nav-link">English</a>
-                    </li>
-                {% else %}
-                    <li class="nav-item">
-                        <a href="/fr{{ permalink }}" class="nav-link">Français</a>
-                    </li>
-                {% endif %}
-            </ul>
+                </ul>
+            </div>
         </div>
     </nav>
 
