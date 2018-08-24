@@ -144,12 +144,12 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("#", "About"),
-        # ("#", "Sponsors"),
+        ("/about/", "About"),
+        ("/sponsors/", "Sponsors"),
         # ("#", "Schedule"),
         # ("#", "Venue"),
-        ("https://mailchi.mp/a7731abffa7b/pycon-canada-2018-volunteers", "Volunteer"),
-        ("#", "Financial Aid"),
+        ("/volunteer/", "Volunteer"),
+        # ("#", "Financial Aid"),
         ("/code-of-conduct/", "Code of Conduct"),
         # ("/archive.html", "Archive"),
         # ("/categories/", "Tags"),
@@ -157,12 +157,12 @@ NAVIGATION_LINKS = {
     ),
 
     "fr": (
-        ("#", "Sur"),
-        ("#", "Commanditaires"),
-        ("#", "Programme"),
-        ("#", "Venue"),
-        ("https://mailchi.mp/a7731abffa7b/pycon-canada-2018-volunteers", "Lieu"),
-        ("#", "Aide financière"),
+        ("/fr/about/", "Sur"),
+        ("/fr/sponsors/", "Commanditaires"),
+        #("#", "Programme"),
+        #("#", "Venue"),
+        ("/fr/volunteer/", "Lieu"),
+        #("#", "Aide financière"),
         ("/fr/code-of-conduct/", "Code de conduite"),
         # ("/fr/archive.html", "Archives"),
         # ("/fr/categories/", "Étiquettes"),
