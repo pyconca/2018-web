@@ -102,8 +102,8 @@ souci, veuillez contacter un membre du comité d'administration:
                 <td>+1 (514) 974-0018</td>
             </tr>
             <tr>
-                <td>Julia Duimovich</td>
-                <td>+1 (613) 929-0173</td>
+                <td></td>
+                <td></td>
             </tr>
         </tbody>
     </table>
