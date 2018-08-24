@@ -12,11 +12,13 @@
 
     <div class="jumbotron jumbotron-fluid bg-midnight-blue text-light">
             <div class="container text-center">
-                <h2>9th-13th November 2018</h2>
+                <img src="/images/logo_perspective.svg" class="d-block mx-auto w-25 mb-2" alt="PyCon Canada 2018">
 
-                <h1 class="display-3">PyCon Canada 2018</h1>
+                <h2 class="pb-2">9th-13th November 2018</h2>
 
-                <a class="btn btn-outline-red btn-lg" href="https://www.papercall.io/pyconca2018" role="button">Submit a talk proposal</a>
+                <div class="btn-group">
+                    <a class="btn btn-outline-red btn-lg" href="https://www.papercall.io/pyconca2018" role="button">Submit a talk proposal</a>
+                </div>
             </div>
         </div>
 
