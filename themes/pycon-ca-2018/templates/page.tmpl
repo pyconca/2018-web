@@ -2,10 +2,10 @@
 
 {% block content_header %}
 <div class="container mt-4">
-  <div class="page-title border-bottom-1 pb-1 mb-4">
-    <h1 class="display-4">{{ post.title()|e }}</h1>
+  <div class="page-title border-bottom pb-1 mb-4">
+    <h1 class="mb-0 pb-0">{{ post.title()|e }}</h1>
     {% if post.meta('description') %}
-        <h2 class="h1">{{ post.meta('description') }}</h2>
+        <p class="lead">{{ post.meta('description') }}</p>
     {% endif %}
   </div>
 </div>
