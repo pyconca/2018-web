@@ -25,7 +25,7 @@
         <div class="container">
             <h2 class="display-3">Où est l'événement?</h2>
             <h3 class="display-4 text-red">Toronto, Ontario</h3>
-            <p class="lead">Cette année, PyCon Canada se tiendra le 9 au 13 novembre à Toronto, Ontario.</p>
+            <p class="lead">Cette année, PyCon Canada se tiendra du 9 au 13 novembre à Toronto, Ontario.</p>
         </div>
 
         <hr class="border-0 spacer">
