@@ -22,7 +22,7 @@ et bénévoles à quelconque événement PyCon Canada doivent suivre le code de
 conduite qui suit. Les organisateurs vont s'assurer de l'application de
 celui-ci lors de l'événement.
 
-La Version Courte
+La version courte
 =================
 
 PyCon Canada s'engage à fournir à tous une conférence sans harcèlement, sans
@@ -47,7 +47,7 @@ organisateurs de la conférence.
 Merci de contribuer à faire de cet événement, un événement accueillant et
 amical pour tous.
 
-La Version Longue
+La version longue
 =================
 
 Le harcèlement inclut des commentaires verbaux offensants liés au genre, à
