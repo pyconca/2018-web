@@ -95,7 +95,7 @@ individuals:
                 <td>+1 (514) 974-0018</td>
             </tr>
             <tr>
-                <td>/td>
+                <td></td>
                 <td></td>
             </tr>
         </tbody>
