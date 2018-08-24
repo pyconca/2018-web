@@ -50,13 +50,15 @@
             </ul>
             <!-- Switch language option -->
             <ul class="navbar-nav">
-                {% for langname in translations|sort %}
-                    {% if langname != lang %}
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ abs_link(_link("root", None, langname)) }}" rel="alternate" hreflang="{{ langname }}">{{ messages("LANGUAGE", langname) }}</a>
-                        </li>
-                    {% endif %}
-                {% endfor %}
+                {% if permalink.startswith('/fr') %}
+                    <li class="nav-item">
+                        <a href="{{ permalink[3:] }}" class="nav-link">English</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a href="/fr{{ permalink }}" class="nav-link">Français</a>
+                    </li>
+                {% endif %}
             </ul>
         </div>
     </nav>
