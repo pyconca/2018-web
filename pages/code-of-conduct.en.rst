@@ -7,15 +7,6 @@
 .. description:
 .. type: text
 
-
-.. raw:: html
-
-    <div class="jumbotron">
-        <h1 class="display-3 text-center">Code of Conduct</h1>
-        <hr class="my-3">
-    </div>
-
-
 PyCon Canada is a community conference intended for networking and
 collaboration in the developer community.
 

@@ -7,15 +7,6 @@
 .. description:
 .. type: text
 
-
-.. raw:: html
-
-    <div class="jumbotron">
-        <h1 class="display-3 text-center">Code de conduite</h1>
-        <hr class="my-3">
-    </div>
-
-
 PyCon Canada est une conférence communautaire organisée dans un but de
 réseautage et de collaboration au sein de la communauté de développeurs.
 
