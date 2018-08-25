@@ -9,4 +9,5 @@ MESSAGES = {
     'Gold': 'Or',
     'Silver': 'Argent',
     'Bronze': 'Bronze',
+    'Download our sponsorship prospectus.': 'Téléchargez le prospectus de commandites.'
 }
