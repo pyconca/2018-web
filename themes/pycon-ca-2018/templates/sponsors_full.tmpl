@@ -1,143 +1,71 @@
 {% extends 'base.tmpl' %}
 
 {% block content_post %}
-    <div class="container mt-4">
-        {# Heading #}
-        <div class="page-title border-bottom pb-4 mb-4">
-          <h1 class="mb-0 pb-0">
-            {{ messages("Our Sponsors") }}
-          </h1>
+<div class="container mt-4">
+  {# Heading #}
+  <div class="page-title border-bottom pb-4 mb-4">
+    <h1 class="mb-0 pb-0">
+      {{ messages("Our Sponsors") }}
+    </h1>
 
-          {# Small paragraph talking about sponsorship #}
-          <p class="lead">{{ messages('General Sponsor Info') }}</p>
+    {# Small paragraph talking about sponsorship #}
+    <p class="lead">{{ messages('General Sponsor Info') }}</p>
 
-          <a class="btn btn-lg btn-primary" href="/pyconca2018-prospectus.pdf">
-            {{ messages('Download our sponsorship prospectus.') }}
-          </a>
-        </div>
+    <a class="btn btn-lg btn-primary" href="/pyconca2018-prospectus.pdf">
+      {{ messages('Download our sponsorship prospectus.') }}
+    </a>
+  </div>
 
-        {# Sponsor Logos #}
-        {% if global_data['sponsors']['gold'] %}
-        <div class="mb-4 pb-2 border-bottom">
-          <h1>
-            {{ messages("Gold") }}
-          </h1>
-
-          <div class="row row-grid">
-              {% for sponsor in global_data['sponsors']['gold'] %}
-                  <div class="col-sm-6 my-4">
-                      <div class="card border-0">
-                          <a href="#gold-{{ loop.index }}">
-                              <img class="card-img" src="{{ sponsor['logo'] }}">
-                          </a>
-                      </div>
-                  </div>
-              {% endfor %}
-          </div>
-        </div>
-        {% endif %}
-
-        {% if global_data['sponsors']['silver'] %}
-        <div class="mb-4 pb-2 border-bottom">
-          <h1>{{ messages("Silver") }}</h1>
-
-          <div class="row row-grid">
-              {% for sponsor in global_data['sponsors']['silver'] %}
-                  <div class="col-sm-4 my-4">
-                      <div class="card border-0">
-                          <a href="#silver-{{ loop.index }}">
-                              <img class="card-img" src="{{ sponsor['logo'] }}">
-                          </a>
-                      </div>
-                  </div>
-              {% endfor %}
-          </div>
-        </div>
-        {% endif %}
-
-        {% if global_data['sponsors']['bronze'] %}
-        <div class="mb-4 pb-2 border-bottom">
-          <h1>{{ messages("Bronze") }}</h1>
-
-          <div class="row row-grid">
-              {% for sponsor in global_data['sponsors']['bronze'] %}
-                  <div class="col-sm-2 my-2">
-                      <div class="card border-0">
-                          <a href="#bronze-{{ loop.index }}">
-                              <img class="card-img" src="{{ sponsor['logo'] }}">
-                          </a>
-                      </div>
-                  </div>
-              {% endfor %}
-          </div>
-        </div>
-        {% endif %}
-
-        {# Sponsor Descriptions #}
-
-        {# Gold #}
-        {% if global_data['sponsors']['gold'] %}
-        {% for sponsor in global_data['sponsors']['gold'] %}
-            <div class="card my-4 border-dark" id="gold-{{ loop.index }}">
-                <div class="row no-gutters">
-                    <div class="col-3 align-middle">
-                        <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
-                    </div>
-                    <div class="col-9">
-                        <div class="card-block px-2">
-                            <a href="{{ sponsor['web_link'] }}">
-                                <h4 class="card-title mt-3">{{ sponsor['name'][lang] }}</h4>
-                            </a>
-                            <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
-        {% endif %}
-
-        {# Silver #}
-        {% if global_data['sponsors']['silver'] %}
-        {% for sponsor in global_data['sponsors']['silver'] %}
-            <div class="card my-4 border-dark" id="silver-{{ loop.index }}">
-                <div class="row no-gutters">
-                    <div class="col-3 align-middle">
-                        <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
-                    </div>
-                    <div class="col-9">
-                        <div class="card-block px-2">
-                            <a href="{{ sponsor['web_link'] }}">
-                                <h4 class="card-title mt-3">{{ sponsor['name'][lang] }}</h4>
-                            </a>
-                            <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
-        {% endif %}
-
-        {# Bronze #}
-        {% if global_data['sponsors']['bronze'] %}
-        {% for sponsor in global_data['sponsors']['bronze'] %}
-            <div class="card my-4 border-dark" id="bronze-{{ loop.index }}">
-                <div class="row no-gutters">
-                    <div class="col-3 align-middle">
-                        <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
-                    </div>
-                    <div class="col-9">
-                        <div class="card-block px-2">
-                            <a href="{{ sponsor['web_link'] }}">
-                                <h4 class="card-title mt-3">{{ sponsor['name'][lang] }}</h4>
-                            </a>
-                            <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
-        {% endif %}
-
+  {% for level, sponsor_list in global_data['sponsors'].items() %}
+  <div class="row row-grid justify-content-center">
+    {% for sponsor in sponsor_list %}
+    <div class="{% if level == 'gold' %}col-sm-6{% elif level == 'silver' %}col-sm-4{% else %}col-sm-2{% endif %} my-4">
+      <a href="#{{ level }}-{{ loop.index }}">
+        <img class="w-100" src="{{ sponsor['logo'] }}">
+      </a>
     </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
 
+  {# Sponsor Descriptions #}
+
+  {% for level, sponsor_list in global_data['sponsors'].items() %}
+  <h1>{{ messages('name-' + level) }}</h1>
+
+  {% for sponsor in sponsor_list %}
+  <div class="card mb-2" id="{{ level }}-{{ loop.index }}">
+    <div class="card-body">
+      <div class="row no-gutters">
+        {% if loop.index is odd %}
+          <div class="col-3 align-middle">
+            <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
+          </div>
+          <div class="col-9">
+            <div class="card-block px-2">
+              <a href="{{ sponsor['web_link'] }}">
+                <h4 class="card-title mt-3">{{ sponsor['name'][lang] }}</h4>
+              </a>
+              <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
+            </div>
+          </div>
+        {% else %}
+          <div class="col-9">
+            <div class="card-block px-2">
+              <a href="{{ sponsor['web_link'] }}">
+                <h4 class="card-title mt-3">{{ sponsor['name'][lang] }}</h4>
+              </a>
+              <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
+            </div>
+          </div>
+          <div class="col-3 align-middle">
+            <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  {% endfor %}
+</div>
 {% endblock %}

@@ -9,5 +9,8 @@ MESSAGES = {
     'Gold': 'Gold',
     'Silver': 'Silver',
     'Bronze': 'Bronze',
+    'name-gold': 'Gold',
+    'name-silver': 'Silver',
+    'name-bronze': 'Bronze',
     'Download our sponsorship prospectus.': 'Download our sponsorship prospectus.'
 }
