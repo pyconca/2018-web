@@ -29,7 +29,7 @@ gulp.task('assets', function() {
       .pipe(gulp.dest('files/'))
       .pipe(reload({ stream: true }));
 });
-gulp.task('nikola', function(cb) {
+gulp.task('nikola-build', function(cb) {
   exec('nikola build', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
@@ -37,7 +37,15 @@ gulp.task('nikola', function(cb) {
   });
 });
 
-gulp.task('build', ['styles', 'assets', 'nikola']);
+gulp.task('nikola-clean', function(cb) {
+  exec('nikola clean', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
+});
+
+gulp.task('build', ['styles', 'assets', 'nikola-build']);
 
 gulp.task('clean', function() {
   del(['files/**']);

@@ -163,7 +163,7 @@ NAVIGATION_LINKS = {
         # ("#", "Programme"),
         # ("#", "Venue"),
         ("/fr/volunteer/", "Lieu"),
-        ("/fa/", "Aide financière"),
+        ("/fr/fa/", "Aide financière"),
         # ("#", "Commanditaires"),
         # ("#", "Programme"),
         # ("#", "Venue"),
