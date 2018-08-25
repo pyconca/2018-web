@@ -158,7 +158,7 @@ NAVIGATION_LINKS = {
     ),
 
     "fr": (
-        ("/fr/about/", "Sur"),
+        ("/fr/about/", "À propos"),
         ("/fr/sponsors/", "Commanditaires"),
         # ("#", "Programme"),
         # ("#", "Venue"),
