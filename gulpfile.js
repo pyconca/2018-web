@@ -47,7 +47,7 @@ gulp.task('nikola-clean', function(cb) {
 
 gulp.task('build', ['styles', 'assets', 'nikola-build']);
 
-gulp.task('clean', function() {
+gulp.task('clean', ['nikola-clean'], function() {
   del(['files/**']);
 });
 
