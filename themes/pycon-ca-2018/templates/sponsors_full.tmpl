@@ -1,0 +1,116 @@
+{% extends 'base.tmpl' %}
+
+{% block content_post %}
+    <div class="container">
+        {# Heading #}
+        <br />
+        <h1 class="display-4 text-center">{{ messages("Our Sponsors") }}</h1>
+        <hr />
+        {# Small paragraph talking about sponsorship #}
+        <p>{{ messages('General Sponsor Info') }}</p>
+        <br />
+        <br />
+        {# Sponsor Logos #}
+        <h1>{{ messages("Gold") }}</h1>
+        <div class="row row-grid">
+            {% for sponsor in global_data['sponsors']['gold'] %}
+                <div class="col-sm-6 my-4">
+                    <div class="card border-0">
+                        <a href="#gold-{{ loop.index }}">
+                            <img class="card-img" src="{{ sponsor['logo'] }}">
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <hr />
+        <h1>{{ messages("Silver") }}</h1>
+        <div class="row row-grid">
+            {% for sponsor in global_data['sponsors']['silver'] %}
+                <div class="col-sm-4 my-4">
+                    <div class="card border-0">
+                        <a href="#silver-{{ loop.index }}">
+                            <img class="card-img" src="{{ sponsor['logo'] }}">
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <hr />
+        <h1>{{ messages("Bronze") }}</h1>
+        <div class="row row-grid">
+            {% for sponsor in global_data['sponsors']['bronze'] %}
+                <div class="col-sm-2 my-2">
+                    <div class="card border-0">
+                        <a href="#bronze-{{ loop.index }}">
+                            <img class="card-img" src="{{ sponsor['logo'] }}">
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <hr />
+        <br />
+        <br />
+        {# Sponsor Descriptions #}
+
+        {# Gold #}
+        {% for sponsor in global_data['sponsors']['gold'] %}
+            <div class="card my-4 border-dark" id="gold-{{ loop.index }}">
+                <div class="row no-gutters">
+                    <div class="col-3 align-middle">
+                        <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-block px-2">
+                            <a href="{{ sponsor['web_link'] }}">
+                                <h4 class="card-title mt-3">{{ sponsor['name'][lang] }}</h4>
+                            </a>
+                            <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        {# Silver #}
+        {% for sponsor in global_data['sponsors']['silver'] %}
+            <div class="card my-4 border-dark" id="silver-{{ loop.index }}">
+                <div class="row no-gutters">
+                    <div class="col-3 align-middle">
+                        <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-block px-2">
+                            <a href="{{ sponsor['web_link'] }}">
+                                <h4 class="card-title mt-3">{{ sponsor['name'][lang] }}</h4>
+                            </a>
+                            <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        {# Bronze #}
+        {% for sponsor in global_data['sponsors']['bronze'] %}
+            <div class="card my-4 border-dark" id="bronze-{{ loop.index }}">
+                <div class="row no-gutters">
+                    <div class="col-3 align-middle">
+                        <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
+                    </div>
+                    <div class="col-9">
+                        <div class="card-block px-2">
+                            <a href="{{ sponsor['web_link'] }}">
+                                <h4 class="card-title mt-3">{{ sponsor['name'][lang] }}</h4>
+                            </a>
+                            <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+    </div>
+
+{% endblock %}
