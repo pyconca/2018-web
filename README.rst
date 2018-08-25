@@ -66,3 +66,13 @@ as static material and copy it over to the `output/` directory.
 
 If you haven't guessed it by now, we build most of the site using Nikola, the
 static site generator - made with Python! :)
+
+
+About Pull Requests
+*******************
+
+We've setup Netlify to use branch previews. That means if you send a PR,
+Netlify will build and actually host a branch-specific version of the site. The
+link to it will be added as a Check (or whatever Github is calling it, these
+days). It means, instead of guessing, we can preview suggestions and comment on
+them. So come on ahead and help make this an awesome website & conference!!
