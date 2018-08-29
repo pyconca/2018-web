@@ -51,7 +51,7 @@ gulp.task('clean', ['nikola-clean'], function() {
   del(['files/**']);
 });
 
-gulp.task('start', ['clean', 'build'], function() {
+gulp.task('start', ['build'], function() {
   browserSync({
     server: {
       baseDir: 'output/'
