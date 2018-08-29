@@ -59,7 +59,7 @@ gulp.task('start', ['clean', 'build'], function() {
   });
 
   gulp.watch('src/style.scss', ['styles']);
-  gulp.watch(['**/*.rst', '**/*.tmpl'], ['nikola-build']);
+  gulp.watch(['**/*.rst', '**/*.html', '**/*.tmpl'], ['nikola-build']);
 });
 
 gulp.task('default', ['build']);
