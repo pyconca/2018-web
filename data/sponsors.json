@@ -1,1 +1,17 @@
-{}
+{
+  "lanyard": [
+    {
+      "name": {
+        "en": "Wave",
+        "fr": "Wave"
+      },
+      "date": "2018-08-30",
+      "logo": "/images/sponsors/wave.svg",
+      "web_link": "https://www.waveapps.com/",
+      "description": {
+        "en": "Wave delivers innovative financial services and award-winning free software to small- and micro-businesses around the world.",
+        "fr": "Wave delivers innovative financial services and award-winning free software to small- and micro-businesses around the world."
+      }
+    }
+  ]
+}
