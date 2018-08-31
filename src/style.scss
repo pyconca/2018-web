@@ -29,6 +29,26 @@ $pycon-colours: (
   }
 }
 
+.btn-round {
+  border-radius: 15px;
+  text-transform: uppercase;
+
+  &.btn-lg {
+    border-radius: 25px;
+  }
+
+  &.btn-xl {
+    border-radius: 35px;
+  }
+}
+
+.bg-graphic {
+  background-image: url('/images/2018_PyCon_Main_graphic_1920x1920.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
 .spacer {
   height: 4rem;
 }

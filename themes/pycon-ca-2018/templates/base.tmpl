@@ -18,10 +18,10 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark-cyan">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
         <div class="container">
             <a class="navbar-brand" href="{{ abs_link(_link("root", None, lang)) }}">
-                <img src="/images/logo.svg" class="d-inline-block align-top" alt="{{ blog_title|e }}" height="40px">
+                <img src="/images/logo.svg" class="d-inline-block align-center" alt="{{ blog_title|e }}" height="20px">
             </a>
 
             <!-- Mobile button -->
@@ -31,7 +31,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navigation links -->
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     {% for url, text in navigation_links[lang] %}
                         {% if rel_link(permalink, url) == "#" %}
                             {# active navigation links #}
@@ -45,18 +45,22 @@
                             </li>
                         {% endif %}
                     {% endfor %}
-                </ul>
-                <!-- Switch language option -->
-                <ul class="navbar-nav">
                     {% if permalink.startswith('/fr') %}
                         <li class="nav-item">
-                            <a href="{{ permalink[3:] }}" class="nav-link">English</a>
+                            <a href="{{ permalink[3:] }}" class="nav-link">
+                              <strong>EN</strong>
+                            </a>
                         </li>
                     {% else %}
                         <li class="nav-item">
-                            <a href="/fr{{ permalink }}" class="nav-link">Français</a>
+                            <a href="/fr{{ permalink }}" class="nav-link">
+                              <strong>FR</strong>
+                            </a>
                         </li>
                     {% endif %}
+                    <li class="nav-item ml-lg-4">
+                      <a class="btn btn-round btn-dark-cyan" href="https://www.papercall.io/pyconca2018">CfP</a>
+                    </li>
                 </ul>
             </div>
         </div>
