@@ -10,5 +10,6 @@ MESSAGES = {
     'name-silver': 'Argent',
     'name-bronze': 'Bronze',
     'name-lanyard': "Badge",
-    'Download our sponsorship prospectus.': 'Téléchargez le prospectus de commandites.'
+    'Download our sponsorship prospectus.': 'Téléchargez le prospectus de commandites.',
+    'Keynote Speakers': 'Keynote Speakers',
 }
