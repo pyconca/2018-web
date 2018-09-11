@@ -5,30 +5,6 @@
 
 <hr class="border-0 spacer">
 
-<div class="container">
-  <h2 class="display-4 text-red text-center pb-4">{{ messages("Keynote Speakers") }}</h2>
-
-    <div class="row justify-content-md-center">
-        <div class="col col-8">
-          {% for speaker in global_data['keynotes'] %}
-          <h3>{{ speaker.name }}</h3>
-
-          <div class="row mb-2">
-            <div class="col col-8 {% if loop.index is odd %}order-12{% endif %}">
-              {{ speaker.bio }}
-            </div>
-
-            <div class="col col-4">
-              <img src="{{ speaker.photo }}" class="w-100" alt="{{ speaker.name }}">
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-    </div>
-</div>
-
-<hr class="border-0 spacer">
-
 <div class="container text-center">
     <h2 class="display-3">{{ messages("Our Sponsors") }}</h2>
 
