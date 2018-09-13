@@ -13,5 +13,20 @@
         "fr": "Wave delivers innovative financial services and award-winning free software to small- and micro-businesses around the world."
       }
     }
+  ],
+  "diversity": [
+    {
+      "name": {
+        "en": "Shopify",
+        "fr": "Shopify"
+      },
+      "date": "2018-09-13",
+      "logo": "/images/sponsors/shopify.eps",
+      "web_link": "http://www.shopify.com/careers",
+      "description": {
+        "en": "Shopify is the leading cloud-based, multi-channel commerce platform designed for small and medium-sized businesses. Merchants can use the software to design, set up, and manage their stores across multiple sales channels, including web, mobile, social media, marketplaces, brick-and-mortar locations, and pop-up shops. The platform also provides merchants with a powerful back-office and a single view of their business. The Shopify platform was engineered for reliability and scale, making enterprise-level technology available to businesses of all sizes. Headquartered in Ottawa, Canada, Shopify currently powers over 600,000 businesses in approximately 175 countries and is trusted by brands such as Tesla, Nestle, Rebecca Minkoff, Kylie Cosmetics, and many more.",
+        "fr": "Shopify is the leading cloud-based, multi-channel commerce platform designed for small and medium-sized businesses. Merchants can use the software to design, set up, and manage their stores across multiple sales channels, including web, mobile, social media, marketplaces, brick-and-mortar locations, and pop-up shops. The platform also provides merchants with a powerful back-office and a single view of their business. The Shopify platform was engineered for reliability and scale, making enterprise-level technology available to businesses of all sizes. Headquartered in Ottawa, Canada, Shopify currently powers over 600,000 businesses in approximately 175 countries and is trusted by brands such as Tesla, Nestle, Rebecca Minkoff, Kylie Cosmetics, and many more."
+       }
+    }
   ]
 }
