@@ -1,4 +1,34 @@
 {
+   "Bronze": [
+    {
+      "name": {
+        "en": "Odoo Community Association",
+        "fr": "Odoo Community Association"
+      },
+      "date": "2018-09-13",
+      "logo": "/images/sponsors/ocalogo.svg",
+      "web_link": "https://odoo-community.org/",
+      "description": {
+        "en": "The Odoo Community Association, or OCA, is a nonprofit organization whose mission is to promote the widespread use of Odoo and to support the collaborative development of Odoo features.\nThe Association provides financial, organizational and legal support to the broader Odoo Open Source community. It also serves as an independent legal entity to which community members can contribute to the code, funding and other resources with the knowledge that their contributions will be maintained for public benefit.\n\nWhat is Odoo?\nOdoo is a suite of open-source enterprise management applications. Odoo is used by large companies, small businesses, associations and many different types of organizations to help them manage, automate, measure and optimize their operations, finances and projects.",
+        "fr": "The Odoo Community Association, or OCA, is a nonprofit organization whose mission is to promote the widespread use of Odoo and to support the collaborative development of Odoo features.\nThe Association provides financial, organizational and legal support to the broader Odoo Open Source community. It also serves as an independent legal entity to which community members can contribute to the code, funding and other resources with the knowledge that their contributions will be maintained for public benefit.\n\nWhat is Odoo?\nOdoo is a suite of open-source enterprise management applications. Odoo is used by large companies, small businesses, associations and many different types of organizations to help them manage, automate, measure and optimize their operations, finances and projects."
+       }
+    }
+  ],
+  "Diversity": [
+    {
+      "name": {
+        "en": "Shopify",
+        "fr": "Shopify"
+      },
+      "date": "2018-09-13",
+      "logo": "/images/sponsors/shopify.eps",
+      "web_link": "http://www.shopify.com/careers",
+      "description": {
+        "en": "Shopify is the leading cloud-based, multi-channel commerce platform designed for small and medium-sized businesses. Merchants can use the software to design, set up, and manage their stores across multiple sales channels, including web, mobile, social media, marketplaces, brick-and-mortar locations, and pop-up shops. The platform also provides merchants with a powerful back-office and a single view of their business. The Shopify platform was engineered for reliability and scale, making enterprise-level technology available to businesses of all sizes. Headquartered in Ottawa, Canada, Shopify currently powers over 600,000 businesses in approximately 175 countries and is trusted by brands such as Tesla, Nestle, Rebecca Minkoff, Kylie Cosmetics, and many more.",
+        "fr": "Shopify is the leading cloud-based, multi-channel commerce platform designed for small and medium-sized businesses. Merchants can use the software to design, set up, and manage their stores across multiple sales channels, including web, mobile, social media, marketplaces, brick-and-mortar locations, and pop-up shops. The platform also provides merchants with a powerful back-office and a single view of their business. The Shopify platform was engineered for reliability and scale, making enterprise-level technology available to businesses of all sizes. Headquartered in Ottawa, Canada, Shopify currently powers over 600,000 businesses in approximately 175 countries and is trusted by brands such as Tesla, Nestle, Rebecca Minkoff, Kylie Cosmetics, and many more."        
+       }
+    }
+  ],
   "lanyard": [
     {
       "name": {
