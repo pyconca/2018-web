@@ -44,21 +44,13 @@ At this point you can run,
 
 .. code-block:: shell
 
-   $ nikola serve
+   $ npm run start
 
-To see the site running at http://localhost:8000/
+To see the site running at http://localhost:3000/
 ( Ctrl + C to cancel the local server)
 
-As a shortcut the following command can help (works after you've run build.sh
-at least once and are not changing any gulp-related stuff),
-
-.. code-block:: shell
-
-   $ nikola clean && nikola build && nikola serve
-
-Speaking of gulp, you might be wondering, why we have it as a dependency? We
-use it to process our SASS files into CSS. And to inherit styles from the
-Bootstrap 4 project.
+The above command will compile our SASS into CSS using gulp, run the 
+`nikola build` command and open up browserSync with your default browser. 
 
 We put all our SASS stuff inside the `src/` folder. Gulp will then process it
 into CSS and put it inside a top-level `files/` folder. Nikola will use this

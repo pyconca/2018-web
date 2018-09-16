@@ -26,9 +26,8 @@ const AUTOPREFIXER_OPTIONS = {
     cascade: false
 };
 const STATIC_FILES = [
-    'src/*.html',
-    'src/*.pdf',
-    'src/*.js'
+    'src/static/*.html',
+    'src/static/*.pdf'
 ];
 const FILES_TO_WATCH = [
     '**/*.rst',
@@ -37,7 +36,7 @@ const FILES_TO_WATCH = [
     'files/*'
 ];
 
-gulp.task('styles', function() {
+gulp.task('styles', function () {
     gulp.src(SASS_SOURCES)
         .pipe(sourcemaps.init())
         .pipe(sass(NODE_SASS_OPTIONS).on('error', sass.logError))
@@ -47,13 +46,25 @@ gulp.task('styles', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('assets', function() {
-    gulp.src(STATIC_FILES)
-        .pipe(gulp.dest('files/'))
+gulp.task('assets-js', function () {
+    gulp.src('src/js/*.js')
+        .pipe(gulp.dest('files/js/'))
         .pipe(browserSync.stream());
 });
 
-gulp.task('nikola-build', function(cb) {
+gulp.task('assets-fonts', function () {
+    gulp.src('src/fonts/*')
+        .pipe(gulp.dest('files/fonts/'))
+        .pipe(browserSync.stream());
+});
+
+gulp.task('assets', function () {
+    gulp.src(STATIC_FILES)
+        .pipe(gulp.dest('files/static/'))
+        .pipe(browserSync.stream());
+});
+
+gulp.task('nikola-build', function (cb) {
     exec('nikola build', function (err, stdout, stderr) {
         console.log(stdout);
         console.log(stderr);
@@ -61,7 +72,7 @@ gulp.task('nikola-build', function(cb) {
     });
 });
 
-gulp.task('nikola-clean', function(cb) {
+gulp.task('nikola-clean', function (cb) {
     exec('nikola clean', function (err, stdout, stderr) {
         console.log(stdout);
         console.log(stderr);
@@ -69,13 +80,19 @@ gulp.task('nikola-clean', function(cb) {
     });
 });
 
-gulp.task('build', ['styles', 'assets', 'nikola-build']);
+gulp.task('build', [
+    'styles',
+    'assets',
+    'assets-js',
+    'assets-fonts',
+    'nikola-build'
+]);
 
-gulp.task('clean', ['nikola-clean'], function() {
+gulp.task('clean', ['nikola-clean'], function () {
     del(['files/**']);
 });
 
-gulp.task('start', ['build'], function() {
+gulp.task('start', ['build'], function () {
 
     browserSync({
         server: {

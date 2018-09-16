@@ -8,4 +8,4 @@ We thank our fantastic sponsors who help make this event possible. `Get in touch
 
 .. raw:: html
 
-    <a class="btn btn-lg btn-primary" href="/pyconca2018-prospectus.pdf">Download our sponsorship prospectus.</a>
+    <a class="btn btn-lg btn-primary" href="/static/pyconca2018-prospectus.pdf">Download our sponsorship prospectus.</a>
