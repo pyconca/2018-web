@@ -1,54 +1,10 @@
-$colour-dark-cyan: rgb(21, 143, 168);
-$colour-midnight-blue: rgb(6, 31, 57);
-$colour-red: rgb(220, 72, 73);
+/*
+Root SCSS file for this project
+*/
 
-$theme-colors: (
-  'primary': $colour-dark-cyan,
-  'secondary': $colour-midnight-blue
-);
+@import 'scss/variables';
+@import 'scss/bootstrap/pre_default';
+@import 'scss/bootstrap/config';
 
-$pycon-colours: (
-  'dark-cyan': $colour-dark-cyan,
-  'midnight-blue': $colour-midnight-blue,
-  'red': $colour-red
-);
-
-@import 'bootstrap/scss/bootstrap';
-
-@each $colour, $value in $pycon-colours {
-  @include bg-variant('.bg-#{$colour}', $value);
-
-  @include text-emphasis-variant('.text-#{$colour}', $value);
-
-  .btn-#{$colour} {
-    @include button-variant($value, $value);
-  }
-
-  .btn-outline-#{$colour} {
-    @include button-outline-variant($value, $value);
-  }
-}
-
-.btn-round {
-  border-radius: 15px;
-  text-transform: uppercase;
-
-  &.btn-lg {
-    border-radius: 25px;
-  }
-
-  &.btn-xl {
-    border-radius: 35px;
-  }
-}
-
-.bg-graphic {
-  background-image: url('/images/2018_PyCon_Main_graphic_1920x1920.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.spacer {
-  height: 4rem;
-}
+// Page specific customizations
+@import 'scss/views/landing_page';

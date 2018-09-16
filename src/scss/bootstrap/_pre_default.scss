@@ -1,0 +1,16 @@
+/*
+Adjustments before bootstrap imports
+*/
+
+// Coloring options
+
+$theme-colors: (
+  'primary': $colour-dark-cyan,
+  'secondary': $colour-midnight-blue
+);
+
+$pycon-colours: (
+  'dark-cyan': $colour-dark-cyan,
+  'midnight-blue': $colour-midnight-blue,
+  'red': $colour-red
+);
