@@ -13,7 +13,7 @@ $pycon-colours: (
   'red': $colour-red
 );
 
-@import 'bootstrap';
+@import 'bootstrap/scss/bootstrap';
 
 @each $colour, $value in $pycon-colours {
   @include bg-variant('.bg-#{$colour}', $value);
