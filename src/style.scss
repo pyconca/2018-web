@@ -7,5 +7,9 @@ Root SCSS file for this project
 @import 'scss/bootstrap/pre_default';
 @import 'scss/bootstrap/config';
 
+// Custom components
+@import 'scss/components/navbar_address';
+@import 'scss/components/nav_link';
+
 // Page specific customizations
 @import 'scss/views/landing_page';

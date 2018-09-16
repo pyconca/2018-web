@@ -1,0 +1,13 @@
+/*
+Address section of the navbar - show only on medium and above
+*/
+@include media-breakpoint-up(md) {
+    .navbar-address p {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        margin-bottom: 0rem;
+        font-size: 0.75rem;
+        font-weight: bold;
+        color: $navbar-light-color;
+    }
+}

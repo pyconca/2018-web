@@ -1,0 +1,15 @@
+/*
+We want the font a bit reduced for the top-menu links
+*/
+
+.nav-link {
+    font-size: 0.70rem;
+    font-weight: bold;
+}
+
+@include media-breakpoint-up(xl) {
+    .nav-link {
+        font-size: 1.0rem;
+        font-weight: bold;
+    }
+}
