@@ -18,8 +18,8 @@ import os
 
 
 # Data about this site
-BLOG_AUTHOR = "Pycon Canada"  # (translatable)
-BLOG_TITLE = "Pycon Canada 2018"  # (translatable)
+BLOG_AUTHOR = "PyCon Canada"  # (translatable)
+BLOG_TITLE = "PyCon Canada 2018"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://2018.pycon.ca/"
