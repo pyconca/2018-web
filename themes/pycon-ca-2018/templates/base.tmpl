@@ -23,6 +23,13 @@
             <a class="navbar-brand" href="{{ abs_link(_link("root", None, lang)) }}">
                 <img src="/images/logo.svg" class="d-inline-block align-center" alt="{{ blog_title|e }}" height="20px">
             </a>
+            <!-- <div class="navbar-brand navbar-address d-none d-lg-block">
+                <p>
+                    Chestnut Residence, Toronto, ON, Canada
+                    <br>
+                    November 10-13, 2018
+                </p>
+            </div> -->
 
             <!-- Mobile button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,9 +65,11 @@
                             </a>
                         </li>
                     {% endif %}
+                    {# waiting for ticket sales. 
                     <li class="nav-item ml-lg-4">
                       <a class="btn btn-round btn-dark-cyan" href="https://www.papercall.io/pyconca2018">CfP</a>
                     </li>
+                    #}
                 </ul>
             </div>
         </div>
@@ -83,7 +92,7 @@
 
     <!-- JavaScript for Bootstrap -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/jquery-3.3.1.slim.min.js"></script>
-    <script src="/popper.min.js"></script>
-    <script src="/bootstrap.min.js"></script>
+    <script src="/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 </body>
