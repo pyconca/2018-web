@@ -1,0 +1,37 @@
+<div class="container">
+    <div id="front_carousel" class="carousel slide" data-ride="carousel">
+        <!-- <ol class="carousel-indicators">
+            <li data-target="#front_carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#front_carousel" data-slide-to="1"></li>
+        </ol> -->
+        <div class="carousel-inner">
+            <div class="carousel-item active w-100 ">
+                <div class="banner-pycon"></div>
+                <div class="carousel-caption d-none d-block">
+                    <img src="/images/logo_perspective.svg" class="d-block mx-auto banner-pycon-logo" alt="PyCon Canada 2018">
+                    <br />
+                    <p>{{event_dates}}</p>
+                    {% if button_text %}
+                    <a class="btn btn-outline-red" href="{{button_link}}" role="button">{{button_text}}</a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="carousel-item w-100 ">
+                <div class="banner-city"></div>
+                <div class="carousel-caption d-none d-block">
+                    <h1 class="display-4 city-banner">{{ city_banner }}</h1>
+                    <h3 class="city-heading">{{ city_heading }}</h3>
+                    <p>{{ city_sub_heading }}</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#front_carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#front_carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>

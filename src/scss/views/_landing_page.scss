@@ -39,4 +39,50 @@ Customizations specific to the landing page
   .spacer {
     height: 4rem;
   }
+
   
+/*
+The carousel banner images
+*/
+.banner-pycon {
+  background-image: url('/images/pycon_graphic_1600_700.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+.banner-city {
+  background-image: url('/images/toronto_city_1600_700.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+/*
+The logo
+*/
+.banner-pycon-logo {
+  width: 120px;
+
+  @include media-breakpoint-up(sm) {
+    width: 40%;
+  }
+
+  @include media-breakpoint-up(md) {
+    width: 30%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 20%;
+  }
+}
+
+.city-banner {
+  font-variant: small-caps;
+}
+
+.city-heading {
+  color: map-get($pycon-colours, 'red');
+}
