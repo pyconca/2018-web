@@ -11,7 +11,7 @@
     {# Small paragraph talking about sponsorship #}
     <p class="lead">{{ messages('General Sponsor Info') }}</p>
 
-    <a class="btn btn-lg btn-primary" href="/pyconca2018-prospectus.pdf">
+    <a class="btn btn-lg btn-primary" href="/static/pyconca2018-prospectus.pdf">
       {{ messages('Download our sponsorship prospectus.') }}
     </a>
   </div>
@@ -38,33 +38,33 @@
     <div class="card-body">
       <div class="row">
         {% if loop.index is odd %}
-          <div class="col-3">
-            <a href="{{ sponsor['web_link'] }}">
-              <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
-            </a>
-          </div>
-          <div class="col-9">
-            <div class="card-block px-2">
-              <h4 class="card-title mt-0">
-                <a href="{{ sponsor['web_link'] }}">
-                  {{ sponsor['name'][lang] }}
-                </a>
-              </h4>
-              <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
-            </div>
-          </div>
-        {% else %}
-          <div class="col-9">
-            <div class="card-block px-2">
-              <a href="{{ sponsor['web_link'] }}">
-                <h4 class="card-title mt-3">{{ sponsor['name'][lang] }}</h4>
-              </a>
-              <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
-            </div>
-          </div>
-          <div class="col-3 align-middle">
+        <div class="col-3">
+          <a href="{{ sponsor['web_link'] }}">
             <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
+          </a>
+        </div>
+        <div class="col-9">
+          <div class="card-block px-2">
+            <h4 class="card-title mt-0">
+              <a href="{{ sponsor['web_link'] }}">
+                {{ sponsor['name'][lang] }}
+              </a>
+            </h4>
+            <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
           </div>
+        </div>
+        {% else %}
+        <div class="col-9">
+          <div class="card-block px-2">
+            <a href="{{ sponsor['web_link'] }}">
+              <h4 class="card-title mt-3">{{ sponsor['name'][lang] }}</h4>
+            </a>
+            <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
+          </div>
+        </div>
+        <div class="col-3 align-middle">
+          <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
+        </div>
         {% endif %}
       </div>
     </div>
