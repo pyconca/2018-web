@@ -67,15 +67,15 @@ The logo
   width: 120px;
 
   @include media-breakpoint-up(sm) {
-    width: 40%;
+    width: 25%;
   }
 
   @include media-breakpoint-up(md) {
-    width: 30%;
+    width: 20%;
   }
 
   @include media-breakpoint-up(lg) {
-    width: 20%;
+    width: 15%;
   }
 }
 
@@ -85,4 +85,23 @@ The logo
 
 .city-heading {
   color: map-get($pycon-colours, 'red');
+}
+
+/*
+Carousel wrapping color
+*/
+.banner-wrapper {
+  // Can't decide if this color is good or not ... ?!?!
+  background-color: map-get($pycon-colours, 'midnight-blue');
+}
+
+/*
+Allow the carousel to be full width for large and below
+ref: https://stackoverflow.com/a/46360823/198660
+*/
+@include media-breakpoint-down(lg) {
+  .banner-container {
+    width: 100%;
+    max-width: none;
+  }
 }
