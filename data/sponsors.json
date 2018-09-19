@@ -1,4 +1,19 @@
 {
+   "silver": [
+    {
+      "name": {
+        "en": "Communications Security Establishment",
+        "fr": "Centre de la sécurité des télécommunications"
+      },
+      "date": "2018-09-18",
+      "logo": "/images/sponsors/cse.jpg",
+      "web_link": "https://www.cse-cst.gc.ca/",
+      "description": {
+        "en": "CSE is one of Canada’s key security and intelligence organizations, focused on collecting foreign signals intelligence in support of the Government of Canada’s priorities, and on helping protect the computer networks and information of greatest importance to Canada. We also provide assistance to federal law enforcement and security organizations in their legally authorized activities, when they may require our unique technical capabilities.",
+        "fr": "CSE is one of Canada’s key security and intelligence organizations, focused on collecting foreign signals intelligence in support of the Government of Canada’s priorities, and on helping protect the computer networks and information of greatest importance to Canada. We also provide assistance to federal law enforcement and security organizations in their legally authorized activities, when they may require our unique technical capabilities."
+       }
+    }
+  ],
    "bronze": [
     {
       "name": {
