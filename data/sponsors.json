@@ -6,11 +6,11 @@
         "fr": "Centre de la sécurité des télécommunications"
       },
       "date": "2018-09-18",
-      "logo": "/images/sponsors/cse.jpg",
+      "logo": "/images/sponsors/cse.svg",
       "web_link": "https://www.cse-cst.gc.ca/",
       "description": {
         "en": "CSE is one of Canada’s key security and intelligence organizations, focused on collecting foreign signals intelligence in support of the Government of Canada’s priorities, and on helping protect the computer networks and information of greatest importance to Canada. We also provide assistance to federal law enforcement and security organizations in their legally authorized activities, when they may require our unique technical capabilities.",
-        "fr": "CSE is one of Canada’s key security and intelligence organizations, focused on collecting foreign signals intelligence in support of the Government of Canada’s priorities, and on helping protect the computer networks and information of greatest importance to Canada. We also provide assistance to federal law enforcement and security organizations in their legally authorized activities, when they may require our unique technical capabilities."
+        "fr": "Le CST est l'un des principaux organismes canadiens de la sécurité et du renseignement. Il travaille à obtenir du renseignement électromagnétique étranger pour appuyer les priorités du gouvernement du Canada de même que pour aider à protéger les renseignements et les réseaux informatiques de grande importance pour le Canada. Nous fournissons également une assistance aux organismes fédéraux chargés de l’application de la loi et de la sécurité dans l’exercice de leurs activités autorisées par la loi, lorsqu’ils requièrent nos capacités techniques uniques."
        }
     }
   ],
@@ -21,11 +21,11 @@
         "fr": "Odoo Community Association"
       },
       "date": "2018-09-13",
-      "logo": "/images/sponsors/ocalogo.svg",
+      "logo": "/images/sponsors/oca.svg",
       "web_link": "https://odoo-community.org/",
       "description": {
         "en": "The Odoo Community Association, or OCA, is a nonprofit organization whose mission is to promote the widespread use of Odoo and to support the collaborative development of Odoo features.\nThe Association provides financial, organizational and legal support to the broader Odoo Open Source community. It also serves as an independent legal entity to which community members can contribute to the code, funding and other resources with the knowledge that their contributions will be maintained for public benefit.\n\nWhat is Odoo?\nOdoo is a suite of open-source enterprise management applications. Odoo is used by large companies, small businesses, associations and many different types of organizations to help them manage, automate, measure and optimize their operations, finances and projects.",
-        "fr": "The Odoo Community Association, or OCA, is a nonprofit organization whose mission is to promote the widespread use of Odoo and to support the collaborative development of Odoo features.\nThe Association provides financial, organizational and legal support to the broader Odoo Open Source community. It also serves as an independent legal entity to which community members can contribute to the code, funding and other resources with the knowledge that their contributions will be maintained for public benefit.\n\nWhat is Odoo?\nOdoo is a suite of open-source enterprise management applications. Odoo is used by large companies, small businesses, associations and many different types of organizations to help them manage, automate, measure and optimize their operations, finances and projects."
+        "fr": "L'Odoo Community Association, ou OCA, est une organisation à but non lucratif dont la mission est de promouvoir l'utilisation répandue d'Odoo et de soutenir le développement collaboratif des fonctionnalités d'Odoo.\nL'association fournit un soutien financier, organisationnel et juridique à la communauté Odoo Open Source. Elle a sert également d'entité juridique indépendante à laquelle les membres de la communauté peuvent contribuer au code, au financement et aux autres ressources en sachant que leurs contributions seront maintenues pour le bien public.\n\nQu'est-ce que Odoo?\nOdoo est une suite d'applications de gestion d'entreprise open-source. Odoo est utilisée par les grandes, moyennnes et petites entreprises, les associations et de nombreux types d'organisations pour les aider à gérer, automatiser, mesurer et optimiser leurs opérations, finances et projets."
        }
     }
   ],
