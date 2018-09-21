@@ -1,0 +1,51 @@
+{% extends 'base.tmpl' %}
+
+{% block content_post %}
+<div class="container mt-4">
+  <ul class="row">
+    {% for organizer in global_data['organizers'] %}
+    <li class="col-sm-6 media mb-2">
+      <img class="mr-3" style="width:64px;" src="/images/organizers/{{ organizer.photo }}" alt="{{ organizer.first_name }}{% if organizer.last_name %} {{ organizer.last_name }}{% endif %}">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">
+          {{ organizer.first_name }}
+          {% if organizer.last_name %}{{ organizer.last_name }}{% endif %}
+        </h5>
+
+        {% if organizer.title or organizer.company %}
+        <h6>
+          {% if organizer.title and organizer.company %}
+          {{ organizer.title }} @ {{ organizer.company }}
+          {% elif organizer.title %}
+          {{ organizer.title }}
+          {% elif organizer.company %}
+          {{ organizer.company }}
+          {% endif %}
+        </h6>
+        {% endif %}
+
+        {% if organizer.twitter %}
+        <a href="https://twitter.com/{{ organizer.twitter }}">Twitter</a>
+        {% endif %}
+
+        {% if organizer.mastodon %}
+        <a href="{{ organizer.mastodon }}">Mastodon</a>
+        {% endif %}
+
+        {% if organizer.instagram %}
+        <a href="https://instagram.com/{{ organizer.instagram }}">Instagram</a>
+        {% endif %}
+
+        {% if organizer.github %}
+        <a href="https://github.com/{{ organizer.github }}">GitHub</a>
+        {% endif %}
+
+        {% if organizer.gitlab %}
+        <a href="https://gitlab.com/{{ organizer.gitlab }}">GitLab</a>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

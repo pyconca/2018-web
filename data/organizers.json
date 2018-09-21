@@ -1,0 +1,20 @@
+[{
+  "first_name": "Elaine",
+  "last_name": "Wong"
+},{
+  "first_name": "Myles",
+  "last_name": "Braithwaite",
+  "title": "Senior Software Developer",
+  "company": "GrantMatch",
+  "instagram": "myles",
+  "github": "myles",
+  "photo": "myles-braithwaite.png"
+}, {
+  "first_name": "Alex",
+  "last_name": "Volkov",
+  "title": "Some Goverment Dude",
+  "company": "Something About Justice",
+  "mastodon": "https://mastodon.xyz/@avolkov",
+  "gitlab": "avolkov1",
+  "photo": "alex-volkov.png"
+}]
