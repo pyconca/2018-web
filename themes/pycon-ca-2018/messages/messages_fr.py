@@ -13,4 +13,5 @@ MESSAGES = {
     'name-diversity': "Diversité",
     'Download our sponsorship prospectus.': 'Téléchargez le prospectus de commandites.',
     'Keynote Speakers': 'Présentateurs invités',
+    'Contact our Sponsorship Committee': 'Contact our Sponsorship Committee',
 }

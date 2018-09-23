@@ -61,7 +61,4 @@
     November 12th and 13th.'
 %}}
 
-
-
-TODO: keynote speakers here...
-
+{{% sponsors_overview %}}

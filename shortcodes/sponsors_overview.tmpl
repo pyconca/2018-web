@@ -1,0 +1,31 @@
+<hr class="border-0 spacer">
+
+<div class="container text-center sponsor-overview">
+    <h2 class="display-3 sponsors-heading text-red">{{ messages("Our Sponsors") }}</h2>
+
+    <p class="lead">{{ messages('General Sponsor Info') }}</p>
+
+    <div class="row row-grid justify-content-center my-5">
+    {% for level, sponsor_list in global_data['sponsors'].items() %}{% for sponsor in sponsor_list %}
+      <div class="{% if level == 'gold' %}col-sm-6{% elif level == 'silver' %}col-sm-4{% else %}col-sm-2{% endif %} my-4">
+        <a href="#{{ level }}-{{ loop.index }}">
+          <img class="w-100" src="{{ sponsor['logo'] }}">
+        </a>
+      </div>
+    {% endfor %}{% endfor %}
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <a class="btn btn-dark-cyan btn-lg btn-block mt-1" href="mailto:sponsorship@pycon.ca" role="button">
+                {{ messages('Contact our Sponsorship Committee') }}                
+            </a>
+        </div>
+        <div class="col-lg-6">
+            <a class="btn btn-secondary btn-lg btn-block mt-1" href="/static/pyconca2018-prospectus.pdf" role="button">
+                {{ messages('Download our sponsorship prospectus.') }}               
+            </a>
+        </div>
+    </div>
+
+</div>
