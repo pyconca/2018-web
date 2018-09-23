@@ -53,6 +53,15 @@
     mail_link='http://eepurl.com/bs9mG9'
 %}}
 
+{{% speaker_left 
+    speaker_name='Development Sprints'
+    speaker_title='12th-13th, November, 2018'
+    speaker_image='/images/myles-braithwaite-img-0376.jpg'
+    speaker_description='Development Sprints will be held over two days on 
+    November 12th and 13th.'
+%}}
+
+
 
 TODO: keynote speakers here...
 

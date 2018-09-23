@@ -53,4 +53,12 @@
     mail_link='http://eepurl.com/bs9mG9'
 %}}
 
+{{% speaker_left 
+    speaker_name='Sprints'
+    speaker_title='12 au 13 nov 2018'
+    speaker_image='/images/myles-braithwaite-img-0376.jpg'
+    speaker_description='Les sprints se tiendront sur deux jours le 12 et 
+    13 novembre.'
+%}}
+
 some random text for french version
