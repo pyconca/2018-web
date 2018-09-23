@@ -10,6 +10,11 @@ Root SCSS file for this project
 // Custom components
 @import 'scss/components/navbar_address';
 @import 'scss/components/nav_link';
+@import 'scss/components/front_carousel';
+@import 'scss/components/post_mid_title';
+@import 'scss/components/speaker_snippet';
+@import 'scss/components/mailing_banner';
+@import 'scss/components/sponsor_overview';
 
 // Page specific customizations
 @import 'scss/views/landing_page';

@@ -1,0 +1,16 @@
+/*
+Styles for speakers on front page
+*/
+
+.speaker-snippet {
+    .speaker-snippet-sub-heading {
+        text-transform: lowercase;
+    }
+    .speaker-description {
+        line-height: 1.25;
+        font-size: ($font-size-base * 1.0);
+        @include media-breakpoint-up(lg) {
+            font-size: ($font-size-base * 1.0);
+        }
+    }
+}
