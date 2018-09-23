@@ -46,4 +46,11 @@
     her original goal.'
 %}}
 
+{{% mailing_banner
+    mail_banner='Abonnez-vous à notre liste de diffusion'
+    mail_text='Recevez tous les détails de l\'événement dès qu\'ils sont disponibles.'
+    mail_button_text='être abonné'
+    mail_link='http://eepurl.com/bs9mG9'
+%}}
+
 some random text for french version

@@ -1,0 +1,50 @@
+/*
+Banner asking to subscribe to our mailing list
+*/
+
+.mailing-wrapper {
+    background-color: $colour-gray;
+
+    .mail-heading {
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1.25rem;
+
+        @include media-breakpoint-up(sm) {
+            font-size: 1.75rem;
+        }
+
+        @include media-breakpoint-up(lg) {
+            font-size: 2.25rem;
+        }
+    }
+
+    .mail-button {
+        text-transform: uppercase;
+        font-size: 1.0rem;
+        border-radius: 70px;
+
+        &:before, &:after {
+            content: "\00a0  \00a0";
+        }
+    }
+
+}
+
+
+.mail-image-building {
+    width: 100px;
+    margin-right: 20px;
+    margin-top: -100px;
+
+    @include media-breakpoint-up(md) {
+        margin-right: 100px;
+    }
+    @include media-breakpoint-up(lg) {
+        width: 150px;
+    }
+    @include media-breakpoint-up(xl) {
+        margin-right: 200px;
+    }
+}

@@ -46,6 +46,13 @@
     her original goal.'
 %}}
 
+{{% mailing_banner
+    mail_banner='Subscribe to our mailing list'
+    mail_text='Receive all event details as they become available'
+    mail_button_text='Subscribe'
+    mail_link='http://eepurl.com/bs9mG9'
+%}}
+
 
 TODO: keynote speakers here...
 
