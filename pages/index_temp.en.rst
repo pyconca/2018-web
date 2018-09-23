@@ -17,7 +17,7 @@
     title_text='Keynote Speakers'
 %}}
 
-{{% speaker_right
+{{% speaker_right 
     speaker_name='Froilán Irizarry'
     speaker_title='Python Lover'
     speaker_image='/images/speakers/froilan_styled.png'
@@ -29,6 +29,21 @@
     the past year he worked with the US Digital Service completing his term, 
     co-founded the Maria Tech Brigade, and joined the Code.gov team where he 
     now helps US federal agencies share and open source government code.'
+%}}
+
+
+{{% speaker_left 
+    speaker_name='Holden'
+    speaker_title='Python Lover'
+    speaker_image='/images/speakers/holden_styled.png'
+    speaker_description='Holden is a transgender Canadian open source developer 
+    advocate @ Google with a focus on Apache Spark, Airflow, and related "big 
+    data" tools. She is the co-author of Learning Spark, High Performance 
+    Spark, and another Spark book that\'s a bit more out of date. She is a 
+    committer and PMC on Apache Spark and committer on SystemML & Mahout 
+    projects. She was tricked into the world of big data while trying to 
+    improve search and recommendation systems and has long since forgotten 
+    her original goal.'
 %}}
 
 
