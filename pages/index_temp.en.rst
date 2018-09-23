@@ -11,8 +11,11 @@
     city_banner='Where is the event?'
     city_heading='Toronto, Ontario'
     city_sub_heading='Pycon Canada is being held at the Chesnut Hotel'
- %}}
+%}}
 
+{{% post_mid_title
+    title_text='Keynote Speakers'
+%}}
 
 TODO: keynote speakers here...
 
