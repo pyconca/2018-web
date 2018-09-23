@@ -17,5 +17,20 @@
     title_text='Keynote Speakers'
 %}}
 
+{{% speaker_right
+    speaker_name='Froilán Irizarry'
+    speaker_title='Python Lover'
+    speaker_image='/images/speakers/froilan_styled.png'
+    speaker_description='Froilán Irizarry is a developer, community builder and 
+    recovering entrepreneur. He’s worked with enterprise companies, government 
+    and startups using various technologies, focusing the last couple of years 
+    on Python and Javascript. Over the last four years he’s helped organise a 
+    number of tech events, including Fullstack Nights and PyCaribbean 2017. In 
+    the past year he worked with the US Digital Service completing his term, 
+    co-founded the Maria Tech Brigade, and joined the Code.gov team where he 
+    now helps US federal agencies share and open source government code.'
+%}}
+
+
 TODO: keynote speakers here...
 
