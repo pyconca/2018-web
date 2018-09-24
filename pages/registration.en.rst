@@ -7,11 +7,11 @@
 Schedule
 ========
 
-+--------------------------+--------------------------+----------------+----------------+
-| Saturday, Nov 10         | Saturday, Nov 11         | Monday, Nov 12 | Monday, Nov 13 |
-+==========================+==========================+================+================+
-| Conference and Tutorials | Conference and Tutorials | Sprints        | Sprints        |
-+--------------------------+--------------------------+----------------+----------------+
++--------------------------+--------------------------+----------------+-----------------+
+| Saturday, Nov 10         | Sunday, Nov 11           | Monday, Nov 12 | Tuesday, Nov 13 |
++==========================+==========================+================+=================+
+| Conference and Tutorials | Conference and Tutorials | Sprints        | Sprints         |
++--------------------------+--------------------------+----------------+-----------------+
 
 Note that sprint attendance is free, and does not require you to have registered for the main conference!
 
