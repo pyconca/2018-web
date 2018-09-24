@@ -8,10 +8,10 @@
 
     <!-- TODO: Arrange sponsors by type, for now; cluster together -->
     <div class="row">
-        {% for sponsor_kind in ['silver', 'bronze', 'lanyard', 'diversity'] %}
-            {% for sponsor_data in global_data['sponsors'][sponsor_kind] %}
+        {% for level, sponsor_list in global_data['sponsors'].items() %}
+            {% for sponsor_data in sponsor_list %}
                 <div class="col-md-6 col-lg-4">
-                    <a href="/sponsors/#{{ sponsor_kind }}-{{ loop.index }}">
+                    <a href="/sponsors/#{{ sponsor_kind }}-{{ loop.index }}" class="w-100 h-100 d-flex justify-content-center">
                         <img src="{{ sponsor_data['logo'] }}" class="w-100">
                     </a>
                 </div>
@@ -22,12 +22,12 @@
     <div class="row">
         <div class="col-lg-6">
             <a class="btn btn-dark-cyan btn-lg btn-block mt-1" href="mailto:sponsorship@pycon.ca" role="button">
-                {{ messages('Contact our Sponsorship Committee') }}                
+                {{ messages('Contact our Sponsorship Committee') }}
             </a>
         </div>
         <div class="col-lg-6">
             <a class="btn btn-secondary btn-lg btn-block mt-1" href="/static/pyconca2018-prospectus.pdf" role="button">
-                {{ messages('Download our sponsorship prospectus.') }}               
+                {{ messages('Download our sponsorship prospectus.') }}
             </a>
         </div>
     </div>
