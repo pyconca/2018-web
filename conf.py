@@ -152,6 +152,7 @@ NAVIGATION_LINKS = {
         ("/volunteer/", "Volunteer"),
         ("/fa/", "Financial Aid"),
         ("/code-of-conduct/", "Code of Conduct"),
+        ("/registration", "Registration"),
         # ("/archive.html", "Archive"),
         # ("/categories/", "Tags"),
         # ("/rss.xml", "RSS feed"),
@@ -170,6 +171,7 @@ NAVIGATION_LINKS = {
         # ("https://mailchi.mp/a7731abffa7b/pycon-canada-2018-volunteers", "Lieu"),
         # ("#", "Aide financière"),
         ("/fr/code-of-conduct/", "Code de conduite"),
+        ("/fr/registration/", "Enregistrement")
         # ("/fr/archive.html", "Archives"),
         # ("/fr/categories/", "Étiquettes"),
         # ("/fr/rss.xml", "Flux RSS"),
