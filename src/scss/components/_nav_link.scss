@@ -13,3 +13,13 @@ We want the font a bit reduced for the top-menu links
         // font-weight: bold;
     }
 }
+
+.navigation-button {
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    border-radius: 70px;
+
+    &:before, &:after {
+        content: "\00a0  \00a0";
+    }
+}
