@@ -1,4 +1,19 @@
 {
+   "gold_childcare": [
+    {
+      "name": {
+        "en": "FreshBooks",
+        "fr": "FreshBooks"
+      },
+      "date": "2018-09-24",
+      "logo": "/images/sponsors/freshbooks.svg",
+      "web_link": "www.freshbooks.com",
+      "description": {
+        "en": "FreshBooks is the #1 invoicing and accounting software in the cloud designed exclusively for self-employed professionals and their teams. The company has helped more than 10 million people process billions of dollars with its ridiculously easy-to-use invoicing, time-tracking, online payments and expense management features. Recognized with eight Stevie awards for best customer service in the world, the company’s mantra is to “execute extraordinary experiences everyday.” Based in Toronto, Canada, FreshBooks serves paying customers in 160 countries.",
+        "fr": "FreshBooks is the #1 invoicing and accounting software in the cloud designed exclusively for self-employed professionals and their teams. The company has helped more than 10 million people process billions of dollars with its ridiculously easy-to-use invoicing, time-tracking, online payments and expense management features. Recognized with eight Stevie awards for best customer service in the world, the company’s mantra is to “execute extraordinary experiences everyday.” Based in Toronto, Canada, FreshBooks serves paying customers in 160 countries."
+       }
+    }
+  ],
    "silver": [
     {
       "name": {
