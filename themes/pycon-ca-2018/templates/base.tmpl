@@ -2,18 +2,26 @@
 {{ set_locale(lang) }}
 <!DOCTYPE html>
 <html lang="{{ lang }}">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if blog_title in title %}
-        <title>{{ title|e }}</title>
+    <title>{{ title|e }}</title>
     {% else %}
-        <title>{{ title|e }} | {{ blog_title|e }}</title>
+    <title>{{ title|e }} | {{ blog_title|e }}</title>
     {% endif %}
 
     <!-- Our custom CSS -->
     <link rel="stylesheet" href="/style.css">
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64922826-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-64922826-6');
+    </script>
 </head>
 
 <body>
@@ -32,7 +40,8 @@
             </div> -->
 
             <!-- Mobile button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -40,30 +49,30 @@
                 <!-- Navigation links -->
                 <ul class="navbar-nav ml-auto">
                     {% for url, text in navigation_links[lang] %}
-                        {% if rel_link(permalink, url) == "#" %}
-                            {# active navigation links #}
-                            <li class="nav-item active">
-                                <a class="nav-link" href="{{ permalink }}">{{ text|e }}<span class="sr-only">(current)</span></a>
-                            </li>
-                        {% else %}
-                            {# inactive links #}
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url }}">{{ text|e }}</a>
-                            </li>
-                        {% endif %}
+                    {% if rel_link(permalink, url) == "#" %}
+                    {# active navigation links #}
+                    <li class="nav-item active text-center">
+                        <a class="nav-link" href="{{ permalink }}">{{ text|e }}<span class="sr-only">(current)</span></a>
+                    </li>
+                    {% else %}
+                    {# inactive links #}
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="{{ url }}">{{ text|e }}</a>
+                    </li>
+                    {% endif %}
                     {% endfor %}
                     {% if permalink.startswith('/fr') %}
-                        <li class="nav-item">
-                            <a href="{{ permalink[3:] }}" class="nav-link">
-                              <strong>EN</strong>
-                            </a>
-                        </li>
+                    <li class="nav-item text-center">
+                        <a href="{{ permalink[3:] }}" class="nav-link">
+                            <strong>EN&nbsp;&nbsp;&nbsp;</strong>
+                        </a>
+                    </li>
                     {% else %}
-                        <li class="nav-item">
-                            <a href="/fr{{ permalink }}" class="nav-link">
-                              <strong>FR</strong>
-                            </a>
-                        </li>
+                    <li class="nav-item text-center">
+                        <a href="/fr{{ permalink }}" class="nav-link">
+                            <strong>FR&nbsp;&nbsp;&nbsp;</strong>
+                        </a>
+                    </li>
                     {% endif %}
                 </ul>
             </div>
@@ -71,14 +80,14 @@
     </nav>
 
     {% block center_section %}
-        <!-- Page Header -->
-        {% block content_header %}{% endblock %}
+    <!-- Page Header -->
+    {% block content_header %}{% endblock %}
 
-        <!-- Page Content -->
-        {% block content_post %}{% endblock %}
+    <!-- Page Content -->
+    {% block content_post %}{% endblock %}
 
-        <!-- Post Navigation links -->
-        {% block bottom_nav_links %}{% endblock %}
+    <!-- Post Navigation links -->
+    {% block bottom_nav_links %}{% endblock %}
     {% endblock %}
 
 
@@ -91,3 +100,5 @@
     <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
 </body>
+
+</html>

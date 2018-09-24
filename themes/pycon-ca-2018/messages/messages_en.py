@@ -9,6 +9,7 @@ MESSAGES = {
     'Gold': 'Gold',
     'Silver': 'Silver',
     'Bronze': 'Bronze',
+    'name-gold_childcare': 'Gold & Childcare',
     'name-gold': 'Gold',
     'name-silver': 'Silver',
     'name-bronze': 'Bronze',
@@ -16,4 +17,5 @@ MESSAGES = {
     'name-diversity': "Diversity",
     'Download our sponsorship prospectus.': 'Download our sponsorship prospectus.',
     'Keynote Speakers': 'Keynote Speakers',
+    'Contact our Sponsorship Committee': 'Contact our Sponsorship Committee',
 }
