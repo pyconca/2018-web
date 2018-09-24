@@ -19,8 +19,8 @@ Note that sprint attendance is free, and does not require you to have registered
 Tickets
 =======
 
-There are many different kind of tickets available for purchase.
-Pycon Canada 2018 registration gives access to sessions from November 10-11th. Participation in the sprints is free
+There are several different kinds of tickets available for purchase.
+Pycon Canada 2018 registration gives access to sessions from November 10-11th. Participation in the sprints is free.
 
     * Student ($88 + Taxes & Fees)
     * Super Early Bird ($100 CAD + Taxes & Fees)
@@ -51,6 +51,8 @@ If your tickets are being paid for by your employer, please select the Corporate
 
 Contributor
 ===========
+
+If you wish to contribute to `financial aid </fa/>`_ fund, please select Contributor rate.
 
 All conference attendees including event chair, volunteers, speakers pays for PyCon registration. This is beloved philosophy of PyCon. That way, we can achieve the attendees be part of the conference with equal status. `Everybody Pays <http://jessenoller.com/blog/2011/05/25/pycon-everybody-pays>`_
 
