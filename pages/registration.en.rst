@@ -5,7 +5,7 @@
 
 
 There are many different kind of tickets available for purchase. 
-Pycon Canada 2018 registration gives access to sessions from November 10-11th with sprints being free.
+Pycon Canada 2018 registration gives access to sessions from November 10-11th. Participation in the sprints is free
 
     * Student ($88 + Taxes & Fees)
     * Super Early Bird ($100 CAD + Taxes & Fees)
@@ -13,7 +13,6 @@ Pycon Canada 2018 registration gives access to sessions from November 10-11th wi
     * Individual ($150 + Taxes & Fees)
     * Corporate ($250 + Taxes & Fees)
     * Contributor ($600 + Taxes & Fees)
-    * Donation
 
 Students
 ========
@@ -43,11 +42,6 @@ All conference attendees including event chair, volunteers, speakers pays for Py
 However, this philosophy might be a barrier to someone who can not afford for the ticket or expense of traveling. To mitigate this, PyCon Canada provides `financial aid </fa/>`_ to help people attend PyCon.
 
 Financial aid recipients have some part of their expenses, which may include registration, travel or accomodation, paid from PyCon budget. While we can't cover all expenses for everyone, we try our best to optimally allocate our budget. Profits from  Contributor tickets sales goes to financial aid fund.
-
-
-Donation
-========
-
 
 
 .. raw:: html
