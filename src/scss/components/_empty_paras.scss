@@ -1,0 +1,8 @@
+/*
+Not sure why, but Nikola generates empty <p> elements which cause layout
+issues.
+*/
+
+p:empty {
+    display: none;
+}
