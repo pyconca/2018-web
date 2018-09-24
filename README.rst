@@ -27,7 +27,7 @@ Next, you'll want to clone the repository to your local system. If you want to
 submit patches to improve the site, consider forking the project and sending
 us a pull request on Github. No promises that we'll accept every suggestion,
 but when we do, you'll be able to have a nice warm and fuzzy feeling that you
-helped make Pycon Canda that much better! :)
+helped make Pycon Canada that much better! :)
 
 Once the project is cloned to your local system, you'll want to build the site.
 Just run the following command,
