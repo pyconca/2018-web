@@ -8,7 +8,7 @@ Schedule
 ========
 
 +--------------------------+--------------------------+----------------+----------------+
-| Saturday, Nov 10         | Saturday, Nov 11         | Monday, Nov 12 | Monday, Nov 13 |
+| Saturday, Nov 10         | Sunday, Nov 11           | Monday, Nov 12 | Monday, Nov 13 |
 +==========================+==========================+================+================+
 | Conference and Tutorials | Conference and Tutorials | Sprints        | Sprints        |
 +--------------------------+--------------------------+----------------+----------------+
