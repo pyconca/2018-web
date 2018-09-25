@@ -143,38 +143,55 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          else they won’t be highlighted when active.
 
 NAVIGATION_LINKS = {
+    # There are 3 parts to the navigation links,
+    # <TEXT> , <ICON> , <LINK>
+    # The icons are from font-awesome 4, they show up in mobile view.
+    # https://fontawesome.com/v4.7.0/icons/
+    # 
+    # For sub-menus, the icon name is also used as a unique (in nav) 'id' 
+    # attribute.
     DEFAULT_LANG: (
-        ("/about/", "About"),
-        ("/sponsors/", "Sponsors"),
-        # ("#", "Sponsors"),
-        # ("#", "Schedule"),
-        # ("#", "Venue"),
-        ("/volunteer/", "Volunteer"),
-        ("/fa/", "Financial Aid"),
-        ("/code-of-conduct/", "Code of Conduct"),
-        ("/registration", "Registration"),
-        # ("/archive.html", "Archive"),
-        # ("/categories/", "Tags"),
-        # ("/rss.xml", "RSS feed"),
+        ('Code of Conduct', 'fa-graduation-cap', '/code-of-conduct/'),
+        ('Event', 'fa-archive', (
+            ('About', 'fa-eye', '/about/'),
+            ('Sponsors', 'fa-usd', '/sponsors/'),
+        )),
+        ('Participate', 'fa-users', (
+            ('Registration', 'fa-address-card', '/registration/'),
+            ('Financial Aid', 'fa-money', '/fa/'),
+            ('Volunteer', 'fa-user-plus', '/volunteer/'),
+        )),
+        ('Information', 'fa-info-circle', (
+            ('Code of Conduct', 'fa-graduation-cap', '/code-of-conduct/'),
+            ('Email us', 'fa-envelope', 'mailto:organizers@pycon.ca'),
+        )),
+        ('Social Media', 'fa-bullhorn', (
+            ('Facebook', 'fa-facebook-official', 'https://facebook.com/pyconca'),
+            ('Twitter', 'fa-twitter', 'https://twitter.com/pyconca'),
+            ('Youtube', 'fa-youtube-play', 'https://www.youtube.com/channel/UCclkPrurwUP_ajqi3vDTNDg'),
+        )),
     ),
 
     "fr": (
-        ("/fr/about/", "À propos"),
-        ("/fr/sponsors/", "Commanditaires"),
-        # ("#", "Programme"),
-        # ("#", "Venue"),
-        ("/fr/volunteer/", "Lieu"),
-        ("/fr/fa/", "Aide financière"),
-        # ("#", "Commanditaires"),
-        # ("#", "Programme"),
-        # ("#", "Venue"),
-        # ("https://mailchi.mp/a7731abffa7b/pycon-canada-2018-volunteers", "Lieu"),
-        # ("#", "Aide financière"),
-        ("/fr/code-of-conduct/", "Code de conduite"),
-        ("/fr/registration/", "Enregistrement")
-        # ("/fr/archive.html", "Archives"),
-        # ("/fr/categories/", "Étiquettes"),
-        # ("/fr/rss.xml", "Flux RSS"),
+        ('Code de conduite', 'fa-graduation-cap', '/fr/code-of-conduct/'),
+        ('L\'événement', 'fa-archive', (
+            ('À propos', 'fa-eye', '/fr/about/'),
+            ('Commanditaires', 'fa-usd', '/fr/sponsors/'),
+        )),
+        ('Participer', 'fa-users', (
+            ('Enregistrement', 'fa-address-card', '/fr/registration/'),
+            ('Aide financière', 'fa-money', '/fr/fa/'),
+            ('Lieu', 'fa-user-plus', '/fr/volunteer/'),
+        )),
+        ('Information', 'fa-info-circle', (
+            ('Code de conduite', 'fa-graduation-cap', '/fr/code-of-conduct/'),
+            ('Contact', 'fa-envelope', 'mailto:organizers@pycon.ca'),
+        )),
+        ('Suivez nous', 'fa-bullhorn', (
+            ('Facebook', 'fa-facebook-official', 'https://facebook.com/pyconca'),
+            ('Twitter', 'fa-twitter', 'https://twitter.com/pyconca'),
+            ('Youtube', 'fa-youtube-play', 'https://www.youtube.com/channel/UCclkPrurwUP_ajqi3vDTNDg'),
+        )),
     ),
 }
 

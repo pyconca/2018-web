@@ -14,6 +14,8 @@
 
     <!-- Our custom CSS -->
     <link rel="stylesheet" href="/style.css">
+    <!-- Font Awesome 4.7 -->
+    <link rel="stylesheet" href="/static/font-awesome.min.css">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64922826-6"></script>
     <script>
@@ -47,32 +49,78 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navigation links -->
-                <ul class="navbar-nav ml-auto">
-                    {% for url, text in navigation_links[lang] %}
-                    {% if rel_link(permalink, url) == "#" %}
-                    {# active navigation links #}
-                    <li class="nav-item active text-center">
-                        <a class="nav-link" href="{{ permalink }}">{{ text|e }}<span class="sr-only">(current)</span></a>
-                    </li>
-                    {% else %}
-                    {# inactive links #}
-                    <li class="nav-item text-center">
-                        <a class="nav-link" href="{{ url }}">{{ text|e }}</a>
-                    </li>
-                    {% endif %}
+                <ul class="navbar-nav ml-auto">                
+                    {% for text, icon, url in navigation_links[lang] %}
+                        {% if isinstance(url, tuple) %}
+                            <li class="nav-item text-center dropdown">
+                                <a class="nav-link" href="#" id="menu-{{ icon }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    {% if icon %}
+                                        <span class="nav-mobile-icon"><i class="fa {{ icon }}" aria-hidden="true"></i></span>
+                                    {% else %}
+                                        <span class="nav-mobile-icon"><i class="fa fa-compass" aria-hidden="true"></i></span>
+                                    {% endif %}
+                                    <span class="">{{ text|e }}</span>
+                                    <span class="nav-mobile-icon"><i class="fa fa-level-down" aria-hidden="true"></i></span>
+                                    {# <i class="fa fa-chevron-circle-down" aria-hidden="true"></i> #}
+                                </a>
+                                <div class="dropdown-menu nav-mobile-submenu text-center text-lg-left" aria-labelledby="menu-{{ icon }}">
+                                    {% for text, icon, suburl in url %}
+                                        <a class="dropdown-item nav-mobile-sublink" href="{{ suburl }}">
+                                            {% if icon %}
+                                                <span class=""><i class="fa {{ icon }}" aria-hidden="true"></i></span>
+                                            {% else %}
+                                                <span class=""><i class="fa fa-compass" aria-hidden="true"></i></span>
+                                            {% endif %}
+                                            <span class="">{{ text|e }}</span>
+                                            <span class="nav-mobile-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                                        </a>
+                                    {% endfor %}
+                                </div>
+                            </li>
+                        {% else %}
+                            {% if rel_link(permalink, url) == "#" %}
+                                {# active navigation links #}
+                                <li class="nav-item text-center active">
+                                    <a class="nav-link" href="{{ permalink }}">
+                                        {% if icon %}
+                                            <span class="nav-mobile-icon"><i class="fa {{ icon }}" aria-hidden="true"></i></span>
+                                        {% else %}
+                                            <span class="nav-mobile-icon"><i class="fa fa-compass" aria-hidden="true"></i></span>
+                                        {% endif %}
+                                        <span class="">{{ text|e }}<span class="sr-only">(current)</span></span>
+                                        <span class="nav-mobile-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                                    </a>
+                                </li>
+                            {% else %}
+                                {# inactive links #}
+                                <li class="nav-item">
+                                    <a class="nav-link text-center" href="{{ url }}">
+                                        {% if icon %}
+                                            <span class="nav-mobile-icon"><i class="fa {{ icon }}" aria-hidden="true"></i></span>
+                                        {% else %}
+                                            <span class="nav-mobile-icon"><i class="fa fa-compass" aria-hidden="true"></i></span>
+                                        {% endif %}
+                                        <span class="">{{ text|e }}</span>
+                                        <span class="nav-mobile-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                                    </a>
+                                </li>
+                            {% endif %}
+                        {% endif %}
+                        
                     {% endfor %}
+                    <!-- Language selection -->
                     {% if permalink.startswith('/fr') %}
-                    <li class="nav-item text-center">
-                        <a href="{{ permalink[3:] }}" class="nav-link">
-                            <strong>EN&nbsp;&nbsp;&nbsp;</strong>
-                        </a>
-                    </li>
+                        <li class="nav-item text-center">
+                            <a href="{{ permalink[3:] }}" class="btn btn-midnight-blue navigation-button">
+                                ENGLISH
+                            </a>
+                        </li>
                     {% else %}
-                    <li class="nav-item text-center">
-                        <a href="/fr{{ permalink }}" class="nav-link">
-                            <strong>FR&nbsp;&nbsp;&nbsp;</strong>
-                        </a>
-                    </li>
+                        <li class="nav-item text-center">
+                            <a href="/fr{{ permalink }}" class="btn btn-midnight-blue navigation-button">
+                                FRENCH
+                            </a>
+                        </li>
                     {% endif %}
                 </ul>
             </div>
