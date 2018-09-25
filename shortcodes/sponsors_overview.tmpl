@@ -10,7 +10,7 @@
     <div class="row">
         {% for level, sponsor_list in global_data['sponsors'].items() %}
             {% for sponsor_data in sponsor_list %}
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 p-5">
                     <a href="/sponsors/#{{ sponsor_kind }}-{{ loop.index }}" class="w-100 h-100 d-flex justify-content-center">
                         <img src="{{ sponsor_data['logo'] }}" class="w-100">
                     </a>
