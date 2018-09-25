@@ -154,7 +154,7 @@ NAVIGATION_LINKS = {
         ('Code of Conduct', 'fa-graduation-cap', '/code-of-conduct/'),
         ('Event', 'fa-archive', (
             ('About', 'fa-eye', '/about/'),
-            ('Sponsors', 'fa-usd', '/sponsors/'),
+            ('Sponsors', 'fa-handshake-o', '/sponsors/'),
         )),
         ('Participate', 'fa-users', (
             ('Registration', 'fa-address-card', '/registration/'),
@@ -165,18 +165,18 @@ NAVIGATION_LINKS = {
             ('Code of Conduct', 'fa-graduation-cap', '/code-of-conduct/'),
             ('Email us', 'fa-envelope', 'mailto:organizers@pycon.ca'),
         )),
-        ('Social Media', 'fa-bullhorn', (
-            ('Facebook', 'fa-facebook-official', 'https://facebook.com/pyconca'),
-            ('Twitter', 'fa-twitter', 'https://twitter.com/pyconca'),
-            ('Youtube', 'fa-youtube-play', 'https://www.youtube.com/channel/UCclkPrurwUP_ajqi3vDTNDg'),
-        )),
+        # ('Social Media', 'fa-bullhorn', (
+        #     ('Facebook', 'fa-facebook-official', 'https://facebook.com/pyconca'),
+        #     ('Twitter', 'fa-twitter', 'https://twitter.com/pyconca'),
+        #     ('Youtube', 'fa-youtube-play', 'https://www.youtube.com/channel/UCclkPrurwUP_ajqi3vDTNDg'),
+        # )),
     ),
 
     "fr": (
         ('Code de conduite', 'fa-graduation-cap', '/fr/code-of-conduct/'),
         ('L\'événement', 'fa-archive', (
             ('À propos', 'fa-eye', '/fr/about/'),
-            ('Commanditaires', 'fa-usd', '/fr/sponsors/'),
+            ('Commanditaires', 'fa-handshake-o', '/fr/sponsors/'),
         )),
         ('Participer', 'fa-users', (
             ('Enregistrement', 'fa-address-card', '/fr/registration/'),
@@ -187,11 +187,11 @@ NAVIGATION_LINKS = {
             ('Code de conduite', 'fa-graduation-cap', '/fr/code-of-conduct/'),
             ('Contact', 'fa-envelope', 'mailto:organizers@pycon.ca'),
         )),
-        ('Suivez nous', 'fa-bullhorn', (
-            ('Facebook', 'fa-facebook-official', 'https://facebook.com/pyconca'),
-            ('Twitter', 'fa-twitter', 'https://twitter.com/pyconca'),
-            ('Youtube', 'fa-youtube-play', 'https://www.youtube.com/channel/UCclkPrurwUP_ajqi3vDTNDg'),
-        )),
+        #  ('Suivez nous', 'fa-bullhorn', (
+        #      ('Facebook', 'fa-facebook-official', 'https://facebook.com/pyconca'),
+        #      ('Twitter', 'fa-twitter', 'https://twitter.com/pyconca'),
+        #      ('Youtube', 'fa-youtube-play', 'https://www.youtube.com/channel/UCclkPrurwUP_ajqi3vDTNDg'),
+        #  )),
     ),
 }
 
