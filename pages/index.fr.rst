@@ -48,6 +48,7 @@
 
 {{% speaker_right
     speaker_name='Solmaz Shahalizadeh'
+    speaker_title='Python Lover'
     speaker_image='/images/speakers/solmaz.jpg'
     speaker_description="Solmaz is the VP of Data Science and Engineering at Shopify leading the data organization. Her teams build the data platform and the machine learning solutions that power Shopify's internal and merchant facing data products including Shopify's real-time Order Fraud Analysis, Shopify Capital and Shopify Home. Her and her teams build majority of their data solutions using Python (and Spark) and she is a big fan of the Python community. With multiple graduate degrees in computer science and machine learning, prior to joining Shopify, she worked at Morgan Stanley as an analyst and at McGill university as a cancer researcher, applying machine learning techniques to predict breast cancer outcome. Solmaz has a passion for building high quality data products that delight users and solve real world problems."
 %}}
