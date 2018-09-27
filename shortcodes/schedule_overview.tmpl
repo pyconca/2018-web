@@ -1,0 +1,26 @@
+<br />
+<br />
+<div class="container">
+    {% for event in global_data[details]['events'] %}
+        <div class="row">
+            <div class="col-6">
+                <p>{{ global_data[details]['date'] }}</p>
+            </div>
+            <div class="col-6">
+                <p>{{ event['time'] }}</p>
+            </div>
+            {% for room in event['rooms'] %}
+                <div class="col-12">
+                    <h1 class="display-4">{{ room['location'] }}</h1>
+                </div>
+                <div class="col-12">
+                    <h1>{{ room['title'] }}</h1>
+                    <br />
+                    <h3><small>{{ room['author'] }}</small></h3>
+                    <p>{{ room['abstract'] }}</p>
+                    <a class="btn btn-light" href="{{ room['link'] }}" role="button">More Details</a>
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>

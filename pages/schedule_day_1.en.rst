@@ -16,3 +16,7 @@ We'll add more details of the schedule in here.
     text_4='2018/November/13'
     link_4='/schedule-day-4'
 %}}
+
+{{% schedule_overview
+    details='schedule-day-1'
+%}}

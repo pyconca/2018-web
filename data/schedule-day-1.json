@@ -1,0 +1,71 @@
+{
+    "date": "2018/Nov/10",
+    "events": [
+        {
+            "time": "9:00 AM - 9:30 AM",
+            "rooms": [
+                {
+                    "location": "Room A",
+                    "title": "Talk title 1",
+                    "author": "Apple",
+                    "abstract": "loren ipsum ... asdfasda",
+                    "link": "/temp-link"
+                },
+                {
+                    "location": "Room B",
+                    "title": "Talk title 11",
+                    "author": "Banana",
+                    "abstract": "loren ipsum ... asdfasda",
+                    "link": "/temp-link"
+                },
+                {
+                    "location": "Room C",
+                    "title": "Talk title 111",
+                    "author": "Carrot",
+                    "abstract": "loren ipsum ... asdfasda",
+                    "link": "/temp-link"
+                },
+                {
+                    "location": "Room D",
+                    "title": "Talk title 1111",
+                    "author": "Donut",
+                    "abstract": "loren ipsum ... asdfasda",
+                    "link": "/temp-link"
+                }
+            ]
+        },
+        {
+            "time": "9:30 AM - 10:00 AM",
+            "rooms": [
+                {
+                    "location": "Room A",
+                    "title": "Talk title 2",
+                    "author": "Apple",
+                    "abstract": "loren ipsum ... asdfasda",
+                    "link": "/temp-link"
+                },
+                {
+                    "location": "Room B",
+                    "title": "Talk title 22",
+                    "author": "Banana",
+                    "abstract": "loren ipsum ... asdfasda",
+                    "link": "/temp-link"
+                },
+                {
+                    "location": "Room C",
+                    "title": "Talk title 222",
+                    "author": "Carrot",
+                    "abstract": "loren ipsum ... asdfasda",
+                    "link": "/temp-link"
+                },
+                {
+                    "location": "Room D",
+                    "title": "Talk title 2222",
+                    "author": "Donut",
+                    "abstract": "loren ipsum ... asdfasda",
+                    "link": "/temp-link"
+                }
+            ]
+        }
+    ]
+}
