@@ -33,10 +33,10 @@
 
 
 {{% speaker_left
-    speaker_name='Holden'
+    speaker_name='Holden Karau'
     speaker_title='Python Lover'
     speaker_image='/images/speakers/holden_styled.png'
-    speaker_description='Holden is a transgender Canadian open source developer
+    speaker_description='Holden Karau is a transgender Canadian open source developer
     advocate @ Google with a focus on Apache Spark, Airflow, and related "big
     data" tools. She is the co-author of Learning Spark, High Performance
     Spark, and another Spark book that\'s a bit more out of date. She is a
