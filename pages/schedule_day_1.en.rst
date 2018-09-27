@@ -4,7 +4,7 @@
 .. type: text
 
 
-We'll add more details of the schedule in here. 
+This is a place-holder page for now. We'll fill in the details later. 
 
 {{% schedule_links
     text_1='2018/November/10'

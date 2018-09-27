@@ -1,0 +1,38 @@
+/*
+Styles for the schedule table
+*/
+
+.schedule-table {
+    //
+}
+
+.schedule-datetime {
+    background-color: $gray-400;
+
+    height: 40px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+    @include media-breakpoint-up(lg) {
+        height: auto;
+    }
+}
+
+.schedule-location {
+    background-color: $gray-700;
+    color: $white;
+
+    height: 60px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+    @include media-breakpoint-up(lg) {
+        height: auto;
+    }
+}
+
+.schedule-talks {
+    background-color: $gray-300;
+}

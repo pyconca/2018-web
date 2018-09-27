@@ -7,29 +7,33 @@
                 {
                     "location": "Room A",
                     "title": "Talk title 1",
-                    "author": "Apple",
-                    "abstract": "loren ipsum ... asdfasda",
+                    "author": "Author Apple",
+                    "level": "1",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mi erat, viverra nec fermentum nec, consectetur non lacus. Sed euismod purus felis, vitae tincidunt urna sagittis id. Sed nisi eros, iaculis id mi quis, vulputate porta orci.",
                     "link": "/temp-link"
                 },
                 {
                     "location": "Room B",
                     "title": "Talk title 11",
-                    "author": "Banana",
-                    "abstract": "loren ipsum ... asdfasda",
+                    "author": "Author Banana",
+                    "level": "2",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mi erat, viverra nec fermentum nec, consectetur non lacus. Sed euismod purus felis, vitae tincidunt urna sagittis id. Sed nisi eros, iaculis id mi quis, vulputate porta orci.",
                     "link": "/temp-link"
                 },
                 {
                     "location": "Room C",
                     "title": "Talk title 111",
-                    "author": "Carrot",
-                    "abstract": "loren ipsum ... asdfasda",
+                    "author": "Author Carrot",
+                    "level": "3",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mi erat, viverra nec fermentum nec, consectetur non lacus. Sed euismod purus felis, vitae tincidunt urna sagittis id. Sed nisi eros, iaculis id mi quis, vulputate porta orci.",
                     "link": "/temp-link"
                 },
                 {
                     "location": "Room D",
                     "title": "Talk title 1111",
-                    "author": "Donut",
-                    "abstract": "loren ipsum ... asdfasda",
+                    "author": "Author Donut",
+                    "level": "1",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mi erat, viverra nec fermentum nec, consectetur non lacus. Sed euismod purus felis, vitae tincidunt urna sagittis id. Sed nisi eros, iaculis id mi quis, vulputate porta orci.",
                     "link": "/temp-link"
                 }
             ]
@@ -40,29 +44,33 @@
                 {
                     "location": "Room A",
                     "title": "Talk title 2",
-                    "author": "Apple",
-                    "abstract": "loren ipsum ... asdfasda",
+                    "author": "Author Apple",
+                    "level": "2",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mi erat, viverra nec fermentum nec, consectetur non lacus. Sed euismod purus felis, vitae tincidunt urna sagittis id. Sed nisi eros, iaculis id mi quis, vulputate porta orci.",
                     "link": "/temp-link"
                 },
                 {
                     "location": "Room B",
                     "title": "Talk title 22",
-                    "author": "Banana",
-                    "abstract": "loren ipsum ... asdfasda",
+                    "author": "Author Banana",
+                    "level": "2",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mi erat, viverra nec fermentum nec, consectetur non lacus. Sed euismod purus felis, vitae tincidunt urna sagittis id. Sed nisi eros, iaculis id mi quis, vulputate porta orci.",
                     "link": "/temp-link"
                 },
                 {
                     "location": "Room C",
                     "title": "Talk title 222",
-                    "author": "Carrot",
+                    "author": "Author Carrot",
+                    "level": "1",
                     "abstract": "loren ipsum ... asdfasda",
                     "link": "/temp-link"
                 },
                 {
                     "location": "Room D",
                     "title": "Talk title 2222",
-                    "author": "Donut",
-                    "abstract": "loren ipsum ... asdfasda",
+                    "author": "Author Donut",
+                    "level": "3",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mi erat, viverra nec fermentum nec, consectetur non lacus. Sed euismod purus felis, vitae tincidunt urna sagittis id. Sed nisi eros, iaculis id mi quis, vulputate porta orci.",
                     "link": "/temp-link"
                 }
             ]

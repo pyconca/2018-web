@@ -1,26 +1,43 @@
 <br />
 <br />
-<div class="container">
+<div class="container schedule-table">
     {% for event in global_data[details]['events'] %}
         <div class="row">
-            <div class="col-6">
-                <p>{{ global_data[details]['date'] }}</p>
+            <div class="col-6 d-lg-none schedule-datetime">
+                <span class="schedule-date">{{ global_data[details]['date'] }}</span>
             </div>
-            <div class="col-6">
-                <p>{{ event['time'] }}</p>
+            <div class="col-6 col-lg-3 schedule-datetime">
+                <span>{{ event['time'] }}</span>
             </div>
-            {% for room in event['rooms'] %}
-                <div class="col-12">
-                    <h1 class="display-4">{{ room['location'] }}</h1>
+            <div class="col-12 col-lg-9">
+                <div class="row">
+                    {% for room in event['rooms'] %}
+                        <div class="col-12 col-lg-4 schedule-location">
+                            <h1>{{ room['location'] }}</h1>
+                        </div>
+                        <div class="col-12 col-lg-8 schedule-talks">
+                            <p><br /></p>  
+                            <h1>
+                                {% if room['level'] == '1' %}
+                                    <i class="fa fa-battery-quarter" aria-hidden="true"></i>
+                                {% elif room['level'] == '2' %}
+                                    <i class="fa fa-battery-half" aria-hidden="true"></i>
+                                {% elif room['level'] == '3' %}
+                                    <i class="fa fa-battery-full" aria-hidden="true"></i>
+                                {% else %}
+                                    <i class="fa fa-battery-empty" aria-hidden="true"></i>
+                                {% endif %}
+                                {{ room['title'] }}
+                            </h1>
+                            <br />
+                            <h3><small>{{ room['author'] }}</small></h3>
+                            <p>{{ room['abstract'] }}</p>
+                            <a class="btn btn-light" href="{{ room['link'] }}" role="button">More Details</a>
+                            <p><br /></p>                            
+                        </div>
+                    {% endfor %}
                 </div>
-                <div class="col-12">
-                    <h1>{{ room['title'] }}</h1>
-                    <br />
-                    <h3><small>{{ room['author'] }}</small></h3>
-                    <p>{{ room['abstract'] }}</p>
-                    <a class="btn btn-light" href="{{ room['link'] }}" role="button">More Details</a>
-                </div>
-            {% endfor %}
+            </div>            
         </div>
     {% endfor %}
 </div>
