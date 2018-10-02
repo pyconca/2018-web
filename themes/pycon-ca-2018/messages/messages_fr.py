@@ -6,6 +6,7 @@ Strings used in theme
 MESSAGES = {
     'Our Sponsors': 'Nos commanditaires',
     'General Sponsor Info': 'Nous remercions nos merveilleux commanditaires qui rendre cet événement possible. <a href="mailto:sponsorship@pycon.ca">Contactez-nous</a> si votre organisation aimerait aider PyCon Canada 2018.',
+    'name-diamond_diversity': 'Diamant et Diversité',
     'name-gold_childcare': 'Or et Service de garde',
     'name-gold': 'Or',
     'name-silver': 'Argent',

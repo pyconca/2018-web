@@ -1,4 +1,19 @@
 {
+   "diamond_diversity": [
+    {
+      "name": {
+        "en": "Tucows",
+        "fr": "Tucows"
+      },
+      "date": "2018-10-02",
+      "logo": "/images/sponsors/tucows.svg",
+      "web_link": "www.tucows.com",
+      "description": {
+        "en": "Tucows (NASDAQ:TCX), is a quiet, but very successful, twenty-year-old global Internet services company. From its humble beginnings as a software sharing platform, Tucows is now the world’s second largest domain registrar and provider of wholesale Internet services, and through its brand, Ting, is revolutionizing mobile and Internet access in the U.S. Today, 600 Tucows employees work in 10 offices worldwide and help generate over $300 million in annual revenues.",
+        "fr": "Tucows (NASDAQ:TCX), is a quiet, but very successful, twenty-year-old global Internet services company. From its humble beginnings as a software sharing platform, Tucows is now the world’s second largest domain registrar and provider of wholesale Internet services, and through its brand, Ting, is revolutionizing mobile and Internet access in the U.S. Today, 600 Tucows employees work in 10 offices worldwide and help generate over $300 million in annual revenues."
+       }
+    }
+  ],
    "gold_childcare": [
     {
       "name": {
