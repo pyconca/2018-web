@@ -16,6 +16,7 @@
     </a>
   </div>
 
+  <div class="container d-none">
   {% for level, sponsor_list in global_data['sponsors'].items() %}
   <div class="row row-grid justify-content-center">
     {% for sponsor in sponsor_list %}
@@ -27,6 +28,7 @@
     {% endfor %}
   </div>
   {% endfor %}
+  </div>
 
   {# Sponsor Descriptions #}
 
