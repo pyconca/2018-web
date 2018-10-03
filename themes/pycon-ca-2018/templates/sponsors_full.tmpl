@@ -16,19 +16,7 @@
     </a>
   </div>
 
-  <div class="container d-none">
-  {% for level, sponsor_list in global_data['sponsors'].items() %}
-  <div class="row row-grid justify-content-center">
-    {% for sponsor in sponsor_list %}
-    <div class="{% if level == 'gold' %}col-sm-6{% elif level == 'silver' %}col-sm-4{% else %}col-sm-2{% endif %} my-4">
-      <a href="#{{ level }}-{{ loop.index }}">
-        <img class="w-100" src="{{ sponsor['logo'] }}">
-      </a>
-    </div>
-    {% endfor %}
-  </div>
-  {% endfor %}
-  </div>
+  {{% sponsors_overview %}}
 
   {# Sponsor Descriptions #}
 
