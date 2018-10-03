@@ -9,6 +9,7 @@ MESSAGES = {
     'Gold': 'Gold',
     'Silver': 'Silver',
     'Bronze': 'Bronze',
+    'name-diamond_diversity': 'Diamond & Diversity',
     'name-gold_childcare': 'Gold & Childcare',
     'name-gold': 'Gold',
     'name-silver': 'Silver',
