@@ -41,8 +41,8 @@
       <div class="row">
         {% if loop.index is odd %}
         <div class="col-3">
-          <a href="{{ sponsor['web_link'] }}">
-            <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
+          <a class="d-flex w-100 justify-content-center" href="{{ sponsor['web_link'] }}">
+            <img src="{{ sponsor['logo'] }}" class="img-fluid w-75">
           </a>
         </div>
         <div class="col-9">
