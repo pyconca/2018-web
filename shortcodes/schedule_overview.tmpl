@@ -49,7 +49,7 @@
                     <div class="row">
                         {% for room in event['rooms'] %}
                             <!-- location column -->
-                            <div class="col-12 col-lg-4 schedule-locationdata-sticky">
+                            <div class="col-12 col-lg-4 schedule-locationdata-sticky" id="talk-{{ room['ref'] }}">
                                 <div class="row schedule-locationdata schedule-locationdata-sticky">
                                     <div class="col-3 location-icon">
                                         <!-- icon is different between keynotes and talks -->
@@ -66,13 +66,15 @@
                             <!-- talk column -->
                             <div class="col-12 col-lg-8">
                                     <div class="schedule-talkdata schedule-talkdata-sticky">
-                                        <p class="talk-title">
-                                            <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                            {{  global_data['talks/' + room['ref']]['talk_title']  }}
-                                        </p>
-                                        <p class="talk-speaker">
-                                            {{  global_data['talks/' + room['ref']]['speaker_name']  }}
-                                        </p>
+                                        <a href="#talk-{{ room['ref'] }}">
+                                            <p class="talk-title">
+                                                <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                                {{  global_data['talks/' + room['ref']]['talk_title']  }}
+                                            </p>
+                                            <p class="talk-speaker">
+                                                {{  global_data['talks/' + room['ref']]['speaker_name']  }}
+                                            </p>
+                                        </a>
                                     </div>
                                     <div class="schedule-talk-tags">
                                         <p>
@@ -100,7 +102,7 @@
                     <div class="row">
                         {% for room in event['rooms'] %}
                             <!-- location column -->
-                            <div class="col-12 col-lg-4 schedule-locationdata-sticky">
+                            <div class="col-12 col-lg-4 schedule-locationdata-sticky" id="talk-{{ room['ref'] }}">
                                 <div class="row schedule-locationdata schedule-locationdata-talks schedule-locationdata-sticky">
                                     <div class="col-3 location-icon">
                                         <!-- icon is different between keynotes and talks -->
@@ -116,14 +118,16 @@
                             </div>
                             <!-- talk column -->
                             <div class="col-12 col-lg-8">
-                                <div class="schedule-talkdata schedule-talkdata-sticky" id="talk-{{ room['ref'] }}">
-                                    <p class="talk-title">
-                                        <i class="fa fa-comment" aria-hidden="true"></i>
-                                        {{  global_data['talks/' + room['ref']]['talk_title']  }}
-                                    </p>
-                                    <p class="talk-speaker">
-                                        {{  global_data['talks/' + room['ref']]['speaker_name']  }}
-                                    </p>
+                                <div class="schedule-talkdata schedule-talkdata-sticky">
+                                    <a href="#talk-{{ room['ref'] }}">
+                                        <p class="talk-title">
+                                            <i class="fa fa-comment" aria-hidden="true"></i>
+                                            {{  global_data['talks/' + room['ref']]['talk_title']  }}
+                                        </p>
+                                        <p class="talk-speaker">
+                                            {{  global_data['talks/' + room['ref']]['speaker_name']  }}
+                                        </p>
+                                    </a>
                                 </div>
                                 <div class="schedule-talk-tags">
                                     <p>
