@@ -6,6 +6,34 @@ Styles for the schedule table
     background-color: $gray-100;
 }
 
+.schedule-date-sticky {
+    position: sticky;
+    top: $navbar-height;
+    z-index: 5;
+}
+
+.schedule-locationdata-sticky {
+    position: sticky;
+    top: $schedule-location-position;
+    z-index: 3;
+
+    @include media-breakpoint-up(lg) {
+        top: $navbar-height;
+    }
+
+}
+
+.schedule-talkdata-sticky {
+    position: sticky;
+    top: $schedule-talk-position;
+    z-index: 2;
+
+    @include media-breakpoint-up(lg) {
+        top: $navbar-height;
+    }
+
+}
+
 .schedule-date {
     background-color: $gray-200;
     text-align: center;
@@ -75,6 +103,9 @@ Styles for the schedule table
 }
 
 .schedule-talkdata {
+
+    background-color: $gray-100;
+
     .talk-title {
         margin-top: 0.5rem;
         margin-bottom: 0;

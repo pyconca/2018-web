@@ -4,38 +4,42 @@
     {% for event in global_data[details]['events'] %}
         <div class="row">
             <!-- Date+Time --> 
-            <div class="col-6 d-lg-none schedule-date">
-                <p>
-                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                    {{ global_data[details]['date'] }}
-                </p>
-            </div>
-            <div class="col-6 col-lg-3 schedule-time">
-                <!-- Time block -->
-                <div class="row schedule-timedata">
-                    <div class="col-2 time-icon">
-                        <i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+            <!-- <div class="col schedule-date-sticky">
+                <div class="row"> -->
+                    <div class="col-6 d-lg-none schedule-date schedule-date-sticky">
+                        <p>
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            {{ global_data[details]['date'] }}
+                        </p>
                     </div>
-                    <div class="col-10 time-text">
-                        <div class="row">
-                            <div class="col-8">
-                                <p>{{ messages("time-start") }} :</p>
+                    <div class="col-6 col-lg-3 schedule-time schedule-date-sticky">
+                        <!-- Time block -->
+                        <div class="row schedule-timedata schedule-date-sticky">
+                            <div class="col-2 time-icon">
+                                <i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
                             </div>
-                            <div class="col-4">
-                                <p><span>{{ event['time_start'] }}</span></p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-8">
-                                <p>{{ messages("time-stop") }} :</p>
-                            </div>
-                            <div class="col-4">
-                                <p><span>{{ event['time_stop'] }}</span></p>
-                            </div>
-                        </div>
-                    </div>                    
-                </div>                
-            </div>   
+                            <div class="col-10 time-text">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <p>{{ messages("time-start") }} :</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p><span>{{ event['time_start'] }}</span></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <p>{{ messages("time-stop") }} :</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p><span>{{ event['time_stop'] }}</span></p>
+                                    </div>
+                                </div>
+                            </div>                    
+                        </div>                
+                    </div>   
+                <!-- </div>
+            </div> -->
             
             <!-- What kind of event? -->
             {% if event['type'] == 'keynote' %}
@@ -45,8 +49,8 @@
                     <div class="row">
                         {% for room in event['rooms'] %}
                             <!-- location column -->
-                            <div class="col-12 col-lg-4">
-                                <div class="row schedule-locationdata">
+                            <div class="col-12 col-lg-4 schedule-locationdata-sticky">
+                                <div class="row schedule-locationdata schedule-locationdata-sticky">
                                     <div class="col-3 location-icon">
                                         <!-- icon is different between keynotes and talks -->
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>                                        
@@ -61,7 +65,7 @@
                             </div>
                             <!-- talk column -->
                             <div class="col-12 col-lg-8">
-                                    <div class="schedule-talkdata">
+                                    <div class="schedule-talkdata schedule-talkdata-sticky">
                                         <p class="talk-title">
                                             <i class="fa fa-bullhorn" aria-hidden="true"></i>
                                             {{  global_data['talks/' + room['ref']]['talk_title']  }}
@@ -96,8 +100,8 @@
                     <div class="row">
                         {% for room in event['rooms'] %}
                             <!-- location column -->
-                            <div class="col-12 col-lg-4">
-                                <div class="row schedule-locationdata schedule-locationdata-talks">
+                            <div class="col-12 col-lg-4 schedule-locationdata-sticky">
+                                <div class="row schedule-locationdata schedule-locationdata-talks schedule-locationdata-sticky">
                                     <div class="col-3 location-icon">
                                         <!-- icon is different between keynotes and talks -->
                                         <i class="fa fa-location-arrow" aria-hidden="true"></i>                                        
@@ -112,7 +116,7 @@
                             </div>
                             <!-- talk column -->
                             <div class="col-12 col-lg-8">
-                                <div class="schedule-talkdata">
+                                <div class="schedule-talkdata schedule-talkdata-sticky" id="talk-{{ room['ref'] }}">
                                     <p class="talk-title">
                                         <i class="fa fa-comment" aria-hidden="true"></i>
                                         {{  global_data['talks/' + room['ref']]['talk_title']  }}
@@ -145,8 +149,8 @@
                 <div class="col-12 col-lg-9">
                     <div class="row">
                         <!-- location column -->
-                        <div class="col-12 col-lg-4">
-                            <div class="row schedule-locationdata schedule-locationdata-talks">
+                        <div class="col-12 col-lg-4 schedule-locationdata-sticky">
+                            <div class="row schedule-locationdata schedule-locationdata-talks schedule-locationdata-sticky">
                                 <div class="col-3 location-icon">
                                     <!-- icon is different between keynotes and talks -->
                                     <i class="fa fa-location-arrow" aria-hidden="true"></i>                                        
@@ -175,8 +179,8 @@
                 <div class="col-12 col-lg-9">
                     <div class="row">
                         <!-- location column -->
-                        <div class="col-12 col-lg-4">
-                            <div class="row schedule-locationdata schedule-locationdata-talks">
+                        <div class="col-12 col-lg-4 schedule-locationdata-sticky">
+                            <div class="row schedule-locationdata schedule-locationdata-talks schedule-locationdata-sticky">
                                 <div class="col-3 location-icon">
                                     <!-- icon is different between keynotes and talks -->
                                     <i class="fa fa-location-arrow" aria-hidden="true"></i>                                        
