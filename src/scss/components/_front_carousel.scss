@@ -32,7 +32,7 @@ The logo
     }
 
     @include media-breakpoint-up(lg) {
-        width: 15%;
+        width: 10%;
     }
 }
 
@@ -60,5 +60,20 @@ ref: https://stackoverflow.com/a/46360823/198660
     .banner-container {
         width: 100%;
         max-width: none;
+    }
+}
+
+.pycon-buy-button {
+
+    @include media-breakpoint-up(sm) {
+        font-size: 1.1rem;
+    }
+
+    @include media-breakpoint-up(md) {
+        font-size: 1.5rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 2.0rem;
     }
 }
