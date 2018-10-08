@@ -1,0 +1,124 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Melissa Rollag"
+
+talk_title: "Eademque ratione ne temperantiam quide!"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "beginner"
+
+
+talk_abstract: "Nec vero ignoro varias philosophorum fuisse sententias, eorum dico, qui summum bonum, quod ultimum appello, in animoponerent. Quae quamquam vitiose quidam secuti sunt, tamen non modo iis tribus, qui virtutem a summo bono segregaverunt,cum aut voluptatem aut vacuitatem doloris aut prima naturae in summis bonis ponerent, sed etiam alteris tribus, quimancam fore putaverunt sine aliqua accessione virtutem ob eamque rem trium earum rerum, quas supra dixi, singulisingulas addiderunt, - his tamen omnibus eos antepono, cuicuimodi sunt, qui summum bonum in animo atque in virtuteposuerunt. Sed sunt tamen perabsurdi et ii, qui cum scientia vivere ultimum bonorum, et qui nullam rerumdifferentiam esse dixerunt, atque ita sapientem beatum fore, nihil aliud alii momento ullo anteponentem, , utquidam Academici constituisse dicuntur, extremum bonorum et summum munus esse sapientis obsistere visis adsensusque suosfirme sustinere. His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent. Quid autemapertius quam, si selectio nulla sit ab iis rebus, quae contra naturam sint, earum rerum, quae sint secundum naturam,tollatur omnis ea, quae quaeratur laudeturque, prudentia? Circumscriptis igitur iis sententiis, quas posui, et iis, si quae similes earum sunt, relinquitur ut summum bonum sitvivere scientiam adhibentem earum rerum, quae natura eveniant, seligentem quae secundum naturam et quae contra naturamsint reicientem, id est convenienter congruenterque naturae vivere."
+
+talk_details: "Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. in quibus hoc primum est in quo
+admirer, cur in gravissimis rebus non delectet eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecis
+expressas non inviti legant. quis enim tam inimicus paene nomini Romano est, qui Ennii Medeam aut Antiopam Pacuvii
+spernat aut reiciat, quod se isdem Euripidis fabulis delectari dicat, Latinas litteras oderit?
+
+Synephebos ego, inquit, potius Caecilii aut Andriam Terentii quam utramque Menandri legam? A quibus tantum dissentio,
+ut, cum Sophocles vel optime scripserit Electram, tamen male conversam Atilii mihi legendam putem, de quo Lucilius:
+'ferreum scriptorem', verum, opinor, scriptorem tamen, ut legendus sit. rudem enim esse omnino in nostris poetis aut
+inertissimae segnitiae est aut fastidii delicatissimi. mihi quidem nulli satis eruditi videntur, quibus nostra ignota
+sunt. an 'Utinam ne in nemore . . .' nihilo minus legimus quam hoc idem Graecum, quae autem de bene beateque vivendo a
+Platone disputata sunt, haec explicari non placebit Latine? Quid? si nos non interpretum fungimur munere, sed tuemur ea,
+quae dicta sunt ab iis quos probamus, eisque nostrum iudicium et nostrum scribendi ordinem adiungimus, quid habent, cur
+Graeca anteponant iis, quae et splendide dicta sint neque sint conversa de Graecis? nam si dicent ab illis has res esse
+tractatas, ne ipsos quidem Graecos est cur tam multos legant, quam legendi sunt. quid enim est a Chrysippo praetermissum
+in Stoicis? legimus tamen Diogenem, Antipatrum, Mnesarchum, Panaetium, multos alios in primisque familiarem nostrum
+Posidonium. quid? Theophrastus mediocriterne delectat, cum tractat locos ab Aristotele ante tractatos? quid? Epicurei
+num desistunt de isdem, de quibus et ab Epicuro scriptum est et ab antiquis, ad arbitrium suum scribere? quodsi Graeci
+leguntur a Graecis isdem de rebus alia ratione compositis, quid est, cur nostri a nostris non legantur?
+
+Sed iure Mucius. ego autem mirari non queo unde hoc sit tam insolens domesticarum rerum fastidium. non est
+omnino hic docendi locus; sed ita sentio et saepe disserui, Latinam linguam non modo non inopem, ut vulgo putarent, sed
+locupletiorem etiam esse quam Graecam. quando enim nobis, vel dicam aut oratoribus bonis aut poetis, postea quidem quam
+fuit quem imitarentur, ullus orationis vel copiosae vel elegantis ornatus defuit? Ego vero, quoniam forensibus operis,
+laboribus, periculis non deseruisse mihi videor praesidium, in quo a populo Romano locatus sum, debeo profecto,
+quantumcumque possum, in eo quoque elaborare, ut sint opera, studio, labore meo doctiores cives mei, nec cum istis
+tantopere pugnare, qui Graeca legere malint, modo legant illa ipsa, ne simulent, et iis servire, qui vel utrisque
+litteris uti velint vel, si suas habent, illas non magnopere desiderent. Qui autem alia malunt scribi a nobis, aequi
+esse debent, quod et scripta multa sunt, sic ut plura nemini e nostris, et scribentur fortasse plura, si vita suppetet;
+et tamen, qui diligenter haec, quae de philosophia litteris mandamus, legere assueverit, iudicabit nulla ad legendum his
+esse potiora. quid est enim in vita tantopere quaerendum quam cum omnia in philosophia, tum id, quod his libris
+quaeritur, qui sit finis, quid extremum, quid ultimum, quo sint omnia bene vivendi recteque faciendi consilia referenda,
+quid sequatur natura ut summum ex rebus expetendis, quid fugiat ut extremum malorum? qua de re cum sit inter doctissimos
+summa dissensio, quis alienum putet eius esse dignitatis, quam mihi quisque tribuat, quid in omni munere vitae optimum
+et verissimum sit, exquirere? An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis,
+P. Scaevolam M'.que Manilium, ab iisque M. Brutus dissentiet - quod et acutum genus est et ad usus civium non inutile,
+nosque ea scripta reliquaque eiusdem generis et legimus libenter et legemus - haec, quae vitam omnem continent,
+neglegentur? nam, ut sint illa vendibiliora, haec uberiora certe sunt. quamquam id quidem licebit iis existimare, qui
+legerint. nos autem hanc omnem quaestionem de finibus bonorum et malorum fere a nobis explicatam esse his litteris
+arbitramur, in quibus, quantum potuimus, non modo quid nobis probaretur, sed etiam quid a singulis philosophiae
+disciplinis diceretur, persecuti sumus.
+
+Ut autem a facillimis ordiamur, prima veniat in medium Epicuri ratio, quae plerisque notissima est. quam a nobis sic
+intelleges eitam, ut ab ipsis, qui eam disciplinam probant, non soleat accuratius explicari; verum enim invenire
+volumus, non tamquam adversarium aliquem convincere. accurate autem quondam a L. Torquato, homine omni doctrina erudito,
+defensa est Epicuri sententia de voluptate, a meque ei responsum, cum C. Triarius, in primis gravis et doctus
+adolescens, ei disputationi interesset. Nam cum ad me in Cumanum salutandi causa uterque venisset, pauca primo inter nos
+de litteris, quarum summum erat in utroque studium, deinde Torquatus: Quoniam nacti te, inquit, sumus aliquando otiosum,
+certe audiam, quid sit, quod Epicurum nostrum non tu quidem oderis, ut fere faciunt, qui ab eo dissentiunt, sed certe
+non probes, eum quem ego arbitror unum vidisse verum maximisque erroribus animos hominum liberavisse et omnia
+tradidisse, quae pertinerent ad bene beateque vivendum. sed existimo te, sicut nostrum Triarium, minus ab eo delectari,
+quod ista Platonis, Aristoteli, Theophrasti orationis ornamenta neglexerit. nam illud quidem adduci vix possum, ut ea,
+quae senserit ille, tibi non vera videantur.
+
+Vide, quantum, inquam, fallare, Torquate. oratio me istius philosophi non offendit; nam et complectitur verbis, quod
+vult, et dicit plane, quod intellegam; et tamen ego a philosopho, si afferat eloquentiam, non asperner, si non habeat,
+non admodum flagitem. re mihi non aeque satisfacit, et quidem locis pluribus. sed quot homines, tot sententiae; falli
+igitur possumus.
+
+Quam ob rem tandem, inquit, non satisfacit? te enim iudicem aequum puto, modo quae dicat ille bene noris.
+
+Nisi mihi Phaedrum, inquam, tu mentitum aut Zenonem putas, quorum utrumque audivi, cum mihi nihil sane praeter
+sedulitatem probarent, omnes mihi Epicuri sententiae satis notae sunt. atque eos, quos nominavi, cum Attico nostro
+frequenter audivi, cum miraretur ille quidem utrumque, Phaedrum autem etiam amaret, cotidieque inter nos ea, quae
+audiebamus, conferebamus, neque erat umquam controversia, quid ego intellegerem, sed quid probarem.
+
+Quid igitur est? inquit; audire enim cupio, quid non probes. Principio, inquam, in physicis, quibus maxime gloriatur,
+primum totus est alienus. Democritea dicit perpauca mutans, sed ita, ut ea, quae corrigere vult, mihi quidem depravare
+videatur. ille atomos quas appellat, id est corpora individua propter soliditatem, censet in infinito inani, in quo
+nihil nec summum nec infimum nec medium nec ultimum nec extremum sit, ita ferri, ut concursionibus inter se
+cohaerescant, ex quo efficiantur ea, quae sint quaeque cernantur, omnia, eumque motum atomorum nullo a principio, sed ex
+aeterno tempore intellegi convenire. Epicurus autem, in quibus sequitur Democritum, non fere labitur. quamquam utriusque
+cum multa non probo, tum illud in primis, quod, cum in rerum natura duo quaerenda sint, unum, quae materia sit, ex qua
+quaeque res efficiatur, alterum, quae vis sit, quae quidque efficiat, de materia disseruerunt, vim et causam efficiendi
+reliquerunt. sed hoc commune vitium, illae Epicuri propriae ruinae: censet enim eadem illa individua et solida corpora
+ferri deorsum suo pondere ad lineam, hunc naturalem esse omnium corporum motum. Deinde ibidem homo acutus, cum
+illud ocurreret, si omnia deorsus e regione ferrentur et, ut dixi, ad lineam, numquam fore ut atomus altera alteram
+posset attingere itaque ** attulit rem commenticiam: declinare dixit atomum perpaulum, quo nihil posset fieri minus; ita
+effici complexiones et copulationes et adhaesiones atomorum inter se, ex quo efficeretur mundus omnesque partes mundi,
+quaeque in eo essent. Quae cum tota res (est) ficta pueriliter, tum ne efficit , quod vult. nam et ipsa
+declinatio ad libidinem fingitur - ait enim declinare atomum sine causa; quo nihil turpius physico, quam fieri quicquam
+sine causa dicere, - et illum motum naturalem omnium ponderum, ut ipse constituit, e regione inferiorem locum petentium
+sine causa eripuit atomis nec tamen id, cuius causa haec finxerat, assecutus est. Nam si omnes atomi declinabunt, nullae
+umquam cohaerescent, sive aliae declinabunt, aliae suo nutu recte ferentur, primum erit hoc quasi, provincias atomis
+dare, quae recte, quae oblique ferantur, deinde eadem illa atomorum, in quo etiam Democritus haeret, turbulenta
+concursio hunc mundi ornatum efficere non poterit. ne illud quidem physici, credere aliquid esse minimum, quod profecto
+numquam putavisset, si a Polyaeno, familiari suo, geometrica discere maluisset quam illum etiam ipsum dedocere. Sol
+Democrito magnus videtur, quippe homini erudito in geometriaque perfecto, huic pedalis fortasse; tantum enim esse
+censet, quantus videtur, vel paulo aut maiorem aut minorem. Ita, quae mutat, ea corrumpit, quae sequitur sunt tota
+Democriti, atomi, inane, imagines, quae eidola nominant, quorum incursione non solum videamus, sed etiam cogitemus;
+infinitio ipsa, quam apeirian vocant, tota ab illo est, tum innumerabiles mundi, qui et oriantur et intereant cotidie.
+Quae etsi mihi nullo modo probantur, tamen Democritum laudatum a ceteris ab hoc, qui eum unum secutus esset, nollem
+vituperatum.
+
+Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi
+quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo
+efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in
+sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat.
+
+Confirmat autem illud vel maxime, quod ipsa natura, ut ait ille, sciscat et probet, id est voluptatem et dolorem. ad
+haec et quae sequamur et quae fugiamus refert omnia. quod quamquam Aristippi est a Cyrenaicisque melius liberiusque
+defenditur, tamen eius modi esse iudico, ut nihil homine videatur indignius. ad maiora enim quaedam nos natura genuit et
+conformavit, ut mihi quidem videtur. ac fieri potest, ut errem, sed ita prorsus existimo, neque eum Torquatum, qui hoc
+primus cognomen invenerit, aut torquem illum hosti detraxisse, ut aliquam ex eo perciperet corpore voluptatem, aut cum
+Latinis tertio consulatu conflixisse apud Veserim propter voluptatem; quod vero securi percussit filium, privavisse se
+etiam videtur multis voluptatibus, cum ipsi naturae patrioque amori praetulerit ius maiestatis atque imperii. quid? T.
+Torquatus, is qui consul cum Cn. Octavio fuit, cum illam severitatem in eo filio adhibuit, quem in adoptionem D. Silano
+emancipaverat, ut eum Macedonum legatis accusantibus, quod pecunias praetorem in provincia cepisse arguerent, causam
+apud se dicere iuberet reque ex utraque parte audita pronuntiaret eum non talem videri fuisse in imperio, quales eius
+maiores fuissent, et in conspectum suum venire vetuit, numquid tibi videtur de voluptatibus suis cogitavisse?"

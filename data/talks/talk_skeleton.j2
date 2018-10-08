@@ -1,0 +1,17 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "{{ name }}"
+
+talk_title: "{{ title }}"
+
+# At least 1 tag is necessary!!
+talk_tags:
+{% for tag in talk_tags -%}
+  - "{{ tag }}"
+{% endfor %}
+
+talk_abstract: "{{ abstract }}"
+
+talk_details: "{{ details }}"

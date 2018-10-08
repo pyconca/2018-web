@@ -1,0 +1,60 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Vicki Haupt"
+
+talk_title: "Sed cum ab his omnia proficiscantur officia!"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "expert"
+- "machine-learning"
+- "artificial-intelligence"
+- "django"
+
+
+talk_abstract: "Iam in altera philosophiae parte. Quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihiquidem videtur, inermis ac nudus est."
+
+talk_details: "Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi
+quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo
+efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in
+sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat.
+
+Confirmat autem illud vel maxime, quod ipsa natura, ut ait ille, sciscat et probet, id est voluptatem et dolorem. ad
+haec et quae sequamur et quae fugiamus refert omnia. quod quamquam Aristippi est a Cyrenaicisque melius liberiusque
+defenditur, tamen eius modi esse iudico, ut nihil homine videatur indignius. ad maiora enim quaedam nos natura genuit et
+conformavit, ut mihi quidem videtur. ac fieri potest, ut errem, sed ita prorsus existimo, neque eum Torquatum, qui hoc
+primus cognomen invenerit, aut torquem illum hosti detraxisse, ut aliquam ex eo perciperet corpore voluptatem, aut cum
+Latinis tertio consulatu conflixisse apud Veserim propter voluptatem; quod vero securi percussit filium, privavisse se
+etiam videtur multis voluptatibus, cum ipsi naturae patrioque amori praetulerit ius maiestatis atque imperii. quid? T.
+Torquatus, is qui consul cum Cn. Octavio fuit, cum illam severitatem in eo filio adhibuit, quem in adoptionem D. Silano
+emancipaverat, ut eum Macedonum legatis accusantibus, quod pecunias praetorem in provincia cepisse arguerent, causam
+apud se dicere iuberet reque ex utraque parte audita pronuntiaret eum non talem videri fuisse in imperio, quales eius
+maiores fuissent, et in conspectum suum venire vetuit, numquid tibi videtur de voluptatibus suis cogitavisse?
+
+Sed ut omittam pericula, labores, dolorem etiam, quem optimus quisque pro patria et pro suis suscipit, ut non modo
+nullam captet, sed etiam praetereat omnes voluptates, dolores denique quosvis suscipere malit quam deserere ullam
+officii partem, ad ea, quae hoc non minus declarant, sed videntur leviora, veniamus. Quid tibi, Torquate, quid huic
+Triario litterae, quid historiae cognitioque rerum, quid poetarum evolutio, quid tanta tot versuum memoria voluptatis
+affert? nec mihi illud dixeris: 'Haec enim ipsa mihi sunt voluptati, et erant illa Torquatis.' Numquam hoc ita defendit
+Epicurus neque Metrodorus aut quisquam eorum, qui aut saperet aliquid aut ista didicisset. et quod quaeritur saepe, cur
+tam multi sint Epicurei, sunt aliae quoque causae, sed multitudinem haec maxime allicit, quod ita putant dici ab illo,
+recta et honesta quae sint, ea facere ipsa per se laetitiam, id est voluptatem. homines optimi non intellegunt totam
+rationem everti, si ita res se habeat. nam si concederetur, etiamsi ad corpus nihil referatur, ista sua sponte et per se
+esse iucunda, per se esset et virtus et cognitio rerum, quod minime ille vult expetenda.
+
+Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior - est enim, quod
+tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent, eruditi appellantur - aut ne deterruisset
+alios a studiis. quamquam te quidem video minime esse deterritum.
+
+Quae cum dixissem, magis ut illum provocarem quam ut ipse loquerer, tum Triarius leniter arridens: Tu quidem, inquit,
+totum Epicurum paene e philosophorum choro sustulisti. Quid ei reliquisti, nisi te, quoquo modo loqueretur, intellegere,
+quid diceret? Aliena dixit in physicis nec ea ipsa, quae tibi probarentur; si qua in iis corrigere voluit, deteriora
+fecit. disserendi artem nullam habuit. voluptatem cum summum bonum diceret, primum in eo ipso parum vidit, deinde hoc
+quoque alienum; nam ante Aristippus, et ille melius. addidisti ad extremum etiam indoctum fuisse.
+
+Fieri, inquam, Triari, nullo pacto potest, ut non dicas, quid non probes eius, a quo dissentias. quid enim me prohiberet
+Epicureum esse, si probarem, quae ille diceret? cum praesertim illa perdiscere ludus esset. Quam ob rem dissentientium
+inter se reprehensiones non sunt vituperandae, maledicta, contumeliae, tum iracundiae, contentiones concertationesque in
+disputando pertinaces indignae philosophia mihi videri solent."

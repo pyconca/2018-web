@@ -3,36 +3,130 @@ Styles for the schedule table
 */
 
 .schedule-table {
-    //
+    background-color: $gray-100;
 }
 
-.schedule-datetime {
+.schedule-date {
+    background-color: $gray-200;
+    text-align: center;
+    p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.schedule-time {
     background-color: $gray-400;
+}
 
-    height: 40px;
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
+.schedule-timedata {
 
-    @include media-breakpoint-up(lg) {
-        height: auto;
+    background-color: $gray-200;
+
+    .time-icon {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    .time-text {
+        text-align: right;
+        text-transform: uppercase;
+
+        p {
+            margin: 0;
+        }
     }
 }
 
-.schedule-location {
-    background-color: $gray-700;
-    color: $white;
+.schedule-locationdata {
 
-    height: 60px;
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
-
-    @include media-breakpoint-up(lg) {
-        height: auto;
-    }
-}
-
-.schedule-talks {
     background-color: $gray-300;
+
+    .location-icon {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+
+        p {
+            text-align: center;
+            text-transform: lowercase;
+            font-size: 0.8rem;
+            margin-bottom: 0;
+        }
+    }
+
+    .location-text {
+        p {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+
+            text-align: center;
+            font-size: 1.4rem;
+            // margin-bottom: 0;
+        }
+    }
+}
+
+.schedule-locationdata-talks {
+    background-color: $gray-300;
+}
+
+.schedule-talkdata {
+    .talk-title {
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .talk-speaker {
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 0;
+    }
+}
+
+.schedule-talk-tags {
+    // background-color: gainsboro;
+    text-align: center;
+
+    span {
+        display: inline-block;
+        background-color: black;
+        text-transform: lowercase;
+        border: 2px solid black;
+        border-radius: 15px; 
+        color: white;
+        margin: 5px auto;
+        font-size: 0.8rem;
+
+        &:before, &:after {
+            content: "\00a0  \00a0";
+        }
+    }
+}
+
+.schedule-talk-more {
+    margin-bottom: 1rem;
+}
+
+.schedule-break {
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    .break-title {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.schedule-talk-more {
+    a {
+        background-color: map-get($pycon-colours, 'red');
+        border-color: map-get($pycon-colours, 'red');
+        color: white;
+    }
 }

@@ -1,0 +1,90 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Clay Mcardle"
+
+talk_title: "Eademque ratione ne temperantiam quidem propte!"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "expert"
+- "jypter"
+- "data-science"
+- "pandas"
+
+
+talk_abstract: "Haec mirabilia videri intellego, sed cum certe superiora firma ac vera sint, his autem ea consentanea et consequentia,ne de horum quidem est veritate dubitandum. Sed quamquam negant nec virtutes nec vitia crescere, tamen utrumque eorumfundi quodam modo et quasi dilatari putant. Divitias autem Diogenes censet eam modo vim habere, ut quasi duces sint ad voluptatem et ad valitudinem bonam; sed,etiam uti ea contineant, non idem facere eas in virtute neque in ceteris artibus, ad quas esse dux pecunia potest,continere autem non potest, itaque, si voluptas aut si bona valitudo sit in bonis, divitias quoque in bonis esseponendas, at, si sapientia bonum sit, non sequi ut etiam divitias bonum esse dicamus."
+
+talk_details: "Sed quid ages tandem, si utilitasab amicitia, ut fit saepe, defecerit? relinquesne? quae istaamicitia est? retinebis?
+qui convenit? quid enim de amicitiastatueris utilitatis causa expetenda vides. 'Ne in odium veniam, siamicum destitero
+tueri.' Primum cur ista res digna odio est, nisiquod est turpis? quodsi, ne quo incommodo afficiare, non
+relinquesamicum, tamen, ne sine fructu alligatus sis, ut moriatur optabis.Quid, si non modo utilitatem tibi nullam
+afferet, sed iacturae reifamiliaris erunt faciendae, labores suscipiendi, adeundum vitaepericulum? ne tum quidem te
+respicies et cogitabis sibi quemquenatum esse et suis voluptatibus? vadem te ad mortem tyranno dabispro amico, ut
+Pythagoreus ille Siculo fecit tyranno? aut, Pyladescum sis, dices te esse Orestem, ut moriare pro amico? aut, si
+essesOrestes, Pyladem refelleres, te indicares et, si id non probares, quo minus ambo una necaremini non precarere?
+
+Faceres tu quidem, Torquate, haecomnia; nihil enim arbitror esse magna laude dignum, quod tepraetermissurum credam aut
+mortis aut doloris metu. non quaeriturautem quid naturae tuae consentaneum sit, sed quid disciplinae.ratio ista, quam
+defendis, praecepta, quae didicisti, quae probas, funditus evertunt amicitiam, quamvis eam Epicurus, ut facit, incaelum
+efferat laudibus. At coluit ipse amicitias. Quis, quaeso, illum negat et bonum virum et comem et humanum fuisse? de
+ingenioeius in his disputationibus, non de moribus quaeritur. sit ista inGraecorum levitate perversitas, qui maledictis
+insectantur eos, aquibus de veritate dissentiunt. sed quamvis comis in amicis tuendisfuerit, tamen, si haec vera sunt -
+nihil enim affirmo - non satisacutus fuit.
+
+At multis se probavit. Et quidemiure fortasse, sed tamen non gravissimum est testimoniummultitudinis. in omni enim arte
+vel studio vel quavis scientia velin ipsa virtute optimum quidque rarissimum est. ac mihi quidem, quod et ipse bonus vir
+fuit et multi Epicurei et fuerunt et hodiesunt et in amicitiis fideles et in omni vita constantes et gravesnec
+voluptate, sed officio consilia moderantes, hoc videtur maiorvis honestatis et minor voluptatis. ita enim vivunt quidam,
+uteorum vita refellatur oratio. atque ut ceteri dicere existimanturmelius quam facere, sic hi mihi videntur facere
+melius quamdicere.
+
+Sed haec nihil sane ad rem; illavideamus, quae a te de amicitia dicta sunt. e quibus unum mihividebar ab ipso Epicuro
+dictum cognoscere, amicitiam a voluptatenon posse divelli ob eamque rem colendam esse, quod,sine ea tuto et
+sine metu vivi non posset, neiucunde quidem posset. satis est ad hoc responsum. Attulisti aliudhumanius horum
+recentiorum, numquam dictum ab ipso illo, quodsciam, primo utilitatis causa amicum expeti, cum autem ususaccessisset,
+tum ipsum amari per se etiam omissa spe voluptatis.hoc etsi multimodis reprehendi potest, tamen accipio, quod dant.mihi
+enim satis est, ipsis non satis. nam aliquando posse rectefieri dicunt nulla expectata nec quaesita voluptate.
+
+Posuisti etiam dicere alios foedusquoddam inter se facere sapientis, ut, quem ad modum sint in seipsos animati, eodem
+modo sint erga amicos; id et fieri posse etsaepe esse factum et ad voluptates percipiendas maxime pertinere.hoc foedus
+facere si potuerunt, faciant etiam illud, ut aequitatem, modestiam, virtutes omnes per se ipsas gratis diligant. an
+vero, sifructibus et emolumentis et utilitatibus amicitias colemus, sinulla caritas erit, quae faciat amicitiam ipsam
+sua sponte, vi sua, ex se et propter se expetendam, dubium est, quin fundos et insulasamicis anteponamus?
+
+Licet hic rursus ea commemores, quae optimis verbis ab Epicuro de laude amicitiae dicta sunt. nonquaero, quid dicat, sed
+quid convenienter possit rationi etsententiae suae dicere. 'Utilitatis causa amicitia est quaesita.'Num igitur utiliorem
+tibi hunc Triarium putas esse posse, quam situa sint Puteolis granaria? collige omnia, quae soletis:'Praesidium
+amicorum.' Satis est tibi in te, satis in legibus, satis in mediocribus amicitiis praesidii. iam contemni non
+poteris.odium autem et invidiam facile vitabis. ad eas enim res ab Epicuropraecepta dantur. et tamen tantis vectigalibus
+ad liberalitatemutens etiam sine hac Pyladea amicitia multorum te benivolentiapraeclare tuebere et munies.
+
+'At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta omnia?' Tecum optime, deinde etiamcum mediocri amico.
+sed fac ista esse non inportuna; quid adutilitatem tantae pecuniae? vides igitur, si amicitiam sua caritatemetiare,
+nihil esse praestantius, sin emolumento, summasfamiliaritates praediorum fructuosorum mercede superari. me igituripsum
+ames oportet, non mea, si veri amici futuri sumus. Sed inrebus apertissimis nimium longi sumus. perfecto enim et
+conclusoneque virtutibus neque amicitiis usquam locum esse, si advoluptatem omnia referantur, nihil praeterea est
+magnoperedicendum. ac tamen, ne cui loco non videatur esse responsum, paucaetiam nunc dicam ad reliquam orationem tuam.
+
+Quoniam igitur omnis summaphilosophiae ad beate vivendum refertur, idque unum expetenteshomines se ad hoc studium
+contulerunt, beate autem vivere alii inalio, vos in voluptate ponitis, item contra miseriam omnem indolore, id primum
+videamus, beate vivere vestrum quale sit. atquehoc dabitis, ut opinor, si modo sit aliquid esse beatum, idoportere totum
+poni in potestate sapientis. nam si amitti vitabeata potest, beata esse non potest. quis enim confidit semper sibiillud
+stabile et firmum permansurum, quod fragile et caducum sit?qui autem diffidet perpetuitati bonorum suorum, timeat
+necesse est, ne aliquando amissis illis sit miser. beatus autem esse inmaximarum rerum timore nemo potest.
+
+Nemo igitur esse beatus potest.neque enim in aliqua parte, sed in perpetuitate temporis vita beatadici solet, nec
+appellatur omnino vita, nisi confecta atqueabsoluta, nec potest quisquam alias beatus esse, alias miser; quienim
+existimabit posse se miserum esse beatus non erit. nam cumsuscepta semel est beata vita, tam permanet quam ipsa
+illaeffectrix beatae vitae sapientia neque expectat ultimum tempusaetatis, quod Croeso scribit Herodotus praeceptum a
+Solone. Atenim, quem ad modum tute dicebas, negat Epicurus diuturnitatemquidem temporis ad beate vivendum aliquid
+afferre, nec minoremvoluptatem percipi in brevitate temporis, quam si illa sitsempiterna.
+
+Haec dicuntur inconstantissime.cum enim summum bonum in voluptate ponat, negat infinito temporeaetatis voluptatem fieri
+maiorem quam finito atque modico. quibonum omne in virtute ponit, is potest dicere perfici beatam vitamperfectione
+virtutis; negat enim summo bono afferre incrementumdiem. qui autem voluptate vitam effici beatam putabit, qui sibi
+isconveniet, si negabit voluptatem crescere longinquitate? igitur nedolorem quidem. an dolor longissimus quisque
+miserrimus, voluptatemnon optabiliorem diuturnitas facit? quid est igitur, cur ita semperdeum appellet Epicurus beatum
+et aeternum? dempta enim aeternitatenihilo beatior Iuppiter quam Epicurus; uterque enim summo bonofruitur, id est
+voluptate. 'At enim hic etiam dolore.' At eumnihili facit; ait enim se, si uratur, 'Quam hoc suave!'dicturum."

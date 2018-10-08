@@ -1,0 +1,152 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Teddy Hebert"
+
+talk_title: "Ut enim, inquit, nemo dicit in regia regem ipsu!"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "intermediate"
+- "machine-learning"
+- "artificial-intelligence"
+- "pandas"
+- "flask"
+
+
+talk_abstract: "Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. In quibus hoc primum est in quoadmirer, cur in gravissimis rebus non delectet eos sermo patrius, cum idem fabellas Latinas ad verbum e Graecisexpressas non inviti legant. Quis enim tam inimicus paene nomini Romano est, qui Ennii Medeam aut Antiopam Pacuviispernat aut reiciat, quod se isdem Euripidis fabulis delectari dicat, Latinas litteras oderit? Synephebos ego, inquit, potius Caecilii aut Andriam Terentii quam utramque Menandri legam? A quibus tantum dissentio,ut, cum Sophocles vel optime scripserit Electram, tamen male conversam Atilii mihi legendam putem, de quo Lucilius:'ferreum scriptorem', verum, opinor, scriptorem tamen, ut legendus sit. Rudem enim esse omnino in nostris poetis autinertissimae segnitiae est aut fastidii delicatissimi."
+
+talk_details: "Deinceps explicatur differentia rerum, quam si non ullam esse diceremus, confunderetur omnis vita, ut ab Aristone, neque
+ullum sapientiae munus aut opus inveniretur, cum inter res eas, quae ad vitam degendam pertinerent, nihil omnino
+interesset, neque ullum dilectum adhiberi oporteret. itaque cum esset satis constitutum id solum esse bonum, quod esset
+honestum, et id malum solum, quod turpe, tum inter illa, quae nihil valerent ad beate misereve vivendum, aliquid tamen,
+quod differret, esse voluerunt, ut essent eorum alia aestimabilia, alia contra, alia neutrum. quae autem aestimanda
+essent, eorum in aliis satis esse causae, quam ob rem quibusdam anteponerentur, ut in valitudine, ut in integritate
+sensuum, ut in doloris vacuitate, ut gloriae, divitiarum, similium rerum, alia autem non esse eius modi, itemque eorum,
+quae nulla aestimatione digna essent, partim satis habere causae, quam ob rem reicerentur, ut dolorem, morbum, sensuum
+amissionem, paupertatem, ignominiam, similia horum, partim non item. hinc est illud exortum, quod Zeno prohgmanon,
+contraque quod prohgmanon nominavit, cum uteretur in lingua copiosa factis tamen nominibus ac novis, quod nobis in hac
+inopi lingua non conceditur; quamquam tu hanc copiosiorem etiam soles dicere. Sed non alienum est, quo facilius vis
+verbi intellegatur, rationem huius verbi faciendi Zenonis exponere.
+
+Ut enim, inquit, nemo dicit in regia regem ipsum quasi productum esse ad dignitatem (id est enim prohgmanon), sed eos,
+qui in aliquo honore sunt, quorum ordo proxime accedit, ut secundus sit, ad regium principatum, sic in vita non ea, quae
+primo loco sunt, sed ea, quae secundum locum optinent, prohgmana, id est producta, nominentur; quae vel ita
+appellemus - id erit verbum e verbo - vel promota et remota vel, ut dudum diximus, praeposita vel praecipua, et illa
+reiecta. re enim intellecta in verborum usu faciles esse debemus. quoniam autem omne, quod est bonum, primum locum
+tenere dicimus, necesse est nec bonum esse nec malum hoc, quod praepositum vel praecipuum nominamus. idque ita
+definimus; quod sit indifferens cum aestimatione mediocri; quod enim illi dicunt, id mihi ita occurrit, ut
+indifferens dicerem. neque enim illud fieri poterat ullo modo, ut nihil relinqueretur in mediis, quod aut secundum
+naturam esset aut contra, nec, cum id relinqueretur, nihil in his poni, quod satis aestimabile esset, nec hoc posito non
+aliqua esse praeposita. recte igitur haec facta distinctio est, atque etiam ab iis, quo facilius res perspici
+possit, hoc simile ponitur: Ut enim, inquiunt, si hoc fingamus esse quasi finem et ultimum, ita iacere talum, ut rectus
+adsistat, qui ita talus erit iactus, ut cadat rectus, praepositum quiddam habebit ad finem, qui aliter, contra, neque
+tamen illa praepositio tali ad eum, quem dixi, finem pertinebit, sic ea, quae sunt praeposita, referuntur illa quidem ad
+finem, sed ad eius vim naturamque nihil pertinent. Sequitur illa divisio, ut bonorum alia sint ad illud ultimum
+pertinentia (sic enim appello, quae; nam hoc ipsum instituamus, ut placuit, pluribus verbis dicere, quod
+uno non poterimus, ut res intellegatur), alia autem efficientia, quae Graeci utrumque. de pertinentibus
+nihil est bonum praeter actiones honestas, de efficientibus nihil praeter amicum, sed et pertinentem et efficientem
+sapientiam volunt esse. nam quia sapientia est conveniens actio, est illo pertinenti genere, quod dixi; quod autem
+honestas actiones adfert et efficit, efficiens dici potest.
+
+Haec, quae praeposita dicimus, partim sunt per se ipsa praeposita, partim quod aliquid efficiunt, partim utrumque, per
+se, ut quidam habitus oris et vultus, ut status, ut motus, in quibus sunt et praeponenda quaedam et reicienda; alia ob
+eam rem praeposita dicentur, quod ex se aliquid efficiant, ut pecunia, alia autem ob utramque rem, ut integri sensus, ut
+bona valitudo. De bona autem fama - quam enim appellant eojn, aptius est bonam famam hoc loco appellare quam
+gloriam - Chrysippus quidem et Diogenes detracta utilitate ne digitum quidem eius causa porrigendum esse dicebant; quibus
+ego vehementer assentior. qui autem post eos fuerunt, cum Carneadem sustinere non possent, hanc, quam dixi, bonam famam
+ipsam propter se praepositam et sumendam esse dixerunt, esseque hominis ingenui et liberaliter educati velle bene audire
+a parentibus, a propinquis, a bonis etiam viris, idque propter rem ipsam, non propter usum, dicuntque, ut liberis
+consultum velimus, etiamsi postumi futuri sint, propter ipsos, sic futurae post mortem famae tamen esse propter rem,
+etiam detracto usu, consulendum.
+
+Sed cum, quod honestum sit, id solum bonum esse dicamus, consentaneum tamen est fungi officio, cum id officium nec in
+bonis ponamus nec in malis. est enim aliquid in his rebus probabile, et quidem ita, ut eius ratio reddi possit, ergo ut
+etiam probabiliter acti ratio reddi possit. est autem officium, quod ita factum est, ut eius facti probabilis ratio
+reddi possit. ex quo intellegitur officium medium quiddam esse, quod neque in bonis ponatur neque in contrariis.
+quoniamque in iis rebus, quae neque in virtutibus sunt neque in vitiis, est tamen quiddam, quod usui possit esse,
+tollendum id non est. est autem eius generis actio quoque quaedam, et quidem talis, ut ratio postulet agere aliquid et
+facere eorum. quod autem ratione actum est, id officium appellamus. est igitur officium eius generis, quod nec in bonis
+ponatur nec in contrariis.
+
+Atque perspicuum etiam illud est, in istis rebus mediis aliquid agere sapientem. iudicat igitur, cum agit, officium
+illud esse. quod quoniam numquam fallitur in iudicando, erit in mediis rebus officium. quod efficitur hac etiam
+conclusione rationis: Quoniam enim videmus esse quiddam, quod recte factum appellemus, id autem est perfectum officium,
+erit etiam inchoatum, ut, si iuste depositum reddere in recte factis sit, in officiis ponatur depositum reddere;
+illo enim addito 'iuste' fit recte factum, per se autem hoc ipsum reddere in officio ponitur. quoniamque non dubium est
+quin in iis, quae media dicimus, sit aliud sumendum, aliud reiciendum, quicquid ita fit aut dicitur, omne officio
+continetur. ex quo intellegitur, quoniam se ipsi omnes natura diligant, tam insipientem quam sapientem sumpturum, quae
+secundum naturam sint, reiecturumque contraria. ita est quoddam commune officium sapientis et insipientis, ex quo
+efficitur versari in iis, quae media dicamus.
+
+Sed cum ab his omnia proficiscantur officia, non sine causa dicitur ad ea referri omnes nostras cogitationes, in his et
+excessum e vita et in vita mansionem. in quo enim plura sunt quae secundum naturam sunt, huius officium est in vita
+manere; in quo autem aut sunt plura contraria aut fore videntur, huius officium est de vita excedere. ex quo apparet et
+sapientis esse aliquando officium excedere e vita, cum beatus sit, et stulti manere in vita, cum sit miser. nam
+bonum illud et malum, quod saepe iam dictum est, postea consequitur, prima autem illa naturae sive secunda sive
+contraria sub iudicium sapientis et dilectum cadunt, estque illa subiecta quasi materia sapientiae. itaque et manendi in
+vita et migrandi ratio omnis iis rebus, quas supra dixi, metienda. nam neque virtute retinetur in vita, nec iis,
+qui sine virtute sunt, mors est oppetenda. et saepe officium est sapientis desciscere a vita, cum sit beatissimus, si id
+oportune facere possit, quod est convenienter naturae. sic enim censent, oportunitatis esse beate vivere. itaque a
+sapientia praecipitur se ipsam, si usus sit, sapiens ut relinquat. quam ob rem cum vitiorum ista vis non sit, ut causam
+afferant mortis voluntariae, perspicuum est etiam stultorum, qui idem miseri sint, officium esse manere in vita, si sint
+in maiore parte rerum earum, quas secundum naturam esse dicimus. et quoniam excedens e vita et manens aeque miser est
+nec diuturnitas magis ei vitam fugiendam facit, non sine causa dicitur iis, qui pluribus naturalibus frui possint, esse
+in vita manendum.
+
+Pertinere autem ad rem arbitrantur intellegi natura fieri ut liberi a parentibus amentur. a quo initio profectam
+communem humani generis societatem persequimur. quod primum intellegi debet figura membrisque corporum, quae ipsa
+declarant procreandi a natura habitam esse rationem. neque vero haec inter se congruere possent, ut natura et procreari
+vellet et diligi procreatos non curaret. atque etiam in bestiis vis naturae perspici potest; quarum in fetu et in
+educatione laborem cum cernimus, naturae ipsius vocem videmur audire. quare perspicuum est natura nos a dolore
+abhorrere, sic apparet a natura ipsa, ut eos, quos genuerimus, amemus, inpelli. ex hoc nascitur ut etiam communis
+hominum inter homines naturalis sit commendatio, ut oporteat hominem ab homine ob id ipsum, quod homo sit, non alienum
+videri. ut enim in membris alia sunt tamquam sibi nata, ut oculi, ut aures, alia etiam ceterorum membrorum usum
+adiuvant, ut crura, ut manus, sic inmanes quaedam bestiae sibi solum natae sunt, at illa, quae in concha patula pina
+dicitur, isque, qui enat e concha, qui, quod eam custodit, pinoteres vocatur in eandemque cum se recepit includitur, ut
+videatur monuisse ut caveret, itemque formicae, apes, ciconiae aliorum etiam causa quaedam faciunt. multo haec
+coniunctius homines. itaque natura sumus apti ad coetus, concilia, civitates. mundum autem censent regi numine
+deorum, eumque esse quasi communem urbem et civitatem hominum et deorum, et unum quemque nostrum eius mundi esse partem;
+ex quo illud natura consequi, ut communem utilitatem nostrae anteponamus. ut enim leges omnium salutem singulorum saluti
+anteponunt, sic vir bonus et sapiens et legibus parens et civilis officii non ignarus utilitati omnium plus quam unius
+alicuius aut suae consulit. nec magis est vituperandus proditor patriae quam communis utilitatis aut salutis desertor
+propter suam utilitatem aut salutem. ex quo fit, ut laudandus is sit, qui mortem oppetat pro re publica, quod deceat
+cariorem nobis esse patriam quam nosmet ipsos. quoniamque illa vox inhumana et scelerata ducitur eorum, qui negant se
+recusare quo minus ipsis mortuis terrarum omnium deflagratio consequatur - quod vulgari quodam versu Graeco pronuntiari
+solet - certe verum est etiam iis, qui aliquando futuri sint, esse propter ipsos consulendum. ex hac animorum
+affectione testamenta commendationesque morientium natae sunt. quodque nemo in summa solitudine vitam agere velit ne cum
+infinita quidem voluptatum abundantia, facile intellegitur nos ad coniunctionem congregationemque hominum et ad
+naturalem communitatem esse natos. Inpellimur autem natura, ut prodesse velimus quam plurimis in primisque docendo
+rationibusque prudentiae tradendis. itaque non facile est invenire qui quod sciat ipse non tradat alteri; ita non
+solum ad discendum propensi sumus, verum etiam ad docendum. Atque ut tauris natura datum est ut pro vitulis contra
+leones summa vi impetuque contendant, sic ii, qui valent opibus atque id facere possunt, ut de Hercule et de Libero
+accepimus, ad servandum genus hominum natura incitantur. Atque etiam Iovem cum Optimum et Maximum dicimus cumque eundem
+Salutarem, Hospitalem, Statorem, hoc intellegi volumus, salutem hominum in eius esse tutela. minime autem convenit, cum
+ipsi inter nos viles neglectique simus, postulare ut diis inmortalibus cari simus et ab iis diligamur. Quem ad modum
+igitur membris utimur prius, quam didicimus, cuius ea causa utilitatis habeamus, sic inter nos natura ad civilem
+communitatem coniuncti et consociati sumus. quod ni ita se haberet, nec iustitiae ullus esset nec bonitati locus. 
+Et quo modo hominum inter homines iuris esse vincula putant, sic homini nihil iuris esse cum bestiis. praeclare enim
+Chrysippus, cetera nata esse hominum causa et deorum, eos autem communitatis et societatis suae, ut bestiis homines uti
+ad utilitatem suam possint sine iniuria. Quoniamque ea natura esset hominis, ut ei cum genere humano quasi civile ius
+intercederet, qui id conservaret, eum iustum, qui migraret, iniustum fore. sed quem ad modum, theatrum cum commune sit,
+recte tamen dici potest eius esse eum locum, quem quisque occuparit, sic in urbe mundove communi non adversatur ius, quo
+minus suum quidque cuiusque sit. Cum autem ad tuendos conservandosque homines hominem natum esse videamus,
+consentaneum est huic naturae, ut sapiens velit gerere et administrare rem publicam atque, ut e natura vivat, uxorem
+adiungere et velle ex ea liberos. ne amores quidem sanctos a sapiente alienos esse arbitrantur. Cynicorum autem rationem
+atque vitam alii cadere in sapientem dicunt, si qui eius modi forte casus inciderit, ut id faciendum sit, alii nullo
+modo.
+
+Ut vero conservetur omnis homini erga hominem societas, coniunctio, caritas, et emolumenta et detrimenta, quae et
+appellant, communia esse voluerunt; quorum altera prosunt, nocent altera. neque solum ea communia, verum etiam paria
+esse dixerunt. incommoda autem et commoda - ita enim et appello - communia esse voluerunt, paria
+noluerunt. illa enim, quae prosunt aut quae nocent, aut bona sunt aut mala, quae sint paria necesse est. commoda autem
+et incommoda in eo genere sunt, quae praeposita et reiecta diximus; ea possunt paria non esse. sed emolumenta communia
+esse dicuntur, recte autem facta et peccata non habentur communia.
+
+Amicitiam autem adhibendam esse censent, quia sit ex eo genere, quae prosunt. quamquam autem in amicitia alii dicant
+aeque caram esse sapienti rationem amici ac suam, alii autem sibi cuique cariorem suam, tamen hi quoque posteriores
+fatentur alienum esse a iustitia, ad quam nati esse videamur, detrahere quid de aliquo, quod sibi adsumat. minime vero
+probatur huic disciplinae, de qua loquor, aut iustitiam aut amicitiam propter utilitates adscisci aut probari. eaedem
+enim utilitates poterunt eas labefactare atque pervertere. etenim nec iustitia nec amicitia esse omnino poterunt, nisi
+ipsae per se expetuntur."
