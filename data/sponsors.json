@@ -57,6 +57,19 @@
         "en": "CSE is one of Canada’s key security and intelligence organizations, focused on collecting foreign signals intelligence in support of the Government of Canada’s priorities, and on helping protect the computer networks and information of greatest importance to Canada. We also provide assistance to federal law enforcement and security organizations in their legally authorized activities, when they may require our unique technical capabilities.",
         "fr": "Le CST est l'un des principaux organismes canadiens de la sécurité et du renseignement. Il travaille à obtenir du renseignement électromagnétique étranger pour appuyer les priorités du gouvernement du Canada de même que pour aider à protéger les renseignements et les réseaux informatiques de grande importance pour le Canada. Nous fournissons également une assistance aux organismes fédéraux chargés de l’application de la loi et de la sécurité dans l’exercice de leurs activités autorisées par la loi, lorsqu’ils requièrent nos capacités techniques uniques."
        }
+    },
+    {
+      "name": {
+        "en": "Mozilla",
+        "fr": "Mozilla"
+      },
+      "date": "2018-10-08",
+      "logo": "/images/sponsors/mozilla.svg",
+      "web_link": "www.mozilla.org",
+      "description": {
+        "en": "Our mission — to promote openness, innovation and opportunity on the Internet — extends through everything we do. These guides serve as resources to bring together all our brands and to help define their visual and stylistic elements. They exist to provide you with the tools and assets you need to further our mission through communications, websites, products and more.",
+        "fr": "Our mission — to promote openness, innovation and opportunity on the Internet — extends through everything we do. These guides serve as resources to bring together all our brands and to help define their visual and stylistic elements. They exist to provide you with the tools and assets you need to further our mission through communications, websites, products and more."
+       }
     }
   ],
    "bronze": [
