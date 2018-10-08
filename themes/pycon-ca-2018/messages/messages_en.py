@@ -19,4 +19,12 @@ MESSAGES = {
     'Download our sponsorship prospectus.': 'Download our sponsorship prospectus.',
     'Keynote Speakers': 'Keynote Speakers',
     'Contact our Sponsorship Committee': 'Contact our Sponsorship Committee',
+    # On schedule pages
+    'time-start': 'Start',
+    'time-stop': 'Stop',
+    'location': 'Location',
+    'title': 'Title',
+    'More Details': 'More Details',
+    'Lunch': 'Lunch',
+    'Break': 'Break',
 }

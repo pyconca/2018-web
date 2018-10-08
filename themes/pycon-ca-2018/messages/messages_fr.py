@@ -16,4 +16,12 @@ MESSAGES = {
     'Download our sponsorship prospectus.': 'Téléchargez le prospectus de commandites.',
     'Keynote Speakers': 'Présentateurs invités',
     'Contact our Sponsorship Committee': 'Contactez notre équipe de commandites',
+    # On schedule pages
+    'time-start': 'Start-FR',
+    'time-stop': 'Stop-FR',
+    'location': 'Location-FR',
+    'title': 'Title-FR',
+    'More Details': 'More Details',
+    'Lunch': 'Lunch',
+    'Break': 'Break',
 }

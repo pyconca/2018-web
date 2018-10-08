@@ -1,0 +1,19 @@
+<p>
+    This is a placeholder page. We'll fill in the details later.
+
+</p>
+
+<!-- Title -->
+<h1>{{  global_data['talks/' + talk_number]['talk_title']  }}</h1>
+
+<!-- Author -->
+<p>by</p>
+<h3>{{  global_data['talks/' + talk_number]['speaker_name']  }}</h3>
+
+<!-- Space... -->
+<p>&nbsp;</p>
+
+<h4>Details = </h4>
+<div class="talk-details">
+    {{  global_data['talks/' + talk_number]['talk_details']  }}
+</div>

@@ -1,0 +1,92 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Julie Polaco"
+
+talk_title: "Ut vero conservetur omnis homini erga homine!"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "beginner"
+
+
+talk_abstract: "Sed possunt haec quadam ratione dici non modo non repugnantibus, verum etiam approbantibus nobis. Sic enim ab Epicurosapiens semper beatus inducitur: finitas habet cupiditates, neglegit mortem, de diis inmortalibus sine ullo metu verasentit, non dubitat, si ita melius sit, migrare de vita. His rebus instructus semper est in voluptate. Neque enim tempusest ullum, quo non plus voluptatum habeat quam dolorum. Nam et praeterita grate meminit et praesentibus ita potitur, utanimadvertat quanta sint ea quamque iucunda, neque pendet ex futuris, sed expectat illa, fruitur praesentibus ab iisquevitiis, quae paulo ante collegi, abest plurimum et, cum stultorum vitam cum sua comparat, magna afficitur voluptate."
+
+talk_details: "Deinceps explicatur differentia rerum, quam si non ullam esse diceremus, confunderetur omnis vita, ut ab Aristone, neque
+ullum sapientiae munus aut opus inveniretur, cum inter res eas, quae ad vitam degendam pertinerent, nihil omnino
+interesset, neque ullum dilectum adhiberi oporteret. itaque cum esset satis constitutum id solum esse bonum, quod esset
+honestum, et id malum solum, quod turpe, tum inter illa, quae nihil valerent ad beate misereve vivendum, aliquid tamen,
+quod differret, esse voluerunt, ut essent eorum alia aestimabilia, alia contra, alia neutrum. quae autem aestimanda
+essent, eorum in aliis satis esse causae, quam ob rem quibusdam anteponerentur, ut in valitudine, ut in integritate
+sensuum, ut in doloris vacuitate, ut gloriae, divitiarum, similium rerum, alia autem non esse eius modi, itemque eorum,
+quae nulla aestimatione digna essent, partim satis habere causae, quam ob rem reicerentur, ut dolorem, morbum, sensuum
+amissionem, paupertatem, ignominiam, similia horum, partim non item. hinc est illud exortum, quod Zeno prohgmanon,
+contraque quod prohgmanon nominavit, cum uteretur in lingua copiosa factis tamen nominibus ac novis, quod nobis in hac
+inopi lingua non conceditur; quamquam tu hanc copiosiorem etiam soles dicere. Sed non alienum est, quo facilius vis
+verbi intellegatur, rationem huius verbi faciendi Zenonis exponere.
+
+Ut enim, inquit, nemo dicit in regia regem ipsum quasi productum esse ad dignitatem (id est enim prohgmanon), sed eos,
+qui in aliquo honore sunt, quorum ordo proxime accedit, ut secundus sit, ad regium principatum, sic in vita non ea, quae
+primo loco sunt, sed ea, quae secundum locum optinent, prohgmana, id est producta, nominentur; quae vel ita
+appellemus - id erit verbum e verbo - vel promota et remota vel, ut dudum diximus, praeposita vel praecipua, et illa
+reiecta. re enim intellecta in verborum usu faciles esse debemus. quoniam autem omne, quod est bonum, primum locum
+tenere dicimus, necesse est nec bonum esse nec malum hoc, quod praepositum vel praecipuum nominamus. idque ita
+definimus; quod sit indifferens cum aestimatione mediocri; quod enim illi dicunt, id mihi ita occurrit, ut
+indifferens dicerem. neque enim illud fieri poterat ullo modo, ut nihil relinqueretur in mediis, quod aut secundum
+naturam esset aut contra, nec, cum id relinqueretur, nihil in his poni, quod satis aestimabile esset, nec hoc posito non
+aliqua esse praeposita. recte igitur haec facta distinctio est, atque etiam ab iis, quo facilius res perspici
+possit, hoc simile ponitur: Ut enim, inquiunt, si hoc fingamus esse quasi finem et ultimum, ita iacere talum, ut rectus
+adsistat, qui ita talus erit iactus, ut cadat rectus, praepositum quiddam habebit ad finem, qui aliter, contra, neque
+tamen illa praepositio tali ad eum, quem dixi, finem pertinebit, sic ea, quae sunt praeposita, referuntur illa quidem ad
+finem, sed ad eius vim naturamque nihil pertinent. Sequitur illa divisio, ut bonorum alia sint ad illud ultimum
+pertinentia (sic enim appello, quae; nam hoc ipsum instituamus, ut placuit, pluribus verbis dicere, quod
+uno non poterimus, ut res intellegatur), alia autem efficientia, quae Graeci utrumque. de pertinentibus
+nihil est bonum praeter actiones honestas, de efficientibus nihil praeter amicum, sed et pertinentem et efficientem
+sapientiam volunt esse. nam quia sapientia est conveniens actio, est illo pertinenti genere, quod dixi; quod autem
+honestas actiones adfert et efficit, efficiens dici potest.
+
+Haec, quae praeposita dicimus, partim sunt per se ipsa praeposita, partim quod aliquid efficiunt, partim utrumque, per
+se, ut quidam habitus oris et vultus, ut status, ut motus, in quibus sunt et praeponenda quaedam et reicienda; alia ob
+eam rem praeposita dicentur, quod ex se aliquid efficiant, ut pecunia, alia autem ob utramque rem, ut integri sensus, ut
+bona valitudo. De bona autem fama - quam enim appellant eojn, aptius est bonam famam hoc loco appellare quam
+gloriam - Chrysippus quidem et Diogenes detracta utilitate ne digitum quidem eius causa porrigendum esse dicebant; quibus
+ego vehementer assentior. qui autem post eos fuerunt, cum Carneadem sustinere non possent, hanc, quam dixi, bonam famam
+ipsam propter se praepositam et sumendam esse dixerunt, esseque hominis ingenui et liberaliter educati velle bene audire
+a parentibus, a propinquis, a bonis etiam viris, idque propter rem ipsam, non propter usum, dicuntque, ut liberis
+consultum velimus, etiamsi postumi futuri sint, propter ipsos, sic futurae post mortem famae tamen esse propter rem,
+etiam detracto usu, consulendum.
+
+Sed cum, quod honestum sit, id solum bonum esse dicamus, consentaneum tamen est fungi officio, cum id officium nec in
+bonis ponamus nec in malis. est enim aliquid in his rebus probabile, et quidem ita, ut eius ratio reddi possit, ergo ut
+etiam probabiliter acti ratio reddi possit. est autem officium, quod ita factum est, ut eius facti probabilis ratio
+reddi possit. ex quo intellegitur officium medium quiddam esse, quod neque in bonis ponatur neque in contrariis.
+quoniamque in iis rebus, quae neque in virtutibus sunt neque in vitiis, est tamen quiddam, quod usui possit esse,
+tollendum id non est. est autem eius generis actio quoque quaedam, et quidem talis, ut ratio postulet agere aliquid et
+facere eorum. quod autem ratione actum est, id officium appellamus. est igitur officium eius generis, quod nec in bonis
+ponatur nec in contrariis.
+
+Atque perspicuum etiam illud est, in istis rebus mediis aliquid agere sapientem. iudicat igitur, cum agit, officium
+illud esse. quod quoniam numquam fallitur in iudicando, erit in mediis rebus officium. quod efficitur hac etiam
+conclusione rationis: Quoniam enim videmus esse quiddam, quod recte factum appellemus, id autem est perfectum officium,
+erit etiam inchoatum, ut, si iuste depositum reddere in recte factis sit, in officiis ponatur depositum reddere;
+illo enim addito 'iuste' fit recte factum, per se autem hoc ipsum reddere in officio ponitur. quoniamque non dubium est
+quin in iis, quae media dicimus, sit aliud sumendum, aliud reiciendum, quicquid ita fit aut dicitur, omne officio
+continetur. ex quo intellegitur, quoniam se ipsi omnes natura diligant, tam insipientem quam sapientem sumpturum, quae
+secundum naturam sint, reiecturumque contraria. ita est quoddam commune officium sapientis et insipientis, ex quo
+efficitur versari in iis, quae media dicamus.
+
+Sed cum ab his omnia proficiscantur officia, non sine causa dicitur ad ea referri omnes nostras cogitationes, in his et
+excessum e vita et in vita mansionem. in quo enim plura sunt quae secundum naturam sunt, huius officium est in vita
+manere; in quo autem aut sunt plura contraria aut fore videntur, huius officium est de vita excedere. ex quo apparet et
+sapientis esse aliquando officium excedere e vita, cum beatus sit, et stulti manere in vita, cum sit miser. nam
+bonum illud et malum, quod saepe iam dictum est, postea consequitur, prima autem illa naturae sive secunda sive
+contraria sub iudicium sapientis et dilectum cadunt, estque illa subiecta quasi materia sapientiae. itaque et manendi in
+vita et migrandi ratio omnis iis rebus, quas supra dixi, metienda. nam neque virtute retinetur in vita, nec iis,
+qui sine virtute sunt, mors est oppetenda. et saepe officium est sapientis desciscere a vita, cum sit beatissimus, si id
+oportune facere possit, quod est convenienter naturae. sic enim censent, oportunitatis esse beate vivere. itaque a
+sapientia praecipitur se ipsam, si usus sit, sapiens ut relinquat. quam ob rem cum vitiorum ista vis non sit, ut causam
+afferant mortis voluntariae, perspicuum est etiam stultorum, qui idem miseri sint, officium esse manere in vita, si sint
+in maiore parte rerum earum, quas secundum naturam esse dicimus. et quoniam excedens e vita et manens aeque miser est
+nec diuturnitas magis ei vitam fugiendam facit, non sine causa dicitur iis, qui pluribus naturalibus frui possint, esse
+in vita manendum."

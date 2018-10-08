@@ -1,0 +1,189 @@
+{
+    "date": "2018-Nov-10",
+    "events": [
+        {
+            "time_start": "9:00",
+            "time_stop": "10:00",
+            "type": "keynote",
+            "rooms": [
+                {
+                    "location": "Main Hall",
+                    "ref": "9001"
+                }
+            ]
+        },
+        {
+            "time_start": "10:00",
+            "time_stop": "10:30",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "Room A",
+                    "ref": "9002"
+                },
+                {
+                    "location": "Room B",
+                    "ref": "9003"
+                },
+                {
+                    "location": "Room C",
+                    "ref": "9004"
+                }
+            ]
+        },
+        {
+            "time_start": "10:30",
+            "time_stop": "11:00",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "Room A",
+                    "ref": "9005"
+                },
+                {
+                    "location": "Room B",
+                    "ref": "9006"
+                },
+                {
+                    "location": "Room C",
+                    "ref": "9007"
+                }
+            ]
+        },
+        {
+            "time_start": "11:00",
+            "time_stop": "12:00",
+            "type": "lunch_break"
+        },
+        {
+            "time_start": "12:00",
+            "time_stop": "12:30",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "Room A",
+                    "ref": "9008"
+                },
+                {
+                    "location": "Room B",
+                    "ref": "9009"
+                },
+                {
+                    "location": "Room C",
+                    "ref": "9010"
+                }
+            ]
+        },
+        {
+            "time_start": "12:30",
+            "time_stop": "13:00",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "Room A",
+                    "ref": "9011"
+                },
+                {
+                    "location": "Room B",
+                    "ref": "9012"
+                },
+                {
+                    "location": "Room C",
+                    "ref": "9013"
+                }
+            ]
+        },
+        {
+            "time_start": "13:00",
+            "time_stop": "13:30",
+            "type": "break"
+        },
+        {
+            "time_start": "13:30",
+            "time_stop": "14:30",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "Room A",
+                    "ref": "9014"
+                },
+                {
+                    "location": "Room B",
+                    "ref": "9015"
+                },
+                {
+                    "location": "Room C",
+                    "ref": "9016"
+                }
+            ]
+        },
+        {
+            "time_start": "14:30",
+            "time_stop": "15:00",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "Room A",
+                    "ref": "9017"
+                },
+                {
+                    "location": "Room B",
+                    "ref": "9018"
+                },
+                {
+                    "location": "Room C",
+                    "ref": "9019"
+                }
+            ]
+        },
+        {
+            "time_start": "15:00",
+            "time_stop": "15:30",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "Room A",
+                    "ref": "9020"
+                },
+                {
+                    "location": "Room B",
+                    "ref": "9021"
+                },
+                {
+                    "location": "Room C",
+                    "ref": "9022"
+                }
+            ]
+        },
+        {
+            "time_start": "15:30",
+            "time_stop": "16:00",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "Room A",
+                    "ref": "9023"
+                },
+                {
+                    "location": "Room B",
+                    "ref": "9024"
+                },
+                {
+                    "location": "Room C",
+                    "ref": "9025"
+                }
+            ]
+        },
+        {
+            "time_start": "16:00",
+            "time_stop": "17:00",
+            "type": "keynote",
+            "rooms": [
+                {
+                    "location": "Main Hall",
+                    "ref": "9026"
+                }
+            ]
+        }
+    ]
+}
