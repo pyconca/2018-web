@@ -4,6 +4,16 @@
 .. type: text
 
 
+
+.. raw:: html
+
+    <div class="btn-group">
+        <a class="btn btn-outline-red btn-lg" style="font-size: 2rem;" href="https://pyconca2018.eventbrite.com" role="button">Buy a ticket to PyConCA 2018</a>
+    </div>
+    <!-- Hack for some space on page -->
+    <p>&nbsp;</p>
+
+
 Schedule
 ========
 
@@ -23,8 +33,6 @@ There are several different kinds of tickets available for purchase.
 Pycon Canada 2018 registration gives access to sessions from November 10-11th. Participation in the sprints is free.
 
     * Student ($88 + Taxes & Fees)
-    * Super Early Bird ($100 CAD + Taxes & Fees)
-    * Early Bird ($125 CAD + Taxes & Fees)
     * Individual ($150 + Taxes & Fees)
     * Corporate ($250 + Taxes & Fees)
     * Contributor ($600 + Taxes & Fees)
@@ -33,12 +41,6 @@ Students
 ========
 
 If you are currently enrolled in school, we offer a limited number of student tickets.
-
-
-Super and Early Bird
-====================
-
-We offer special discounted ticket for those who really love PyConCA and don't care about the event details. Limited quantity available.
 
 Individual
 ==========
@@ -64,5 +66,5 @@ Financial aid recipients have some part of their expenses, which may include reg
 .. raw:: html
 
     <div class="btn-group">
-        <a class="btn btn-outline-red btn-lg" href="https://pyconca2018.eventbrite.com" role="button">Buy a ticket to PyConCA 2018</a>
+        <a class="btn btn-outline-red btn-lg" style="font-size: 2rem;" href="https://pyconca2018.eventbrite.com" role="button">Buy a ticket to PyConCA 2018</a>
     </div>
