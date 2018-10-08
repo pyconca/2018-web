@@ -155,7 +155,7 @@ NAVIGATION_LINKS = {
         ('Event', 'fa-archive', (
             ('About', 'fa-eye', '/about/'),
             ('Sponsors', 'fa-handshake-o', '/sponsors/'),
-            ('Schedule Day-1', 'fa-calendar', '/schedule-day-1/'),
+            ('Placeholder Schedule Day-1', 'fa-calendar', '/schedule-day-1/'),
         )),
         ('Participate', 'fa-users', (
             ('Registration', 'fa-address-card', '/registration/'),
@@ -178,7 +178,7 @@ NAVIGATION_LINKS = {
         ('L\'événement', 'fa-archive', (
             ('À propos', 'fa-eye', '/fr/about/'),
             ('Commanditaires', 'fa-handshake-o', '/fr/sponsors/'),
-            ('Schedule Day-1', 'fa-calendar', '/schedule-day-1/'),
+            ('Placeholder Schedule Day-1', 'fa-calendar', '/schedule-day-1/'),
         )),
         ('Participer', 'fa-users', (
             ('Enregistrement', 'fa-address-card', '/fr/registration/'),

@@ -89,7 +89,7 @@
                                         </p>
                                     </div>
                                     <div class="schedule-talk-more">
-                                        <a class="btn btn-block" href="{{ room['ref'] }}" role="button">{{ messages("More Details") }}</a>
+                                        <a class="btn btn-block" href="/talks/talk-{{ room['ref'] }}/" role="button">{{ messages("More Details") }}</a>
                                     </div>
                                 </div>
                         {% endfor %}
@@ -142,7 +142,7 @@
                                     </p>
                                 </div>
                                 <div class="schedule-talk-more">
-                                    <a class="btn btn-block" href="{{ room['ref'] }}" role="button">{{ messages("More Details") }}</a>
+                                    <a class="btn btn-block" href="/talks/talk-{{ room['ref'] }}/" role="button">{{ messages("More Details") }}</a>
                                 </div>
                             </div>
                         {% endfor %}
