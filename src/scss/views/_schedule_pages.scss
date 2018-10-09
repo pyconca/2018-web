@@ -37,10 +37,17 @@ Styles for the schedule table
 .schedule-date {
     background-color: $gray-200;
     text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
     p {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+        font-size: 0.9rem;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
@@ -56,14 +63,28 @@ Styles for the schedule table
         display: block;
         text-align: center;
         margin: auto;
+        margin-right: -20px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .time-text {
         text-align: right;
         text-transform: uppercase;
 
+        .time-description {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .time-time {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
         p {
             margin: 0;
+            // font-size: 0.8rem;
         }
     }
 }
