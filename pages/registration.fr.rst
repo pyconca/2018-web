@@ -1,4 +1,4 @@
-.. title: PyCon Canada 2018 Registration Information
+.. title: PyCon Canada 2018 Information d'inscription
 .. slug: registration
 .. date: 2018-09-19 21:23:22 UTC+04:00
 .. type: text
