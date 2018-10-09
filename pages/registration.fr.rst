@@ -38,7 +38,7 @@ L'inscription à Pycon Canada 2018 donne accès aux sessions du 10 au 11 novembr
      * Contributeur (600 $ + taxes et frais)
 
 Élèves
-========
+======
 
 Si vous êtes actuellement inscrit à l'école, nous vous proposons un nombre limité de billets pour étudiants.
 
@@ -47,12 +47,12 @@ Individuel
 Si vous payez de votre poche pour assister à cette conférence, veuillez sélectionner ce type de billet.
 
 D'entreprise
-=========
+============
 
 Si vos billets sont payés par votre employeur, veuillez sélectionner le tarif entreprise. La vente de billets aux entreprises nous permet de fournir une aide financière et des billets à prix réduit aux personnes qui ne pourraient autrement pas se permettre d’y assister.
 
 Donateur
-===========
+========
 
 Si vous souhaitez contribuer au fonds `aide financière </fr/fa/>`_, veuillez sélectionner le taux du cotisant.
 
