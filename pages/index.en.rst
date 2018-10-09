@@ -10,18 +10,18 @@
     button_link='/registration'
     city_banner='Where is the event?'
     city_heading='Toronto, Ontario'
-    city_sub_heading='Pycon Canada is being held at the Chesnut Hotel'
+    city_sub_heading='Pycon Canada is being held at the Chestnut Residence & Conference Centre'
 %}}
 
 {{% speaker_left
     speaker_name='Where is the event?'
-    speaker_title='Chesnut Hotel & Conference Center'
+    speaker_title='Chestnut Residence & Conference Center'
     speaker_image='/images/chestnut_hotel_logo.png'
     speaker_description='We are hosting Pycon Canada 2018 at the wonderful
-    Chesnut Hotel & Conference Center. Located adjacent to the city landmark of 
-    Yonge and Dundas Square and directly north of the city’s Financial District, 
-    Chestnut Conference Centre is in the heart of the downtown core. It is only 
-    a 5 minute walk from the St Patrick subway station, 10 minute walk from 
+    Chestnut Residence & Conference Center. Located adjacent to the city landmark of
+    Yonge and Dundas Square and directly north of the city’s Financial District,
+    Chestnut Conference Centre is in the heart of the downtown core. It is only
+    a 5 minute walk from the St Patrick subway station, 10 minute walk from
     Eaton Centre and a 10 minute walk from Toronto’s Financial District.'
 %}}
 
@@ -62,15 +62,15 @@
     speaker_name='Solmaz Shahalizadeh'
     speaker_title='Python Lover'
     speaker_image='/images/speakers/solmaz_styled.png'
-    speaker_description="Solmaz is the VP of Data Science and Engineering at Shopify 
-    leading the data organization. Her teams build the data platform and the machine 
-    learning solutions that power Shopify's internal and merchant facing data products 
-    including Shopify's real-time Order Fraud Analysis, Shopify Capital and Shopify 
-    Home. Her and her teams build majority of their data solutions using Python (and 
-    Spark) and she is a big fan of the Python community. With multiple graduate degrees 
-    in computer science and machine learning, prior to joining Shopify, she worked at 
-    Morgan Stanley as an analyst and at McGill university as a cancer researcher, applying 
-    machine learning techniques to predict breast cancer outcome. Solmaz has a passion for 
+    speaker_description="Solmaz is the VP of Data Science and Engineering at Shopify
+    leading the data organization. Her teams build the data platform and the machine
+    learning solutions that power Shopify's internal and merchant facing data products
+    including Shopify's real-time Order Fraud Analysis, Shopify Capital and Shopify
+    Home. Her and her teams build majority of their data solutions using Python (and
+    Spark) and she is a big fan of the Python community. With multiple graduate degrees
+    in computer science and machine learning, prior to joining Shopify, she worked at
+    Morgan Stanley as an analyst and at McGill university as a cancer researcher, applying
+    machine learning techniques to predict breast cancer outcome. Solmaz has a passion for
     building high quality data products that delight users and solve real world problems."
 %}}
 
