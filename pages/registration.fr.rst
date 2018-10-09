@@ -14,53 +14,53 @@
     <p>&nbsp;</p>
 
 
-Schedule
-========
-
-+--------------------------+--------------------------+----------------+----------------+
-| Saturday, Nov 10         | Saturday, Nov 11         | Monday, Nov 12 | Monday, Nov 13 |
-+==========================+==========================+================+================+
-| Conference and Tutorials | Conference and Tutorials | Sprints        | Sprints        |
-+--------------------------+--------------------------+----------------+----------------+
-
-Note that sprint attendance is free, and does not require you to have registered for the main conference!
-
-
-Tickets
-=======
-
-There are several different kinds of tickets available for purchase.
-Pycon Canada 2018 registration gives access to sessions from November 10-11th. Participation in the sprints is free.
-
-    * Student ($88 + Taxes & Fees)
-    * Individual ($150 + Taxes & Fees)
-    * Corporate ($250 + Taxes & Fees)
-    * Contributor ($600 + Taxes & Fees)
-
-Students
-========
-
-If you are currently enrolled in school, we offer a limited number of student tickets.
-
-Individual
-==========
-If you are paying out of pocket to attend this conference, please select this ticket type.
-
-Corporate
+Programme
 =========
 
-If your tickets are being paid for by your employer, please select the Corporate rate. Corporate ticket sales enable us to provide financial aid and discounted tickets for those who cannot otherwise afford to attend.
++--------------------------+--------------------------+-------------------+-------------------+
+| Samedi 10 novembre       | Dimanche 11 novembre     | Lundi 12 novembre | Mardi 13 novembre |
++==========================+==========================+===================+===================+
+| Conférence et tutoriels  | Conférence et tutoriels  | Sprints           | Sprints           |
++--------------------------+--------------------------+-------------------+-------------------+
 
-Contributor
+Notez que la participation au sprint est gratuite et que vous n'êtes pas obligé de vous inscrire à la conférence principale!
+
+
+Des billets
 ===========
 
-If you wish to contribute to `financial aid </fa/>`_ fund, please select Contributor rate.
+Il existe plusieurs types de billets disponibles à l'achat.
+L'inscription à Pycon Canada 2018 donne accès aux sessions du 10 au 11 novembre. La participation aux sprints est gratuite.
 
-All conference attendees including event chair, volunteers, speakers pays for PyCon registration. This is beloved philosophy of PyCon. That way, we can achieve the attendees be part of the conference with equal status. `Everybody Pays <http://jessenoller.com/blog/2011/05/25/pycon-everybody-pays>`_
+     * Étudiant (88 $ + taxes et frais)
+     * Individuel (150 $ + taxes et frais)
+     * Corporatif (250 $ + taxes et frais)
+     * Contributeur (600 $ + taxes et frais)
 
-However, this philosophy might be a barrier to someone who can not afford for the ticket or expense of traveling. To mitigate this, PyCon Canada provides `financial aid </fa/>`_ to help people attend PyCon.
+Élèves
+========
 
-Financial aid recipients have some part of their expenses, which may include registration, travel or accomodation, paid from PyCon budget. While we can't cover all expenses for everyone, we try our best to optimally allocate our budget. Profits from  Contributor tickets sales goes to financial aid fund.
+Si vous êtes actuellement inscrit à l'école, nous vous proposons un nombre limité de billets pour étudiants.
+
+Individuel
+==========
+Si vous payez de votre poche pour assister à cette conférence, veuillez sélectionner ce type de billet.
+
+D'entreprise
+=========
+
+Si vos billets sont payés par votre employeur, veuillez sélectionner le tarif entreprise. La vente de billets aux entreprises nous permet de fournir une aide financière et des billets à prix réduit aux personnes qui ne pourraient autrement pas se permettre d’y assister.
+
+Donateur
+===========
+
+Si vous souhaitez contribuer au fonds `aide financière </fr/fa/>`_, veuillez sélectionner le taux du cotisant.
+
+Tous les participants à la conférence, y compris le président de l’événement, les bénévoles et les orateurs, paient pour l’inscription à PyCon. C'est la philosophie bien-aimée de PyCon. De cette façon, nous pouvons obtenir que les participants fassent partie de la conférence avec un statut égal. `Everybody Pays <http://jessenoller.com/blog/2011/05/25/pycon-everybody-pays>`_
+
+Cependant, cette philosophie pourrait constituer un obstacle pour quelqu'un qui ne peut pas se permettre d'acheter le billet ou les frais de déplacement. Pour pallier ce problème, PyCon Canada fournit une `aide financière </fr/fa/>`_ pour aider les gens à assister à PyCon.
+
+Les bénéficiaires de l’aide financière paient une partie de leurs dépenses, qui peuvent inclure l’enregistrement, les voyages ou l’hébergement, à même le budget de PyCon. Bien que nous ne puissions pas couvrir toutes les dépenses pour tout le monde, nous faisons de notre mieux pour allouer notre budget de manière optimale. Les bénéfices des ventes de billets de contributeur vont au fonds d’aide financière.
 
 
 .. raw:: html
