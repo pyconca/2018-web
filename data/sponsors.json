@@ -116,5 +116,20 @@
         "fr": "Shopify is the leading cloud-based, multi-channel commerce platform designed for small and medium-sized businesses. Merchants can use the software to design, set up, and manage their stores across multiple sales channels, including web, mobile, social media, marketplaces, brick-and-mortar locations, and pop-up shops. The platform also provides merchants with a powerful back-office and a single view of their business. The Shopify platform was engineered for reliability and scale, making enterprise-level technology available to businesses of all sizes. Headquartered in Ottawa, Canada, Shopify currently powers over 600,000 businesses in approximately 175 countries and is trusted by brands such as Tesla, Nestle, Rebecca Minkoff, Kylie Cosmetics, and many more."
        }
     }
+  ],
+  "community": [
+    {
+      "name": {
+        "en": "Python Software Foundation",
+        "fr": "Python Software Foundation"
+      },
+      "date": "2018-10-13",
+      "logo": "/images/sponsors/psf.svg",
+      "web_link": "https://www.python.org/psf",
+      "description": {
+        "en": "The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. The majority of the PSF's work is focused on empowering and supporting people within the Python community. The PSF has active grant programs that support sprints, conferences, meet ups, user groups, and Python development efforts all over the world. In addition, the PSF underwrites and runs PyCon US, the primary Python community conference. Being part of the PSF means being part of the Python community. Recently we changed the PSF to an open membership organization, so that everyone who uses and supports Python can join. To learn more, visit https://www.python.org/psf/membership.",
+        "fr": "The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. The majority of the PSF's work is focused on empowering and supporting people within the Python community. The PSF has active grant programs that support sprints, conferences, meet ups, user groups, and Python development efforts all over the world. In addition, the PSF underwrites and runs PyCon US, the primary Python community conference. Being part of the PSF means being part of the Python community. Recently we changed the PSF to an open membership organization, so that everyone who uses and supports Python can join. To learn more, visit https://www.python.org/psf/membership."
+      }
+    }
   ]
 }
