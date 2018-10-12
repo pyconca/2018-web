@@ -16,6 +16,7 @@ MESSAGES = {
     'name-bronze': 'Bronze',
     'name-lanyard': "Lanyard",
     'name-diversity': "Diversity",
+    'name-community': "Community",
     'Download our sponsorship prospectus.': 'Download our sponsorship prospectus.',
     'Keynote Speakers': 'Keynote Speakers',
     'Contact our Sponsorship Committee': 'Contact our Sponsorship Committee',

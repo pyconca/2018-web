@@ -13,6 +13,7 @@ MESSAGES = {
     'name-bronze': 'Bronze',
     'name-lanyard': "Badge",
     'name-diversity': "Diversité",
+    'name-community': "Communauté",
     'Download our sponsorship prospectus.': 'Téléchargez le prospectus de commandites.',
     'Keynote Speakers': 'Présentateurs invités',
     'Contact our Sponsorship Committee': 'Contactez notre équipe de commandites',
@@ -21,7 +22,7 @@ MESSAGES = {
     'time-stop': 'Stop-FR',
     'location': 'Location-FR',
     'title': 'Title-FR',
-    'More Details': 'More Details',
-    'Lunch': 'Lunch',
-    'Break': 'Break',
+    'More Details': 'Plus de détails.',
+    'Lunch': 'Diner',
+    'Break': 'Pause',
 }
