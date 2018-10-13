@@ -1,0 +1,22 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "David Lord"
+
+talk_title: "A Flask request from start to finish"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "flask"
+- "wsgi"
+- "internals"
+
+
+talk_abstract: "Even though Flask is a 'micro' framework, it's doing quite a lot between receiving a request and returning a response. Learn about the lifecycle of a Flask request and how you can get in the middle of it to make your app more powerful."
+
+talk_details: "Your first experience with Flask was probably writing a function that returned a string. Flask got a request from your browser, called the function, and returned the string as a response. Even when you build more complex applications, you may not get more complicated than that. But Flask contains a rich internal API for controlling how a request moves through the application and becomes a response, and it's possible to override or extend every part.
+
+This talk will explore the path a request takes through, from being received from the WSGI server to building a response. See how routing, the request context, event handlers, signals, error handlers, the response formatter, extensions, and middleware all play a part behind the scenes in turning your Python function into a web application. Some common entry points for customization will be demonstrated, but the focus is on the overall execution path.
+
+Flask (and Django, etc.) may seem magical, but they all follow a fundamental set of steps and rules. Demystify Flask and take control of your application."

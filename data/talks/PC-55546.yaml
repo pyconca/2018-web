@@ -1,0 +1,23 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Chris Menezes"
+
+talk_title: "Data Science, from Concept to Production"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "machine learning"
+- "data science"
+- "devops"
+- "systems"
+
+
+talk_abstract: "So you've got an idea for a machine learning product, but how do you actually get it to production? From going on-call for ML models, to ensuring that models built by your data scientists can be used by your engineers, join me for a fast paced guide to the world of data science in production."
+
+talk_details: "Building a great product is hard enough when your system is deterministic. Sprinkle in some probabilities, stochastic data, and unpredictable users? Welcome to the wonderful world of machine learning, where nothing is quite as it seems, and sometimes your models just don't want to behave.
+
+With the proliferation of data science tools, techniques and computational resources, it's becoming easier than ever to _experiment_ with machine learning. However, when you want to go past the experimentation phase and bring a model into a _production environment_ and - *gasp* - actually have customers interact with it, it's a different ball game.
+
+In this talk, I'll take some time to reflect on and share lessons learned from bringing a machine learning system into production. After coming to this talk, attendees will be better equipped to bring their ML experiments from the lab to their customers."

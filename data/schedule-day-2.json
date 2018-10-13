@@ -1,305 +1,299 @@
 {
-    "date": "2018-Nov-10",
+    "date": "2018-Nov-11",
     "events": [
         {
-            "time_start": "8:00",
+            "time_start": "8:30",
             "time_stop": "9:00",
             "type": "break",
             "title": "Breakfast & Registration"
         },
         {
             "time_start": "9:00",
-            "time_stop": "10:30",
+            "time_stop": "10:00",
             "type": "keynote",
             "rooms": [
                 {
                     "location": "Ballroom (2nd Floor)",
-                    "ref": "A-9001"
+                    "ref": "A-9006"
                 }
             ]
         },
         {
-            "time_start": "10:30",
-            "time_stop": "11:10",
+            "time_start": "10:00",
+            "time_stop": "11:00",
+            "type": "keynote",
+            "rooms": [
+                {
+                    "location": "Ballroom (2nd Floor)",
+                    "ref": "A-9007"
+                }
+            ]
+        },
+        {
+            "time_start": "11:00",
+            "time_stop": "11:40",
             "type": "talk",
             "rooms": [
                 {
                     "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-55247"
+                    "ref": "A-9008"
                 },
                 {
                     "location": "Terrace (3rd floor)",
-                    "ref": "PC-54320"
+                    "ref": "PC-52228"
                 },
                 {
                     "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-55477"
+                    "ref": "PC-55208"
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9002"
+                    "ref": "A-9009"
                 }
             ]
         },
         {
-            "time_start": "11:10",
-            "time_stop": "11:50",
-            "type": "talk",
-            "rooms": [
-                {
-                    "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-53534"
-                },
-                {
-                    "location": "Terrace (3rd floor)",
-                    "ref": "PC-54605"
-                },
-                {
-                    "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-55249"
-                },
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "A-9002"
-                }
-            ]
-        },
-        {
-            "time_start": "11:50",
+            "time_start": "11:40",
             "time_stop": "12:20",
             "type": "talk",
             "rooms": [
                 {
                     "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-52064"
+                    "ref": "PC-55494"
                 },
                 {
                     "location": "Terrace (3rd floor)",
-                    "ref": "PC-55508"
+                    "ref": "PC-55003"
                 },
                 {
                     "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-54901"
+                    "ref": "PC-55466"
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9002"
+                    "ref": "A-9009"
                 }
             ]
         },
         {
             "time_start": "12:20",
-            "time_stop": "13:30",
+            "time_stop": "13:00",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "Ballroom (2nd Floor)",
+                    "ref": "A-9010"
+                },
+                {
+                    "location": "Terrace (3rd floor)",
+                    "ref": "PC-55474"
+                },
+                {
+                    "location": "St. Patrick (3rd floor)",
+                    "ref": "PC-53293"
+                },
+                {
+                    "location": "St George (3rd floor)",
+                    "ref": "A-9009"
+                }
+            ]
+        },
+        {
+            "time_start": "13:00",
+            "time_stop": "13:45",
             "type": "lunch_break"
         },
         {
-            "time_start": "13:30",
-            "time_stop": "13:45",
-            "type": "talk",
-            "rooms": [
-                {
-                    "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-54340"
-                },
-                {
-                    "location": "Terrace (3rd floor)",
-                    "ref": "PC-55339"
-                },
-                {
-                    "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-55546"
-                },
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "PC-51523"
-                }
-            ]
-        },
-        {
             "time_start": "13:45",
-            "time_stop": "14:00",
+            "time_stop": "14:45",
+            "type": "keynote",
+            "rooms": [
+                {
+                    "location": "Ballroom (2nd Floor)",
+                    "ref": "A-9011"
+                }
+            ]
+        },
+        {
+            "time_start": "14:45",
+            "time_stop": "15:00",
             "type": "talk",
             "rooms": [
                 {
                     "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-55476"
+                    "ref": "PC-55535"
                 },
                 {
                     "location": "Terrace (3rd floor)",
-                    "ref": "PC-55435"
+                    "ref": "PC-55545"
                 },
                 {
                     "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-55353"
-                },
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "PC-51523"
+                    "ref": "A-9012"
                 }
             ]
         },
         {
-            "time_start": "14:00",
-            "time_stop": "14:15",
+            "time_start": "14:45",
+            "time_stop": "15:45",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "St George (3rd floor)",
+                    "ref": "PC-55495"
+                }
+            ]
+        },
+        {
+            "time_start": "15:00",
+            "time_stop": "15:15",
             "type": "talk",
             "rooms": [
                 {
                     "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-52179"
+                    "ref": "PC-55271"
                 },
                 {
                     "location": "Terrace (3rd floor)",
-                    "ref": "PC-56594"
+                    "ref": "PC-55513"
                 },
                 {
                     "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-53179"
-                },
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "PC-51523"
+                    "ref": "PC-56699"
                 }
             ]
         },
         {
-            "time_start": "14:15",
-            "time_stop": "14:30",
-            "type": "talk",
-            "rooms": [
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "PC-51523"
-                }
-            ]
-        },
-        {
-            "time_start": "14:30",
-            "time_stop": "14:55",
-            "type": "talk",
-            "rooms": [
-                {
-                    "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-55520"
-                },
-                {
-                    "location": "Terrace (3rd floor)",
-                    "ref": "PC-54854"
-                },
-                {
-                    "location": "St. Patrick (3rd floor)",
-                    "ref": "A-9003"
-                },
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "PC-54119"
-                }
-            ]
-        },
-        {
-            "time_start": "14:55",
-            "time_stop": "15:25",
-            "type": "talk",
-            "rooms": [
-                {
-                    "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-55186"
-                },
-                {
-                    "location": "Terrace (3rd floor)",
-                    "ref": "PC-54465"
-                },
-                {
-                    "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-55526"
-                },
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "PC-54119"
-                }
-            ]
-        },
-        {
-            "time_start": "15:25",
+            "time_start": "15:15",
             "time_stop": "15:30",
             "type": "talk",
             "rooms": [
                 {
-                    "location": "St George (3rd floor)",
-                    "ref": "PC-54119"
+                    "location": "Ballroom (2nd Floor)",
+                    "ref": "PC-54865"
+                },
+                {
+                    "location": "Terrace (3rd floor)",
+                    "ref": "PC-53138"
+                },
+                {
+                    "location": "St. Patrick (3rd floor)",
+                    "ref": "A-9013"
                 }
             ]
         },
         {
-            "time_start": "15:25",
-            "time_stop": "15:45",
-            "type": "break",
-            "title": "Break"
-        },
-        {
-            "time_start": "15:45",
-            "time_stop": "16:25",
+            "time_start": "15:30",
+            "time_stop": "16:00",
             "type": "talk",
             "rooms": [
                 {
                     "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-55468"
+                    "ref": "PC-53944"
                 },
                 {
                     "location": "Terrace (3rd floor)",
-                    "ref": "PC-55543"
+                    "ref": "PC-55116"
                 },
                 {
                     "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-55352"
-                },
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "A-9004"
+                    "ref": "PC-55294"
                 }
             ]
         },
         {
-            "time_start": "16:25",
+            "time_start": "15:50",
+            "time_stop": "16:50",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "St George (3rd floor)",
+                    "ref": "PC-53380"
+                }
+            ]
+        },
+        {
+            "time_start": "16:00",
+            "time_stop": "16:20",
+            "type": "break",
+            "title": "Break"
+        },
+        {
+            "time_start": "16:20",
             "time_stop": "17:00",
             "type": "talk",
             "rooms": [
                 {
                     "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-55201"
+                    "ref": "PC-55547"
                 },
                 {
                     "location": "Terrace (3rd floor)",
-                    "ref": "PC-53789"
+                    "ref": "PC-51575"
                 },
                 {
                     "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-55455"
+                    "ref": "PC-53735"
+                }
+            ]
+        },
+        {
+            "time_start": "17:00",
+            "time_stop": "17:30",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "Ballroom (2nd Floor)",
+                    "ref": "PC-55571"
                 },
                 {
-                    "location": "St George (3rd floor)",
-                    "ref": "A-9004"
+                    "location": "Terrace (3rd floor)",
+                    "ref": "PC-52797"
+                },
+                {
+                    "location": "St. Patrick (3rd floor)",
+                    "ref": "A-9014"
                 }
             ]
         },
         {
             "time_start": "17:00",
             "time_stop": "18:00",
-            "type": "keynote",
-            "rooms": [
-                {
-                    "location": "Ballroom (2nd Floor)",
-                    "ref": "A-9005"
-                }
-            ]
-        },
-        {
-            "time_start": "17:00",
-            "time_stop": "17:45",
             "type": "talk",
             "rooms": [
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9004"
+                    "ref": "A-9015"
+                }
+            ]
+        },
+        {
+            "time_start": "17:30",
+            "time_stop": "18:00",
+            "type": "talk",
+            "rooms": [
+                {
+                    "location": "Ballroom (2nd Floor)",
+                    "ref": "A-9016"
+                },
+                {
+                    "location": "Terrace (3rd floor)",
+                    "ref": "PC-55560"
+                },
+                {
+                    "location": "St. Patrick (3rd floor)",
+                    "ref": "PC-52397"
+                }
+            ]
+        },
+        {
+            "time_start": "18:00",
+            "time_stop": "18:30",
+            "type": "keynote",
+            "rooms": [
+                {
+                    "location": "Ballroom (2nd Floor)",
+                    "ref": "A-9017"
                 }
             ]
         }

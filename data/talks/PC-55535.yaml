@@ -1,0 +1,20 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Pippin Lee"
+
+talk_title: "Detecting Supernovas with Python"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "Python"
+- "Astronomy"
+- "Machine Learning"
+
+
+talk_abstract: "There's a telescope that sits on a mountaintop in the Chilean desert––it's job is to capture and help scientists understand the dark matter of our universe. But this isn't a talk just about dark matter, it's about discovering fleeting supernovas in space, while discovering the world of Python."
+
+talk_details: "When you're new to a programming language, they tell you to find a problem that will keep your interest. One year, and 1 million images of space later, we now have the best model for classifying supernovas. The funny thing is, it's actually pretty easy––thanks to Python's open source and data science world.
+
+This talk is a quick walk-through of lessons learned while developing with Python, and proving that writing supernova detection code isn't just for astronomers."

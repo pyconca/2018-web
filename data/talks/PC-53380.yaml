@@ -1,0 +1,33 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Christian Weber"
+
+talk_title: "Engineering Pop Songs with Python"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "python"
+- "music"
+- "learning"
+- "beginner"
+- "intermediate"
+- "open source"
+
+
+talk_abstract: "Have you ever wanted to create music, but were intimidated by learning an instrument? Have you wanted to learn how to program, but we're afraid of learning cryptic commands? If so, this talk is for you? Let's learn the fundamentals of programming to re-create a well known pop song!"
+
+talk_details: "In this workshop, we'll discuss the fundamental structure of programming and music with the use of Python. Python is a widely-used, and human readable programming language that allows users to quickly write code and solve problems. We'll discuss the structure and rules of music:
+
+* Basic Music Theory and Notes
+* The Major Scale
+* The Minor Scale
+* Chords
+
+We'll take all of these concepts, and using the power of Python, re-create a famous pop song using only our computer! This talk is great for understanding the following concepts in Python:
+
+* Basic types
+* Classes  with an OOP paradigm
+* Data Structures
+* Control Flow"

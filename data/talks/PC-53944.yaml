@@ -1,0 +1,23 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "philippe.godbout@cse-cst.gc.ca"
+
+talk_title: "Flying Python – A reverse engineering dive into Python performance"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "fun"
+- "internals"
+- "performance"
+- "python"
+
+
+talk_abstract: "This presentation will look into the inner mechanics of Python in an attempt to suggest a different approach to writing Python code. In doing so, we will offer suggestions about how to make your Python code perform better."
+
+talk_details: "The original idea for this presentation stems from a passion for code performance and reverse engineering.
+While there is a wealth of information on how to make C or C++ code faster, there is generally a lack of deep understanding of the Python interpreter preventing Python programmers from achieving what we call “conscious programming”. To elaborate, programmers often have to resort to using known best practices, sometimes without knowing why a given technique is faster, or more advisable, than another one. Obviously, using best practices is often enough. However it is our opinion that in order to own the craft of programming, programmers should be able to obtain and understand second level knowledge about how their tools and computer actually execute the code they are writing.
+In this talk we will use a case well-known in the Python community: List comprehension vs. Loop for list initialization. However, we will explore it from the point of view of a reverse engineer and treat the code the same way C code would be treated. In doing so, we will question the way code is executed and suggest alternative or interesting angles to apply to programming in Python.
+It should also be noted that in this talk, we purposefully chose to present the subject in the context of the current environmental crisis. Indeed, more performant code would run faster thus use less power to do the same job, potentially resulting in impressive savings in power consumption.
+This presentation has never been presented and has been prepared specially for the PyCon conference."

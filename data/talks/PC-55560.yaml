@@ -1,0 +1,21 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Erik Wright"
+
+talk_title: "Make Testing Agile Again!"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "best practices"
+- "testing"
+
+
+talk_abstract: "Every line should have test coverage, but when projects get sophisticated tests can grow out of control, difficult to write, harder to understand, and damn near impossible to maintain. Learn tricks to achieve high coverage rates with simple, elegant tests that are easy to write, review, and evolve."
+
+talk_details: "The talk will present some of the pitfalls of unit testing, from bloated shared fixtures to monkey patching, characterisation testing, and brittle/broken coverage for error handling.
+
+If you suffer from these problems, unit-testing becomes a grind, certain code seems un-testable, and covered code becomes painful to evolve. You may even find that your tests aren't even covering what you think they are.
+
+With examples from Shopify's data platform, I will show strategies to mitigate these problems and write tests that are crystal clear, robust, and sustainable. Make testing agile again!"

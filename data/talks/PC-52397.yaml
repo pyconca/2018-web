@@ -1,0 +1,38 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Matt Stata"
+
+talk_title: "A Deep Learning Approach to Annotating de novo Transcriptome Assemblies"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "artificial neural networks"
+- "deep learning"
+- "computational biology"
+- "transcriptomics"
+- "graph algorithms"
+- "keras"
+- "tensorflow"
+- "networkx"
+
+
+talk_abstract: "In computational biology, assembling transcriptomes without a reference genome poses a challenge and results in many variant assemblies for each gene.  Artificial neural networks, implemented in Python, perform very well for classifying and clustering these variants and selecting a best isoform."
+
+talk_details: "###The Problem:
+
+The genomes of higher eukaryotic organisms are often large and costly to sequence.  For many research applications, working with transcriptomes (using RNA rather than DNA to sequence only actively expressed genes while avoiding the large regions of 'junk' DNA between coding regions) represents a much more cost-effective alternative.  However, in the absence of a reference genome, *de novo* assembly of RNA-seq data represents a considerable computational challenge: differences in gene expression can lead to transcript abundance levels that vary by several orders of magnitude, complicating detection of sequencing errors, while alternative splice isoforms (which exist for many genes in most eukaryotes) are very difficult to resolve.
+
+###The Solution:
+
+When transcriptome assemblies are aligned in pairs, it is easy for a human observer to distinguish whether they represent variant assemblies of the same gene or genuinely different but related genes based on how sequence variation is distributed across the alignment.  However, the sheer volume of pairwise alignments that would need to be sorted makes the manual approach highly intractable.  Enter Python: properly trained artificial neural networks can perform tens of thousands of such classification tasks in seconds.  And the excellent Python libraries Keras and Tensorflow make implementing, training, and deploying such neural networks straightforward.
+
+###This Talk Will Cover:
+
+- Identification and framing of the problem
+- The process of generating and curating a large volume of suitable training data
+- Experiments with a variety of neural network architectures (convolutional, recurrent, and hybrid)
+- A final multi-network approach which achieves >99% classification accuracy
+- A full pipeline built around this classifier to build a network of assembly variants and choose a best isoform for each cluster
+- The results of this pipeline on real 'data from the wild' - *de novo* transcriptome assemblies of two plant species"

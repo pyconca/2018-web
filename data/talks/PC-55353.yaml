@@ -1,0 +1,40 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Will Barker"
+
+talk_title: "Easy as ABC: A Quick Introduction to Bayesian A/B Testing in Python"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "Python"
+- "Data Analysis"
+- "Beginner"
+- "SciPy"
+- "NumPy"
+- "Data Science"
+- "A/B Testing"
+
+
+talk_abstract: "A/B testing is a valuable and in-demand skills that data analysts, BI developers, and data scientists have in their analytical toolkits. This beginner-oriented talk will explain the basic intuitions and statistical theory behind A/B testing and showcase a simple implementation in Python."
+
+talk_details: "This quick talk is aimed at beginners who are interested in learning about data analysis and are looking for project ideas to add to their portfolios.
+
+## Introduction [1 minute]
+What is A/B testing? Running experiments to take the guesswork out of decision making. Provide successful examples: click-through rate of different web page designs, drug-testing, etc.
+
+## Bayesian Intuitions [2 minutes]
+The Bayesian Framework: Introduce our dueling web-page example. The difference between observed frequency and true frequency. Defining prior probabilities, likelihoods, Posterior probabilities. Establishing our prior - flat or informed? We'll try both!
+
+## The Beta Distribution [1 minute]
+A quick explanation of the beta distribution, its parameters, and how it will model the success rates for both sites. Visualize our priors.
+
+## Conducting the experiment using NumPy, SciPy, and Matplotlib [3 minutes]
+Randomly generating our data for both our test sites and their defining their true success rates. Adding our data to our priors and visualizing our posteriors. What difference does having an informed prior have? Understanding the posteriors.
+
+## Checking the results [2 minutes]
+Examining the cumulative distributions of our posteriors. Bayesian error bars. Looking at the area under the curve. P-Values
+
+## Conclusion [1 minute]
+Overview of steps. Project ideas for collecting and A/B testing real data (e.g. polling, habit tracking). Concluding thoughts and useful resources for more info."

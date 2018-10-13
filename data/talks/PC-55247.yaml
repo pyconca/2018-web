@@ -1,0 +1,20 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Eleanor Stribling"
+
+talk_title: "A Bossy Sort of Voice: Uncovering gender bias in Harry Potter with Python"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "python"
+- "natural language processing"
+- "matplotlib"
+- "digital humanities"
+- "harry potter"
+
+
+talk_abstract: "Harry Potter is an incredibly popular franchise that shaped a generation, but it's also been critiqued for its biased portrayal of female characters. Does that claim hold up to a quantitative analysis? In this talk we'll use Python and Natural Language Processing techniques to find out."
+
+talk_details: "The Harry Potter series is an incredibly popular franchise that shaped a generation, but it's also been critiqued in the media and academics for its sometimes sexist portrayal of female characters.    This talk uses Natural Language Processing techniques and Python to do the first quantitative analysis of gender bias in the language used to describe women and girls in the series, with a focus on Hermione Granger, the unsung hero of the story.  Attendees will see techniques for reading and parsing large text files, leveraging grammatical rules to isolate the right words for the analysis, and data visualization techniques, using Python, the Natural Language Processing Toolkit (NLTK), and Matplotlib.  After the talk, the audience will be able to get started on using the 'magic' of programming to isolate biased language in any piece of text."

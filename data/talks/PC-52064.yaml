@@ -1,0 +1,25 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Jason White"
+
+talk_title: "When Technical Debt Metastasizes: My Sabbatical with the Government of Canada"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "agile"
+- "government"
+- "CDS"
+- "career"
+- "open source"
+
+
+talk_abstract: "Jason took a short leave of absence to help the Canadian federal government adopt modern software development practices. In this talk he’ll talk about his reasons for pursuing this opportunity, whether he’d recommend it to others, and lessons learned along the way."
+
+talk_details: "From January to March 2018, I took a leave of absence from my job in data engineering at Shopify to go work for the newly-formed Canadian Digital Service. CDS is a digital transformation office in the Canadian federal government, inspired by similar organizations such as 18F in the United States, GDS in the United Kingdom, and others.
+
+In this talk, I’ll describe why I felt that taking a short leave of absence from a job I loved would be beneficial to my personal development, and whether or not it yielded the results I was looking for. I’ll also talk about how working to promote modern software development practices helped to crystallize the reasons we use them in my own mind.
+
+Finally, I’ll share a few lessons that I took back with me when I returned from CDS, and how they have impacted my work at Shopify.
+"

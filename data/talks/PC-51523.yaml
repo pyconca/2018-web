@@ -1,0 +1,50 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "TODO"
+
+talk_title: "Terraform + Salt for Cloud"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "python"
+
+
+talk_abstract: "TODO: details"
+
+talk_details: "Restat locus huic disputationi vel maxime necessarius de amicitia, quam, si voluptas summum sit bonum, affirmatis nullam
+omnino fore. de qua Epicurus quidem ita dicit, omnium rerum, quas ad beate vivendum sapientia comparaverit, nihil esse
+maius amicitia, nihil uberius, nihil iucundius. nec vero hoc oratione solum, sed multo magis vita et factis et moribus
+comprobavit. quod quam magnum sit fictae veterum fabulae declarant, in quibus tam multis tamque variis ab ultima
+antiquitate repetitis tria vix amicorum paria reperiuntur, ut ad Orestem pervenias profectus a Theseo. at vero Epicurus
+una in domo, et ea quidem angusta, quam magnos quantaque amoris conspiratione consentientis tenuit amicorum greges! quod
+fit etiam nunc ab Epicureis. sed ad rem redeamus; de hominibus dici non necesse est.
+
+Tribus igitur modis video esse a nostris de amicitia disputatum. alii cum eas voluptates, quae ad amicos pertinerent,
+negarent esse per se ipsas tam expetendas, quam nostras expeteremus, quo loco videtur quibusdam stabilitas amicitiae
+vacillare, tuentur tamen eum locum seque facile, ut mihi videtur, expediunt. ut enim virtutes, de quibus ante dictum
+est, sic amicitiam negant posse a voluptate discedere. nam cum solitudo et vita sine amicis insidiarum et metus plena
+sit, ratio ipsa monet amicitias comparare, quibus partis confirmatur animus et a spe pariendarum voluptatum seiungi non
+potest. Atque ut odia, invidiae, despicationes adversantur voluptatibus, sic amicitiae non modo fautrices
+fidelissimae, sed etiam effectrices sunt voluptatum tam amicis quam sibi, quibus non solum praesentibus fruuntur, sed
+etiam spe eriguntur consequentis ac posteri temporis. quod quia nullo modo sine amicitia firmam et perpetuam
+iucunditatem vitae tenere possumus neque vero ipsam amicitiam tueri, nisi aeque amicos et nosmet ipsos diligamus,
+idcirco et hoc ipsum efficitur in amicitia, et amicitia cum voluptate conectitur. nam et laetamur amicorum laetitia
+aeque atque nostra et pariter dolemus angoribus. Quocirca eodem modo sapiens erit affectus erga amicum, quo in se ipsum,
+quosque labores propter suam voluptatem susciperet, eosdem suscipiet propter amici voluptatem. quaeque de virtutibus
+dicta sunt, quem ad modum eae semper voluptatibus inhaererent, eadem de amicitia dicenda sunt. praeclare enim Epicurus
+his paene verbis: 'Eadem', inquit, 'scientia confirmavit animum, ne quod aut sempiternum aut diuturnum timeret malum,
+quae perspexit in hoc ipso vitae spatio amicitiae praesidium esse firmissimum..
+
+Sunt autem quidam Epicurei timidiores paulo contra vestra convicia, sed tamen satis acuti, qui verentur ne, si amicitiam
+propter nostram voluptatem expetendam putemus, tota amicitia quasi claudicare videatur. itaque primos congressus
+copulationesque et consuetudinum instituendarum voluntates fieri propter voluptatem; cum autem usus progrediens
+familiaritatem effecerit, tum amorem efflorescere tantum, ut, etiamsi nulla sit utilitas ex amicitia, tamen ipsi amici
+propter se ipsos amentur. etenim si loca, si fana, si urbes, si gymnasia, si campum, si canes, si equos, si ludicra
+exercendi aut venandi consuetudine adamare solemus, quanto id in hominum consuetudine facilius fieri poterit et iustius?
+
+Sunt autem, qui dicant foedus esse quoddam sapientium, ut ne minus amicos quam se ipsos diligant. quod et posse fieri
+intellegimus et saepe etiam videmus, et perspicuum est nihil ad iucunde vivendum reperiri posse, quod coniunctione tali
+sit aptius. Quibus ex omnibus iudicari potest non modo non impediri rationem amicitiae, si summum bonum in voluptate
+ponatur, sed sine hoc institutionem omnino amicitiae non posse reperiri."
