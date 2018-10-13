@@ -1,0 +1,28 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Dave Astels"
+
+talk_title: "CircuitPython: Python on hardware (or 'Why I stopped worrying and learned to love the snake')"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "Python"
+- "iot"
+- "open source"
+- "low level"
+- "microcontrollers"
+
+
+talk_abstract: "Python has made the jump to embedded software running on microcontroller hardware.
+
+This talk will introduce CircuitPython: a fork of MicroPython (a implementation of Python 3 designed to run on small hardware) that takes it to exciting new hardware and makes it very beginner/learner friendly."
+
+talk_details: "Python has seen a great deal of use in the higher level application space: web, data analysis, desktop apps, etc.  Recently it's been moving in an exciting new direction: small hardware based around microcontrollers.  Where we used to be required to use C/C++ (commonly in the Arduino environment), we can now use Python.
+
+MicroPython is a new, opensource implementation of Python3 for this type of environment, including the BBC Micro:bit.  CiruitPython is a fork of MicroPython that supports new hardware and provides a very beginner/learner friendly way to deploy code to the hardware: connect your board via USB and a drive appears, drop code onto the drive and it runs. Edit code directly on the drive. Save it and it runs. Connect to the board via a terminal emulator (e.g. screen) and you can drop into a Python REPL. A recent addition has been a compatibility layer for Raspberry Pi making CircuitPython code portable between the various microcontroller systems and the Pi.
+
+The talk will introduce CircuitPython and various boards from Adafruit that support it as well as the Mu python programmign environment that has support for CircuitPython and associated hardware.
+
+There will be live demos."

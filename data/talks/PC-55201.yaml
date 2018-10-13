@@ -1,0 +1,23 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Dan Taylor"
+
+talk_title: "Get Productive with Python in Visual Studio Code"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "debugging"
+- "web development"
+- "best practices"
+- "tooling"
+
+
+talk_abstract: "Visual Studio Code is the most popular tool used by developers in Stack Overflow's 2018 developer survey, and is quickly growing in popularity among Python developers. In this talk we'll show how to get productive and take full advantage of VS Code has to offer Python developers."
+
+talk_details: "In this demo driven session, we’ll show you how to use the cross-platform, free, and open source Visual Studio Code for all your Python development needs. From editing, to linting, to debugging and more, you will learn how to get started, as well as tips and tricks to save you time in your everyday development lifecycle.
+
+If you’re an experienced Python developer, you will learn how to take advantage of all of Visual Studio Code’s capabilities to maximize your productivity. Whether you are new or experienced with Visual Studio Code you will take away valuable information from this talk.
+
+We will start by showing how to create a new application, configure linting, manage virtual environments, and run code. Then we’ll show how to use more powerful features like debugging, unit testing, working with Docker containers, and finally using VS Live Share for collaborative editing and debugging with your co-workers."

@@ -1,0 +1,40 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "dgmouris@gmail.com"
+
+talk_title: "Zero to API, creating an authenticated api from scratch"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "python"
+- "django"
+- "django-rest-framework"
+- "beginner learning api"
+- "beginner python"
+- "web frameworks"
+- "api"
+- "web development"
+
+
+talk_abstract: "Zero to API is a tutorial to help beginners create an authenticated API from scratch using Django, Django Rest Framework and Restauth. This is the backbone of web and mobile apps."
+
+talk_details: "# Abstract
+
+Zero to API is a tutorial to help beginners create an authenticated API from scratch using Django, Django Rest Framework and Restauth.
+
+# Description
+
+This is a beginner tutorial that helps users get up and running with Django and Django Rest Framework with the goal of creating an authenticated API. Since API's are essential for mobile and web apps, this tutorial is a way to help beginner pythonistas get their app users logged in, and use authentication on each request for their API. It will lead them through creating a Django project, installing the packages required, creating the authentication and then ultimately going through a basic Django project to create an authenticated API. It will also lead attendees through using some useful tools for testing and debugging Restful APIs on their own.
+This course has been presented before at the Edmontonpy meetup to a crowd of 30-40 pythonistas, in June 2018. A link to the tutorial is [here](https://github.com/dgmouris/zero_to_api).
+
+# About Dan Mouris
+
+I'm currently a Senior Developer at the Organic Box in Edmonton, Alberta. At the Organic Box, we deliver custom organic food orders to customers as well doing logistics for other companies that provide other types of food delivery services. Our two person development team does all of the development, infrastructure, and operations for our systems.
+Previously, I've worked on an open data project at the Government of Alberta, and at Strathcom Media, which is a web company that focuses on car dealerships. I also have a variety of other experience, including doing networking at a large telecommunications company and working as a systems engineer.
+
+I am a proud member of the organizing committee at the Edmonton Python meetup (edmontonpy.com) and I have spoken regularly and extensively in this setting. My past presentations include game development, version control and various web development topics. I enjoy bringing new members into the Python community in Edmonton, and watching our meetups grow month by month!
+
+I live in Edmonton, Alberta with my girlfriend and our three adorable cats; if I am not programming, I can be found doing Crossfit, hiking or playing board games with friends!
+"

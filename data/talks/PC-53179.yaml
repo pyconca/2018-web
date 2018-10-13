@@ -1,0 +1,18 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Roberto Rocha"
+
+talk_title: "Using Python to find Russian troll tweets aimed at Canada"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "pandas"
+- "regex"
+- "text mining"
+
+
+talk_abstract: "Paid internet trolls linked to the Russian government tried to influence the U.S. election with divisive social media posts. But they also targeted Canadians, at a smaller scale. Here's how I used Python to find tweets aimed at dividing Canadians among a trove of 3 million troll tweets."
+
+talk_details: "It's known that the Internet Research Agency, a troll farm in St. Petersburg, tried to sow division among Americans by flooding social media with inflammatory content on both sides of a debate. A trove of 3 million tweets associated with these troll accounts was made public. Using pandas and some regex, I found about 8,000 that were seemingly aimed at polarizing Canadians. This talk will briefly go over this research that was made into a news story for the CBC."

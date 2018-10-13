@@ -1,0 +1,24 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Brett Cannon"
+
+talk_title: "Replacing Guido"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "community and culture"
+- "open source"
+
+
+talk_abstract: "On July 12, 2018, Guido van Rossum gave himself 'a permanent vacation from being BDFL' with no guidance on how to proceed. This talk will discuss how the Python development team has tried to handle situation and where things currently stand."
+
+talk_details: "When the [Great Guido Mic Drop](https://mail.python.org/pipermail/python-committers/2018-July/005664.html) occurred, the Python development team was left with no mechanism or guidance to replace Guido's decision-making role. With no succession plan in place, the Python development team has been left to make any and all decisions on how to replace Guido's role in Python's development process (we even have to decide how to decide).
+
+This talk will go over what has transpired since Guido's announcement:
+
+- How we organized ourselves
+- The proposed governance models
+- How a model will be chosen
+- Where things currently stand"

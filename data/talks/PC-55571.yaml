@@ -1,0 +1,19 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Tomas Babej"
+
+talk_title: "The landscape of Quantum Computing in Python"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "python"
+- "canada"
+- "quantum"
+
+talk_abstract: "Quantum computing is an exciting scientific field that is coming out of the lab to the real world (e.g. IBM, Google). Let's dive into basics of quantum computing and overview the tools that are available in Python. By the end of the talk, you will use them to program a quantum computer yourself."
+
+talk_details: "The paradigm of quantum computing might be just 2-3 years away from having practical relevance for certain applications. However, the ability to solve problems on these devices is still relatively scarce. In this talk, we will overview the main quantum computing paradigms and demonstrate how to solve problems on these devices with Python. We cover multiple players in the field (IBM, Google, Rigetti, D-Wave,..) and help the audience to navigate rather complex landscape of quantum computing in Python.
+
+The talk is self-contained. The attendees of this talk do not need to have any background knowledge in physics or quantum computing prior to the talk. "

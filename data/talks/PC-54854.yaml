@@ -1,0 +1,23 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Jeannette Washington"
+
+talk_title: "Your Special Abilities and Python"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "best practices"
+- "accessibility"
+- "diversity"
+- "inclusion"
+- "community and culture"
+- "dyslexia"
+- "web development"
+- "python"
+
+
+talk_abstract: "The most unstoppable programmers have been in a situation where a system has gone down or their code broke, and they were responsible for getting it back up. Their resilience can almost always be attributed to their special abilities."
+
+talk_details: "A high incident of dyslexia and ADHD traits are found in computer programmers. With today's ever-changing technology-reliant world, join me for an all hands on deck 'Think Aloud' conversation about special abilities such as dyslexia and ADHD. With that in mind, let’s steer the strengths, park the misconceptions and drive the tech hacks meant to empower programmers who exhibit special abilities. "

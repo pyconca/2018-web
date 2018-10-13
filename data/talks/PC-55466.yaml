@@ -1,0 +1,33 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Tyler"
+
+talk_title: "Trio: next-gen async I/O for humans and snake people"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "asyncio"
+- "trio"
+- "concurrency"
+- "network programming"
+- "async"
+- "for-humans"
+- "async-await"
+- "io"
+
+
+talk_abstract: "[Trio](https://github.com/python-trio/trio) is a new async I/O framework and burgeoning ecosystem for concurrent programming. Join me in discovering the problems with past approaches and how `trio` sets a new paradigm for deterministic concurrency now being adopted in `asyncio`!"
+
+talk_details: "[Trio](https://trio.readthedocs.io/en/latest/) is a new asynchronous library for I/O based concurrency in Python emphasizing correctness, causality and simplicity. It attempts to make composing and understanding async code easy for both the beginner and expert alike. Concepts introduced in `trio`'s design are now being adopted in the standard library's `asyncio` as well as being considered or used in modern languages like [Rust](https://www.reddit.com/r/programming/comments/8es8x3/notes_on_structured_concurrency_or_go_statement/dxy07yx/) and [Kotlin](https://medium.com/@elizarov/structured-concurrency-722d765aa952). Join me as I go through the differences between `async`/`await` libraries in the Python ecosystem and discuss how `trio` attempts to improve on prior approaches such that you'll never *spawn a task willy-nilly* ever again.
+
+The general outline will include:
+
+- An initial overview on the pitfalls (discovered) in `asyncio`
+- A brief look at how `curio` took on the experiment of doing away with *callbacks* and *futures* and provides a more explicit task spawning API
+- A detailed dive into how `trio` took `curio`'s *coroutines-only* approach and additionally introduced an API enforcing *structured concurrency* through its use of a hierarchical task model, *nurseries* and *cancel scopes*
+- A quick summary of existing libraries and ongoing efforts in the `trio` community to unify async I/O frameworks
+- Thoughts on how other concurrency models can adopt *trionic* concepts for use in multi-core and distributed computing
+
+The end goal for this talk to enable anyone who has not yet (heavily) used `async`/`await` to feel very confident and excited that they can begin learning Python's approach to cooperative multi-tasking, writing production grade systems, and partaking in a fast growing and welcoming community with `trio`!"

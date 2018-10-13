@@ -6,6 +6,7 @@ import random
 from pathlib import Path
 from jinja2 import FileSystemLoader
 from jinja2 import Environment
+from talk_ids import TALK_IDS
 
 # Basic setup
 current_folder = Path(__file__).resolve().parent
@@ -19,21 +20,16 @@ tag_mandatory = [
     'expert',
 ]
 tag_optional = [
-    'django',
-    'web-development',
-    'data-science',
-    'pandas',
-    'flask',
-    'jypter',
-    'machine-learning',
-    'artificial-intelligence',
+    'python',
+    'talk',
 ]
 
 ID_START = 9001
 ID_STOP = 9026
 
 # Loop to create files
-for talk_number in range(ID_START, ID_STOP + 1):
+# for talk_number in range(ID_START, ID_STOP + 1):
+for talk_number in TALK_IDS:
     filename = str(talk_number) + '.yaml'
     title_words = random.randint(4, 12)
     abstract_sentences = random.randint(2, 6)
@@ -42,7 +38,7 @@ for talk_number in range(ID_START, ID_STOP + 1):
     # Creating the tag list
     tag_list = []
     tag_list.append(random.choice(tag_mandatory))
-    random_tags = random.sample(tag_optional, random.randint(0,4))
+    random_tags = random.sample(tag_optional, random.randint(0,2))
     tag_list += random_tags
 
     context = {

@@ -1,0 +1,33 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Paul Ganssle"
+
+talk_title: "Gathering Related Functionality: Patterns for Clean API Design"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "python"
+- "library"
+- "api design"
+- "clean code"
+
+
+talk_abstract: "This talk will arm you with some tools to design a library that 'just works', but also has obvious escape hatches to handle corner cases. It covers several patterns for cleanly organizing related and overlapping functionality in a way that statisfies both humans and static analysis tools."
+
+talk_details: "What do you do when you have to choose between designing your function for one of two common use cases?
+How about when the same logical operations (say, multiplication or concatenation) need to have different implementations depending on the type of the arguments they are applied to?
+These kinds of questions can be vexing when trying to design a clean, well-scoped API.
+This talk will cover several strategies for grouping related functionality in a way that presents a logically clean interface to both humans and static analysis tools like type checkers and document generators.
+
+This talk covers:
+
+- Alternate constructors with @classmethod
+
+- Namespacing functions under a class with @staticmethod
+
+- Dispatch by type
+
+- A new convention for namespacing functions: ``variants``
+"

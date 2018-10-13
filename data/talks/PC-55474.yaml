@@ -1,0 +1,17 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Éric Araujo"
+
+talk_title: "Python packaging for everyone"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "best practices"
+- "packaging"
+
+
+talk_abstract: "Packaging in Python used to be a complicated affair, for technical and human reasons.  Thankfully, in recent years the Python community has developed robust tools and practices.  If you are wondering how to develop and distribute your project, this talk will show you the best of 2018!"
+
+talk_details: "Ever had trouble with setup.cfg and MANIFEST.in?  Not sure how to define a dependency only needed to run tests?  Or newcomer to Python and a bit lost with distutils, setuptools and other packaging tools?  You are not alone!  For a long time, distributing Python libraries seemed a lot of more complicated that it should have been.  These days, we can choose between mature tools and promising new systems, with clearly shared specifications to encourage interoperability.  This talk will take you on a tour of the packaging tools of 2018.  We will see sample code using a few selected tools, so that you can walk out and know which to use for your project depending on its needs and existing setup."

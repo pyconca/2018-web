@@ -1,0 +1,24 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Daniel Snider"
+
+talk_title: "The state of Open Source across 3 industries: Robotics, Cloud Computing, and Cancer Research"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "open source"
+- "python"
+- "robotics"
+- "cancer research"
+- "cloud computing"
+- "ROS"
+- "OpenStack"
+- "CellProfiler"
+- "developer productivity"
+
+
+talk_abstract: "I posit that well-made, open-source platforms with industry specific goals put more new tools in developer's hands each year than anything else. This talk will compare and get people excited about large open-source projects. What makes them great, what doesn't, and where to get started in Python."
+
+talk_details: "I posit that well-made, open-source platforms with industry specific goals put more new software tools in developer's hands each year than anything else. In this talk, we'll compare and get excited about three large scale open-source collaborations: in robotics (ROS), cloud computing (OpenStack), and cancer research (CellProfiler). What makes them great, what doesn't, and where to get started in Python."

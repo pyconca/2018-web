@@ -1,0 +1,83 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Solmaz"
+
+talk_title: "Keynote talk"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "keynote"
+- "python"
+
+
+talk_abstract: "TODO: add details here"
+
+talk_details: "Sunt enim levia et perinfirma, quae dicebantur a te, animi conscientia improbos excruciari, tumetiam poenae timore, qua
+aut afficiantur aut semper sint in metu neafficiantur aliquando. non oportet timidum aut inbecillo animofingi non bonum
+illum virum, qui, quicquid fecerit, ipse se crucietomniaque formidet, sed omnia callide referentem ad utilitatem,
+acutum, versutum, veteratorem, facile ut excogitet quo modoocculte, sine teste, sine ullo conscio fallat.
+
+An tu me de L. Tubulo putasdicere? qui cum praetor quaestionem inter sicarios exercuisset, itaaperte cepit pecunias ob
+rem iudicandam, ut anno proximo P.Scaevola tribunus plebis ferret ad plebem vellentne de ea requaeri. quo plebiscito
+decreta a senatu est consuli quaestio Cn.Caepioni. profectus in exilium Tubulus statim nec respondere ausus;erat enim
+res aperta. Non igitur de improbo, sed callidoimprobo quaerimus, qualis Q. Pompeius in foedere Numantinoinfitiando
+fuit, nec vero omnia timente, sed primum qui animiconscientiam non curet, quam scilicet comprimere nihil est negotii.is
+enim, qui occultus et tectus dicitur, tantum abest ut seindicet, perficiet etiam ut dolere alterius improbe facto
+videatur.quid est enim aliud esse versutum?
+
+Memini me adesse P. Sextilio Rufo, cum is rem ad amicos ita deferret, se esse heredem Q. Fadio Gallo, cuius in
+testamento scriptum esset se ab eo rogatum ut omnishereditas ad filiam perveniret. id Sextilius factum negabat.poterat
+autem inpune; quis enim redargueret? nemo nostrum credebat, eratque veri similius hunc mentiri, cuius interesset, quam
+illum, qui id se rogasse scripsisset, quod debuisset rogare. addebat etiamse in legem Voconiam iuratum contra eam facere
+non audere, nisialiter amicis videretur. aderamus nos quidem adolescentes, sedmulti amplissimi viri, quorum nemo censuit
+plus Fadiae dandum, quamposset ad eam lege Voconia pervenire. tenuit permagnam Sextiliushereditatem, unde, si secutus
+esset eorum sententiam, qui honestaet recta emolumentis omnibus et commodis anteponerent, nummumnullum attigisset. num
+igitur eum postea censes anxio animo autsollicito fuisse? nihil minus, contraque illa hereditate dives obeamque rem
+laetus. magni enim aestimabat pecuniam non modo noncontra leges, sed etiam legibus partam. quae quidem vel cumpericulo
+est quaerenda vobis; est enim effectrix multarum etmagnarum voluptatum.
+
+Ut igitur illis, qui, recta ethonesta quae sunt, ea statuunt per se expetenda, adeunda sunt saepepericula decoris
+honestatisque causa, sic vestris, qui omniavoluptate metiuntur, pericula adeunda sunt, ut adipiscantur magnasvoluptates.
+si magna res, magna hereditas agetur, cum pecuniavoluptates pariantur plurimae, idem erit Epicuro vestro faciendum, si
+suum finem bonorum sequi volet, quod Scipioni magna gloriaproposita, si Hannibalem in Africam retraxisset. itaque
+quantumadiit periculum! ad honestatem enim illum omnem conatum suumreferebat, non ad voluptatem. sic vester sapiens
+magno aliquoemolumento commotus cicuta, si opus erit, dimicabit.
+
+Occultum facinus esse potuerit, gaudebit; deprehensus omnem poenam contemnet. erit enim instructusad mortem
+contemnendam, ad exilium, ad ipsum etiam dolorem. quemquidem vos, cum improbis poenam proponitis, inpetibilem facitis,
+cum sapientem semper boni plus habere vultis, tolerabilem. Sedfinge non solum callidum eum, qui aliquid improbe faciat,
+verumetiam praepotentem, ut M. Crassus fuit, qui tamen solebat uti suobono, ut hodie est noster Pompeius, cui recte
+facienti gratia esthabenda; esse enim quam vellet iniquus iustus poterat inpune. quammulta vero iniuste fieri possunt,
+quae nemo possitreprehendere!
+
+Si te amicus tuus moriensrogaverit, ut hereditatem reddas suae filiae, nec usquam idscripserit, ut scripsit Fadius, nec
+cuiquam dixerit, quid facies?tu quidem reddes; ipse Epicurus fortasse redderet, ut SextusPeducaeus, Sex. F., is qui hunc
+nostrum reliquit effigiem ethumanitatis et probitatis suae filium, cum doctus, tum omnium viroptimus et iustissimus, cum
+sciret nemo eum rogatum a Caio Plotio, equite Romano splendido, Nursino, ultro ad mulierem venit eiquenihil opinanti
+viri mandatum euit hereditatemque reddidit. sed egoex te quaero, quoniam idem tu certe fecisses, nonne intellegas
+eomaiorem vim esse naturae, quod ipsi vos, qui omnia ad vestrumcommodum et, ut ipsi dicitis, ad voluptatem referatis,
+tamen eafaciatis, e quibus appareat non voluptatem vos, sed officium sequi, plusque rectam naturam quam rationem pravam
+valere.
+
+Si scieris, inquit Carneades, aspidem occulte latere uspiam, et velle aliquem inprudentem supeream assidere, cuius mors
+tibi emolumentum futura sit, improbefeceris, nisi monueris ne assidat, sed inpunite tamen; scisse enimte quis coarguere
+possit? Sed nimis multa. perspicuum est enim, nisi aequitas, fides, iustitia proficiscantur a natura, et si omniahaec ad
+utilitatem referantur, virum bonum non posse reperiri;deque his rebus satis multa in nostris de re publica libris
+suntdicta a Laelio.
+
+Transfer idem ad modestiam veltemperantiam, quae est moderatio cupiditatum rationi oboediens. satisne ergo pudori
+consulat, si quis sine teste libidini pareat?an est aliquid per se ipsum flagitiosum, etiamsi nulla comiteturinfamia?
+Quid? fortes viri voluptatumne calculis subductis proeliumineunt, sanguinem pro patria profundunt, an quodam animi
+ardoreatque impetu concitati? utrum tandem censes, Torquate, Imperiosumillum, si nostra verba audiret, tuamne de se
+orationem libentiusauditurum fuisse an meam, cum ego dicerem nihil eum fecisse suacausa omniaque rei publicae, tu contra
+nihil nisi sua? si vero idetiam explanare velles apertiusque diceres nihil eum fecisse nisivoluptatis causa, quo modo
+eum tandem laturum fuisse existimas?
+
+Esto, fecerit, si ita vis, Torquatus propter suas utilitates - malo enim dicere quamvoluptates, in tanto praesertim viro
+- num etiam eius collega P.Decius, princeps in ea familia consulatus, cum se devoverat et equoadmisso in mediam aciem
+Latinorum irruebat, aliquid de voluptatibussuis cogitabat? ubi ut eam caperet aut quando? cum sciret confestimesse
+moriendum eamque mortem ardentiore studio peteret, quamEpicurus voluptatem petendam putat. quod quidem eius factum
+nisiesset iure laudatum, non esset imitatus quarto consulatu suofilius, neque porro ex eo natus cum Pyrrho bellum gerens
+consulcecidisset in proelio seque e continenti genere tertiam victimamrei publicae praebuisset."

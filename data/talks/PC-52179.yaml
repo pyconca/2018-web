@@ -1,0 +1,26 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Pradeep Reddy Raamana"
+
+talk_title: "Why is Python ideal for research software development?"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "machine learning"
+- "best practices"
+- "data science"
+- "open source"
+- "community and culture"
+- "devops"
+- "systems"
+
+
+talk_abstract: "Python is showing an incredible growth in many fields, including academia. By enumerating the challenges we face in sustainable research software development and how Python's unique strengths are catering to them, I hope to explain this growth and encourage further adoption for scientific computing!"
+
+talk_details: "There is a good reason why more Americans have searched for Python than for Kim Kardashian in the last year. In fact, there are many good reasons, for why Python is undergoing incredible growth in broad array of fields. In this talk, I focus on its growth in research software development. I would start by enumerating the [many] desirable qualities and requirements for sustainable research software development. They include being highly readable, having low barriers to learn and collaborate, rapid prototyping, ability to easily grow a script into a big project, and the ability to quickly make packages of all sizes distributable. In addition, support for data gathering (esp. over the web), high interoperability with other languages (for pipeline building) and high-performance computing are highly desirable, given the complexity and size of the academic data is only growing. Then, I hope to show how the unique strengths of Python are catering to these requirements well. In addition, combined with a strong undercurrent of open source, multidisciplinary research and need for web-accessibility, python is proving to be ideal for research software development. 
+
+Moreover, I hope to convey the recommendations from the academic/research software community to further improve the status quo, such as leaning towards open software validation as a scientific society, establishing easy and agnostic validation guidelines, and badges to encourage the adoption of best practices, eventually leading to their endorsement. As it is difficult to communicate this multi-dimensional topic, I encourage you to read my blog post on this topic, focused on neuroinformatics can be found on my blogpost: https://crossinvalidation.com/2018/05/03/lets-focus-our-neuroinformatics-community-efforts-in-python-and-on-software-validation/
+
+Thanks and looking forward to joining PyCon folks!"
