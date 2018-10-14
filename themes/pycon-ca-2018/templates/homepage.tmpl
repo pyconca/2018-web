@@ -12,7 +12,7 @@
 
     <div class="row row-grid justify-content-center my-5">
     {% for level, sponsor_list in global_data['sponsors'].items() %}{% for sponsor in sponsor_list %}
-      <div class="{% if level == 'gold' %}col-sm-6{% elif level == 'silver' %}col-sm-4{% else %}col-sm-2{% endif %} my-4">
+      <div class="col-md-3">
         <a href="#{{ level }}-{{ loop.index }}" class="w-100 h-100 d-flex justify-content-center">
           <img class="w-100 h-100" src="{{ sponsor['logo'] }}">
         </a>
