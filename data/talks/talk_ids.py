@@ -85,4 +85,6 @@ TALK_IDS = [
     'PC-55560',
     'PC-52397',
     'A-9017',  # closing remarks
+
+    'A-9018',  # empty filler
 ]

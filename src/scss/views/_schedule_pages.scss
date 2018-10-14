@@ -17,9 +17,9 @@ Styles for the schedule table
     top: $schedule-location-position;
     z-index: 3;
 
-    @include media-breakpoint-up(lg) {
-        top: $navbar-height;
-    }
+    //@include media-breakpoint-up(lg) {
+    //    top: $navbar-height;
+    //}
 
 }
 
@@ -28,11 +28,17 @@ Styles for the schedule table
     top: $schedule-talk-position;
     z-index: 2;
 
-    @include media-breakpoint-up(lg) {
-        top: $navbar-height;
-    }
+    //@include media-breakpoint-up(lg) {
+    //    top: $navbar-height;
+    //}
 
 }
+
+.schedule-talk-column {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 .schedule-date {
     background-color: $gray-200;
@@ -113,8 +119,11 @@ Styles for the schedule table
             transform: translateY(-50%);
 
             text-align: center;
-            font-size: 1.4rem;
-            // margin-bottom: 0;
+            font-size: 1.2rem;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 1.0rem;
+            }
         }
     }
 }
