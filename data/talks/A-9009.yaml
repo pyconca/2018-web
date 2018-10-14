@@ -2,15 +2,15 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: "TODO"
+speaker_name: "TDB"
 
-talk_title: "TODO: sponsor workshop #2"
+talk_title: "sponsor workshop #2"
 
 # At least 1 tag is necessary!!
 talk_tags:
 - "intermediate"
 
 
-talk_abstract: "TODO"
+talk_abstract: "TDB"
 
 talk_details: ""
