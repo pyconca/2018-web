@@ -1,0 +1,19 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Rebecca Tessier"
+
+talk_title: "How not to overfit your predictive models"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "machine learning"
+- "data science"
+
+
+talk_abstract: "This talk will give a brief overview of validation & selection techniques for predictive models and common occurrences of overfitting when building models in python. We'll walk through some strategies to mitigate overfitting and build better models."
+
+talk_details: "Overfitting is a common problem for anyone who builds statistical models in python and it can be challenging to 1) identify that a model is overfitting and 2) to figure out how to maintain good model performance while also maintaining that performance over time. 
+
+We'll start by walking through some examples of detecting an overfitting model and then I'll give a brief overview of some of my favourite techniques for dealing with overfitting including using regularization, ensemble methods & cross validation, and techniques for feature generation and selection. Hopefully this talk will give a quick and informative cheat sheet to people starting out or trying to level up their data science skills, so they can have a more critical eye when they're building their next model in python."

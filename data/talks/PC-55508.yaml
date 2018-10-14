@@ -1,0 +1,25 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Chris AtLee"
+
+talk_title: "How Mozilla uses Python to build and ship Firefox"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "open source"
+- "python"
+- "industry"
+- "release engineering"
+
+
+talk_abstract: "Mozilla ships a new version of Firefox every 6-8 weeks, new Betas are released twice a week, and Nightly builds are released twice a day.
+
+Learn how Python is used at Mozilla in all stages of the build and release pipeline to bring Firefox to the world!"
+
+talk_details: "Mozilla uses Python at nearly all stages of the build and release process. The goal of this talk is  to give an overview of the various ways Python are used in a large scale infrastructure for shipping desktop and mobile applications.
+
+In brief the flow is: version control (hg in python) -> taskcluster (node) -> build system (python) -> signing (python) -> publishing (python). Firefox’s update server (Balrog) is completely written in Python and serves millions of requests each day.
+
+All of our code is developed in the open, and so you can follow along and see for yourself how Mozilla builds and ships Firefox to the world!"

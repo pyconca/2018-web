@@ -1,6 +1,6 @@
-.. title: Schedule - Day 1
-.. slug: schedule-day-1
-.. date: 2018-09-26 21:40:32 UTC+04:00
+.. title: Schedule - Day 2
+.. slug: schedule-day-2
+.. date: 2018-10-12 23:44:32 UTC+04:00
 .. type: text
 
 
@@ -12,5 +12,5 @@
 %}}
 
 {{% schedule_overview
-    details='schedule-day-1'
+    details='schedule-day-2'
 %}}

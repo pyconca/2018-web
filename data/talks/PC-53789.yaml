@@ -1,0 +1,31 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "A. Jesse Jiryu Davis"
+
+talk_title: "API Evolution the Right Way"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "open source"
+- "best practices"
+
+
+talk_abstract: "Library maintainers, how can you innovate without breaking projects that depend on you? Follow semantic versioning, add APIs conservatively, add parameters compatibly, write an upgrade guide, use DeprecationWarnings, and publish a deprecation policy. Break backwards compatibility rarely and wisely."
+
+talk_details: "I won't do Q & A during the time slot, but I'll encourage people to come talk with me in the hallway afterward.
+
+(1 minute) Good library maintainers keep their promises to the people who depend on them: they release bugfixes, add useful new features, and continue to innovate. Perhaps most importantly, they never introduce backward-breaking changes unexpectedly. How can you be a good library maintainer and ensure you simultaneously innovate and preserve compatibility?
+
+(5 minutes) The bedrock of library compatibility is semantic versioning: it's a convention that communicates with version numbers whether a release contains bugfixes, new features, or compatibility-breaking changes. Tools like 'pip' understand semantic version numbers, and PEP 440 defines the syntax for version numbers.
+
+(5 minutes) You can reduce the need for backward-breaking changes by keeping your API as small as possible. Make no public method, class, function, or attribute without a good reason. Adding more public APIs is easy, after all, but removing them is painful. If you don't know whether a feature is worth supporting forever, introduce it as 'provisional' to gauge interest.
+
+(5 minutes) Add parameters compatibly. New positional parameters must have default values and be placed at the end of the parameter list. Adding new keyword arguments is less risky, which is why Python 3 introduces syntax for keyword-only arguments. Future-proof your functions and methods using this new syntax.
+
+(5 minutes) Sometimes in the course of human events it becomes necessary to make incompatible changes. Be conservative: the more effort you demand from your existing users, the less likely they are to upgrade. In the worst case you can be stuck in the same predicament as the Python team, maintaining both versions for many years. Compare each change's benefit to its cost.
+
+(8 minutes) If you choose to break compatibility, treat your users gently. First implement the new API and raise a DeprecationWarning from the old API, and wait for the next major release before deleting the old API. This method allows your users to rewrite their code incrementally. Plus, they will be able to test changes to their code, and changes in your library, independently from each other and isolate the cause of bugs. Publish a deprecation policy document that explains how you will maintain your library's API, and teach users how to check for DeprecationWarnings and update their code as your library evolves.
+
+(1 minute) Conclusion: If you follow these steps you will act as a trustworthy maintainer for your library's users, while preserving your freedom to innovate."

@@ -1,0 +1,24 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Abbas Taher"
+
+talk_title: "How to Aggregate Interest Data and User “Likes” using PySpark"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "Python"
+- "PySpark"
+- "Big Data"
+- "Marketing"
+- "Likes"
+- "Apache Spark"
+
+
+talk_abstract: "Today, Big Data is becoming an important component of IT in large organizations. The talk presents three methods to aggregate big data using Python dictionaries and the API of Apache Spark known as PySpark. The talk tries to simplify complex methods and presents them in a simple approach."
+
+talk_details: "Apache Spark is one the most popular Big Data frameworks and PySpark is the Python API for using Spark. PySpark is a great choice when you need to scale up your jobs to work with big data files. 
+
+In this short overview, we shall present 3 methods to aggregate big data. First, we shall use Python dictionaries, then we shall present the two methods “GroupBy” and “ReduceBy” to do the same aggregation work using PySpark. The three approaches will be presented and explained using a Jupyter Notebook.
+"

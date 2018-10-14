@@ -1,0 +1,42 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Shagun Sodhani"
+
+talk_title: "Numpy To PyTorch"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "data science"
+- "pytorch"
+- "numpy"
+- "best practices"
+
+
+talk_abstract: "Numpy is the de-facto choice for array-based operations while PyTorch largely used as a deep learning framework. At the core, both provide a powerful N-dimensional tensor. This talk would focus on the similarities and difference between the two and how we can use PyTorch to augment Numpy."
+
+talk_details: "Numpy is the de-facto choice for performing array-based operations while PyTorch is largely used as ['a deep learning framework for fast, flexible experimentation'](https://pytorch.org/). Even though the two descriptions sound different, both the libraries provide access to a powerful N-dimensional array (or as we say in PyTorch - tensor). PyTorch supports tensor computations (similar to Numpy) with strong GPU acceleration. In some sense, PyTorch can be used as a replacement for Numpy to use the power of GPUs (even if your use-case is not a machine learning use case). The cost of converting a numpy ndarray to torch tensor is quite negligible as they share the same storage. Unfortunately, PyTorch cannot be used like a drop-in replacement for Numpy though PyTorchs is ['expect to get closer and closer to NumPy’s API where appropriate'](https://pytorch.org/2018/01/19/a-year-in.html)
+
+Content:
+
+* One slide about 'what is Numpy'
+* Few slides about 'what is ndarray' and 'operations supported' by ndarray.
+    * These slides would not go into the internals and are presented to keep the presentation self-contained.
+* Few slides about 'what is PyTorch'
+    * These slides would provide a brief background information about PyTorch
+* Few slides about 'what is torch.Tensor'
+* One slide about how to convert Numpy ndarray to torch Tensor and vice-versa
+* Some slides about syntactical similarities and difference between the two apis
+    * This would be a very important part of the presentation.
+    * Here we would spend time on subtle differences between the two apis - eg Numpy uses `axis` while PyTorch uses `dim` and gotchas to look out for.
+    * We would talk about operations that are not yet supported in PyTorch.
+    * A small pointer about the performance of PyTorch tensors and Numpy ndarrays.
+    * I am expecting a few questions from the audience during this part
+* Some slides about moving tensors to GPU
+    * How to move tensor
+    * Things to take care of - eg do not move data between every operation. If your data lies on GPU, try to do as many operations there as possible.
+* How to use other numerical computation libraries with PyTorch
+* Conclusion
+
+I would be using a pdf for the presentation where some slides would link to self-contained [colab notebooks](https://colab.research.google.com/) for demoing the code. Note that I am specifically avoiding the perspective of how to train neural networks using PyTorch and want to focus on the interplay between PyTorch and Numpy. "
