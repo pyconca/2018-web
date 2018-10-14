@@ -3,7 +3,7 @@
 <div class="container schedule-table">
     {% for event in global_data[details]['events'] %}
         <div class="row">
-            <!-- Date+Time --> 
+            <!-- Date+Time -->
             <!-- <div class="col schedule-date-sticky">
                 <div class="row"> -->
                     <div class="col-5 schedule-date schedule-date-sticky">
@@ -35,12 +35,12 @@
                                         <p><span>{{ event['time_stop'] }}</span></p>
                                     </div>
                                 </div>
-                            </div>                    
-                        </div>                
-                    </div>   
+                            </div>
+                        </div>
+                    </div>
                 <!-- </div>
             </div> -->
-            
+
             <!-- What kind of event? -->
             {% if event['type'] == 'keynote' %}
                 <!-- Need outer column to connect location and talk-info -->
@@ -53,7 +53,7 @@
                                 <div class="row schedule-locationdata schedule-locationdata-sticky">
                                     <div class="col-3 location-icon">
                                         <!-- icon is different between keynotes and talks -->
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>                                        
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
                                         <p>{{ messages("location") }}</p>
                                     </div>
                                     <div class="col-9 location-text">
@@ -71,9 +71,11 @@
                                                 <i class="fa fa-bullhorn" aria-hidden="true"></i>
                                                 {{  global_data['talks/' + room['ref']]['talk_title']  }}
                                             </p>
+                                            {% if global_data['talks/' + room['ref']]['speaker_name'] %}
                                             <p class="talk-speaker">
                                                 {{  global_data['talks/' + room['ref']]['speaker_name']  }}
                                             </p>
+                                            {% endif %}
                                         </a>
                                     </div>
                                     <div class="schedule-talk-tags">
@@ -83,11 +85,13 @@
                                             {% endfor %}
                                         </p>
                                     </div>
+                                    {% if global_data['talks/' + room['ref']]['talk_abstract'] %}
                                     <div class="schedule-talk-abstract">
                                         <p>
                                             {{  global_data['talks/' + room['ref']]['talk_abstract']  }}
                                         </p>
                                     </div>
+                                    {% endif %}
                                     {% if global_data['talks/' + room['ref']]['talk_details'] %}
 {#                                        <div class="schedule-talk-more">#}
 {#                                            <a class="btn btn-block" href="/talks/talk-{{ room['ref'] }}/" role="button">{{ messages("More Details") }}</a>#}
@@ -165,7 +169,7 @@
                             <div class="row schedule-locationdata schedule-locationdata-talks schedule-locationdata-sticky">
                                 <div class="col-3 location-icon">
                                     <!-- icon is different between keynotes and talks -->
-                                    <i class="fa fa-location-arrow" aria-hidden="true"></i>                                        
+                                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
                                     <p>{{ messages("location") }}</p>
                                 </div>
                                 <div class="col-9 location-text">
@@ -184,8 +188,8 @@
                                 </p>
                             </div>
                         </div>
-                    </div>                    
-                </div>            
+                    </div>
+                </div>
             {% elif event['type'] == 'break' %}
                 <!-- Nest outer column with inner row -->
                 <div class="col-12">
@@ -195,7 +199,7 @@
                             <div class="row schedule-locationdata schedule-locationdata-talks schedule-locationdata-sticky">
                                 <div class="col-3 location-icon">
                                     <!-- icon is different between keynotes and talks -->
-                                    <i class="fa fa-location-arrow" aria-hidden="true"></i>                                        
+                                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
                                     <p>{{ messages("location") }}</p>
                                 </div>
                                 <div class="col-9 location-text">
