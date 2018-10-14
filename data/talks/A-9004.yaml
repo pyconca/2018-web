@@ -2,9 +2,9 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: "Holden and Caeyln Tutorial"
+speaker_name: ""
 
-talk_title: "TBD"
+talk_title: "Holden and Caeyln Tutorial"
 
 # At least 1 tag is necessary!!
 talk_tags:
@@ -12,7 +12,7 @@ talk_tags:
 - "python"
 
 
-talk_abstract: “To be announced”
+talk_abstract: "To be announced"
 
 # TODO: Add contents.
 
