@@ -162,29 +162,6 @@
             ]
         },
         {
-            "time_start": "14:15",
-            "time_stop": "14:30",
-            "type": "talk",
-            "rooms": [
-                {
-                    "location": "Ballroom (2nd Floor)",
-                    "ref": "A-9018"
-                },
-                {
-                    "location": "Terrace (3rd floor)",
-                    "ref": "A-9018"
-                },
-                {
-                    "location": "St. Patrick (3rd floor)",
-                    "ref": "A-9018"
-                },
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "PC-51523"
-                }
-            ]
-        },
-        {
             "time_start": "14:30",
             "time_stop": "14:55",
             "type": "talk",
@@ -223,29 +200,6 @@
                 {
                     "location": "St. Patrick (3rd floor)",
                     "ref": "PC-55526"
-                },
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "PC-54119"
-                }
-            ]
-        },
-        {
-            "time_start": "15:25",
-            "time_stop": "15:30",
-            "type": "talk",
-            "rooms": [
-                {
-                    "location": "Ballroom (2nd Floor)",
-                    "ref": "A-9018"
-                },
-                {
-                    "location": "Terrace (3rd floor)",
-                    "ref": "A-9018"
-                },
-                {
-                    "location": "St. Patrick (3rd floor)",
-                    "ref": "A-9018"
                 },
                 {
                     "location": "St George (3rd floor)",
@@ -313,29 +267,6 @@
                 {
                     "location": "Ballroom (2nd Floor)",
                     "ref": "A-9005"
-                }
-            ]
-        },
-        {
-            "time_start": "17:00",
-            "time_stop": "17:45",
-            "type": "talk",
-            "rooms": [
-                {
-                    "location": "Ballroom (2nd Floor)",
-                    "ref": "A-9018"
-                },
-                {
-                    "location": "Terrace (3rd floor)",
-                    "ref": "A-9018"
-                },
-                {
-                    "location": "St. Patrick (3rd floor)",
-                    "ref": "A-9018"
-                },
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "A-9004"
                 }
             ]
         }
