@@ -2,7 +2,7 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: "TBD"
+speaker_name: ""
 
 talk_title: "closing remarks"
 
@@ -11,6 +11,8 @@ talk_tags:
 - "intermediate"
 
 
-talk_abstract: "TBD"
+talk_abstract: “To be announced”
+
+# TODO: Add contents.
 
 talk_details: ""
