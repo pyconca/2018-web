@@ -8,6 +8,8 @@
     event_dates='10th-13th November 2018'
     button_text='Buy a ticket'
     button_link='/registration'
+    button2_text='Schedule'
+    button2_link='/schedule-day-1/'
     city_banner='Where is the event?'
     city_heading='Toronto, Ontario'
     city_sub_heading='Pycon Canada is being held at the Chestnut Residence & Conference Centre'

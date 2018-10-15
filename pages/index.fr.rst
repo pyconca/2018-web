@@ -8,6 +8,8 @@
     event_dates='10 au 13 novembre 2018'
     button_text='Buy a ticket'
     button_link='/fr/registration'
+    button2_text='Schedule'
+    button2_link='/schedule-day-1/'
     city_banner='Where is the event?'
     city_heading='Toronto, Ontario'
     city_sub_heading='Pycon Canada is being held at the Chestnut Residence & Conference Centre'
@@ -86,7 +88,7 @@
     speaker_title='12 au 13 nov 2018'
     speaker_image='/images/myles-braithwaite-img-0376.jpg'
     speaker_description='Les sprints se tiendront sur deux jours le 12 et
-    13 novembre.'
+    13 novembre. Wiki: https://github.com/pyconca/2018-wiki/wiki'
 %}}
 
 {{% sponsors_overview %}}
