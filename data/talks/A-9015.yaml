@@ -2,17 +2,20 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: ""
+speaker_name: "Ankit Mittal"
 
-talk_title: "To be announced"
+talk_title: "Building your own crypto exchange in async python"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "intermediate"
+- "advanced"
+- "asyncio"
 
 
-talk_abstract: ""
+talk_abstract: "Asyncio is a relatively mystical approach to building end to end applications. In this tutorial I will demonstrate how to build a single threaded non-blocking limit order book exchange. It will have a Rest API to accept new orders, and websockets for subscribing to updates."
 
 # TODO: Add contents.
 
-talk_details: ""
+talk_details: "The asyncio tutorial you have always wanted, We go beyond the world of sleeps and http requests. I will start with few exercises on connecting to a database (redis / postgres), creating a rest API in a non blocking async fashion. We will go over defining our crypto-token exchange, flesh out the specs. I intend to create an exchange where you can place the orders, orders will either get executed immediately or go into the queue. You can cancel the orders, modify them until execution. We will write a limit orderbook execution engine. In the end, we will write a simple websocket for subscribing to market updates. During the process I will share * how to reason about asyncio * How to debug / test async code.
+
+Attendees will need working knowledge of Python, some idea about asyncio and a laptop with python 3.7 installed (3.5+ will work). Apart from this we will also need Redis 5.0."
