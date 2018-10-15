@@ -90,7 +90,7 @@ speaker_name='Graham Toppin' speaker_title='Python Lover' speaker_image='/images
     speaker_title='12th-13th, November, 2018'
     speaker_image='/images/myles-braithwaite-img-0376.jpg'
     speaker_description='Development Sprints will be held over two days on
-    November 12th and 13th.'
+    November 12th and 13th. The wiki to sign up projects and to check out projects is available here: https://github.com/pyconca/2018-wiki/wiki'
 %}}
 
 {{% sponsors_overview %}}
