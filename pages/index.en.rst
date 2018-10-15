@@ -5,7 +5,7 @@
 .. template: landing_page.tmpl
 
 {{% front_banner
-    event_dates='10th-13th November 2018'
+    event_dates='Tutorial and talks on November 10th-11th and development sprints November 12th and 13th.'
     button_text='Buy a ticket'
     button_link='/registration'
     city_banner='Where is the event?'
