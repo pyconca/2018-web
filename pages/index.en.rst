@@ -27,6 +27,18 @@
     Eaton Centre and a 10 minute walk from Toronto’s Financial District.'
 %}}
 
+{{% speaker_right
+    speaker_name='Any accommodations available?'
+    speaker_title='DoubleTree by Hilton Hotel Toronto Downtown'
+    speaker_image='/images/double_tree.jpg'
+    speaker_description='Set in the center of Toronto\'s financial, government, research, medical,
+    education and shopping districts, DoubleTree by Hilton Hotel Toronto Downtown offers a quiet
+    retreat in the heart of a vibrant, urban location. They have generously offered our visitors
+    a special rate of $169+tax/night. <a href="https://secure3.hilton.com/en_US/dt/reservation/book.htm?inputModule=HOTEL&ctyhocn=YTOCSDT&spec_plan=CDTPYC&arrival=20181109&departure=20181111&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">
+    You can use this link to make your reservation.</a>'
+%}}
+
+
 {{% post_mid_title
     title_text='Keynote Speakers'
 %}}
