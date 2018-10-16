@@ -5,7 +5,7 @@
 .. template: landing_page.tmpl
 
 {{% front_banner
-    event_dates='10 au 13 novembre 2018'
+    event_dates='Conference: 10-11 November 2018<br>Sprints: 12-13 November 2018'
     button_text='Buy a ticket'
     button_link='/fr/registration'
     button2_text='Schedule'
