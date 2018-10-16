@@ -88,7 +88,7 @@
     speaker_title='12 au 13 nov 2018'
     speaker_image='/images/myles-braithwaite-img-0376.jpg'
     speaker_description='Les sprints se tiendront sur deux jours le 12 et
-    13 novembre. Wiki: https://github.com/pyconca/2018-wiki/wiki'
+    13 novembre. Wiki: <a href="https://github.com/pyconca/2018-wiki/wiki">https://github.com/pyconca/2018-wiki/wiki</a>'
 %}}
 
 {{% sponsors_overview %}}
