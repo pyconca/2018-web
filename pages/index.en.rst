@@ -17,13 +17,13 @@
 
 {{% speaker_left
     speaker_name='Where is the event?'
-    speaker_title='Chestnut Residence & Conference Center'
+    speaker_title='Chestnut Residence & Conference Centre'
     speaker_image='/images/chestnut_hotel_logo.png'
     speaker_description='We are hosting Pycon Canada 2018 at the wonderful
-    Chestnut Residence & Conference Center. Located adjacent to the city landmark of
-    Yonge and Dundas Square and directly north of the city’s Financial District,
+    Chestnut Residence & Conference Centre. Located adjacent to the city landmark of
+    Yonge and Dundas Square and directly north of the city\'s Financial District,
     Chestnut Conference Centre is in the heart of the downtown core. It is only
-    a 5 minute walk from the St Patrick subway station, 10 minute walk from
+    a 5 minute walk from the St. Patrick subway station, 10 minute walk from
     Eaton Centre and a 10 minute walk from Toronto’s Financial District.'
 %}}
 
