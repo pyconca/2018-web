@@ -4,15 +4,33 @@
 
 speaker_name: ""
 
-talk_title: "To be announced"
+talk_title: "Building and scaling Deep Learning Services with Deep Learning Frameworks, Flask, Kubernetes and docker"
 
 # At least 1 tag is necessary!!
 talk_tags:
 - "intermediate"
 
 
-talk_abstract: ""
+talk_abstract: "Deep learning systems have to be engineered in order to be used in solving an end to end business problem. One of the challenges in architecting and building deep learning systems are the areas of maintainability, scalability and deployments. I would like to discuss on how we solve this at omnius."
 
 # TODO: Add contents.
 
-talk_details: ""
+talk_details: "Building technology platforms with AI systems requires a lot more thought process in terms of architecture and choice of tooling. The reason for this is because there is need for brainstorming around scaling, monitoring, deploying and managing the deep learning service as you would manage any other service.
+
+In this talk, I will be talking about how to take Deep Learning systems to production with the use of packages and tools like:
+
+- Keras / Tensorflow / Pytorch - Deep learning frameworks providing the flexibility to write custom deep learning functions with lower level APIs
+
+- Flask - Flask is a micro web-framework that allows you to write REST endpoints with minimal effort. Its simple and easy to use. When paired up with Gunicorn, you can take it into production with no effort. The idea of using Flask is to provide REST end points for prediction.
+
+- Kubernetes & Docker- Managing microservices which have a bunch of dependencies is hard to manage. Docker provides the capability of putting all the required pieces of software to run a service into one single logical box, thereby managing all the dependencies with ease. Kubernetes on the other hand provides the capability to orchestrate and manage these docker containers and manage the infrastructure in automated fashion with inbuilt service discovery, load balancing, self correction systems.
+
+- ElasticSearch, Logstash & Kibana - Logging is one of the most crucial components of managing and running systems in production. With ELK, you can ship and manage logs from various services and this provides a way to evaluate how the prediction system is working in production.
+
+- Prometheus - A tool to monitor Kubernetes clusters. This is a neat dashboard integrated with Grafana that shows the consumption of CPU and memory for systems in production, helping in evaluating how big or small the clusters should be in order to keep up with SLAs.
+
+- Model Versioning - A model versioning system implemented in python to manage deep learning models and version them, thereby providing the capability to reproduce the results from various experiments.
+
+- Managing Data sets - An introduction to Git LFS and how to manage datasets. Extremely useful when working with the thought process of reproducible results.
+
+The focus of this talk to is to shed light on the qualms of architecting, devops and management of deep learning systems in production."
