@@ -2,7 +2,7 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: "dgmouris@gmail.com"
+speaker_name: "Dan Mouris"
 
 talk_title: "Zero to API, creating an authenticated api from scratch"
 
