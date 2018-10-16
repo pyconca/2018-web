@@ -2,7 +2,7 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: "philippe.godbout@cse-cst.gc.ca"
+speaker_name: "Philippe"
 
 talk_title: "Flying Python – A reverse engineering dive into Python performance"
 
