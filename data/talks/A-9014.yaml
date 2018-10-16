@@ -2,17 +2,23 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: ""
+speaker_name: "Sai Srirampur"
 
-talk_title: "To be announced"
+talk_title: "Scaling multi-tenant apps using the Django ORM and Postgres"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "intermediate"
+- "django"
+- "postgres"
+- "databases"
+- "python"
+- "distrbuted databases"
 
 
-talk_abstract: ""
+talk_abstract: "In the real-world there are 10000s of B2B companies. Their app-stack fits the multi-tenant model - each tenant(customer) deals with it’s own data. It is super critical to build scalable applications which gives the company leeway to grow as more customers get on-boarded. Let’s learn how to do that!"
 
 # TODO: Add contents.
 
-talk_details: ""
+talk_details: "There are a number of data architectures you could use when building a multi-tenant app. Some, such as using one database per customer or one schema per customer. These two options scale to an extent when you have say 10s of tenants. However as you start scaling to hundreds and thousands of tenants, you start running into challenges both from performance and maintenance of tenants perspective.
+
+You could solve the above problem by adding the notion of tenancy directly into the logic of your SaaS application. How to implement/automate this in Django-ORM is a challenge? We will talk about how to make the django app tenant aware and at a broader level explain how scale out applications that are built on top of Django ORM and follow a multi tenant data model. We’d take postgresql as our database of choice and the logic/implementation can be extended to any other relational databases as well."
