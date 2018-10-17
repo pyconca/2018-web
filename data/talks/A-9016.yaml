@@ -2,13 +2,17 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: ""
+speaker_name: "Nischal Harohalli Padmanabha"
 
 talk_title: "Building and scaling Deep Learning Services with Deep Learning Frameworks, Flask, Kubernetes and docker"
 
 # At least 1 tag is necessary!!
 talk_tags:
 - "intermediate"
+- "machine learning"
+- "data science" 
+- "microservices performance"
+- "best practices"
 
 
 talk_abstract: "Deep learning systems have to be engineered in order to be used in solving an end to end business problem. One of the challenges in architecting and building deep learning systems are the areas of maintainability, scalability and deployments. I would like to discuss on how we solve this at omnius."
