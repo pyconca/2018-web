@@ -4,23 +4,20 @@
 
 speaker_name: "Sachin Agarwal"
 
-talk_title: "Terraform + Salt for Cloud"
+talk_title: "Kubernetes 101 for Python Programmers"
 
 # At least 1 tag is necessary!!
 talk_tags:
+- "kubernetes"
 - "devops"
-- "cloud"
 - "automation"
 
 
 talk_abstract: |
-  Terraform is the go-to multi-cloud orchestration tool and Salt is a well known Python-based configuration management system. Pair them together and you have an end-to-end cloud infrastructure management system. Learn how to leverage the power of the duo to master cloud devops automation.
+Learn the ABCs of Kubernetes and how to get started on using  managed containers for your python development on your local machine and also for production deployments on a cloud provider-managed Kubernetes cluster.
 
 talk_details: |
-  HashiCorp Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned. Salt (sometimes referred to as the SaltStack Platform) is a Python-based open-source configuration management software and remote execution engine. Supporting the “Infrastructure as Code” approach to deployment and cloud management.
+Kubernetes is transforming deployment and operations workflows from server/VM based full-stack deployments to container-based application deployments. The container approach drives consistency across development, test and production environments (artifact immutability) and increases efficiency due to lower OS stack overheads of running containers.  
 
-  Terraform can be used to control infrastructure deployments and lifecycles in multiple clouds (orchestration) whereas salt is used to configure and manage servers and other devices.
+In this tutorial we will learn how to get started with Kubernetes, a container orchestration engine that brings benefits like automated rollouts and rollbacks, active service health montioring, automatic scaling and infrastructure-as-code SCM benefits to deployment tasks. Starting from a brief overview of Docker (the most popular container runtime) we will go over how to install and start Kubernetes using a local (laptop) installation method called Minikube. We will get familiar with the Kubernetes CLI (kubectl) and then create our first django deployment on our local Kubernetes cluster. Then we'll go over some architectural choices when using Kubernetes in a production setting - for example choosing storage, databases and other stateful components. Finally we will deploy our django application on a cloud-based Kubernetes cluster and try out some of the nifty Kubernetes features such as scaling and automated rollouts and rollbacks. We will end the tutorial with a list of resources and next-steps you can take to get up to speed with Kubernetes.
 
-  In this tutorial we will cover the ABCs of Terraform and Salt: we will learn how to deploy different types of virtual machines on different platforms using Terraform and configure them with Salt. We will learn how the two can be linked and used to deploy a complete Django stack; the example will highlight the one of the biggest advantages of the approach - freedom from cloud vendor lock-in - so you can be confident your stack is easily movable from one infrastructure provider to another.
-
-  The tutorial will be partly based on the terrasalt open source project, link: https://github.com/bigbitbus/terrasalt
