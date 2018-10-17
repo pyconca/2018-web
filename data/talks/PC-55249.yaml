@@ -8,7 +8,6 @@ talk_title: "CircuitPython: Python on hardware (or 'Why I stopped worrying and l
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "Python"
 - "iot"
 - "open source"
 - "low level"

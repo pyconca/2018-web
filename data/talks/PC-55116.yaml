@@ -8,13 +8,14 @@ talk_title: "My code is not for you: Protecting Python developer’s identity in
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "python"
+- "analytics"
+- "identity protection"
 
 
 talk_abstract: "OSS is open to anyone by design, whether it is developers or malicious users. Authors typically hide their identity through nicknames, however they have no protection against attribution techniques. This talk will present attacks on Python developers identity and discuss protection methods."
 
 talk_details: "The rapid increase in open source software is an attestation of a new standard in software development. Today over 80 percent of any software code is open source, according to a recent study by Sonatype. Python replaced Java as the second-most popular language on GitHub, with 40 percent more pull requests opened this year than last by GitHub Inc.'s annual report.
- 
+
 As the popularity of open source software increases, so do privacy concerns of individual contributors that often wish to remain anonymous. The majority of open-source repositories (GitHub, Google Code, SourceForge, etc.) allow users to keep their identity private while sharing their code. While in the past it was often sufficient, with the evolution of author attribution technology the question of how private the identity of software developers is becoming increasingly important.
 
 Software author attribution aims to decide who wrote a computer program, given its source or binary code.  The main premise of this technique lies in the assumption that programmers unconsciously tend to use the same coding patterns. These patterns comprised of a number of distinctive features allow to characterise a programmer’s style and uniquely identify his/her works. Applications of software author attribution are wide and include software forensics - where the analyst wants to determine the author of a program given a set of potential programmers, plagiarism detection - where the analyst wants to identify illicit code reuse, ghostwriting detection - where given a suspicious piece of code the analysis wants to determine if it has been plagiarized from one of the programs in a given set, and in general any scenario where software ownership needs to be determined.

@@ -8,7 +8,6 @@ talk_title: "Gathering Related Functionality: Patterns for Clean API Design"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "python"
 - "library"
 - "api design"
 - "clean code"

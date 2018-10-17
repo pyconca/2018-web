@@ -11,7 +11,6 @@ talk_tags:
 - "data science"
 - "machine learning"
 - "open source"
-- "python"
 
 
 talk_abstract: "Want to know how Spotify, Amazon, and Netflix generate recommendations for their users? This talk walks through the steps involved in building a recommendation pipeline, from data cleaning, hyperparameter tuning, model training and evaluation."

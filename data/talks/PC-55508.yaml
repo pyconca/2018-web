@@ -9,7 +9,6 @@ talk_title: "How Mozilla uses Python to build and ship Firefox"
 # At least 1 tag is necessary!!
 talk_tags:
 - "open source"
-- "python"
 - "industry"
 - "release engineering"
 

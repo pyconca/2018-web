@@ -8,7 +8,6 @@ talk_title: "Identifying influencers via Slack Messages in Python using Network 
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "python"
 - "datascience"
 - "nlp"
 - "graphtheory"

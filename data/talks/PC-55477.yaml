@@ -8,7 +8,6 @@ talk_title: "Lessons learned migrating a large python application"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "python"
 - "best practices"
 - "django"
 - "web development"

@@ -11,7 +11,6 @@ talk_tags:
 - "fun"
 - "internals"
 - "performance"
-- "python"
 
 
 talk_abstract: "This presentation will look into the inner mechanics of Python in an attempt to suggest a different approach to writing Python code. In doing so, we will offer suggestions about how to make your Python code perform better."
