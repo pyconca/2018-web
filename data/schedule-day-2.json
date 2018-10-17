@@ -71,7 +71,7 @@
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9009"
+                    "ref": "A-9009a"
                 }
             ]
         },
@@ -94,7 +94,7 @@
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9009"
+                    "ref": "A-9009a"
                 }
             ]
         },
@@ -156,7 +156,7 @@
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "PC-55495"
+                    "ref": "PC-55495a"
                 }
             ]
         },
@@ -179,35 +179,12 @@
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "PC-55495"
+                    "ref": "PC-55495a"
                 }
             ]
         },
         {
             "time_start": "15:30",
-            "time_stop": "15:45",
-            "type": "talk",
-            "rooms": [
-                {
-                    "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-53944"
-                },
-                {
-                    "location": "Terrace (3rd floor)",
-                    "ref": "PC-55116"
-                },
-                {
-                    "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-55294"
-                },
-                {
-                    "location": "St George (3rd floor)",
-                    "ref": "PC-55495"
-                }
-            ]
-        },
-        {
-            "time_start": "15:45",
             "time_stop": "16:00",
             "type": "talk",
             "rooms": [
@@ -225,7 +202,7 @@
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9018"
+                    "ref": "PC-55495a"
                 }
             ]
         },
@@ -300,7 +277,7 @@
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9015"
+                    "ref": "A-9015a"
                 }
             ]
         },

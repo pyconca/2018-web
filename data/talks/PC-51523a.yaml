@@ -4,15 +4,14 @@
 
 speaker_name: ""
 
-talk_title: "Sponsor Workshop #1"
+talk_title: ""
 
 # At least 1 tag is necessary!!
 talk_tags:
 - "python"
-- "workshop"
 
 
-talk_abstract: "<br/><br/><br/><br/>To be announced"
+talk_abstract: "<a href='/schedule-day-1#talk-PC-51523'><p>previous session continued</p></a>"
 
 # TODO: Add contents.
 
