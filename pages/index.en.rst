@@ -37,7 +37,7 @@
     a special rate of $169+tax/night. <a href="https://secure3.hilton.com/en_US/dt/reservation/book.htm?inputModule=HOTEL&ctyhocn=YTOCSDT&spec_plan=CDTPYC&arrival=20181109&departure=20181111&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">
     You can use this link to make your reservation.</a>
     <p>
-    Childcare is available for the duration of the conference (Nov 10-11) and included in the ticket price. You need to buy a ticket in order to apply for childcare, when you buy a ticket you'll get an option to receive childcare package. Age limit for childcare is 10 years old.
+    Childcare is available for the duration of the conference (Nov 10-11) and included in the ticket price. You need to buy a ticket in order to apply for childcare, when you buy a ticket you\'ll get an option to receive childcare package. Age limit for childcare is 10 years old.
     </p>'
 %}}
 

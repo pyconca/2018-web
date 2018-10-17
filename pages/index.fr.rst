@@ -35,10 +35,10 @@
     education and shopping districts, DoubleTree by Hilton Hotel Toronto Downtown offers a quiet
     retreat in the heart of a vibrant, urban location. They have generously offered our visitors
     a special rate of $169+tax/night. <a href="https://secure3.hilton.com/en_US/dt/reservation/book.htm?inputModule=HOTEL&ctyhocn=YTOCSDT&spec_plan=CDTPYC&arrival=20181109&departure=20181111&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">
-    You can use this link to make your reservation.</a>'
+    You can use this link to make your reservation.</a>
     <p>
-    Les services de garde sont disponibles pour la durée de la conférence (du 10 au 11 novembre) et sont inclus dans le prix du billet. Vous devez acheter un billet pour pouvoir faire une demande de garde d'enfants. Lorsque vous achetez un billet, vous aurez l'option de recevoir un forfait de garde d'enfants. La limite d'âge pour la garde d'enfants est fixée à 10 ans.
-    </p>
+    Les services de garde sont disponibles pour la durée de la conférence (du 10 au 11 novembre) et sont inclus dans le prix du billet. Vous devez acheter un billet pour pouvoir faire une demande de garde d\'enfants. Lorsque vous achetez un billet, vous aurez l\'option de recevoir un forfait de garde d\'enfants. La limite d\'âge pour la garde d\'enfants est fixée à 10 ans.
+    </p>'
 %}}
 
 
