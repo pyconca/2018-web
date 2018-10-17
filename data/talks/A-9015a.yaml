@@ -1,0 +1,18 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: ""
+
+talk_title: ""
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "python"
+
+
+talk_abstract: "<a href='/schedule-day-2#talk-A-9015'><p>previous session continued</p></a>"
+
+# TODO: Add contents.
+
+talk_details: ""
