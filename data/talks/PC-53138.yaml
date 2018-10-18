@@ -27,3 +27,12 @@ DataComPy is a package to compare two Pandas DataFrames. Originally started to b
 Locopy helps load flat files to S3 and then to Amazon Redshift, and assist with ETL processing. It is DB Driver (Adapter) agnostic, provides basic functionality to move data to S3 buckets, execute COPY commands to load data to S3, and into Redshift, and UNLOAD commands to unload data from Redshift into S3.
 
 While building these products was exciting and fun, some of the legal considerations were as interesting, complex, and required collaboration between many teams, from security, licensing, brand, and IP/copyright. We'll explore the projects, and some of these other considerations which can make or break if you decide to release a project into the wild, along with the road blocks we faced with in these areas."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

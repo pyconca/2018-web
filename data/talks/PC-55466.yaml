@@ -31,3 +31,12 @@ The general outline will include:
 - Thoughts on how other concurrency models can adopt *trionic* concepts for use in multi-core and distributed computing
 
 The end goal for this talk to enable anyone who has not yet (heavily) used `async`/`await` to feel very confident and excited that they can begin learning Python's approach to cooperative multi-tasking, writing production grade systems, and partaking in a fast growing and welcoming community with `trio`!"
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

@@ -16,3 +16,12 @@ talk_tags:
 talk_abstract: "Want to know how Spotify, Amazon, and Netflix generate recommendations for their users? This talk walks through the steps involved in building a recommendation pipeline, from data cleaning, hyperparameter tuning, model training and evaluation."
 
 talk_details: "Personalized recommendation systems play an integral role in e-commerce platforms, with the goal of driving user engagement. While there is extensive literature on the theory behind recommendation systems, there is limited material that describes the underlying infrastructure of a recommendation system pipeline. In this talk, we will walk through the process of designing and building a recommendation system pipeline. We will specifically discuss techniques for data cleaning and normalization, hyperparameter tuning, model training and fitting, as well as quantitative and qualitative model evaluation. By the end of this talk, you will learn how to design your own recommendation system pipeline from scratch."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

@@ -22,3 +22,12 @@ talk_details: "Apache Spark is one the most popular Big Data frameworks and PySp
 
 In this short overview, we shall present 3 methods to aggregate big data. First, we shall use Python dictionaries, then we shall present the two methods “GroupBy” and “ReduceBy” to do the same aggregation work using PySpark. The three approaches will be presented and explained using a Jupyter Notebook.
 "
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

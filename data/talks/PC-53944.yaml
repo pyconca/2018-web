@@ -20,3 +20,13 @@ While there is a wealth of information on how to make C or C++ code faster, ther
 In this talk we will use a case well-known in the Python community: List comprehension vs. Loop for list initialization. However, we will explore it from the point of view of a reverse engineer and treat the code the same way C code would be treated. In doing so, we will question the way code is executed and suggest alternative or interesting angles to apply to programming in Python.
 It should also be noted that in this talk, we purposefully chose to present the subject in the context of the current environmental crisis. Indeed, more performant code would run faster thus use less power to do the same job, potentially resulting in impressive savings in power consumption.
 This presentation has never been presented and has been prepared specially for the PyCon conference."
+
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

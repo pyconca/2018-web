@@ -40,3 +40,12 @@ Content:
 * Conclusion
 
 I would be using a pdf for the presentation where some slides would link to self-contained [colab notebooks](https://colab.research.google.com/) for demoing the code. Note that I am specifically avoiding the perspective of how to train neural networks using PyTorch and want to focus on the interplay between PyTorch and Numpy. "
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

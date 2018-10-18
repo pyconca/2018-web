@@ -19,3 +19,12 @@ talk_tags:
 talk_abstract: "A shopping list is an integral part of the shopping experience for many consumers. Several mobile retail studies indicate that potential customers place the highest priority on features that help them create and manage personalized shopping lists. We propose one solution written in PYTHON."
 
 talk_details: "First, we propose to develop a new model of machine learning written in Python3.6 and planning to predict which grocery products the consumer will buy again or will try to buy for the first time, and in which store (s) will the area he will shop. Second, we will develop a smart shopping list template to provide consumers with a personalized weekly shopping list based on their historical shopping history and known preferences. As explanatory variables, we will use available grocery shopping histories, store promotion information for the given region, as well as product price statistics."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

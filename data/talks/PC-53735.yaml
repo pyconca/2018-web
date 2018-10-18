@@ -19,3 +19,12 @@ talk_tags:
 talk_abstract: "Working with Useless Machines is a project about personal assistants that don’t want to assist you. By mixing humour and satire, this talk looks at a set of prototypes developed on Alexa and Google Home, that critique corporate tech culture by turning them into devices with no utilitarian function."
 
 talk_details: "This talk is the conference presentation format of my MDes Thesis from OCADU. The lens is very maker driven, and uses prototyping as a vehicle for research and exploration. Some things I will be covering in this talk are defining what a Useless Machine is, how they exist contextually in art and pop culture, some of the challenges of trying to make creative products with corporate platforms, and how I went about building the prototypes themselves. Expect a lot of pictures, and banter about platforms, stacks o' yaks, API wrappers, tech-art, and how people respond to things like a blender that has seasonal affective disorder."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

@@ -34,3 +34,12 @@ The second part of the solution concerns `setuptools`. Nothing special is requir
 
 Finally, I will conclude showing you how our new package structure eases the maintainability and the deployment of our solution.
 "
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

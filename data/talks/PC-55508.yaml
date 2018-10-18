@@ -22,3 +22,12 @@ talk_details: "Mozilla uses Python at nearly all stages of the build and release
 In brief the flow is: version control (hg in python) -> taskcluster (node) -> build system (python) -> signing (python) -> publishing (python). Firefox’s update server (Balrog) is completely written in Python and serves millions of requests each day.
 
 All of our code is developed in the open, and so you can follow along and see for yourself how Mozilla builds and ships Firefox to the world!"
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

@@ -19,3 +19,12 @@ talk_details: "The talk will present some of the pitfalls of unit testing, from 
 If you suffer from these problems, unit-testing becomes a grind, certain code seems un-testable, and covered code becomes painful to evolve. You may even find that your tests aren't even covering what you think they are.
 
 With examples from Shopify's data platform, I will show strategies to mitigate these problems and write tests that are crystal clear, robust, and sustainable."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

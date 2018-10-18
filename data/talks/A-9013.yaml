@@ -17,3 +17,11 @@ talk_abstract: "Have you ever wondered what happens between the time you run hel
 # TODO: Add contents.
 
 talk_details: "[Steve Yegge](http://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html), a programmer and blogger who has a plethora of experience in operating systems, once noted the importance about compilers by stating, “If you don’t know how compilers work, then you don’t know how computers work”. This talk will share a brief overview of how CPython works from lexxing to compiling as well as how the abstract syntax tree (AST) works. At the end of the talk, you’ll be able to understand the general concept of the abstract syntax tree (AST) and how creating a interpreter can additionally benefit you in ways unrelated to the actual compilation such as linting and debugging."
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

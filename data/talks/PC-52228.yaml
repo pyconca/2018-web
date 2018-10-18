@@ -23,3 +23,12 @@ Design patterns, like Dependency Injection, and the Visitor Pattern arise from r
 And some patterns, like Threads just never worked at all.
 
 In this talk, we'll build up several design patterns, and then look at the Python features that make each pattern unnecessary. In doing so, you'll get a view into idiomatically translating code into Python, and a greater understanding of design decisions users of other languages need to make."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

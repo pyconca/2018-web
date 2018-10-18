@@ -40,3 +40,12 @@ Python forms the cornerstone of CADGrader’s infrastructure. Numpy and numpy-st
 At the beginning of this project, my intention was to build a software product that allowed the university to reduce TA hours. I later realized that humans and machines are best suited for different tasks. Software should handle grunt and menial tasks while humans work on the more intellectually challenging issues. By automating the boring stuff, the TAs’ jobs became much more enjoyable. I have personally seen TAs transition from begrudgingly filling out long Excel sheets to enthusiastically explaining course concepts to students. 
 
 This shift in thinking has drastically changed my future UX designs. I no longer see the software and TAs as competing entities. Instead, CADGrader has become a tool that allows teaching assistants to be more successful at their jobs."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

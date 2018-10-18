@@ -32,3 +32,12 @@ My day-to-day repetitive problem was the daily makeup routine; it takes time and
 Therefore I built my very first machine learning algorithm which tells you which eye shape you have and suggests makeup styles matching your particular eye shape to enhances your features. You just snap a photo of your eyes in the app and the algorithm does the rest; telling you which eye shape you have and what makeup style that suits your particular eye shape. I build this app with 3 easy steps and I’m excited to show how you can build yourself an own powerful image classification model, with your own data, within a topic that inspires and interests you. It might sound difficult but I can’t wait to show you how few lines of Python you need to build the whole app.
 
 What repetitive and categorizing tasks are you regularly facing? Bring your interests, passion and everyday problems and we’ll explore a more widespread adoption of artificial intelligence solutions."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

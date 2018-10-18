@@ -38,3 +38,11 @@ In this talk, I will be talking about how to take Deep Learning systems to produ
 - Managing Data sets - An introduction to Git LFS and how to manage datasets. Extremely useful when working with the thought process of reproducible results.
 
 The focus of this talk to is to shed light on the qualms of architecting, devops and management of deep learning systems in production."
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

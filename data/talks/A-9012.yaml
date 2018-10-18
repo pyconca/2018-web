@@ -16,3 +16,11 @@ talk_abstract: ""
 # TODO: Add contents.
 
 talk_details: ""
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

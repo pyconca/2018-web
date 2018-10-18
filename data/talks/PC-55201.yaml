@@ -21,3 +21,12 @@ talk_details: "In this demo driven session, we’ll show you how to use the cros
 If you’re an experienced Python developer, you will learn how to take advantage of all of Visual Studio Code’s capabilities to maximize your productivity. Whether you are new or experienced with Visual Studio Code you will take away valuable information from this talk.
 
 We will start by showing how to create a new application, configure linting, manage virtual environments, and run code. Then we’ll show how to use more powerful features like debugging, unit testing, working with Docker containers, and finally using VS Live Share for collaborative editing and debugging with your co-workers."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''
