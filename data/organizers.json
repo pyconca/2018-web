@@ -1,6 +1,6 @@
 [{
   "first_name": "Elaine",
-  "last_name": "Wong", 
+  "last_name": "Wong",
   "title": "Switcher/Director",
   "company": "Canadian Broadcasting Corporation/Radio-Canada",
   "twitter": "elthenerd",
@@ -17,9 +17,9 @@
 }, {
   "first_name": "Alex",
   "last_name": "Volkov",
-  "title": "Some Goverment Dude",
-  "company": "Something About Justice",
+  "title": "Intermediate Developer",
+  "company": "MAG Solutions at Ministry of Attorney General of Ontario",
   "mastodon": "https://mastodon.xyz/@avolkov",
   "gitlab": "avolkov1",
-  "photo": "alex-volkov.png"
+  "photo": "alex-volkov.jpg"
 }]
