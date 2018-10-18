@@ -30,7 +30,7 @@
     <div class="about-author">
         {{  global_data['talks/' + talk_number]['about_author'] | markdown }}
     </div>
-    <p class="h5">Author website: {{  global_data['talks/' + talk_number]['author_website'] | markdown }}</p>
+    <p class="h5">Author website: <a href="{{  global_data['talks/' + talk_number]['author_website'] }}">{{  global_data['talks/' + talk_number]['author_website'] }}</a></p>
     <hr>
 {% endif %}
 
