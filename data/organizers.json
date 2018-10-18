@@ -14,7 +14,7 @@
   "instagram": "myles",
   "github": "myles",
   "photo": "myles-braithwaite.png"
-}, {
+},{
   "first_name": "Alex",
   "last_name": "Volkov",
   "title": "Intermediate Developer",
@@ -22,4 +22,12 @@
   "mastodon": "https://mastodon.xyz/@avolkov",
   "gitlab": "avolkov1",
   "photo": "alex-volkov.jpg"
+},{
+  "first_name": "Chris",
+  "last_name": "Fournier",
+  "title": "Software Engineering Lead",
+  "company": "Shopify",
+  "twitter": "cfournie",
+  "github": "cfournie",
+  "photo": "chris-fournier.jpg"
 }]
