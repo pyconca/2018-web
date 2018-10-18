@@ -3,6 +3,8 @@
 from __future__ import unicode_literals
 import time
 import os
+import jinja2
+import markdown
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
@@ -1405,10 +1407,15 @@ UNSLUGIFY_TITLES = True
 # sometimes crash Nikola, your web server, or eat your cat.
 # USE_SLUGIFY = True
 
+
+md = markdown.Markdown(extensions=['meta'])
+
 # Templates will use those filters, along with the defaults.
 # Consult your engine's documentation on filters if you need help defining
 # those.
-# TEMPLATE_FILTERS = {}
+TEMPLATE_FILTERS = {
+    'markdown': lambda text: jinja2.Markup(md.convert(text)),
+}
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
