@@ -1,5 +1,5 @@
-.. title: A-9001
-.. slug: talk-A-9001
+.. title: PC-55513
+.. slug: talk-PC-55513
 .. date: 2018-10-08 19:09:13 UTC+04:00
 .. type: text
 .. template: talk.tmpl
@@ -8,6 +8,6 @@
 
 {{% talk_details
 
-    talk_number='A-9001'
+    talk_number='PC-55513'
 
 %}}
