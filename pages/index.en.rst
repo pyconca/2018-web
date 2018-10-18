@@ -35,12 +35,18 @@
     education and shopping districts, DoubleTree by Hilton Hotel Toronto Downtown offers a quiet
     retreat in the heart of a vibrant, urban location. They have generously offered our visitors
     a special rate of $169+tax/night. <a href="https://secure3.hilton.com/en_US/dt/reservation/book.htm?inputModule=HOTEL&ctyhocn=YTOCSDT&spec_plan=CDTPYC&arrival=20181109&departure=20181111&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">
-    You can use this link to make your reservation.</a>
-    <p>
-    Childcare is available for the duration of the conference (Nov 10-11) and included in the ticket price. You need to buy a ticket in order to apply for childcare, when you buy a ticket you\'ll get an option to receive childcare package. Age limit for childcare is 10 years old.
-    </p>'
+    You can use this link to make your reservation.</a>'
 %}}
 
+{{% speaker_left
+    speaker_name='Childcare'
+    speaker_title='provided by improvcare'
+    speaker_image='/images/childcare_image.jpg'
+    speaker_description='Childcare is available for the duration of the conference (Nov 10-11) and included in the ticket price. You need to buy a ticket in order to apply for childcare, when you buy a ticket you\'ll get an option to receive childcare package. Age limit for childcare is 10 years old.
+
+    <a href="http://www.improvcare.ca/">More information about the childcare provider.</a>
+    '
+%}}
 
 {{% post_mid_title
     title_text='Keynote Speakers'
