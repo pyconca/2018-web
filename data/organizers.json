@@ -14,7 +14,16 @@
   "instagram": "myles",
   "github": "myles",
   "photo": "myles-braithwaite.png"
-},{
+}, {
+  "first_name": "Dorian",
+  "last_name": "Puła",
+  "title": "Software Development Engineer",
+  "company": "Points",
+  "bitbucket": "dorianpula",
+  "github": "dorianpula",
+  "twitter": "dorianpula",
+  "photo": "dorian-pula.png"
+}, {
   "first_name": "Alex",
   "last_name": "Volkov",
   "title": "Intermediate Developer",
@@ -22,7 +31,7 @@
   "mastodon": "https://mastodon.xyz/@avolkov",
   "gitlab": "avolkov1",
   "photo": "alex-volkov.jpg"
-},{
+}, {
   "first_name": "Chris",
   "last_name": "Fournier",
   "title": "Software Engineering Lead",
