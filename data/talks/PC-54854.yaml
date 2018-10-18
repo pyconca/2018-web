@@ -20,3 +20,12 @@ talk_tags:
 talk_abstract: "The most unstoppable programmers have been in a situation where a system has gone down or their code broke, and they were responsible for getting it back up. Their resilience can almost always be attributed to their special abilities."
 
 talk_details: "A high incident of dyslexia and ADHD traits are found in computer programmers. With today's ever-changing technology-reliant world, join me for an all hands on deck 'Think Aloud' conversation about special abilities such as dyslexia and ADHD. With that in mind, let’s steer the strengths, park the misconceptions and drive the tech hacks meant to empower programmers who exhibit special abilities. "
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

@@ -16,3 +16,12 @@ talk_abstract: "Quantum computing is an exciting scientific field that is coming
 talk_details: "The paradigm of quantum computing might be just 2-3 years away from having practical relevance for certain applications. However, the ability to solve problems on these devices is still relatively scarce. In this talk, we will overview the main quantum computing paradigms and demonstrate how to solve problems on these devices with Python. We cover multiple players in the field (IBM, Google, Rigetti, D-Wave,..) and help the audience to navigate rather complex landscape of quantum computing in Python.
 
 The talk is self-contained. The attendees of this talk do not need to have any background knowledge in physics or quantum computing prior to the talk. "
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

@@ -1,19 +1,41 @@
-<p>
-    This is a placeholder page. We'll fill in the details later.
-
-</p>
-
 <!-- Title -->
-<h1>{{  global_data['talks/' + talk_number]['talk_title']  }}</h1>
+<div class="page-title border-bottom pb-1 mb-4">
+    <h1 class="mb-0 pb-0">{{  global_data['talks/' + talk_number]['talk_title']  }}</h1>
+</div>
 
 <!-- Author -->
-<p>by</p>
-<h3>{{  global_data['talks/' + talk_number]['speaker_name']  }}</h3>
+<p>by <em>{{  global_data['talks/' + talk_number]['speaker_name']  }}</em></p>
 
-<!-- Space... -->
-<p>&nbsp;</p>
+<div class="schedule-talk-tags">
+    <p>
+        {% for tag in global_data['talks/' + talk_number]['talk_tags'] %}
+            <span>{{ tag }}</span>
+        {% endfor %}
+    </p>
+</div>
 
-<h4>Details = </h4>
+<!-- Abstract -->
+<p>{{  global_data['talks/' + talk_number]['talk_abstract']  }}</p>
+
+<!-- Details -->
+<hr>
 <div class="talk-details">
-    {{  global_data['talks/' + talk_number]['talk_details']  }}
+    {{  global_data['talks/' + talk_number]['talk_details'] | markdown }}
+</div>
+<hr>
+
+<!-- About the author -->
+{% if global_data['talks/' + talk_number]['about_author'] %}
+    <p class="h4">About the Author</p>
+    <div class="about-author">
+        {{  global_data['talks/' + talk_number]['about_author'] | markdown }}
+    </div>
+    <p class="h5">Author website: <a href="{{  global_data['talks/' + talk_number]['author_website'] }}">{{  global_data['talks/' + talk_number]['author_website'] }}</a></p>
+    <hr>
+{% endif %}
+
+
+
+<div class="alert alert-light" role="alert">
+  If you are the author of this talk and want to make an edit, <a href="https://github.com/pyconca/2018-web/tree/master/data/talks/{{ talk_number }}.yaml" class="alert-link">feel free to send us a PR</a>!
 </div>

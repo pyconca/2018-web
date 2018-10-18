@@ -49,3 +49,12 @@ In the end, attendees should come away with not only an understanding of PEP 572
   * Will this become part of Python?
   * Is Guido coming back?
   * Will this happen again?"
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

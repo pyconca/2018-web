@@ -19,3 +19,12 @@ talk_details: "Using Singleton Services arranged in layers and passing Value obj
 Many developers find their code becomes less maintainable overtime even when they follow the industry trends and/or the tools provided by their framework of choice. This talk is intended to demonstrate that code can be simpler (but perhaps unfamiliar at first) and still play nice with their framework of choice. I will start with teaching Singleton Services and Value Objects. I will then demonstrate by layering your Services with dependency injection you can make reasoning about separation of concerns even simpler.
 
 I also want to provide an anchor point to less experienced developers who are over complicating their code with fancy patterns because they have not tried the simpler ones yet."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

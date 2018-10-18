@@ -15,3 +15,12 @@ talk_tags:
 talk_abstract: "This talk presents the use of Python in environmental (energy) scenario research. We analyze different energy scenarios and apply community detection (Louvain method) to reveal the core issues that could support Canada’s energy transition in the future, which policymakers might find them insightful."
 
 talk_details: "Studies of energy futures could provide roadmaps toward low-carbon energy transitions. However, many organizations conduct energy futures studies independently producing numerous energy scenarios that project vastly different futures—stories produced by these scenarios might be very different—and it will be challenging to know which scenarios we should base our decisions upon. Here we apply network analysis implemented using Networkx to visualize different perspectives of four Canadian energy reports to ‘hamonize’ their stories. Network analysis can ‘stitch’ many scenarios together to visualize a wider perspective of low-carbon transition for Canada. In addition, we also apply community detection to reveal clusters that are significant for Canada low-carbon energy transitions which might be overlooked by individual energy studies."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

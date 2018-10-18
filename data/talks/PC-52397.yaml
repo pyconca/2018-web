@@ -36,3 +36,12 @@ When transcriptome assemblies are aligned in pairs, it is easy for a human obser
 - A final multi-network approach which achieves >99% classification accuracy
 - A full pipeline built around this classifier to build a network of assembly variants and choose a best isoform for each cluster
 - The results of this pipeline on real 'data from the wild' - *de novo* transcriptome assemblies of two plant species"
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

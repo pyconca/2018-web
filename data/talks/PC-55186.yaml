@@ -21,3 +21,12 @@ So let's learn about WSGI.
 WSGI is the Web Server Gateway Interface and it's the foundation of almost every Python web framework. This isn't going to be a talk that you'll walk out of with immediate tips for tuning your web service (don't worry, [Graham Dumpleton has that covered](https://www.youtube.com/watch?v=CPz0s1CQsTE)). Instead, you'll develop an appreciation for the low-level goings on of your stack every time you handle a request.
 
 This talk is intended primarily for Python web developers, but should be approachable for anyone with an intermediate experience of Python. I look forward to talking to you!"
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

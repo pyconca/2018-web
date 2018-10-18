@@ -20,3 +20,12 @@ talk_details: "Your first experience with Flask was probably writing a function 
 This talk will explore the path a request takes through, from being received from the WSGI server to building a response. See how routing, the request context, event handlers, signals, error handlers, the response formatter, extensions, and middleware all play a part behind the scenes in turning your Python function into a web application. Some common entry points for customization will be demonstrated, but the focus is on the overall execution path.
 
 Flask (and Django, etc.) may seem magical, but they all follow a fundamental set of steps and rules. Demystify Flask and take control of your application."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

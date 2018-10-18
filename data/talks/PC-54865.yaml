@@ -21,3 +21,12 @@ talk_tags:
 talk_abstract: "I posit that well-made, open-source platforms with industry specific goals put more new tools in developer's hands each year than anything else. This talk will compare and get people excited about large open-source projects. What makes them great, what doesn't, and where to get started in Python."
 
 talk_details: "I posit that well-made, open-source platforms with industry specific goals put more new software tools in developer's hands each year than anything else. In this talk, we'll compare and get excited about three large scale open-source collaborations: in robotics (ROS), cloud computing (OpenStack), and cancer research (CellProfiler). What makes them great, what doesn't, and where to get started in Python."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

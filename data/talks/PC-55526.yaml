@@ -22,3 +22,12 @@ talk_tags:
 talk_abstract: "Learn how to build a network web in Python to reflect conversations between people based on Slack conversations. Then, build a natural language processing model to evaluate what all those people are talking about, and which conversations determine who in the network carries 'technical knowledge'."
 
 talk_details: "What can you do with your Slack data? Turns out, a lot! In this presentation, we will go over the basics of how to build a network map in Python, in this instance, using your conversations in Slack regarding who is talking to who. From there, we will dive deeper into the diagram by building a rule-based natural language processing model and a basic machine learning model to understand the context of the conversations that we've mapped. Which conversations are social and which are work-related?  Which conversations are people asking for advise or technical questions? Who are the main players in the map who answer people's questions quickly and effectively? Through this process, we are able to find 5 'influencers' out of 200,000 Slack messages. "
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

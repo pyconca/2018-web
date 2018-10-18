@@ -20,3 +20,12 @@ talk_abstract: "At Wave, I've been a part of the team, from inception to now, re
 talk_details: "We were running out of options with improving a legacy system and got the greenlight to rewrite it with what we think are best practices and better domain designs. Now we just had to get people onto this system...how hard can that be?
 
 I'll speak to the plan we had, how we executed it, the pitfalls, the wins and how we move millions of users worth of data with little to no downtime except a few minutes for a given user. "
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

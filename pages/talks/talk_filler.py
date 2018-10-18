@@ -4,6 +4,7 @@
 from pathlib import Path
 from jinja2 import FileSystemLoader
 from jinja2 import Environment
+from talk_ids import TALK_IDS
 
 # Basic setup
 current_folder = Path(__file__).resolve().parent
@@ -16,7 +17,8 @@ ID_START = 9001
 ID_STOP = 9026
 
 # Loop to create files
-for talk_number in range(ID_START, ID_STOP + 1):
+# for talk_number in range(ID_START, ID_STOP + 1):
+for talk_number in TALK_IDS:
     filename = str(talk_number) + '.rst'
 
     context = {

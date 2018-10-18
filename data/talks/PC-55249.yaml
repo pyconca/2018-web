@@ -25,3 +25,12 @@ MicroPython is a new, opensource implementation of Python3 for this type of envi
 The talk will introduce CircuitPython and various boards from Adafruit that support it as well as the Mu python programmign environment that has support for CircuitPython and associated hardware.
 
 There will be live demos."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

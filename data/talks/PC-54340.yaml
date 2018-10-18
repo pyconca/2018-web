@@ -22,3 +22,12 @@ talk_details: "Teaching kids to code can be challenging, especially in a classro
 The [Gigglebot](https://gigglebot.io) is a Micro:Bit based rover that covers the transition from zero code to Python code, by offering first a block based interface with [MakeCode](https://makecode.microbit.org/), then a Python-based interface [Edublocks](https://microbit.edublocks.org/), then an editor with hand-holding tutorials [Firia Labs](https://make.firialabs.com/), and finally a beginner friendly Python editor [Mu editor](https://codewith.mu/) when the kids are ready to handle Python.
 
 This approach allows for the greatest flexibility in the classroom where kids can be found with different levels of tech expertise. Projects can be done in any and all of those tools, thus leveling the playing field, and letting everyone develop their computational thinking and problem solving skills."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

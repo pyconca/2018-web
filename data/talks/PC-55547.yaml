@@ -23,3 +23,12 @@ talk_abstract: "Symantec's data lake is filled with exabytes of data. My team us
 talk_details: "[Symantec Research Labs](https://www.symantec.com/about/corporate-profile/technology/research-labs) is the premier research team at Symantec, responsible for long-term and forward-looking projects. My work is on data analysis and correlation, where we use python to look at both historical (batch) and streaming data to detect and discover threats.
 
 I will present two projects, both in Python, that deal with our unique collection of data. I will show how we use off-the-shelf tools and Python libraries to build sophisticated prototypes and stop very serious threats."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

@@ -60,3 +60,12 @@ talk_details: |
   Pep-8!
 
   * Sure, formatting isn’t the sexiest part of coding, but when you look back at your clean, pretty code, it can make you feel polished in a way nothing else can. Also, I mean, other people can read your work and stuff…
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

@@ -16,3 +16,12 @@ talk_tags:
 talk_abstract: "The short story of how we used OAuth and JWTs (JSON Web Tokens) to add identity and authentication in every call to one of our widely used services. Includes an overview of how JWTs work and different OAuth flows for every use case."
 
 talk_details: "This is a new talk about how we added OAuth to our Presto deployment and the steps involved to support access from Jupyter Notebooks and from other Python apps. I'll lay out the problem, explain the format of JWTs and how they're used in Google Auth flows, and walk through the three types of OAuth flows we used for different use cases - device flow for notebooks, service accounts for scheduled tasks and offline tokens to propagate a user's identity through a web app."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

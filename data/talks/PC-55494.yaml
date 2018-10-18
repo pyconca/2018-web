@@ -23,3 +23,12 @@ talk_details: |
   It will show how common python libraries (such as Pandas and Scikit Learn) may be used to compute traditional diversification measures like number of unique investments, as well as more modern approaches based on extensions of principal component analysis.
 
   There will be a discussion regarding the trade-off between intuition and sophistication when constructing a measure, as well as the importance of examining multiple measures at once when determining the diversification of a given portfolio.
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''

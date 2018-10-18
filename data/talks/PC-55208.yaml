@@ -22,3 +22,12 @@ talk_details: "Everyone who has built and shipped a web application or site, wan
 and flexible to change.  But how do you actually approach scaling a Python web 
 application or REST API in a sane and systematic manner?  This talk walks through how to 
 realistically approach scaling a web application, based on lessons learned in the field.  The talk breaks down the problem of scaling in terms of designing, building and operating a highly available commercial web application or REST service.  The talk looks at what are the important bits to consider and finishes off with looking at 3 techniques for scaling applications or services."
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''
