@@ -2,15 +2,17 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: ""
+speaker_name: "Anton Nguyen"
 
-talk_title: "To be announced"
+talk_title: "Rain or Shine - How Freshbooks Guarantees Email Delivery "
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "intermediate"
+- "all"
+- "systems"
+- "api"
 
 
-talk_abstract: ""
+talk_abstract: "Our customers rely on FreshBooks everyday to send invoices to their clients. Having such a important role in our customer’s business, meant FreshBooks had to build a system that was dependable, reliable, and resilient to all disasters that could strike when delivering email!"
 
-talk_details: ""
+talk_details: "FreshBooks sends over a million emails every year. And no, I’m not talking about marketing emails telling you about some exciting new email we’ve just released. I’m talking about transactional emails. When you sign up and verify your account, we send an email. When you send an invoice to your clients, that’s an email. When you you want to reset your password, that’s an email. Email is not only a critical part of FreshBooks, but of our customers. How can clients pay their invoices, if they don’t receive them? In this talk, I’ll be going over how FreshBooks built dependability, reliability, and resilience into our email infrastructure, so that we can guarantee that our emails are delivered."
