@@ -18,7 +18,7 @@ talk_tags:
 - "data science"
 
 
-talk_abstract: "We just open sourced 2 projects (datacompy, and locopy) with roots in Data Science and Engineering which we will showcase. While is it exciting and rewarding to share your ideas with the world it isn't always easy. Thinking about licenses, copyrights, and protect confidential information is a must!"
+talk_abstract: "We just open sourced 2 projects (datacompy, and locopy) with roots in Data Science and Engineering which we will showcase. While is it exciting and rewarding to share your ideas with the world it isn't always easy. Thinking about licenses, copyrights, and protecting confidential information is a must!"
 
 talk_details: "Working in a large organization which is embracing the mantra 'open source first' is really exciting. Part of this journey is to make sure we give back to the open source community when we can. Two of our projects had gained traction internally: `datacompy`, and `locopy`. As part of our commitment we wanted to make sure we could open source these projects for others to use and contribute back to.
 
