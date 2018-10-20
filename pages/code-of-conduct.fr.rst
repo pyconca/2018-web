@@ -102,8 +102,8 @@ souci, veuillez contacter un membre du comité d'administration:
                 <td>+1 (514) 974-0018</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Elaine Wong</td>
+                <td>+1 (647) 639-7740</td>
             </tr>
         </tbody>
     </table>
