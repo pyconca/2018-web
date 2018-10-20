@@ -82,7 +82,7 @@ individuals:
         <thead class="thead-dark">
             <tr>
                 <th scope="col">Name</th>
-                <th scope="col">Phone number</th>
+                <th s=cope="col">Phone number</th>
             </tr>
         </thead>
         <tbody>
@@ -95,8 +95,8 @@ individuals:
                 <td>+1 (514) 974-0018</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>Elaine Wong</td>
+                <td>+1 (647) 639-7740</td>
             </tr>
         </tbody>
     </table>
