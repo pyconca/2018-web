@@ -19,7 +19,7 @@ talk_details: "Kubernetes is transforming deployment and operations workflows fr
 
 In this tutorial we will learn how to get started with Kubernetes, a container orchestration engine that brings benefits like automated rollouts and rollbacks, active service health montioring, automatic scaling and infrastructure-as-code SCM benefits to deployment tasks. Starting from a brief overview of Docker (the most popular container runtime) we will go over how to install and start Kubernetes using a local (laptop) installation method called Minikube. We will get familiar with the Kubernetes CLI (kubectl) and then create our first django deployment on our local Kubernetes cluster. Then we'll go over some architectural choices when using Kubernetes in a production setting - for example choosing storage, databases and other stateful components. Finally we will deploy our django application on a cloud-based Kubernetes cluster and try out some of the nifty Kubernetes features such as scaling and automated rollouts and rollbacks. We will end the tutorial with a list of resources and next-steps you can take to get up to speed with Kubernetes.
 
-To sign up for this tutorial, use this link: <a href="https://github.com/pyconca/2018-wiki/wiki/Tutorials">https://github.com/pyconca/2018-wiki/wiki/Tutorials</a>"
+To sign up for this tutorial, use this link: <a href='https://github.com/pyconca/2018-wiki/wiki/Tutorials'>https://github.com/pyconca/2018-wiki/wiki/Tutorials</a>"
 
 
 
