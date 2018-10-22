@@ -47,6 +47,20 @@
    "silver": [
     {
       "name": {
+        "en": "Bungalow",
+        "fr": "Bungalow",
+      },
+      "date": "2018-10-22",
+      "logo": "/images/sponsors/bungalow.svg",
+      "web_link": "https://bungalow.com/",
+      "description": {
+        "en": "Bungalow is rethinking the residential real estate market by providing renters with a more convenient, flexible, and communal living solution. The goal of Bungalow is to take the daily hassle out of leasing and keeping house — and give our members back more time to do the things they're passionate about. We give our residents a private bedroom in a beautifully furnished home, match them with other great roommates, and include utilities, wifi, and bi-weekly cleaning in their rent. Finally, we make sure to engage our members with monthly member only events giving them a launching pad into a new city or simply helping them meet more great people in their hometown. Based in San Francisco with engineering based in Kitchener Ontario. We ♥ open source and we are hiring!",
+        "fr": "Bungalow is rethinking the residential real estate market by providing renters with a more convenient, flexible, and communal living solution. The goal of Bungalow is to take the daily hassle out of leasing and keeping house — and give our members back more time to do the things they're passionate about. We give our residents a private bedroom in a beautifully furnished home, match them with other great roommates, and include utilities, wifi, and bi-weekly cleaning in their rent. Finally, we make sure to engage our members with monthly member only events giving them a launching pad into a new city or simply helping them meet more great people in their hometown. Based in San Francisco with engineering based in Kitchener Ontario. We ♥ open source and we are hiring!",
+       }
+    },
+  
+    {
+      "name": {
         "en": "Communications Security Establishment",
         "fr": "Centre de la sécurité des télécommunications"
       },
