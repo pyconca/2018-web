@@ -2,20 +2,29 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: ""
+speaker_name: "Caelyn McAulay and Holden Karau"
 
-talk_title: "Holden and Caeyln Tutorial"
+talk_title: "A Basic Introduction to PySpark Dataframes by exploring ASF Gender Diversity Data
+"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "talk"
+- "tutorial"
+- "pyspark"
+- "data science" 
+- "180 minutes"
 
 
-talk_abstract: "To be announced"
+talk_abstract: "Apache Spark is a fast and general engine for big data processing. Using PySpark, you can work with Spark DataFrames in Python. 
+
+The target audience is familiar with Python and looking to get their feet wet with data science and/or the Spark framework. This tutorial will cover reading in data from files and basic DataFrame operations.
+
+While this session cannot provide enough background to support professional work with Spark, we aim to provide some interesting initial tools and pointers on how to go deeper for those interested.
+"
 
 # TODO: Add contents.
 
-talk_details: ""
+talk_details: "Please note that this tutorial is 2 hours long and will possibly go into lunch."
 
 
 
