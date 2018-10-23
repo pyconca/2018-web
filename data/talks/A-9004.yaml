@@ -12,7 +12,7 @@ talk_tags:
 - "tutorial"
 - "pyspark"
 - "data science" 
-- "180 minutes"
+- "240 minutes"
 
 
 talk_abstract: "Apache Spark is a fast and general engine for big data processing. Using PySpark, you can work with Spark DataFrames in Python. 
