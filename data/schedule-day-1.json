@@ -37,7 +37,7 @@
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9002"
+                    "ref": "A-9004"
                 }
             ]
         },
@@ -60,7 +60,7 @@
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9002a"
+                    "ref": "A-9004a"
                 }
             ]
         },
@@ -83,7 +83,7 @@
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9002a"
+                    "ref": "A-9004a"
                 }
             ]
         },
@@ -255,7 +255,7 @@
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9004a"
+                    "ref": ""
                 }
             ]
         },
