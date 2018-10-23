@@ -112,14 +112,14 @@ speaker_name='Graham Toppin' speaker_title='Python Lover' speaker_image='/images
     speaker_name='Development Sprints'
     speaker_title='12th-13th, November, 2018'
     speaker_image='/images/myles-braithwaite-img-0376.jpg'
-    speaker_description='PyCon Canada Development Sprints are two days of intensive learning and development on an open source project of your choice, in a team environment. It\'s a time to come together with colleagues, old and new, to share what you\'ve learned and apply it to an open source project.<br/> PyCon Canada provides the space and infrastructure (network, power, tables & chairs); you bring your skills, humanity, and brainpower (oh! and don't forget your computer).<br/> Some of things you might end up doing during the sprint: <br/>
+    speaker_description='PyCon Canada Development Sprints are two days of intensive learning and development on an open source project of your choice, in a team environment. It’s a time to come together with colleagues, old and new, to share what you’ve learned and apply it to an open source project.<br/> PyCon Canada provides the space and infrastructure (network, power, tables & chairs); you bring your skills, humanity, and brainpower (oh! and don’t forget your computer).<br/> Some of things you might end up doing during the sprint: <br/>
 <ul>
 <li>Fix bugs
 <li>Write tests
 <li>Improve documentation
 <li>Write code
 </ul>
-<p>It\'s a great way to contribute to the community, learn about coding and open-source contribution, and have fun!<br/> To learn more about some of the projects that are taking place during the Sprint days, check out our wiki: https://github.com/pyconca/2018-wiki/wiki/Sprints</a></p>'
+<p>It’s a great way to contribute to the community, learn about coding and open-source contribution, and have fun!<br/> To learn more about some of the projects that are taking place during the Sprint days, check out our wiki: <a href="https://github.com/pyconca/2018-wiki/wiki/Sprints">https://github.com/pyconca/2018-wiki/wiki/Sprints</a></p>'
 %}}
 
 {{% sponsors_overview %}}
