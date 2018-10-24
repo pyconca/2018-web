@@ -2,7 +2,7 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: ""
+speaker_name: "Martin Durant"
 
 talk_title: "Intake - taking the pain out of data access"
 
