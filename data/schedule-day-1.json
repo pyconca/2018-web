@@ -172,15 +172,15 @@
                 },
                 {
                     "location": "Terrace (3rd floor)",
-                    "ref": "PC-54854"
-                },
-                {
-                    "location": "St. Patrick (3rd floor)",
                     "ref": "A-9003"
                 },
                 {
-                    "location": "St George (3rd floor)",
+                    "location": "St. Patrick (3rd floor)",
                     "ref": "PC-55494"
+                },
+                {
+                    "location": "St George (3rd floor)",
+                    "ref": "PC-54119"
                 }
             ]
         },
