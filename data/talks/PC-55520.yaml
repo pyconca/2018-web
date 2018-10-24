@@ -22,39 +22,9 @@ Along the way we'll go in-depth on how new ideas about Python are proposed, disc
 
 In the end, attendees should come away with not only an understanding of PEP 572 and the Python governance model, but also gain an understanding of ways in which this process can fail and even become harmful to the people involved, and how we, as users of open source software, can be better stewards of our language and better supporters of the volunteers who we depend on.
 
-# Outline
-
-* Python Governance
-  * BDFL
-  * PEP Process
-    * Well-known PEPs
-  * BDFL-Delegates
-* PEP 572
-  * What problems does this solve
-    * Example 1: regular expressions
-    * Example 2: processing chunks
-    * Example 3: optimizing comprehensions
-  * Why?
-    * Less lines are better
-    * Less lines are more efficient?
-  * Understanding walrus-scope
-  * Exceptions to these rules
-  * Relation to the equals operator
-* Reception
-  * Backwards compatibility
-  * Teachability
-  * Attractiveness
-* Questions
-  * What does this mean for Python?
-  * Will this become part of Python?
-  * Is Guido coming back?
-  * Will this happen again?"
-
-
-
 
 # Markdown is supported
-about_author: ''
+about_author: "Dustin is a Developer Advocate at Google, focused on supporting the Python community on the Google Cloud Platform. He's also a member of the Python Packaging Authority, a maintainer of PyPI, and organizer for the PyTexas conference."
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: "https://twitter.com/di_codes"
