@@ -17,25 +17,7 @@ talk_tags:
 
 talk_abstract: "How does one make use of that raspberry pi they bought years ago? This talk will summarize how you can turn your raspberry pi into a home security system, utilizing slack as a notifications and control system."
 
-talk_details: "PyCon Canada 2018 Talk Proposal
-=========================
-
-**Title:** Building a home security system with Pi & Slack!
-
-**Duration:** 10 min
-
-**Language:** English
-
-**Level:** Beginner
-
-**Categories:** `data science`, `opencv`, `raspberry pi`, `slack apps`, `motion detection` 
-
-Abstract
-=======
-How does one make use of that raspberry pi they bought years ago? This talk will summarize how you can turn your raspberry pi into a home security system, utilizing slack as a notifications and control system.
-
-Description
-===========
+talk_details: |
 
 In this talk I will show how I turned my raspberry pi into a home security system. I will start with going over the different options for home security with a raspberry pi, then go into detail about the method I chose, which uses a video feed, OpenCV, and background subtraction to detect motion. I will then show how you can layer on out of the box image classification algorithms to reduce the number of false positives, and show how slack can be used as a notifications system and GUI to control your system. While the talk will focus on home security systems with the raspberry pi, the technologies and methods used will highlight the potential for many other use cases. I will finish off with some lessons learned and other applications of these technologies.
 
@@ -72,20 +54,19 @@ The talk outline will be something like this:
 
 - End with time for the audience to ask questions.
 
-See the repo for some more info on the project: https://github.com/ian-whitestone/rpi-security-system
+See the repo for some more info on the project: [https://github.com/ian-whitestone/rpi-security-system](https://github.com/ian-whitestone/rpi-security-system)
 
-About Me
-===========
 
-As a student of Chemical Engineering at Queen's University, Ian was pursuing a career back home in Calgary in the Oil & Gas industry. During one summer, he was thrown into the world of data science when he started trying to make money by using Python to optimize daily fantasy sports lineups. After the oil price started crashing, he realized he should probably look for work in another industry.
-
-With a new found passion for data science, Ian started working for Capital One in Toronto as a data scientist. For the past two years, he has been working on operational monitoring across the business, credit risk analysis, data infrastructure & risk models. In his spare time, Ian likes to participate in hackathons, work on side projects (usually involving a raspberry pi), or eat burrito boyz."
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: |
+As a student of Chemical Engineering at Queen's University, Ian was pursuing a career back home in Calgary in the Oil & Gas industry. During one summer, he was thrown into the world of data science when he started trying to make money by using Python to optimize daily fantasy sports lineups. After the oil price started crashing, he realized he should probably look for work in another industry.
+
+With a new found passion for data science, Ian started working for Capital One in Toronto as a data scientist. For the past two years, he has been working on operational monitoring across the business, credit risk analysis, data infrastructure & risk models. In his spare time, Ian likes to participate in hackathons, work on side projects (usually involving a raspberry pi), or eat burrito boyz.
+
 
 # web link will only show if about_author section is present
 author_website: ''
