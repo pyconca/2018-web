@@ -2,13 +2,18 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: ""
+speaker_name: "Nicole Carlson"
+"
 
-talk_title: "TBA"
+talk_title: "Lessons learned open sourcing (and maintaining) my first library"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "beginner"
+- "data science"
+- "open source"
+- "maintenance" 
+- "documentation"
+- "10 minutes"
 
 
 talk_abstract: "Last year, I open-sourced my first library, PyMC3 Models. This talk has two parts: things I learned as I was writing my library and some of the issues I faced being the sole maintainer of the library. I hope you’ll be encouraged to open source and maintain your own library after this!"
