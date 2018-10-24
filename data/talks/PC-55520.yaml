@@ -20,7 +20,7 @@ This talk aims to be a level-headed and rational discussion of a recently propos
 
 Along the way we'll go in-depth on how new ideas about Python are proposed, discussed, and become part of the language, what's unique about Python's process compared to other open source projects, and recent developments and what they mean for the future of the wider Python community. The goal is to give the average Python user an understanding of how Python evolves, problems with the existing process, and how we can solve it.
 
-In the end, attendees should come away with not only an understanding of PEP 572 and the Python governance model, but also gain an understanding of ways in which this process can fail and even become harmful to the people involved, and how we, as users of open source software, can be better stewards of our language and better supporters of the volunteers who we depend on.
+In the end, attendees should come away with not only an understanding of PEP 572 and the Python governance model, but also gain an understanding of ways in which this process can fail and even become harmful to the people involved, and how we, as users of open source software, can be better stewards of our language and better supporters of the volunteers who we depend on."
 
 
 # Markdown is supported
