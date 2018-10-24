@@ -1,0 +1,48 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: ""
+
+talk_title: "TBA"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "beginner"
+
+
+talk_abstract: "Last year, I open-sourced my first library, PyMC3 Models. This talk has two parts: things I learned as I was writing my library and some of the issues I faced being the sole maintainer of the library. I hope you’ll be encouraged to open source and maintain your own library after this!"
+
+# TODO: Add contents.
+
+talk_details: |
+  Last year, I open sourced my first library, PyMC3 Models, which features custom PyMC3 models built on top 
+  of the scikit-learn API. This talk is about some of the things I learned along the way.
+
+  The first half will focus on lessons learned while writing my library\: 
+  - The importance of just starting: releasing even a small bit of work is worthwhile because it could help someone. 
+  - Using toy examples: implementing a basic linear regression helped me improve the broader structure of my package. 
+  - Documentation: Spending time on documentation was tedious in the beginning, but paid off in the long run. 
+  - Copying: I borrowed heavily from other open source libraries and that’s totally ok!
+
+  The second half will focus on being the sole maintainer of the library including: 
+  - how to handle normal contributions 
+  - strategies for dealing with aggressive contributors 
+  - taking care of yourself when you’re the only one working on a library
+
+  I hope this talk will encourage you to start your own library and give you some tools as you maintain it.
+
+
+
+
+# Markdown is supported
+about_author: |
+  Nicole is on the data science team at ShopRunner. Previously, she worked at Shiftgig, the University of Chicago, 
+  and the Exploratorium.
+
+  She has a PhD in Physics from Berkeley; her research focused on computational neuroscience.
+
+  You can find Nicole at PyLadies and PyData Chicago meetups or climbing at First Ascent in Chicago.
+
+# web link will only show if about_author section is present
+author_website: "http://parsingscience.com/"
