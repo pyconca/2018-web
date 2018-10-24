@@ -19,51 +19,61 @@ talk_abstract: "How does one make use of that raspberry pi they bought years ago
 
 talk_details: |
 
-In this talk I will show how I turned my raspberry pi into a home security system. I will start with going over the different options for home security with a raspberry pi, then go into detail about the method I chose, which uses a video feed, OpenCV, and background subtraction to detect motion. I will then show how you can layer on out of the box image classification algorithms to reduce the number of false positives, and show how slack can be used as a notifications system and GUI to control your system. While the talk will focus on home security systems with the raspberry pi, the technologies and methods used will highlight the potential for many other use cases. I will finish off with some lessons learned and other applications of these technologies.
+  In this talk I will show how I turned my raspberry pi into a home security system. 
+  I will start with going over the different options for home security with a raspberry pi, 
+  then go into detail about the method I chose, which uses a video feed, OpenCV, and background subtraction 
+  to detect motion. I will then show how you can layer on out of the box image classification algorithms to 
+  reduce the number of false positives, and show how slack can be used as a notifications system and GUI to 
+  control your system. While the talk will focus on home security systems with the raspberry pi, the technologies 
+  and methods used will highlight the potential for many other use cases. I will finish off with some lessons learned 
+  and other applications of these technologies.
 
-**Home Security Options with the Raspberry Pi** (1 minutes)
+  **Home Security Options with the Raspberry Pi** (1 minutes)
 
-- highlight different options for 'home security' with a Raspberry Pi
-    - using a motion sensor, ultrasonic sensor, and camera
-    - The pros and cons of each solution will be discussed
+  - highlight different options for 'home security' with a Raspberry Pi
+      - using a motion sensor, ultrasonic sensor, and camera
+      - The pros and cons of each solution will be discussed
 
-**Intro to OpenCV and Background Subtraction** (2 minutes)
+  **Intro to OpenCV and Background Subtraction** (2 minutes)
 
-- highlight how to use the Python OpenCV library to process images 
-- talk about background substraction, and show how it can be performed with OpenCV
+  - highlight how to use the Python OpenCV library to process images 
+  - talk about background substraction, and show how it can be performed with OpenCV
 
-**Using a Custom Slack App for Notifications and System Control** (3 minutes)
+  **Using a Custom Slack App for Notifications and System Control** (3 minutes)
 
-- quick overview of different options for interacting with slack: webhooks, bot users, and apps
-- discuss how the slack app was built with flask
-- show GIF demo of the app I built
+  - quick overview of different options for interacting with slack: webhooks, bot users, and apps
+  - discuss how the slack app was built with flask
+  - show GIF demo of the app I built
 
-**Reducing False Positives with an Image Classifier** (2 minutes)
+  **Reducing False Positives with an Image Classifier** (2 minutes)
 
-- show how false positives from the background subtraction method can be reduced by layering on a pre-built image classifier
-    - emphasize the importance of combining the methods to reduce the workload on your raspberry Pi 
+  - show how false positives from the background subtraction method can be reduced by layering on a pre-built image classifier
+      - emphasize the importance of combining the methods to reduce the workload on your raspberry Pi 
 
-**Wrapping Up** (1 minute)
+  **Wrapping Up** (1 minute)
 
-- lessons learned
-- other applications
+  - lessons learned
+  - other applications
 
-**Questions** (1 minute)
+  **Questions** (1 minute)
 
-- End with time for the audience to ask questions.
+  - End with time for the audience to ask questions.
 
-See the repo for some more info on the project: [https://github.com/ian-whitestone/rpi-security-system](https://github.com/ian-whitestone/rpi-security-system)
-
-
-
-
+  See the repo for some more info on the project: 
+  [https://github.com/ian-whitestone/rpi-security-system](https://github.com/ian-whitestone/rpi-security-system)
 
 
 # Markdown is supported
 about_author: |
-As a student of Chemical Engineering at Queen's University, Ian was pursuing a career back home in Calgary in the Oil & Gas industry. During one summer, he was thrown into the world of data science when he started trying to make money by using Python to optimize daily fantasy sports lineups. After the oil price started crashing, he realized he should probably look for work in another industry.
+  As a student of Chemical Engineering at Queen's University, Ian was pursuing a career back home in Calgary 
+  in the Oil & Gas industry. During one summer, he was thrown into the world of data science when he started 
+  trying to make money by using Python to optimize daily fantasy sports lineups. After the oil price started 
+  crashing, he realized he should probably look for work in another industry.
 
-With a new found passion for data science, Ian started working for Capital One in Toronto as a data scientist. For the past two years, he has been working on operational monitoring across the business, credit risk analysis, data infrastructure & risk models. In his spare time, Ian likes to participate in hackathons, work on side projects (usually involving a raspberry pi), or eat burrito boyz.
+  With a new found passion for data science, Ian started working for Capital One in Toronto as a data scientist. 
+  For the past two years, he has been working on operational monitoring across the business, credit risk analysis, 
+  data infrastructure & risk models. In his spare time, Ian likes to participate in hackathons, work on side projects 
+  (usually involving a raspberry pi), or eat burrito boyz.
 
 
 # web link will only show if about_author section is present
