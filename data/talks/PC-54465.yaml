@@ -1,46 +1,3 @@
-<<<<<<< e8cccd5ae0490a9ecff1073f007a97d7699f18eb
-# Talk details are specified in YAML files
-# YAML was selected because we can use multi-line strings and add
-# comments in the file.
-
-speaker_name: "Jeffrey McLarty"
-
-talk_title: "An Experiment in Type Punning"
-
-# At least 1 tag is necessary!!
-talk_tags:
-- "backend"
-- "type handling"
-
-
-talk_abstract: "When python interacts with strongly-typed systems a mapping is implicitly created.  Every.  Single.  Time.  The (1 to 0, 1 to 1, 1 to many) relationships can be unwieldy.  A related stack overflow q, Wes McKinney replies 'Welcome to Hell'. This is the story of an attempt to innovate out of hell."
-
-talk_details: "A codification of the cognitive challenges associated with letting python talk to strongly typed systems was attempted.  This is the reasoning, approach and story of an experiment.
-
-# Checking for Ducks [2 mins]
-A brief overview of how to 'check for ducks' in python will be shared.  (subclass, isinstance, is, type, obj.property, hasattr, class.__name__, try/catch).
-
-# Mapping Relationships Between Categories of Types [10 mins]
-A hypothesis will be stated that all object types can be binned into one of four bins (Builtin, Library-Supplied, Developer/User-Created, External).  We define 'External', as a means to explain non-python representations of objects in some other system (eg. JSON, a Database).  A few cherry-picked examples will be shared of the more complex relationships where python has a builtin type, that do not map 1:1 to external types, and highlighted with how libraries have attempted to fill in the gap.  (Eg. Dates & Time)  I'll show how messy this can get over time as technical debt adds up.  I'll posit a phenomenon named 'The Mandatory Type Mapping Principle' to explain what I mean by the fact that type mappings happen 'Every. Single. Time.'
-
-# Mapping Maintaining Rule Engine [10 mins]
-The API and object model for a proprietary rule engine is shared.  The maintainability has proven the API to be extremely robust.  It's also defendably beautiful, explicit, flat, readable, and finished (ie PEP 20 compliant).
-
-# Context in Pensions [5 mins]
-Experiences will be shared in the context of a developer's workflow from the perspective of a developer, and a manager of developers, at one of Canada's largest asset managers.
-
-# Questions [3 mins]
-You know...if I don't run out of time."
-
-
-
-
-# Markdown is supported
-about_author: ''
-
-# web link will only show if about_author section is present
-author_website: ''
-=======
 # Talk details are specified in YAML files
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
@@ -58,7 +15,12 @@ talk_tags:
 - "predictability"
 
 
-talk_abstract: "When python interacts with strongly-typed systems a mapping is implicitly created.  Every.  Single.  Time.  The (1 to 0, 1 to 1, 1 to many) relationships can be unwieldy.  A related stack overflow q, Wes McKinney replies 'Welcome to Hell'. This is the story of an attempt to innovate out of hell."
+talk_abstract: "When python interacts with strongly-typed systems a mapping is implicitly created.  Every.  Single.  Time.  The (1 to 0, 1 to 1, 1 to many) relationships can be unwieldy.  A related stack overflow question, Wes McKinney replies 'Welcome to Hell'. This is the story of an attempt to innovate out of hell."
 
-talk_details: "A codification of the cognitive challenges associated with letting python talk to strongly typed systems was attempted.  This is the reasoning, approach and story of an experiment. 
->>>>>>> Update PC-54465.yaml
+talk_details: "A codification of the cognitive challenges associated with letting python talk to strongly typed systems was attempted.  This is the reasoning, approach and story of an experiment.
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''
