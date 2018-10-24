@@ -1,0 +1,65 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+
+speaker_name: "Andrew Francis"
+
+talk_title: "Okay computer, please renew my loans: Prototyping Library Applications with Python and Voice SDKs"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "Python"
+- "Voice SDKs"
+- "Natural Processing Language"
+- "30 minutes"
+
+
+talk_abstract: "Physical libraries are great! Managing library material via web interfaces leaves much to be desired. In the age of Siri and Alexa, why can’t one manage one’s library loans with text messaging or voice? This talk discusses questions and answers by prototyping a Python based conversational agent."
+
+# TODO: Add contents.
+
+talk_details: |
+
+  Brick and mortar libraries are great! Managing library material via the typical web based OPAC (online public access catalogue) of one’s public library leaves much to be desired. In the age of Siri, Alexa, Cortana, Google Assistant, etc why can’t one manage one’s library membership via text messaging or voice? Since the author didn’t know, he set out to find answers through prototyping a simple conversational agent (the Library Patron Agent), focusing on the Amazon Alexa SDK. And the author could not think of a better language to prototype than Python. Python figures prominently both in the construction of the web back-end server, as well as various command-line utilities for language model construction. In the course of developing the LPA, more questions than answers were created. However two questions will be addressed: is it feasible for an application to support multiple voice SDKs?; what is the division of NLP labour between the front-end and backend? One thing is certain, how one answers these questions has a profound impact on architecture and the tool-chain.
+  
+  **Introduction (< 5 minutes)**
+
+  - Demo “Please renew my copy of Tom Sawyer”
+    - renewed by voice and sms
+  - A description of the Library Patron Agent
+  - Why this is a toy (hint lack of standardised API for library circulation)?
+  - Two questions
+    - what would happen if I wanted to support Google Assistant or Siri too?
+    - how does Alexa, Google Assistant, etc know Tom Sawyer is short for Adventures of Tom Sawyer? Or does it? Whose responsibility is this?
+  
+  **Anatomy of a voice app (< 5 minutes)**
+
+  - Communication flow between front-end, the voice system and the back-end
+    - Python modules used (Flask, SQL-Alchemy)
+    - proprietary input
+    - output W3c standard SSML
+
+  **The Development Cycle (< 2 minutes)**
+
+  **The Front-end and Language models (10 minutes)**
+  - What is a language model
+  - Example of different vendor language models
+  - Annotation and testing tools
+
+  **The Back-end ( ~5 minutes)**
+  - The processing of “Please renew my copy of Tom Sawyer.”
+  - NLP on the backend
+  - example: handling incomplete titles (NLTK and Spacy to the rescue)
+  - SSML generation
+
+  **Conclusions and Future directions (< 2 minutes)**
+
+
+
+
+# Markdown is supported
+about_author: ''
+
+# web link will only show if about_author section is present
+author_website: ''
