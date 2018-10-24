@@ -1,0 +1,62 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: ""
+
+talk_title: "Intake - taking the pain out of data access"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "open source"
+- "data science"
+- "database"
+
+
+talk_abstract: "Intake is a simple library providing one interface for cataloging, finding, describing and reading any data locally, in the cloud, or on an Intake server. Intake separates the definition of data sources from their analysis, so that Data Engineers and Data Scientists can get on with their jobs."
+
+
+talk_details: |
+  Defining and loading data-sets costs time and effort. The data scientist needs to know what data are available, 
+  and the characteristics of each data-set, before going to the effort of loading and beginning to analyze a 
+  specific data-set. Furthermore, they might need to learn the API of some Python package specific to the target format. 
+  The code to do such data loading often makes up the first block of every notebook or script, propagated by copy&paste.
+
+  Intake has been designed as a simple layer over other Python libraries to provide\:
+
+  - a consistent API, so that you can investigate and load all of your data with the same commands, without knowing the details of the backend library
+  - a simple cataloging system using YAML syntax, enabling, for every data-set\:
+    - a description of which plugin is to load it
+    - arguments to pass
+    - arbitrary metadata to associate with the data
+    - transparent access to remote catalogs and data, for most formats
+  - a minimalist plugin system, so that new loaders, remote containers, and many other components can be contributed to Intake with a minimum of fuss.
+
+  For a simple design and relatively small code-base, there are lots of features. We will demonstrate the main ones and show 
+  typical work-flows from two points of view\:
+
+  - the end user (e.g., Data Scientist), who will be provided with an easy-to-use method for browsing data catalogs, 
+  getting basic descriptions of each entry. For each data-set, detailed metadata and data structure descriptions and 
+  quick-look plotting are available as one-liners, allowing for quick decisions on which data are appropriate for a 
+  given problem, and then Intake gets out of the way. The user need never know the details of the storage format of the data.
+  - the catalog designer (e.g., Data Engineer), who wants to get on with deciding where data should be stored, 
+  in which format, and which package is best suited to load each data-set, so long as the data scientist, above, 
+  gets the data-frame (or other artefact) they need. Catalogs also provide a natural place to describe each data-set, 
+  with text and arbitrary metadata. Finally, catalogs can also encode user parameters, giving either natural choices 
+  to the end user (e.g., to filter a data set, or choose between version A and B), or for getting information required 
+  for data access from the user’s environment.
+
+  Thus, Intake provides a very simple yet useful division between the users of data, and the maintainers of data source catalogs. Intake has approachable code and is extensible in many places, and so hopefully can progress to become an all-inclusive data ecosystem for numerical Python.
+
+
+
+
+# Markdown is supported
+about_author: |
+  Software engineer in the open-source department of Anaconda, Inc. I was trained as an astrophysicist, 
+  and learned my coding while analysing data from various telescopes. I later worked in cancer imaging research, 
+  before turning into an official data scientist. I have worked for Anaconda for three years, 
+  in diverse roles such as training, packaging, consulting, product and open-source.
+
+# web link will only show if about_author section is present
+author_website: 'http://martindurant.github.io/'
