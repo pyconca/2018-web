@@ -44,11 +44,11 @@
                 },
                 {
                     "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-55208"
+                    "ref": "PC-55410"
                 },
                 {
                     "location": "St George (3rd floor)",
-                    "ref": "A-9009"
+                    "ref": "PC-55208"
                 }
             ]
         },
@@ -59,7 +59,7 @@
             "rooms": [
                 {
                     "location": "Ballroom (2nd Floor)",
-                    "ref": "PC-55494"
+                    "ref": "PC-55191"
                 },
                 {
                     "location": "Terrace (3rd floor)",
@@ -67,7 +67,7 @@
                 },
                 {
                     "location": "St. Patrick (3rd floor)",
-                    "ref": "PC-55466"
+                    "ref": "PC-54854"
                 },
                 {
                     "location": "St George (3rd floor)",
@@ -82,7 +82,7 @@
             "rooms": [
                 {
                     "location": "Ballroom (2nd Floor)",
-                    "ref": "A-9010"
+                    "ref": "PC-55208"
                 },
                 {
                     "location": "Terrace (3rd floor)",
@@ -129,7 +129,7 @@
                 },
                 {
                     "location": "St. Patrick (3rd floor)",
-                    "ref": "A-9012"
+                    "ref": "PC-55199"
                 },
                 {
                     "location": "St George (3rd floor)",
