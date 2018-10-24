@@ -12,21 +12,28 @@ talk_tags:
 - "tutorial"
 - "pyspark"
 - "data science" 
-- "240 minutes"
+- "2 hours"
 
 
-talk_abstract: | Apache Spark is a fast and general engine for big data processing. Using PySpark, you can work with Spark DataFrames in Python. 
+talk_abstract: | 
+  Apache Spark is a fast and general engine for big data processing. 
+  Using PySpark, you can work with Spark DataFrames in Python. 
 
-The target audience is familiar with Python and looking to get their feet wet with data science and/or the Spark framework. This tutorial will cover reading in data from files and basic DataFrame operations.
+  The target audience is familiar with Python and looking to get their feet 
+  wet with data science and/or the Spark framework. This tutorial will cover 
+  reading in data from files and basic DataFrame operations.
 
-While this session cannot provide enough background to support professional work with Spark, we aim to provide some interesting initial tools and pointers on how to go deeper for those interested.
+  While this session cannot provide enough background to support professional 
+  work with Spark, we aim to provide some interesting initial tools and pointers 
+  on how to go deeper for those interested.
 
 
 # TODO: Add contents.
 
-talk_details: | Please note that this tutorial is 2 hours long and will possibly go into lunch.
+talk_details: | 
+  Please note that this tutorial is 2 hours long and will possibly go into lunch.
 
-To sign up for this tutorial, [follow  this link](https://github.com/pyconca/2018-wiki/wiki/Tutorials/)
+  To sign up for this tutorial, [follow  this link](https://github.com/pyconca/2018-wiki/wiki/Tutorials/)
 
 
 
