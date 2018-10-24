@@ -21,8 +21,6 @@ talk_details: |
 
 In this talk I will show how I turned my raspberry pi into a home security system. I will start with going over the different options for home security with a raspberry pi, then go into detail about the method I chose, which uses a video feed, OpenCV, and background subtraction to detect motion. I will then show how you can layer on out of the box image classification algorithms to reduce the number of false positives, and show how slack can be used as a notifications system and GUI to control your system. While the talk will focus on home security systems with the raspberry pi, the technologies and methods used will highlight the potential for many other use cases. I will finish off with some lessons learned and other applications of these technologies.
 
-The talk outline will be something like this:
-
 **Home Security Options with the Raspberry Pi** (1 minutes)
 
 - highlight different options for 'home security' with a Raspberry Pi
