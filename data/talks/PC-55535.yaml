@@ -13,7 +13,7 @@ talk_tags:
 - "Machine Learning"
 
 
-talk_abstract: "There's a telescope that sits on a mountaintop in the Chilean desert––it's job is to capture and help scientists understand the dark matter of our universe. But this isn't a talk just about dark matter, it's about discovering fleeting supernovas in space, while discovering the world of Python."
+talk_abstract: "There's a telescope that sits on a mountaintop in the Chilean desert––its job is to capture and help scientists understand the dark matter of our universe. But this isn't a talk just about dark matter, it's about discovering fleeting supernovas in space, while discovering the world of Python."
 
 talk_details: "When you're new to a programming language, they tell you to find a problem that will keep your interest. One year, and 1 million images of space later, we now have the best model for classifying supernovas. The funny thing is, it's actually pretty easy––thanks to Python's open source and data science world.
 
