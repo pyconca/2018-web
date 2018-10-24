@@ -1,3 +1,4 @@
+<<<<<<< e8cccd5ae0490a9ecff1073f007a97d7699f18eb
 # Talk details are specified in YAML files
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
@@ -39,3 +40,25 @@ about_author: ''
 
 # web link will only show if about_author section is present
 author_website: ''
+=======
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Jeffrey McLarty"
+
+talk_title: "An Experiment in Type Punning"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "backend"
+- "type handling"
+- "experimentation"
+- "maintainability"
+- "predictability"
+
+
+talk_abstract: "When python interacts with strongly-typed systems a mapping is implicitly created.  Every.  Single.  Time.  The (1 to 0, 1 to 1, 1 to many) relationships can be unwieldy.  A related stack overflow q, Wes McKinney replies 'Welcome to Hell'. This is the story of an attempt to innovate out of hell."
+
+talk_details: "A codification of the cognitive challenges associated with letting python talk to strongly typed systems was attempted.  This is the reasoning, approach and story of an experiment. 
+>>>>>>> Update PC-54465.yaml
