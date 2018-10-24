@@ -20,7 +20,7 @@ talk_abstract: "When python interacts with strongly-typed systems a mapping is i
 talk_details: "A codification of the cognitive challenges associated with letting python talk to strongly typed systems was attempted.  This is the reasoning, approach and story of an experiment."
 
 # Markdown is supported
-about_author: "Jeffrey McLarty currently works with a team of talented developers who build analytics and tools for the portfolio managers investing Canada's largest nest egg.  He's also a runner, father, painter, photographer and investor."
+about_author: "Jeffrey McLarty is a problem solver who currently works with a team of talented people who build analytics and tools for the portfolio managers investing Canada's largest nest egg.  Over the last half-decade, he's contributed a variety of minor changes to popular open source projects and maintains a few unpopular open source projects too.  He's also a runner, father, artist and investor."
 
 # web link will only show if about_author section is present
 author_website: 'http://jeffreymclarty.com/' # This is blank right now, but I have something to deploy soon.
