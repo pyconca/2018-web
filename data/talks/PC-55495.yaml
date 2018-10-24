@@ -21,12 +21,6 @@ talk_tags:
 talk_abstract: "Zero to API is a tutorial to help beginners create an authenticated API from scratch using Django, Django Rest Framework and Restauth. This is the backbone of web and mobile apps."
 
 talk_details: |
-
-  Zero to API is a tutorial to help beginners create an authenticated API from scratch using Django, 
-  Django Rest Framework and Restauth.
-
-# Description
-
   This is a beginner tutorial that helps users get up and running with Django and Django Rest Framework with the 
   goal of creating an authenticated API. Since API's are essential for mobile and web apps, this tutorial is a way 
   to help beginner pythonistas get their app users logged in, and use authentication on each request for their API. 
@@ -38,13 +32,6 @@ talk_details: |
   A link to the tutorial is [here](https://github.com/dgmouris/zero_to_api).
   
   To sign up for this tutorial, [use this link](https://github.com/pyconca/2018-wiki/wiki/Tutorials/)
-
-
-# About Dan Mouris
-
-
-
-
 
 # Markdown is supported
 about_author: |
@@ -67,5 +54,5 @@ about_author: |
   I can be found doing Crossfit, hiking or playing board games with friends!
 
 
-# web link will only show if about_author section is present, uncomment to add.
+#web link will only show if about_author section is present, uncomment to add.
 #author_website: ''
