@@ -15,14 +15,30 @@ talk_tags:
 
 talk_abstract: "If you have an evolving domain and process owners of varying expertise, then Domain Driven Design is a great approach. In this tutorial I would explain the concepts of DDD, and interactively introduce a Django project with a  'drawing board to on board' experience from mindset to implementation."
 
-talk_details: "If you have evolving requirements, process owners of different specialities, and a complex business domain, then Domain Driven Design is an approach you can embrace. It is agnostic of tech-stack and paradigm, and is more of a philosophy and logic organization pattern than paradigm friendly design pattern. In this tutorial session I would like to do a more hands-on approach in building a system using Python and Django, starting from getting into the mind-set followed by modular code organization, inter-domain communication and all interim steps towards a project that is well understood by all steak holders. 
+talk_details: |
+  If you have evolving requirements, process owners of different specialities, and a complex business domain, 
+  then Domain Driven Design is an approach you can embrace. It is agnostic of tech-stack and paradigm, 
+  and is more of a philosophy and logic organization pattern than paradigm friendly design pattern. 
+  In this tutorial session I would like to do a more hands-on approach in building a system using Python and Django, 
+  starting from getting into the mind-set followed by modular code organization, inter-domain communication and all 
+  interim steps towards a project that is well understood by all steak holders. 
 
-I would start with explaining the problem, let the audience choose roles and start a dialogue based process, and in that process, work through a ubiquitous language, bounded contexts, events, and a proposed structure in Django that helps with the right placements of the right tenants of DDD. The end product would be a small but functioning Django application that looks structurally different from common Django apps, but has more readability and extendability if the culture is centric to Domain Driven Design.
+  I would start with explaining the problem, let the audience choose roles and start a dialogue based process, 
+  and in that process, work through a ubiquitous language, bounded contexts, events, and a proposed structure in Django 
+  that helps with the right placements of the right tenants of DDD. The end product would be a small but functioning Django 
+  application that looks structurally different from common Django apps, but has more readability and extendability if the 
+  culture is centric to Domain Driven Design.
 
-Domain Driven Design has been touted as Object Oriented Programming done right, but it is not limited to the paradigm and has been used by functional languages and frameworks. Django, despite its monolith feel, can be rejigged into any model one wishes and with the right use case and motivation, beautiful engineering can ensue. This tutorial aims to interactively introduce just that.
+  Domain Driven Design has been touted as Object Oriented Programming done right, but it is not limited to the paradigm 
+  and has been used by functional languages and frameworks. Django, despite its monolith feel, can be rejigged into any 
+  model one wishes and with the right use case and motivation, beautiful engineering can ensue. This tutorial aims to 
+  interactively introduce just that.
 
-The main focus is to have more of a 'drawing board to on board' experience in this tutorial and while the one hour limit may be limiting for this, I would part with notes on looking further and invite to further contribute to the open source project and tools used.
-"
+  The main focus is to have more of a 'drawing board to on board' experience in this tutorial and while the one hour l
+  imit may be limiting for this, I would part with notes on looking further and invite to further contribute to the 
+  open source project and tools used.
+  
+  To sign up for this tutorial, [use this link](https://github.com/pyconca/2018-wiki/wiki/Tutorials/)
 
 
 
