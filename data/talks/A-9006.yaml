@@ -8,10 +8,13 @@ talk_title: "lightning talks"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "intermediate"
+- "all"
+- "fun"
 
 
-talk_abstract: "To be announced"
+talk_abstract: |
+  Lightning talks are super fast 5 minute talks that anyone can give to all the atendees at PyCon Canada. If interested,
+  please sign up on the wiki page \: [https://github.com/pyconca/2018-wiki/wiki/lightning-talks](https://github.com/pyconca/2018-wiki/wiki/lightning-talks)
 
 # TODO: Add contents.
 
