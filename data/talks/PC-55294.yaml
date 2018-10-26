@@ -14,28 +14,44 @@ talk_tags:
 
 talk_abstract: "Python changed my professional life. I started as a regional TV/radio reporter for CBC/Radio-Canada in 2011. But in a digitalized world, I realized I needed code to produce in-depth stories. Since then, I've learned Python and I am now working from Montreal, as data reporter, my dream job!"
 
-talk_details: "I've learned how to code in Python in 2015, while doing a Master's Degree in data and investigative journalism at the University of King's College, in Halifax.
+talk_details: |
+  I've learned how to code in Python in 2015, while doing a Master's Degree in data and investigative journalism at the 
+  University of King's College, in Halifax.
 
-Since then, I used Python in dozens of exclusive stories. During my talk, I would explain why code gives me a big advantage in my job, with concrete examples of published projects. In a few words, code gives me the ability to automate many things and to dive deep into a topic, with huge amount of data. The scale of my stories is often out of reach for non-coder reporters.
+  Since then, I used Python in dozens of exclusive stories. During my talk, I would explain why code gives me a big advantage 
+  in my job, with concrete examples of published projects. In a few words, code gives me the ability to automate many things 
+  and to dive deep into a topic, with huge amount of data. The scale of my stories is often out of reach for non-coder reporters.
 
-For example:
+  For example:
 
-- Quebecers always say that wine is cheaper in Ontario. To check whether it was true, I've scraped the data from the Société des alcools du Québec and the Liquor Control Board of Ontario. Then, I compared the prices for similar products. And consumers were right! Hundreds of wine bottles were less expensive to buy in Ontario, according to my report, which was the largest analysis ever made on the topic.
+  - Quebecers always say that wine is cheaper in Ontario. To check whether it was true, I've scraped the data from the Société 
+  des alcools du Québec and the Liquor Control Board of Ontario. Then, I compared the prices for similar products. 
+  And consumers were right! Hundreds of wine bottles were less expensive to buy in Ontario, according to my report,
+  which was the largest analysis ever made on the topic.
+  - In Quebec, the Ministry of Education has the duty to regularly inspect child care services. I scraped the data from all 
+  inspections since 2009 and analyzed it. Conclusion: half of the child cares centers haven't been inspected in the last 5 
+  years! I wrote several exclusive stories with this data.
+  - During the federal campaign of 2015, we talked a lot about military vehicles sold to Saudi Arabia. I decided to get the 
+  details of all military exportations for the last 25 years. I cross-referenced the data with several databases and 
+  discovered that a third of all Canadian military exportations were sold to dictatorships, since 1990.
+  - In four years, the liberal government of Philippe Couillard, in Quebec, made a lot of changes to the tax system. 
+  I compiled all the changes and created a chatbot to help people determine whether it made them save or lose money. 
+  This bot involved a lot of HTML and JavaScript. So I created a Python script to code the HTML and JavaScript for me!
+  - How universities should be financed is an ongoing debate in Quebec. I obtained the detailed financial data of all Quebec 
+  universities for the period 1997-2016  (even if the government didn't want me to access it). Then I published an exclusive 
+  story on the incredible rise of 'special' fees (+178% in 20 years) billed to students and the lack of expenses for new 
+  professors.
 
-- In Quebec, the Ministry of Education has the duty to regularly inspect child care services. I scraped the data from all inspections since 2009 and analyzed it. Conclusion: half of the child cares centers haven't been inspected in the last 5 years! I wrote several exclusive stories with this data.
-
-- During the federal campaign of 2015, we talked a lot about military vehicles sold to Saudi Arabia. I decided to get the details of all military exportations for the last 25 years. I cross-referenced the data with several databases and discovered that a third of all Canadian military exportations were sold to dictatorships, since 1990.
-
-- In four years, the liberal government of Philippe Couillard, in Quebec, made a lot of changes to the tax system. I compiled all the changes and created a chatbot to help people determine whether it made them save or lose money. This bot involved a lot of HTML and JavaScript. So I created a Python script to code the HTML and JavaScript for me!
-
-- How universities should be financed is an ongoing debate in Quebec. I obtained the detailed financial data of all Quebec universities for the period 1997-2016  (even if the government didn't want me to access it). Then I published an exclusive story on the incredible rise of 'special' fees (+178% in 20 years) billed to students and the lack of expenses for new professors.
-
-I am also always trying to learn something new. I've just finished a class on Coursera on machine learning. I am thinking about doing a story using TensorFlow in the coming months!"
+  I am also always trying to learn something new. I've just finished a class on Coursera on machine learning. 
+  I am thinking about doing a story using TensorFlow in the coming months!
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: |
+  Nael Shiab is a data reporter for the French services of CBC/Radio-Canada, in Montreal. His job is to use his coding skills 
+  to produce exclusive stories that are out of reach for other media outlets. His ultimate goal is to build an army of bots 
+  that would work for him, so he’ll be able to listen to podcasts and drink coffee all day.
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://twitter.com/naelshiab'
