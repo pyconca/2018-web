@@ -14,20 +14,23 @@ talk_tags:
 
 talk_abstract: "On July 12, 2018, Guido van Rossum gave himself 'a permanent vacation from being BDFL' with no guidance on how to proceed. This talk will discuss how the Python development team has tried to handle situation and where things currently stand."
 
-talk_details: "When the [Great Guido Mic Drop](https://mail.python.org/pipermail/python-committers/2018-July/005664.html) occurred, the Python development team was left with no mechanism or guidance to replace Guido's decision-making role. With no succession plan in place, the Python development team has been left to make any and all decisions on how to replace Guido's role in Python's development process (we even have to decide how to decide).
+talk_details: |
+  When the [Great Guido Mic Drop](https://mail.python.org/pipermail/python-committers/2018-July/005664.html) occurred, the Python development team was left with no mechanism or guidance to replace Guido's decision-making role. With no succession plan in place, the Python development team has been left to make any and all decisions on how to replace Guido's role in Python's development process (we even have to decide how to decide).
 
-This talk will go over what has transpired since Guido's announcement:
+  This talk will go over what has transpired since Guido's announcement:
 
-- How we organized ourselves
-- The proposed governance models
-- How a model will be chosen
-- Where things currently stand"
+  - How we organized ourselves
+  - The proposed governance models
+  - How a model will be chosen
+  - Where things currently stand
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: |
+  Brett is a principal software developer at Microsoft where he works on the [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python). 
+  He lives in Vancouver, BC with his wife and cat who think it’s a bit unhealthy that he not only programs for a living but also as his primary hobby.
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://snarky.ca/'
