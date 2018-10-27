@@ -17,15 +17,16 @@ talk_tags:
 
 talk_abstract: "At Wave, I've been a part of the team, from inception to now, rewriting and replacing the old accounting system. I want to talk about the challenges migrating a system with over 2 million sign ups with no downtime. The systems are radically different making it challenging at time. We're 60% done."
 
-talk_details: "We were running out of options with improving a legacy system and got the greenlight to rewrite it with what we think are best practices and better domain designs. Now we just had to get people onto this system...how hard can that be?
+talk_details: |
+  We were running out of options with improving a legacy system and got the greenlight to rewrite it with what we think are best practices and better domain designs. Now we just had to get people onto this system...how hard can that be?
 
-I'll speak to the plan we had, how we executed it, the pitfalls, the wins and how we move millions of users worth of data with little to no downtime except a few minutes for a given user. "
+  I'll speak to the plan we had, how we executed it, the pitfalls, the wins and how we move millions of users worth of data with little to no downtime except a few minutes for a given user. 
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Joseph is a Python, Django and front-end developer based in Toronto, Canada. He graduated with a degree in Computer Science from the University of Toronto. He is a Developer for a Toronto startup called Wave that builds accounting software for small businesses.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://www.josephkahn.io/'
