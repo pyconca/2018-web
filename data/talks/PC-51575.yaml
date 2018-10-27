@@ -19,19 +19,27 @@ talk_tags:
 
 talk_abstract: "Given I need to automate tests, When I use pytest-bdd, Then my tests are readable, reusable, and Pythonic. AWESOME! Attend this talk to learn how to use pytest with pytest-bdd to improve the quality of your tests and your code!"
 
-talk_details: "Test automation is treated like a necessary evil. We know we should automate our tests, but it takes time and effort. **pytest-bdd**, a plugin for the awesome **pytest** framework, makes it *much* easier to write tests by enabling Behavior-Driven Development (BDD) features. Using **pytest-bdd**, teams write tests in plain language using Gherkin (e.g., Given-When-Then steps), and then programmers write Python code to automate the steps. BDD testing is great because tests are self-documenting and steps abide by the DRY principle. And all the goodness of **pytest** is available. An example test could be:
+talk_details: |
+  Test automation is treated like a necessary evil. We know we should automate our tests, but it takes time and effort. 
+  **pytest-bdd**, a plugin for the awesome **pytest** framework, makes it *much* easier to write tests by enabling 
+  Behavior-Driven Development (BDD) features. Using **pytest-bdd**, teams write tests in plain language using Gherkin 
+  (e.g., Given-When-Then steps), and then programmers write Python code to automate the steps. BDD testing is great because 
+  tests are self-documenting and steps abide by the DRY principle. And all the goodness of **pytest** is available. 
+  An example test could be:
 
-*Given* the DuckDuckGo home page is displayed
-*When* the user searches the phrase 'Python'
-*Then* search results for 'Python' are shown
+  *Given* the DuckDuckGo home page is displayed
+  *When* the user searches the phrase 'Python'
+  *Then* search results for 'Python' are shown
 
-This talk will teach how to use **pytest-bdd** to develop well-designed test scenarios and a robust automation framework. It will focus on the layers of the **pytest-bdd** framework: feature files, step definitions, and support classes. A full example project will be hosted on GitHub for audience members to reference after the talk."
+  This talk will teach how to use **pytest-bdd** to develop well-designed test scenarios and a robust automation framework. 
+  It will focus on the layers of the **pytest-bdd** framework: feature files, step definitions, and support classes. 
+  A full example project will be hosted on GitHub for audience members to reference after the talk.
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Andy Knight is the “Automation Panda”. He is a software engineer whose specialty is building test automation systems from the ground up, which involves both software development for test code as well as the infrastructure to run it in continuous integration. Currently, he is a Software Engineer in Test at PrecisionLender in Cary, NC. He also does independent consulting and training, and he is an avid Pythoneer. Tag him on Twitter at @AutomationPanda, and check out his software blog at AutomationPanda.com.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://automationpanda.com/'
