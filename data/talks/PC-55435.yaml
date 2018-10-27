@@ -10,6 +10,7 @@ talk_title: "Using Networkx to ‘visualize’ Canada’s low-carbon energy tran
 talk_tags:
 - "community and culture"
 - "visualisation"
+- "10 minutes"
 
 
 talk_abstract: "This talk presents the use of Python in environmental (energy) scenario research. We analyze different energy scenarios and apply community detection (Louvain method) to reveal the core issues that could support Canada’s energy transition in the future, which policymakers might find them insightful."
@@ -20,7 +21,7 @@ talk_details: "Studies of energy futures could provide roadmaps toward low-carbo
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Jude H Kurniawan is a Ph.D. candidate supervised by Dr. Vanessa Schweizer at the University of Waterloo. Jude is a foresight and scenario researcher who combines participatory scenario planning and computational analysis to understand socio-technical and socio-environmental futures.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'http://twitter.com/JudeHKurniawan'
