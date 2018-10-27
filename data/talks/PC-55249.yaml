@@ -18,19 +18,38 @@ talk_abstract: "Python has made the jump to embedded software running on microco
 
 This talk will introduce CircuitPython: a fork of MicroPython (a implementation of Python 3 designed to run on small hardware) that takes it to exciting new hardware and makes it very beginner/learner friendly."
 
-talk_details: "Python has seen a great deal of use in the higher level application space: web, data analysis, desktop apps, etc.  Recently it's been moving in an exciting new direction: small hardware based around microcontrollers.  Where we used to be required to use C/C++ (commonly in the Arduino environment), we can now use Python.
+talk_details: |
+  Python has seen a great deal of use in the higher level application space: web, data analysis, desktop apps, etc.  
+  Recently it's been moving in an exciting new direction: small hardware based around microcontrollers.  
+  Where we used to be required to use C/C++ (commonly in the Arduino environment), we can now use Python.
 
-MicroPython is a new, opensource implementation of Python3 for this type of environment, including the BBC Micro:bit.  CiruitPython is a fork of MicroPython that supports new hardware and provides a very beginner/learner friendly way to deploy code to the hardware: connect your board via USB and a drive appears, drop code onto the drive and it runs. Edit code directly on the drive. Save it and it runs. Connect to the board via a terminal emulator (e.g. screen) and you can drop into a Python REPL. A recent addition has been a compatibility layer for Raspberry Pi making CircuitPython code portable between the various microcontroller systems and the Pi.
+  MicroPython is a new, opensource implementation of Python3 for this type of environment, including the BBC Micro:bit.  
+  CiruitPython is a fork of MicroPython that supports new hardware and provides a very beginner/learner friendly way to 
+  deploy code to the hardware: connect your board via USB and a drive appears, drop code onto the drive and it runs. 
+  Edit code directly on the drive. Save it and it runs. Connect to the board via a terminal emulator (e.g. screen) and 
+  you can drop into a Python REPL. A recent addition has been a compatibility layer for Raspberry Pi making CircuitPython 
+  code portable between the various microcontroller systems and the Pi.
 
-The talk will introduce CircuitPython and various boards from Adafruit that support it as well as the Mu python programmign environment that has support for CircuitPython and associated hardware.
+  The talk will introduce CircuitPython and various boards from Adafruit that support it as well as the Mu python 
+  programming environment that has support for CircuitPython and associated hardware.
 
-There will be live demos."
+  There will be live demos.
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: |
+  Dave has been working in the computing industry for 35 years. He started when 8-bit CPUS like the 6502 and Z80 
+  ruled the land and he designed and built his own hardware and hand-crafted code from assembly language. 
+  Eventually he went off and got a Computer Science degree and focused exclusively on software for many years. 
+  Along the way he spoke at conferences and wrote books. One of his blog posts instigated the rSpec project which has 
+  been imitated in most programming languages. More recently he found himself working with hardware again. 
+  This time it’s different. Instead of using assembly language he is using Python. Dave spends his time these days 
+  hacking on projects and writing about them, teaching other people the joys of making things that do stuff in the physical world.
+
+  Dave grew up in Nova Scotia and spent more time there, Calgary, Boston, Washington DC, Silicon Valley, and 
+  Chicago before finding himself back in Canada; this time in SW Ontario.
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'http://daveastels.com'
