@@ -27,7 +27,9 @@ realistically approach scaling a web application, based on lessons learned in th
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Dorian Pula is a full-stack web app developer, mobile Linux enthusiast and writer. He graduated from the University of Toronto, where he studied Computer Science and Professional Communication.
+During the day he builds and maintains ecommerce web applications and REST APIs powered by Python.
+At night he contributes to Fabric, Ansible, and a number of other open source Python, Rust and JS projects. When he isn’t coding, Dorian enjoys writing, kayaking and hiking in Ontario’s back-country.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://dorianpula.ca/'
