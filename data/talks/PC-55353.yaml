@@ -15,35 +15,44 @@ talk_tags:
 - "NumPy"
 - "Data Science"
 - "A/B Testing"
+- "10 minutes"
 
 
 talk_abstract: "A/B testing is a valuable and in-demand skills that data analysts, BI developers, and data scientists have in their analytical toolkits. This beginner-oriented talk will explain the basic intuitions and statistical theory behind A/B testing and showcase a simple implementation in Python."
 
-talk_details: "This quick talk is aimed at beginners who are interested in learning about data analysis and are looking for project ideas to add to their portfolios.
+talk_details: |
+  This quick talk is aimed at beginners who are interested in learning about data analysis and are looking for project ideas to add to their portfolios.
 
-## Introduction [1 minute]
-What is A/B testing? Running experiments to take the guesswork out of decision making. Provide successful examples: click-through rate of different web page designs, drug-testing, etc.
+  ## Introduction [1 minute]
 
-## Bayesian Intuitions [2 minutes]
-The Bayesian Framework: Introduce our dueling web-page example. The difference between observed frequency and true frequency. Defining prior probabilities, likelihoods, Posterior probabilities. Establishing our prior - flat or informed? We'll try both!
+  What is A/B testing? Running experiments to take the guesswork out of decision making. Provide successful examples: click-through rate of different web page designs, drug-testing, etc.
 
-## The Beta Distribution [1 minute]
-A quick explanation of the beta distribution, its parameters, and how it will model the success rates for both sites. Visualize our priors.
+  ## Bayesian Intuitions [2 minutes]
 
-## Conducting the experiment using NumPy, SciPy, and Matplotlib [3 minutes]
-Randomly generating our data for both our test sites and their defining their true success rates. Adding our data to our priors and visualizing our posteriors. What difference does having an informed prior have? Understanding the posteriors.
+  The Bayesian Framework: Introduce our dueling web-page example. The difference between observed frequency and true frequency. Defining prior probabilities, likelihoods, Posterior probabilities. Establishing our prior - flat or informed? We'll try both!
 
-## Checking the results [2 minutes]
-Examining the cumulative distributions of our posteriors. Bayesian error bars. Looking at the area under the curve. P-Values
+  ## The Beta Distribution [1 minute]
 
-## Conclusion [1 minute]
-Overview of steps. Project ideas for collecting and A/B testing real data (e.g. polling, habit tracking). Concluding thoughts and useful resources for more info."
+  A quick explanation of the beta distribution, its parameters, and how it will model the success rates for both sites. Visualize our priors.
+
+  ## Conducting the experiment using NumPy, SciPy, and Matplotlib [3 minutes]
+  
+  Randomly generating our data for both our test sites and their defining their true success rates. Adding our data to our priors and visualizing our posteriors. What difference does having an informed prior have? Understanding the posteriors.
+
+  ## Checking the results [2 minutes]
+
+  Examining the cumulative distributions of our posteriors. Bayesian error bars. Looking at the area under the curve. P-Values
+
+  ## Conclusion [1 minute]
+
+  Overview of steps. Project ideas for collecting and A/B testing real data (e.g. polling, habit tracking). Concluding thoughts and useful resources for more info.
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: |
+  Self-taught Python programmer with 2+ years of data analysis experience in Python. Looking to grow my skills and connections within Toronto’s Python community!
 
 # web link will only show if about_author section is present
 author_website: ''
