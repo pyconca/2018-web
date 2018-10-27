@@ -14,17 +14,18 @@ talk_tags:
 
 talk_abstract: "Every line should have test coverage, but when projects get sophisticated tests can grow out of control, difficult to write, harder to understand, and damn near impossible to maintain. Learn tricks to achieve high coverage rates with simple, elegant tests that are easy to write, review, and evolve."
 
-talk_details: "The talk will present some of the pitfalls of unit testing, from bloated shared fixtures to monkey patching, characterisation testing, and brittle/broken coverage for error handling.
+talk_details: |
+  The talk will present some of the pitfalls of unit testing, from bloated shared fixtures to monkey patching, characterisation testing, and brittle/broken coverage for error handling.
 
-If you suffer from these problems, unit-testing becomes a grind, certain code seems un-testable, and covered code becomes painful to evolve. You may even find that your tests aren't even covering what you think they are.
+  If you suffer from these problems, unit-testing becomes a grind, certain code seems un-testable, and covered code becomes painful to evolve. You may even find that your tests aren't even covering what you think they are.
 
-With examples from Shopify's data platform, I will show strategies to mitigate these problems and write tests that are crystal clear, robust, and sustainable."
+  With examples from Shopify's data platform, I will show strategies to mitigate these problems and write tests that are crystal clear, robust, and sustainable."
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'I am a lead Software developer for Shopify’s data modeling platforms. Prior to joining Shopify I was a member of the Chrome team at Google. I’ve honed my unit testing chops over 19 years since an enlightened lead early in my career introduced me to the world of Extreme Programming.'
 
 # web link will only show if about_author section is present
 author_website: ''
