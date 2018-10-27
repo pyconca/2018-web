@@ -2,13 +2,14 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: ""
+speaker_name: "Ankit Mittal"
 
-talk_title: ""
+talk_title: "Building your own crypto exchange in async python"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "python"
+- "advanced"
+- "asyncio"
 
 
 talk_abstract: "<a href='/schedule-day-2#talk-A-9015'><p>previous session continued</p></a>"
