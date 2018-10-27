@@ -16,30 +16,43 @@ talk_tags:
 
 talk_abstract: "At Optel, we use Python to connect our systems with our client's specific systems. I will show you how we used namespace package and a few setuptools hacks to split a big monolithic library into an ecosystem of small versioned packages, to easily adapt to each client needs."
 
-talk_details: "'Bridge' is the name of the Python library we use to connect our systems to our clients' ERPs. Up until recently, it was a monolithic library with a lot of custom code for each client. However, it was difficult to maintain, as each single feature or bugfix for a given client required a new version of the whole bridge library. Furthermore, the deployment of the bridge for a given client required a special tool, the deployer, used to copy only the specific required parts of the bridge into the client system.
+talk_details: |
+  'Bridge' is the name of the Python library we use to connect our systems to our clients' ERPs. Up until recently, 
+  it was a monolithic library with a lot of custom code for each client. However, it was difficult to maintain, as each 
+  single feature or bugfix for a given client required a new version of the whole bridge library. Furthermore, 
+  the deployment of the bridge for a given client required a special tool, the deployer, used to copy only the specific 
+  required parts of the bridge into the client system.
 
-To solve those problems, we split the bridge into an ecosystem of small interrelated packages. Each package now has its own version number and dependencies along both the bridge itself and third-party Python libraries. This allows to upgrade a single client package without affecting the whole bridge product. It also eases the installation because the client's package knows what are the required packages to install.
+  To solve those problems, we split the bridge into an ecosystem of small interrelated packages. Each package now has its own 
+  version number and dependencies along both the bridge itself and third-party Python libraries. This allows to upgrade a 
+  single client package without affecting the whole bridge product. It also eases the installation because the client's 
+  package knows what are the required packages to install.
 
-On the technical side, first part of the solution was to use namespace package. This little-known feature of Python allows many related packages to be imported from the same base package name. There are three ways of declaring namespace packages:
-1. Implicit Namespace Packages, available since Python 3.3, and described in PEP 420;
-2. Using `pkgutil.extend_path`;
-3. Using `setuptools.declare_namespace`.
-While PEP 420 namespace package is the modern way to go, we used `pkgutil` namespace because we still need to support Python 2. Hopefully, the transition to PEP 420 should be easy once we will be able to drop Python 2. While not mandatory, the namespace package allows to:
-1. Split a big package into smaller packages that can optionally be installed or not;
-2. Explicitly show the strong relation between our micropackages;
-3. Easily detect plugins into installed packages.
-The first part of my presentation will be about namespace packages, why and how to use them.
+  On the technical side, first part of the solution was to use namespace package. This little-known feature of Python allows many related packages to be imported from the same base package name. There are three ways of declaring namespace packages:
+  1. Implicit Namespace Packages, available since Python 3.3, and described in PEP 420;
+  2. Using `pkgutil.extend_path`;
+  3. Using `setuptools.declare_namespace`.
+  While PEP 420 namespace package is the modern way to go, we used `pkgutil` namespace because we still need to support Python 2. Hopefully, the transition to PEP 420 should be easy once we will be able to drop Python 2. While not mandatory, the namespace package allows to:
+  1. Split a big package into smaller packages that can optionally be installed or not;
+  2. Explicitly show the strong relation between our micropackages;
+  3. Easily detect plugins into installed packages.
+  The first part of my presentation will be about namespace packages, why and how to use them.
+  
+  The second part of the solution concerns `setuptools`. Nothing special is required in `setuptools` to use namespace package and declare dependencies between the packages. However, using a special `setup.py` file at the root of the project allows to manage the set of micropackages as a single library for easier integration with CI tools. In the second part of my presentation I will show you how I hacked `setuptools` to build and install all the micropackages in a single command.
 
-The second part of the solution concerns `setuptools`. Nothing special is required in `setuptools` to use namespace package and declare dependencies between the packages. However, using a special `setup.py` file at the root of the project allows to manage the set of micropackages as a single library for easier integration with CI tools. In the second part of my presentation I will show you how I hacked `setuptools` to build and install all the micropackages in a single command.
-
-Finally, I will conclude showing you how our new package structure eases the maintainability and the deployment of our solution.
-"
-
-
-
+  Finally, I will conclude showing you how our new package structure eases the maintainability and the deployment of our solution.
 
 # Markdown is supported
-about_author: ''
+about_author: |
+  I’m currently a vision programmer at Optel, a leading provider of traceability systems for pharmaceuticals, medical devices, 
+  hospitals and more. I usually develop image analysis algorithms in C++, but I also frequently use Python, specifically for 
+  our automated tests. I’m regularly teaching my coworkers how to write code in Python, and how to perform automated tests.
+
+  I learned programming when I was a teen, at my friend’s computer, with QuickBasic for DOS. 
+  I completed a bachelor’s degree in computer engineering. Then I got a master’s degree, using Python to perform optical 
+  communication simulations on a supercomputer, using advanced Monte-Carlo techniques. I finally completed a PhD in optical 
+  communications, where I use Python to build a numerical simulator for optical fiber modes, with a Qt GUI. 
+  During university, I have been teaching assistant for the Python class for many years.
 
 # web link will only show if about_author section is present
-author_website: ''
+# author_website: ''
