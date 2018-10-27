@@ -1,5 +1,5 @@
 .. title: Childcare for PyCon Canada 2018
-.. slug: fa
+.. slug: childcare
 .. date: 2018-10-27 17:27:22 UTC+04:00
 .. type: text
 
