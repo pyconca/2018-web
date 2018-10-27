@@ -11,6 +11,8 @@ talk_tags:
 - "Django"
 - "Domain Driven Design"
 - "Software Engineering"
+- "tutorial"
+- "1 hour"
 
 
 talk_abstract: "If you have an evolving domain and process owners of varying expertise, then Domain Driven Design is a great approach. In this tutorial I would explain the concepts of DDD, and interactively introduce a Django project with a  'drawing board to on board' experience from mindset to implementation."
@@ -44,7 +46,12 @@ talk_details: |
 
 
 # Markdown is supported
-about_author: ''
+about_author: |
+  Mafinar Khan learned Python in 2001 and since then not a week passed without any involvement with Python, be it through coding, writing or speaking. 
+  He has been with the Python community of Bangladesh from the very beginning and participated in various workshops, seminars, and conferences. 
+  Professionally working with Python since 2009, Mafinar constructed several Asset Tracking Solutions, business automation systems and productivity tools with it. 
+  He is currently working at [Planswell](http://planswell.com/). 
+  When not coding, Mafinar enjoys movies, really spicy foods, and annoying his 4 year old.
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'http://mafinar.ca/'
