@@ -17,17 +17,18 @@ talk_abstract: "Mozilla ships a new version of Firefox every 6-8 weeks, new Beta
 
 Learn how Python is used at Mozilla in all stages of the build and release pipeline to bring Firefox to the world!"
 
-talk_details: "Mozilla uses Python at nearly all stages of the build and release process. The goal of this talk is  to give an overview of the various ways Python are used in a large scale infrastructure for shipping desktop and mobile applications.
+talk_details: |
+  Mozilla uses Python at nearly all stages of the build and release process. The goal of this talk is  to give an overview of the various ways Python are used in a large scale infrastructure for shipping desktop and mobile applications.
 
-In brief the flow is: version control (hg in python) -> taskcluster (node) -> build system (python) -> signing (python) -> publishing (python). Firefox’s update server (Balrog) is completely written in Python and serves millions of requests each day.
+  In brief the flow is: version control (hg in python) -> taskcluster (node) -> build system (python) -> signing (python) -> publishing (python). Firefox’s update server (Balrog) is completely written in Python and serves millions of requests each day.
 
-All of our code is developed in the open, and so you can follow along and see for yourself how Mozilla builds and ships Firefox to the world!"
+  All of our code is developed in the open, and so you can follow along and see for yourself how Mozilla builds and ships Firefox to the world!
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Chris AtLee leads the Firefox Release Engineering team at Mozilla. He has been using with Python for over 15 years to build CI systems, glue infrastructure together, and to automate his life. You can reach Chris [@chrisatlee](http://twitter.com/chrisatlee) on Twitter.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://atlee.ca'
