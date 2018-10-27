@@ -21,7 +21,7 @@ talk_details: "Personalized recommendation systems play an integral role in e-co
 
 
 # Markdown is supported
-about_author: 'I’m a data scientist and software developer from Vancouver, Canada. I currently work at a company called QxMD, where I am helping build a recommendation system for medical research papers. Proud member of PyLadies, and passionate about applying machine learning techniques to real-life, impactful scenarios.'
+about_author: 'Jill is a data scientist at BioSymetrics, where she applies machine learning techniques to biomedical data. Outside of work, Jill is working on an open-source toolkit for implicit feedback recommendation systems. She is a member of PyLadies and Women Who Code.'
 
 # web link will only show if about_author section is present
 author_website: 'https://topspinj.github.io/'
