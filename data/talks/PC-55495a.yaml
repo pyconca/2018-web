@@ -2,13 +2,20 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: ""
+speaker_name: "Dan Mouris"
 
 talk_title: "Zero to API, creating an authenticated api from scratch"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "python"
+- "django"
+- "django-rest-framework"
+- "beginner learning api"
+- "beginner python"
+- "web frameworks"
+- "api"
+- "web development"
+- "1 hour"
 
 
 talk_abstract: "<a href='/schedule-day-2#talk-PC-55495'><p>previous session continued</p></a>"
