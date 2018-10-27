@@ -10,6 +10,7 @@ talk_title: "How not to overfit your predictive models"
 talk_tags:
 - "machine learning"
 - "data science"
+- "10 minutes"
 
 
 talk_abstract: "This talk will give a brief overview of validation & selection techniques for predictive models and common occurrences of overfitting when building models in python. We'll walk through some strategies to mitigate overfitting and build better models."
