@@ -14,15 +14,16 @@ talk_tags:
 
 talk_abstract: "This talk will give a brief overview of validation & selection techniques for predictive models and common occurrences of overfitting when building models in python. We'll walk through some strategies to mitigate overfitting and build better models."
 
-talk_details: "Overfitting is a common problem for anyone who builds statistical models in python and it can be challenging to 1) identify that a model is overfitting and 2) to figure out how to maintain good model performance while also maintaining that performance over time. 
+talk_details: |
+  Overfitting is a common problem for anyone who builds statistical models in python and it can be challenging to 1) identify that a model is overfitting and 2) to figure out how to maintain good model performance while also maintaining that performance over time. 
 
-We'll start by walking through some examples of detecting an overfitting model and then I'll give a brief overview of some of my favourite techniques for dealing with overfitting including using regularization, ensemble methods & cross validation, and techniques for feature generation and selection. Hopefully this talk will give a quick and informative cheat sheet to people starting out or trying to level up their data science skills, so they can have a more critical eye when they're building their next model in python."
+  We'll start by walking through some examples of detecting an overfitting model and then I'll give a brief overview of some of my favourite techniques for dealing with overfitting including using regularization, ensemble methods & cross validation, and techniques for feature generation and selection. Hopefully this talk will give a quick and informative cheat sheet to people starting out or trying to level up their data science skills, so they can have a more critical eye when they're building their next model in python."
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'I lead the Channels & Media data science teams @ Shopify. I have a background in Mathematics and have been working in the data science field for the past 5+ years.'
 
 # web link will only show if about_author section is present
-author_website: ''
+# author_website: ''
