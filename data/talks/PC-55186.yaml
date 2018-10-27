@@ -14,19 +14,32 @@ talk_tags:
 
 talk_abstract: "WSGI is the foundation of most Python web frameworks, but there's a good chance you've never had to interact with it directly. In this talk we'll explore why it exists, how it works, and what the heck it's doing in your stack."
 
-talk_details: "A great web framework abstracts away all the low-level stuff so that you can focus on the core functionality of your application. This is helpful for getting you going quickly but can be a source of frustration when you want to start optimizing your application. In [the Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/) Joel Spolsky makes the case that abstracting away the low-level stuff prevents us from learning important concepts.
+talk_details: |
+  A great web framework abstracts away all the low-level stuff so that you can focus on the core functionality of your 
+  application. This is helpful for getting you going quickly but can be a source of frustration when you want to start 
+  optimizing your application. In [the Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/) Joel Spolsky makes the case that abstracting away the low-level stuff prevents us from learning important concepts.
 
-So let's learn about WSGI.
+  So let's learn about WSGI.
 
-WSGI is the Web Server Gateway Interface and it's the foundation of almost every Python web framework. This isn't going to be a talk that you'll walk out of with immediate tips for tuning your web service (don't worry, [Graham Dumpleton has that covered](https://www.youtube.com/watch?v=CPz0s1CQsTE)). Instead, you'll develop an appreciation for the low-level goings on of your stack every time you handle a request.
+  WSGI is the Web Server Gateway Interface and it's the foundation of almost every Python web framework. 
+  This isn't going to be a talk that you'll walk out of with immediate tips for tuning your web service 
+  (don't worry, [Graham Dumpleton has that covered](https://www.youtube.com/watch?v=CPz0s1CQsTE)). 
+  Instead, you'll develop an appreciation for the low-level goings on of your stack every time you handle a request.
 
-This talk is intended primarily for Python web developers, but should be approachable for anyone with an intermediate experience of Python. I look forward to talking to you!"
+  This talk is intended primarily for Python web developers, but should be approachable for anyone with an intermediate experience of Python. I look forward to talking to you!
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: |
+  I’m Ryan Wilson-Perkin and I’m a full stack developer working at Wave. I’ve been programming as a professional for 5 years and as an amateur for about half my life.
+
+  In my current role I work on a Developer Systems team which builds internal tools and systems to help make developers more productive. 
+  During my university days I ran a club that helped develop computer scientists into excellent speakers by giving quick, off-the-cuff presentations. 
+  My favourite colour is that sort of orangey-green that everything gets at sunset.
+
+  In previous years I helped out with PyConCA as a speaker coordinator and I’m looking forward to trying out the other side as a speaker.
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'http://ryanwilsonperkin.com/'
