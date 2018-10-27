@@ -65,7 +65,9 @@ talk_details: |
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Victoria works in technical post-production for film and television. She got her start in technical support in animation at Arc Productions in Toronto where she worked on Netflix series such as Guillermo del Toro’s Trollhunters and Lego Marvel Super Heros, among others. She now does pipeline development and support for 3D conversion at Stereo D in Toronto, where she’s contributed to films like Bladerunner 2049; Black Panther; and Ready Player One. When she’s not behind a desk you can find her fabricating giant metal art, or dancing up in the rafters on an aerial apparatus.
+
+'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'http://www.imdb.com/name/nm6099613/?ref_=fn_al_nm_1'
