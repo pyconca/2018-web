@@ -11,6 +11,7 @@ talk_tags:
 - "community and culture"
 - "fun"
 - "best practices"
+- "10 minutes"
 
 
 talk_abstract: "Software development requires us to solve difficult, urgent problems with other smart people. 
@@ -19,36 +20,34 @@ Working with other people is hard, and we often leave our best ideas on the floo
 
 In this talk, we’ll learn principles and techniques to be inclusively and effectively creative together."
 
-talk_details: "Every day, each of us are called on to solve difficult, urgent problems with other smart people. 
+talk_details: |
+  Every day, each of us are called on to solve difficult, urgent problems with other smart people. 
 
-But working with other people is hard. And the best technique most of us have for it is “let’s book a meeting” or “let’s get on the whiteboard.”
+  But working with other people is hard. And the best technique most of us have for it is “let’s book a meeting” or “let’s get on the whiteboard.”
 
-In this talk, you'll learn how groups can arrive at better, faster outcomes by:
+  In this talk, you'll learn how groups can arrive at better, faster outcomes by:
 
-* Separating ideation from evaluation
-* Separating requirements from constraints 
-* Defining the purpose of the meeting to be 'produce a shared visual artifact together'
+  * Separating ideation from evaluation
+  * Separating requirements from constraints 
+  * Defining the purpose of the meeting to be 'produce a shared visual artifact together'
+  
+  Learning a flexible, inclusive creative discipline to run problem-solving meetings means we will:
+  
+  * develop better relationships with our peers
+  * create more impactful things
+  * have a better career!
 
-Learning a flexible, inclusive creative discipline to run problem-solving meetings means we will:
+  By the end of this talk, we will know how to:
+  
+  * run a couple of different types of problem-solving sessions for problems ranging from small to huge
+  * use the principles discussed above in lighter-weight situations to maximize creativity
+  * never waste time in a redundant, yak-shaving design session again
 
- * develop better relationships with our peers
- * create more impactful things
- * have a better career!
-
-By the end of this talk, we will know how to:
-
- * run a couple of different types of problem-solving sessions for problems ranging from small to huge
- * use the principles discussed above in lighter-weight situations to maximize creativity
- * never waste time in a redundant, yak-shaving design session again
-
-We currently teach this material as a course at Wave to help everyone problem-solve more effectively. The ideas have been taken from canonical books on the topic, and from the cumulative decades of experience of people who are paid to help people come up with their best ideas. 
-"
-
-
+  We currently teach this material as a course at Wave to help everyone problem-solve more effectively. The ideas have been taken from canonical books on the topic, and from the cumulative decades of experience of people who are paid to help people come up with their best ideas. 
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Michael DiBernardo is VP Engineering at [Wave](https://www.waveapps.com/), and a past PyCon Canada chair. He’s happiest when he can help other people effectively stretch themselves to do things they thought were impossible.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'http://waveapps.com/'
