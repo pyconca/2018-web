@@ -13,6 +13,7 @@ talk_tags:
 - "raspberry pi"
 - "motion detection"
 - "slack apps"
+- "10 minutes"
 
 
 talk_abstract: "How does one make use of that raspberry pi they bought years ago? This talk will summarize how you can turn your raspberry pi into a home security system, utilizing slack as a notifications and control system."
