@@ -29,6 +29,7 @@ talk_details: |
   package knows what are the required packages to install.
 
   On the technical side, first part of the solution was to use namespace package. This little-known feature of Python allows many related packages to be imported from the same base package name. There are three ways of declaring namespace packages:
+  
   1. Implicit Namespace Packages, available since Python 3.3, and described in PEP 420;
   2. Using `pkgutil.extend_path`;
   3. Using `setuptools.declare_namespace`.
