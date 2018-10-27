@@ -20,7 +20,12 @@ talk_details: "Ever had trouble with setup.cfg and MANIFEST.in?  Not sure how to
 
 
 # Markdown is supported
-about_author: ''
+about_author: |
+  CPython core developer
+
+  Montréal-Python organization team member
+
+  Speaker at PyCon US and CA
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'http://twitter.com/merwok_'
