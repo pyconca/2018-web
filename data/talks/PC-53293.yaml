@@ -16,36 +16,49 @@ talk_tags:
 
 talk_abstract: "Numpy is the de-facto choice for array-based operations while PyTorch largely used as a deep learning framework. At the core, both provide a powerful N-dimensional tensor. This talk would focus on the similarities and difference between the two and how we can use PyTorch to augment Numpy."
 
-talk_details: "Numpy is the de-facto choice for performing array-based operations while PyTorch is largely used as ['a deep learning framework for fast, flexible experimentation'](https://pytorch.org/). Even though the two descriptions sound different, both the libraries provide access to a powerful N-dimensional array (or as we say in PyTorch - tensor). PyTorch supports tensor computations (similar to Numpy) with strong GPU acceleration. In some sense, PyTorch can be used as a replacement for Numpy to use the power of GPUs (even if your use-case is not a machine learning use case). The cost of converting a numpy ndarray to torch tensor is quite negligible as they share the same storage. Unfortunately, PyTorch cannot be used like a drop-in replacement for Numpy though PyTorchs is ['expect to get closer and closer to NumPy’s API where appropriate'](https://pytorch.org/2018/01/19/a-year-in.html)
+talk_details: |
+  Numpy is the de-facto choice for performing array-based operations while PyTorch is largely used as 
+  ['a deep learning framework for fast, flexible experimentation'](https://pytorch.org/). Even though the two descriptions sound different, 
+  both the libraries provide access to a powerful N-dimensional array (or as we say in PyTorch - tensor). 
+  PyTorch supports tensor computations (similar to Numpy) with strong GPU acceleration. In some sense, PyTorch can be used as a 
+  replacement for Numpy to use the power of GPUs (even if your use-case is not a machine learning use case). 
+  The cost of converting a numpy ndarray to torch tensor is quite negligible as they share the same storage. 
+  Unfortunately, PyTorch cannot be used like a drop-in replacement for Numpy though PyTorchs is ['expect to get closer and closer to NumPy’s API where appropriate'](https://pytorch.org/2018/01/19/a-year-in.html)
 
-Content:
+  Content:
 
-* One slide about 'what is Numpy'
-* Few slides about 'what is ndarray' and 'operations supported' by ndarray.
-    * These slides would not go into the internals and are presented to keep the presentation self-contained.
-* Few slides about 'what is PyTorch'
-    * These slides would provide a brief background information about PyTorch
-* Few slides about 'what is torch.Tensor'
-* One slide about how to convert Numpy ndarray to torch Tensor and vice-versa
-* Some slides about syntactical similarities and difference between the two apis
-    * This would be a very important part of the presentation.
-    * Here we would spend time on subtle differences between the two apis - eg Numpy uses `axis` while PyTorch uses `dim` and gotchas to look out for.
-    * We would talk about operations that are not yet supported in PyTorch.
-    * A small pointer about the performance of PyTorch tensors and Numpy ndarrays.
-    * I am expecting a few questions from the audience during this part
-* Some slides about moving tensors to GPU
-    * How to move tensor
-    * Things to take care of - eg do not move data between every operation. If your data lies on GPU, try to do as many operations there as possible.
-* How to use other numerical computation libraries with PyTorch
-* Conclusion
+  * One slide about 'what is Numpy'
+  * Few slides about 'what is ndarray' and 'operations supported' by ndarray.
+      * These slides would not go into the internals and are presented to keep the presentation self-contained.
+  * Few slides about 'what is PyTorch'
+      * These slides would provide a brief background information about PyTorch
+  * Few slides about 'what is torch.Tensor'
+  * One slide about how to convert Numpy ndarray to torch Tensor and vice-versa
+  * Some slides about syntactical similarities and difference between the two apis
+      * This would be a very important part of the presentation.
+      * Here we would spend time on subtle differences between the two apis - eg Numpy uses `axis` while PyTorch uses `dim` and gotchas to look out for.
+      * We would talk about operations that are not yet supported in PyTorch.
+      * A small pointer about the performance of PyTorch tensors and Numpy ndarrays.
+      * I am expecting a few questions from the audience during this part
+  * Some slides about moving tensors to GPU
+      * How to move tensor
+      * Things to take care of - eg do not move data between every operation. If your data lies on GPU, try to do as many operations there as possible.
+  * How to use other numerical computation libraries with PyTorch
+  * Conclusion
 
-I would be using a pdf for the presentation where some slides would link to self-contained [colab notebooks](https://colab.research.google.com/) for demoing the code. Note that I am specifically avoiding the perspective of how to train neural networks using PyTorch and want to focus on the interplay between PyTorch and Numpy. "
+  I would be using a pdf for the presentation where some slides would link to self-contained [colab notebooks](https://colab.research.google.com/) for demoing the code. 
+  Note that I am specifically avoiding the perspective of how to train neural networks using PyTorch and want to focus on the interplay between PyTorch and Numpy. 
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: |
+  Hi, I am Shagun Sodhani. I am a researcher and MSc student at Montreal Institute of Learning Algorithms. I graduated in Computer Science from IIT Roorkee in 2015 and have previously worked as a Machine Learning developer with the Data Science team at Adobe Systems for 2 years. Research takes most of my time though I regularly attend tech-talks and meetups around the city. You may check out my projects, talks and resume.
+
+  I love Computer Science in general and Machine Learning in particular. I regularly read and summarise papers from these domains. I am also interested in Maths and Economics. I always look forward to meeting interesting people and learn new stuff, both in-person and remotely. If you want to talk, feel free to drop me a line.
+
+
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://shagunsodhani.in/'
