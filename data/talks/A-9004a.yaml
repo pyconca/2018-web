@@ -4,11 +4,15 @@
 
 speaker_name: ""
 
-talk_title: ""
+talk_title: "A Basic Introduction to PySpark Dataframes by exploring ASF Gender Diversity Data
+"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "python"
+- "tutorial"
+- "pyspark"
+- "data science" 
+- "2 hours"
 
 
 talk_abstract: "<a href='/schedule-day-1#talk-A-9004'><p>previous session continued</p></a>"
