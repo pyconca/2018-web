@@ -16,6 +16,7 @@ talk_tags:
 - "OpenStack"
 - "CellProfiler"
 - "developer productivity"
+- "10 minutes"
 
 
 talk_abstract: "I posit that well-made, open-source platforms with industry specific goals put more new tools in developer's hands each year than anything else. This talk will compare and get people excited about large open-source projects. What makes them great, what doesn't, and where to get started in Python."
@@ -26,7 +27,7 @@ talk_details: "I posit that well-made, open-source platforms with industry speci
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'I’m 28, hold a bachelor of IT from UOIT in Oshawa. I’m passionate about open source robotics (Ryerson University) and cancer research (SickKids/University of Toronto).'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://github.com/danielsnider'
