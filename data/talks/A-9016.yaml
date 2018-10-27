@@ -19,30 +19,26 @@ talk_abstract: "Deep learning systems have to be engineered in order to be used 
 
 # TODO: Add contents.
 
-talk_details: "Building technology platforms with AI systems requires a lot more thought process in terms of architecture and choice of tooling. The reason for this is because there is need for brainstorming around scaling, monitoring, deploying and managing the deep learning service as you would manage any other service.
+talk_details: |
 
-In this talk, I will be talking about how to take Deep Learning systems to production with the use of packages and tools like:
+  Building technology platforms with AI systems requires a lot more thought process in terms of architecture and choice of tooling. The reason for this is because there is need for brainstorming around scaling, monitoring, deploying and managing the deep learning service as you would manage any other service.
 
-- Keras / Tensorflow / Pytorch - Deep learning frameworks providing the flexibility to write custom deep learning functions with lower level APIs
+  In this talk, I will be talking about how to take Deep Learning systems to production with the use of packages and tools like:
 
-- Flask - Flask is a micro web-framework that allows you to write REST endpoints with minimal effort. Its simple and easy to use. When paired up with Gunicorn, you can take it into production with no effort. The idea of using Flask is to provide REST end points for prediction.
+  - Keras / Tensorflow / Pytorch - Deep learning frameworks providing the flexibility to write custom deep learning functions with lower level APIs
+  - Flask - Flask is a micro web-framework that allows you to write REST endpoints with minimal effort. Its simple and easy to use. When paired up with Gunicorn, you can take it into production with no effort. The idea of using Flask is to provide REST end points for prediction.
+  - Kubernetes & Docker- Managing microservices which have a bunch of dependencies is hard to manage. Docker provides the capability of putting all the required pieces of software to run a service into one single logical box, thereby managing all the dependencies with ease. Kubernetes on the other hand provides the capability to orchestrate and manage these docker containers and manage the infrastructure in automated fashion with inbuilt service discovery, load balancing, self correction systems.
+  - ElasticSearch, Logstash & Kibana - Logging is one of the most crucial components of managing and running systems in production. With ELK, you can ship and manage logs from various services and this provides a way to evaluate how the prediction system is working in production.
+  - Prometheus - A tool to monitor Kubernetes clusters. This is a neat dashboard integrated with Grafana that shows the consumption of CPU and memory for systems in production, helping in evaluating how big or small the clusters should be in order to keep up with SLAs.
+  - Model Versioning - A model versioning system implemented in python to manage deep learning models and version them, thereby providing the capability to reproduce the results from various experiments.
+  - Managing Data sets - An introduction to Git LFS and how to manage datasets. Extremely useful when working with the thought process of reproducible results.
 
-- Kubernetes & Docker- Managing microservices which have a bunch of dependencies is hard to manage. Docker provides the capability of putting all the required pieces of software to run a service into one single logical box, thereby managing all the dependencies with ease. Kubernetes on the other hand provides the capability to orchestrate and manage these docker containers and manage the infrastructure in automated fashion with inbuilt service discovery, load balancing, self correction systems.
-
-- ElasticSearch, Logstash & Kibana - Logging is one of the most crucial components of managing and running systems in production. With ELK, you can ship and manage logs from various services and this provides a way to evaluate how the prediction system is working in production.
-
-- Prometheus - A tool to monitor Kubernetes clusters. This is a neat dashboard integrated with Grafana that shows the consumption of CPU and memory for systems in production, helping in evaluating how big or small the clusters should be in order to keep up with SLAs.
-
-- Model Versioning - A model versioning system implemented in python to manage deep learning models and version them, thereby providing the capability to reproduce the results from various experiments.
-
-- Managing Data sets - An introduction to Git LFS and how to manage datasets. Extremely useful when working with the thought process of reproducible results.
-
-The focus of this talk to is to shed light on the qualms of architecting, devops and management of deep learning systems in production."
+  The focus of this talk to is to shed light on the qualms of architecting, devops and management of deep learning systems in production.
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Nischal HP is currently the VP of Engineering at Berlin based AI startup omnius which operates in the building of AI product for the insurance industry. Previously, he was a cofounder and data scientist at Unnati Data Labs, where he worked towards building end-to-end data science systems in the fields of fintech, marketing analytics, event management and medical domain. Nischal is also a mentor for data science on Springboard. During his tenure at former companies like Redmart and SAP, he was involved in architecting and building software for ecommerce systems in catalog management, recommendation engines, sentiment analyzers , data crawling frameworks, intention mining systems and gamification of technical indicators for algorithmic trading platforms. Nischal has conducted workshops in the field of deep learning and has spoken at a number of data science conferences like Oreilly strata San jose 2017, PyData London 2016, Pycon Czech Republic 2015, Fifthelephant India (2015 and 2016), Anthill, Bangalore 2016. He is a strong believer of open source and loves to architect big, fast, and reliable AI systems. In his free time, he enjoys traveling with his significant other, music and groking the web.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://medium.com/@nischalhp'
