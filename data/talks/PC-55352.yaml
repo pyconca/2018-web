@@ -14,17 +14,18 @@ talk_tags:
 
 talk_abstract: "Getting your application's design right is hard. Its even harder when you are reading up on all of the latest best practices and hot design patterns. There is a simpler way to achieve consistent good design using only two concepts and two patterns: Lasagna Code."
 
-talk_details: "Using Singleton Services arranged in layers and passing Value objects in between is a predictable way of getting the aspects of design that developers desire. It promotes expressive interface building instead of pure decoupling (unlike Observables / callbacks promoted by frameworks), separation of concerns by responsibility and by type, and keeps code in isolation for easy testing.
+talk_details: |
+  Using Singleton Services arranged in layers and passing Value objects in between is a predictable way of getting the aspects of design that developers desire. It promotes expressive interface building instead of pure decoupling (unlike Observables / callbacks promoted by frameworks), separation of concerns by responsibility and by type, and keeps code in isolation for easy testing.
 
-Many developers find their code becomes less maintainable overtime even when they follow the industry trends and/or the tools provided by their framework of choice. This talk is intended to demonstrate that code can be simpler (but perhaps unfamiliar at first) and still play nice with their framework of choice. I will start with teaching Singleton Services and Value Objects. I will then demonstrate by layering your Services with dependency injection you can make reasoning about separation of concerns even simpler.
+  Many developers find their code becomes less maintainable overtime even when they follow the industry trends and/or the tools provided by their framework of choice. This talk is intended to demonstrate that code can be simpler (but perhaps unfamiliar at first) and still play nice with their framework of choice. I will start with teaching Singleton Services and Value Objects. I will then demonstrate by layering your Services with dependency injection you can make reasoning about separation of concerns even simpler.
 
-I also want to provide an anchor point to less experienced developers who are over complicating their code with fancy patterns because they have not tried the simpler ones yet."
+  I also want to provide an anchor point to less experienced developers who are over complicating their code with fancy patterns because they have not tried the simpler ones yet.
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Alex is a Staff Engineer at Wave where he mentor’s new technical leaders and helps shape Wave’s technical direction. He is particularly interested in helping make complex topics easier to understand and making long term sustainable technology decisions. Alex is also the Organizer of the Python Toronto Meetup.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'http://twitter.com/_AlexTucker'
