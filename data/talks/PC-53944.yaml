@@ -29,4 +29,4 @@ This presentation has never been presented and has been prepared specially for t
 about_author: 'Philippe is a computer security specialist at Communication Security Establishment. Prior to joining CSE, he worked as a security auditor helping various organisations find and fix security issues within their software environment. He also did some research in the field of reverse engineering where he helped develop innovative ways of making the software reverse engineering process easier. Philippe has a passion for code performance and open source and sharing his knowledge. He is currently leading the Gambit research team at CSE.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://www.cse-cst.gc.ca/'
