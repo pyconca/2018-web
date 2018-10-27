@@ -2,14 +2,16 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: ""
+speaker_name: "Sachin Agarwal"
 
-talk_title: ""
+talk_title: "Kubernetes 101 for Python Programmers"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "python"
-
+- "kubernetes"
+- "devops"
+- "automation"
+- "1 hour"
 
 talk_abstract: "<a href='/schedule-day-1#talk-PC-51523'><p>previous session continued</p></a>"
 
