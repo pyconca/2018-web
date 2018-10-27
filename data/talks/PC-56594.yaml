@@ -11,6 +11,7 @@ talk_tags:
 - "security"
 - "web development"
 - "api"
+- "10 minutes"
 
 
 talk_abstract: "The short story of how we used OAuth and JWTs (JSON Web Tokens) to add identity and authentication in every call to one of our widely used services. Includes an overview of how JWTs work and different OAuth flows for every use case."
@@ -21,7 +22,7 @@ talk_details: "This is a new talk about how we added OAuth to our Presto deploym
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Alysha is a senior developer on the Data Infrastructure Security team at Shopify. When she’s not dealing with problems of identity and authentication she enjoys running marathons and bicycle touring.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://agardner.me/'
