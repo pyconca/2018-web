@@ -162,6 +162,7 @@ NAVIGATION_LINKS = {
         )),
         ('Participate', 'fa-users', (
             ('Registration', 'fa-address-card', '/registration/'),
+            ('Childcare', 'fa-user-plus', '/childcare/'),
             ('Financial Aid', 'fa-money', '/fa/'),
             ('Volunteer', 'fa-user-plus', '/volunteer/'),
         )),
@@ -186,6 +187,7 @@ NAVIGATION_LINKS = {
         )),
         ('Participer', 'fa-users', (
             ('Enregistrement', 'fa-address-card', '/fr/registration/'),
+            ('Service de halte-garderie', 'fa-user-plus', '/fr/childcare/'),
             ('Aide financière', 'fa-money', '/fr/fa/'),
             ('Lieu', 'fa-user-plus', '/fr/volunteer/'),
         )),
