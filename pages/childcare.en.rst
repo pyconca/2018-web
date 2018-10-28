@@ -9,7 +9,7 @@ We have on-site childcare available for the main conference days on November 10 
 
 _`Improv Care <http://www.improvcare.ca>`_ will be providing the service for us this year and they've asked that all parents fill in a form for each child.
 
-Many thanks to `Freshbooks <https://freshbooks.com>"`_ for sponsoring this year's childcare. 
+Many thanks to `Freshbooks <https://freshbooks.com>`_ for sponsoring this year's childcare. 
 
 The form is available here: 
 
