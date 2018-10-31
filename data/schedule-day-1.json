@@ -20,7 +20,7 @@
         },
         {
             "time_start": "10:30",
-            "time_stop": "11:10",
+            "time_stop": "11:00",
             "type": "talk",
             "rooms": [
                 {
@@ -43,7 +43,7 @@
         },
         {
             "time_start": "11:10",
-            "time_stop": "11:50",
+            "time_stop": "11:40",
             "type": "talk",
             "rooms": [
                 {
@@ -94,7 +94,7 @@
         },
         {
             "time_start": "13:30",
-            "time_stop": "13:45",
+            "time_stop": "13:40",
             "type": "talk",
             "rooms": [
                 {
@@ -117,7 +117,7 @@
         },
         {
             "time_start": "13:45",
-            "time_stop": "14:00",
+            "time_stop": "13:55",
             "type": "talk",
             "rooms": [
                 {
@@ -140,7 +140,7 @@
         },
         {
             "time_start": "14:00",
-            "time_stop": "14:15",
+            "time_stop": "14:10",
             "type": "talk",
             "rooms": [
                 {
@@ -162,8 +162,8 @@
             ]
         },
         {
-            "time_start": "14:30",
-            "time_stop": "14:55",
+            "time_start": "14:15",
+            "time_stop": "14:45",
             "type": "talk",
             "rooms": [
                 {
@@ -215,7 +215,7 @@
         },
         {
             "time_start": "15:45",
-            "time_stop": "16:25",
+            "time_stop": "16:15",
             "type": "talk",
             "rooms": [
                 {
@@ -238,7 +238,7 @@
         },
         {
             "time_start": "16:25",
-            "time_stop": "17:00",
+            "time_stop": "16:55",
             "type": "talk",
             "rooms": [
                 {
