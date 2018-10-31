@@ -1,0 +1,21 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Alex Galea"
+
+talk_title: "Python for SEO: Web Scraping"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "python"
+- "webscraping"
+- "juypter notebooks"
+- "automation"
+- "1 hour"
+
+talk_abstract: "<a href='/schedule-day-2#talk-PC-53321'><p>previous session continued</p></a>"
+
+# TODO: Add contents.
+
+talk_details: ""
