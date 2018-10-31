@@ -1,0 +1,36 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Max Humber"
+
+talk_title: "Accessible Algorithms"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "intermediate"
+- "python"
+- "algorithms"
+- "juypter"
+
+
+talk_abstract: "Defeat your enemies, save the environment, and win your fantasy league!"
+
+# TODO: Add contents.
+
+talk_details: |
+  al•go•rithm - noun /ˈælɡərɪðəm/ A word used by programmers when they do not want to explain what they did.
+
+  Of course, that’s not actually the actual definition. But it sometimes feels like it is. And it’s a shame because… at a fundamental level an algorithm is just a recipe. A step-by-step guide for how to do something.
+
+  In ‘Accessible Algorithms’ we’ll use simulation, visualization, and extendable functions to expose the important steps of a couple of noteworthy and useful algorithms.
+  
+  Specifically we’ll learn about how to defeat your enemies with Colonel Blotto, how to save the environment with PageRank, and how to optimize your fantasy team with the knapsack problem.
+
+
+
+# Markdown is supported
+about_author: "Max likes to make code more tangible and relatable. He is the author of ‘Personal Finance with Python’, was the second Data Engineer at Wealthsimple, and the first Data Scientist at Borrowell. He’s delivered presentations on programming, Python, and data in six different countries."
+
+# web link will only show if about_author section is present
+author_website: "http://maxhumber.com/"
