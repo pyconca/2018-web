@@ -39,4 +39,16 @@
   "twitter": "cfournie",
   "github": "cfournie",
   "photo": "chris-fournier.jpg"
+}, {
+  "first_name": "Francis",
+  "last_name": "Deslauriers",
+  "title": "Ingénieur informatique",
+  "company": "EfficiOS",
+  "twitter": "frdeso_",
+  "github": "frdeso"
+}, {
+  "first_name": "David",
+  "last_name": "Cormier",
+  "company": "Érudit",
+  "github": "cormier"
 }]
