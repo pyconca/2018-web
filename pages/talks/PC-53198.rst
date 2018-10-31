@@ -1,0 +1,13 @@
+.. title: PC-53198
+.. slug: talk-PC-53198
+.. date: 2018-10-31 17:46:13 UTC+04:00
+.. type: text
+.. template: talk.tmpl
+
+
+
+{{% talk_details
+
+    talk_number='PC-53198'
+
+%}}
