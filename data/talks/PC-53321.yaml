@@ -1,0 +1,33 @@
+# Talk details are specified in YAML files
+# YAML was selected because we can use multi-line strings and add
+# comments in the file.
+
+speaker_name: "Alex Galea"
+
+talk_title: "Python for SEO: Web Scraping"
+
+# At least 1 tag is necessary!!
+talk_tags:
+- "python"
+- "webscraping"
+- "juypter notebooks"
+- "automation"
+- "60 minutes"
+
+
+talk_abstract: "Search engine optimization (SEO) requires a variety of technical considerations, such as page titles, redirects and structured data. With Python we can build a scalable pipeline to extract and audit this data from web pages. We’ll show how this (and more) can be done using a Jupyter Notebook!"
+
+# TODO: Add contents.
+
+talk_details: |
+  Web scraping technologies allow us (at Ayima) to extract on-page data from our client’s sites at scale. Over the last couple years, we’ve built a collection of tools that are regularly used to audit large sets of pages. Oftentimes we are interested in well-known SEO data like page titles and meta descriptions, however there’s a ton of other important data we look at as well. This includes meta robots tags, canonical URLs, redirects, structured data and (surprisingly) facets!
+
+  In this workshop, I want to show off the open-source tools we leverage from Python’s ecosystem, and present them in a guided format. We’ll first look at the basics of web requests with the requests library and show simple HTML parsing with BeautifulSoup4. Then we’ll get into some more advanced details of each, including request sessions, passing cookies, custom user agents and more detailed HTML parsing techniques. Finally we’ll conclude by showing how selenium can be used to render JavaScript when making requests.
+
+
+
+# Markdown is supported
+about_author: 'As a Senior Data Analyst at Ayima, I use Python for analytics, predictive modelling and process automation. My obsession with Python began during graduate studies, while researching quantum gasses at the University of Guelph. Nowadays I spend most of my time building tools to collect and analyze web data, with personal projects that are largely focused on cryptocurrencies.'
+
+# web link will only show if about_author section is present
+author_website: 'https://medium.com/@galea'
