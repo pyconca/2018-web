@@ -21,15 +21,17 @@ talk_abstract: "Have you ever seen a dog and wanted to know what breed it was? I
   transfer learning."
 
 talk_details: |
-  Have you ever seen a dog and wanted to know what breed it was? In this tutorial, you will learn how to train an image classification model using 
-  transfer learning. The Azure Machine Learning SDK's PyTorch estimator enables you to easily submit PyTorch training jobs for 
+
+  The Azure Machine Learning SDK's PyTorch estimator enables you to easily submit PyTorch training jobs for 
   both single-node and distributed runs on Azure compute. The model is trained to classify dog breeds first using a pretrained 
   ResNet model that has been trained on the [Stanford Dog dataset](https://na01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fvision.stanford.edu%2Faditya86%2FImageNetDogs%2F&data=02%7C01%7Ca-pavuon%40microsoft.com%7Cc968724834db4a5e761408d63a9b9dd8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636760837538486038&sdata=eRna7uU4aoThNdRTmQafw90pXvYop%2FPNNvQO%2BAR6ae4%3D&reserved=0).
-
+  
+  To sign up for this tutorial, [follow  this link](https://github.com/pyconca/2018-wiki/wiki/Tutorials/)
 
 
 # Markdown is supported
 about_author: |
+
   Heather Spetalnick (formerly Shapiro) is a Program Manager from Boston on the Azure Machine Learning team. 
   She works to ensure successful user experiences across the Azure Machine Learning platform  for professional data scientists.
   Prior to becoming a Program Manager, Heather was a Technical Evangelist in New York, where she worked closely with partners,
