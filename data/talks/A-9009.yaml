@@ -8,7 +8,13 @@ talk_title: "Dog Classification using PyTorch"
 
 # At least 1 tag is necessary!!
 talk_tags:
-- "intermediate"
+- "python"
+- "machine learning"
+- "pytorch"
+- "Microsoft Azure"
+- "tutorial"
+- "90 minutes"
+
 
 
 talk_abstract: "Have you ever seen a dog and wanted to know what breed it was? In this tutorial, you will learn how to train an image classification model using 
