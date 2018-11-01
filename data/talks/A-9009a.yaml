@@ -2,13 +2,18 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: ""
+speaker_name: "Heather Spetalnick"
 
-talk_title: ""
+talk_title: "Dog Classification using PyTorch"
 
 # At least 1 tag is necessary!!
 talk_tags:
 - "python"
+- "machine learning"
+- "pytorch"
+- "Microsoft Azure"
+- "tutorial"
+- "90 minutes"
 
 
 talk_abstract: "<a href='/schedule-day-2#talk-A-9009'><p>previous session continued</p></a>"
