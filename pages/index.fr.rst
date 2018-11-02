@@ -6,10 +6,10 @@
 
 {{% front_banner
     event_dates='Conference: 10-11 November 2018<br>Sprints: 12-13 November 2018'
-    button_text='Buy a ticket'
-    button_link='/fr/registration'
-    button2_text='Schedule'
-    button2_link='/schedule-day-1/'
+    button_text='Schedule'
+    button_link='/schedule-day-1/'
+    button1_text='Sprints'
+    button1_link='https://github.com/pyconca/2018-wiki/wiki/Sprints'
     city_banner='Where is the event?'
     city_heading='Toronto, Ontario'
     city_sub_heading='Pycon Canada is being held at the Chestnut Residence & Conference Centre'
@@ -98,16 +98,16 @@
 %}}
 
 {{% speaker_left
-    speaker_name='Graham Toppin' 
-    speaker_title='Python Lover' 
-    speaker_image='/images/speakers/graham_styled.png' 
-    speaker_description='Graham is the VP of Applied Sciences and Research at Wave, where he’s 
-    responsible for the integration of new technologies and research areas into the company, 
-    primarily Machine Learning and Artificial Intelligence. Over the years, Graham has built, 
-    led and managed teams from 5 to 100 as a founder, manager, executive and board member. He has 
-    a passion for solving complex problems by creating fun, inclusive, high performing teams. In 
-    previous lives, he’s built multi-petabyte systems, found homes for lost cats and puppies, done 
-    stand up comedy at weddings and night clubs (including an unfortunately momentous poetry jam) 
+    speaker_name='Graham Toppin'
+    speaker_title='Python Lover'
+    speaker_image='/images/speakers/graham_styled.png'
+    speaker_description='Graham is the VP of Applied Sciences and Research at Wave, where he’s
+    responsible for the integration of new technologies and research areas into the company,
+    primarily Machine Learning and Artificial Intelligence. Over the years, Graham has built,
+    led and managed teams from 5 to 100 as a founder, manager, executive and board member. He has
+    a passion for solving complex problems by creating fun, inclusive, high performing teams. In
+    previous lives, he’s built multi-petabyte systems, found homes for lost cats and puppies, done
+    stand up comedy at weddings and night clubs (including an unfortunately momentous poetry jam)
     and taken himself far too seriously.'
 %}}
 
