@@ -16,7 +16,7 @@
 Sold out
 ========
 
-Thank you everyone, We are completely sold out at the moment. 
+Thank you everyone. We are completely sold out at the moment. 
 
 
 Schedule
