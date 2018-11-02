@@ -8,10 +8,15 @@
 .. raw:: html
 
     <div class="btn-group">
-        <a class="btn btn-outline-red btn-lg" style="font-size: 2rem;" href="https://pyconca2018.eventbrite.com" role="button">Buy a ticket to PyConCA 2018</a>
+        <a class="btn btn-outline-red btn-lg" style="font-size: 2rem;" href="https://pyconca2018.eventbrite.com" role="button">Épuisé</a>
     </div>
     <!-- Hack for some space on page -->
     <p>&nbsp;</p>
+
+Épuisé
+======
+
+Merci à tous, Nous sommes complètement épuisés pour le moment.
 
 
 Programme
