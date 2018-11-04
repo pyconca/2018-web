@@ -2,7 +2,7 @@
 # YAML was selected because we can use multi-line strings and add
 # comments in the file.
 
-speaker_name: "Valérie Ouellet and William Wolfe-Wylie"
+speaker_name: "Valérie Ouellet"
 
 talk_title: "How our Python bot found your baseball ticket"
 
@@ -31,9 +31,9 @@ talk_details: |
 
 # Markdown is supported
 about_author: |
-  *William Wolfe-Wylie* is a senior developer with CBC News. He was the lead developer behind Canada’s interactive database of Missing and Murdered Indigenous Women (MMIW) which won the Canadian Hillman Prize and was a finalist for a Michener Award in 2016. His recent work also includes compiling the details of fatal police encounters in Canada and reconstituting the 1917 Halifax Explosion using virtual reality. William has taught data journalism at Centennial College and Ryerson University.
-
   *Valérie Ouellet* is a senior data journalist with CBC’s national investigative unit. She was part of the team who investigated the Paradise Papers, a massive leak of tax-haven records. The international investigation was awarded both the George Polk Award for Financial Reporting and the Gannett Award for Innovation in Watchdog Journalism. Her recent work also includes uncovering large-scale tickets scalping, investigating questionable inmate deaths and documenting a rise of violence in nursing homes. She teaches data journalism at Humber College and Ryerson University."
+
+  *William Wolfe-Wylie* is a senior developer with CBC News. He was the lead developer behind Canada’s interactive database of Missing and Murdered Indigenous Women (MMIW) which won the Canadian Hillman Prize and was a finalist for a Michener Award in 2016. His recent work also includes compiling the details of fatal police encounters in Canada and reconstituting the 1917 Halifax Explosion using virtual reality. William has taught data journalism at Centennial College and Ryerson University.
 
 
 # web link will only show if about_author section is present
