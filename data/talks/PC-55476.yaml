@@ -29,37 +29,6 @@ talk_details: |
   and methods used will highlight the potential for many other use cases. I will finish off with some lessons learned 
   and other applications of these technologies.
 
-  **Home Security Options with the Raspberry Pi** (1 minutes)
-
-  - highlight different options for 'home security' with a Raspberry Pi
-      - using a motion sensor, ultrasonic sensor, and camera
-      - The pros and cons of each solution will be discussed
-
-  **Intro to OpenCV and Background Subtraction** (2 minutes)
-
-  - highlight how to use the Python OpenCV library to process images 
-  - talk about background substraction, and show how it can be performed with OpenCV
-
-  **Using a Custom Slack App for Notifications and System Control** (3 minutes)
-
-  - quick overview of different options for interacting with slack: webhooks, bot users, and apps
-  - discuss how the slack app was built with flask
-  - show GIF demo of the app I built
-
-  **Reducing False Positives with an Image Classifier** (2 minutes)
-
-  - show how false positives from the background subtraction method can be reduced by layering on a pre-built image classifier
-      - emphasize the importance of combining the methods to reduce the workload on your raspberry Pi 
-
-  **Wrapping Up** (1 minute)
-
-  - lessons learned
-  - other applications
-
-  **Questions** (1 minute)
-
-  - End with time for the audience to ask questions.
-
   See the repo for some more info on the project: 
   [https://github.com/ian-whitestone/rpi-security-system](https://github.com/ian-whitestone/rpi-security-system)
 
