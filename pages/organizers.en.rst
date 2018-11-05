@@ -32,7 +32,7 @@
     github_url='https://github.com/elainewong'
     description='The organizing lead for this year\'s PyconCA. The event
     wouldn\'t have been possible without her. When she wasn\'t helping out for
-    Pycon, Elaine works as a Switcher/Director for the Canadian Broadcasting
+    PyCon Canada, Elaine works as a Switcher/Director for the Canadian Broadcasting
     Corporation/Radio-Canada'
 %}}
 
@@ -40,8 +40,11 @@
     name='Myles Braithwaite'
     pycon_title='PyconCA organizer'
     photo='/images/organizers/myles-braithwaite.png'
+    twitter_url='https://twitter.com/mylesb'
     instagram_url='https://instagram.com/myles'
     github_url='https://github.com/myles'
+    mastodon_url='https://myles.life/@me'
+    linkedin_url='https://linkedin.com/in/mylesbraithwaite'
     description='He works as a Senior Software Developer at GrantMatch'
 %}}
 
