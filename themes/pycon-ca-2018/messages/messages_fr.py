@@ -27,4 +27,9 @@ MESSAGES = {
     'More Details': 'Plus de détails.',
     'Lunch': 'Diner',
     'Break': 'Pause',
+    # About organizers
+    'organizing-team': 'The official Pycon CA 2018 Organization Team',
+    'org-team-message': 'Here are the men and women who worked to '
+                        'make PyconCA 2018 a success. Please help us to keep '
+                        'Python a productive and fun language for everyone!',
 }

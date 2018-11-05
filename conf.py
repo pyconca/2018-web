@@ -156,6 +156,7 @@ NAVIGATION_LINKS = {
         ('Code of Conduct', 'fa-graduation-cap', '/code-of-conduct/'),
         ('Event', 'fa-archive', (
             ('About', 'fa-eye', '/about/'),
+            ('Organizers', 'fa-id-badge', '/organizers/'),
             ('Sponsors', 'fa-handshake-o', '/sponsors/'),
             ('Schedule Day-1', 'fa-calendar', '/schedule-day-1/'),
             ('Schedule Day-2', 'fa-calendar', '/schedule-day-2/'),
@@ -181,6 +182,7 @@ NAVIGATION_LINKS = {
         ('Code de conduite', 'fa-graduation-cap', '/fr/code-of-conduct/'),
         ('L\'événement', 'fa-archive', (
             ('À propos', 'fa-eye', '/fr/about/'),
+            ('Organizers', 'fa-id-badge', '/fr/organizers/'),
             ('Commanditaires', 'fa-handshake-o', '/fr/sponsors/'),
             ('Schedule Day-1', 'fa-calendar', '/fr/schedule-day-1/'),
             ('Schedule Day-2', 'fa-calendar', '/fr/schedule-day-2/'),

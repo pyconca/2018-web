@@ -1,0 +1,59 @@
+<div class="card">
+    <img class="card-img-top" src="{{ photo }}" alt="Organizer image">
+    <div class="card-body">
+        <h2 class="org-name">{{ name }}</h2>
+        <h3 class="org-title">{{ pycon_title }}</h3>
+        <p class="card-text">{{ description }}</p>
+    </div>
+    <div class="card-footer">
+        {% if twitter_url %}
+            <a href="{{ twitter_url }}">
+                <span>
+                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                </span>
+            </a>
+        {% endif %}
+        {% if github_url %}
+            <a href="{{ github_url }}">
+                <span>
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                </span>
+            </a>
+        {% endif %}
+        {% if instagram_url %}
+            <a href="{{ instagram_url }}">
+                <span>
+                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                </span>
+            </a>
+        {% endif %}
+        {% if bitbucket_url %}
+            <a href="{{ bitbucket_url }}">
+                <span>
+                    <i class="fa fa-bitbucket fa-2x" aria-hidden="true"></i>
+                </span>
+            </a>
+        {% endif %}
+        {% if mastodon_url %}
+            <a href="{{ mastodon_url }}">
+                <span>
+                    <i class="fa fa-share-square-o fa-2x" aria-hidden="true"></i>
+                </span>
+            </a>
+        {% endif %}
+        {% if gitlab_url %}
+            <a href="{{ gitlab_url }}">
+                <span>
+                    <i class="fa fa-gitlab fa-2x" aria-hidden="true"></i>
+                </span>
+            </a>
+        {% endif %}
+        {% if personal_url %}
+            <a href="{{ personal_url }}">
+                <span>
+                    <i class="fa fa-link fa-2x" aria-hidden="true"></i>
+                </span>
+            </a>
+        {% endif %}
+    </div>
+</div>
