@@ -19,11 +19,12 @@ talk_tags:
 talk_abstract: "Creating a custom database by mining five ticket sellers allowed us to expose staggered rollouts, experiments with variable pricing and reveal how high-demand events actually sell. From accessing Ticketmaster’s databases to mining the data, we’ll walk through CBC’s ticket scalping investigation."
 
 talk_details: |
+  Creating a custom database by mining five ticket sellers allowed CBC News developer William Wolfe-Wylie, data journalist Valérie Ouellet and their team to expose staggered rollouts, experiments with variable pricing and reveal how high-demand events actually sell. From accessing Ticketmaster’s databases to mining the data, Valérie Ouellet will reveal the code behind CBC's ticket scalping investigation.
+  
   Last winter, CBC News shocked sports fans by revealing that nearly half of all tickets for the Blue Jays home opener were listed on resale websites, priced at more than 50 percent above their face value. Behind it, all was a Python bot sent to monitor ticket rollouts from the primary box-office all the way to a half-dozen resale sites. The program then combined that data into a single tracking system that created a virtual map of the stadium, monitoring how each seat therein moved from primary to reseller markets and eventually turned into a fan sitting in the seat.
+  
+  For the first time since the start of their investigation, data journalist Valérie Ouellet will take you deep inside CBC's Python-operated ticket monitoring machine, and will lay out a step-by-step explanation of the team's workflow, including how they cleaned and structured their raw data, collaborated to ensure their project was data-driven and found creative ways to visualize their findings.
 
-  CBC News developer William Wolfe-Wylie and data journalist Valerie Ouellet take you deep inside their Python-operated ticket monitoring machine.
-
-  For the first time since the start of their investigation, William and Valerie will lay out a step-by-step explanation of their workflow, including how they organized, cleaned and structured their raw data, collaborated with a team of journalists to ensure findings led the project and found creative ways to visualize their data.
 
 
 
