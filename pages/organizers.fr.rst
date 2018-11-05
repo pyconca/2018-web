@@ -27,7 +27,7 @@
 {{% organizer_details
     name='Elaine Wong'
     pycon_title='PyconCA Leader'
-    photo='/images/organizers/no-photo.png'
+    photo='/images/organizers/elaine.jpg'
     twitter_url='https://twitter.com/elthenerd'
     github_url='https://github.com/elainewong'
     description='The organizing lead for this year\'s PyconCA. The event
