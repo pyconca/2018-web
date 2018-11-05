@@ -71,5 +71,5 @@ Financial aid recipients have some part of their expenses, which may include reg
 .. raw:: html
 
     <div class="btn-group">
-        <a class="btn btn-outline-red btn-lg" style="font-size: 2rem;" href="https://pyconca2018.eventbrite.com" role="button">Buy a ticket to PyConCA 2018</a>
+        <a class="btn btn-outline-red btn-lg" style="font-size: 2rem;" href="https://pyconca2018.eventbrite.com" role="button">Sold out</a>
     </div>
