@@ -10,6 +10,7 @@
             <a href="{{ twitter_url }}">
                 <span>
                     <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
                 </span>
             </a>
         {% endif %}
@@ -17,6 +18,7 @@
             <a href="{{ github_url }}">
                 <span>
                     <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only">GitHub</span>
                 </span>
             </a>
         {% endif %}
@@ -24,6 +26,7 @@
             <a href="{{ instagram_url }}">
                 <span>
                     <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
                 </span>
             </a>
         {% endif %}
@@ -31,6 +34,7 @@
             <a href="{{ bitbucket_url }}">
                 <span>
                     <i class="fa fa-bitbucket fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only">BitBucket</span>
                 </span>
             </a>
         {% endif %}
@@ -38,6 +42,7 @@
             <a href="{{ mastodon_url }}">
                 <span>
                     <i class="fa fa-share-square-o fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only">Mastodon</span>
                 </span>
             </a>
         {% endif %}
@@ -45,13 +50,23 @@
             <a href="{{ gitlab_url }}">
                 <span>
                     <i class="fa fa-gitlab fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only">GitLab</span>
                 </span>
             </a>
+        {% endif %}
+        {% if linkedin_url %}
+        <a href="{{ linkedin_url }}">
+            <span>
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">LinkedIn</span>
+            </span>
+        </a>
         {% endif %}
         {% if personal_url %}
             <a href="{{ personal_url }}">
                 <span>
                     <i class="fa fa-link fa-2x" aria-hidden="true"></i>
+                    <span class="sr-only">Personal Website</span>
                 </span>
             </a>
         {% endif %}
