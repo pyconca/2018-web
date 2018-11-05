@@ -1,0 +1,30 @@
+/*
+Customizing bootstrap cards
+
+this should be the only place on the site where we use them.
+
+*/
+
+.card-columns {
+
+  @include media-breakpoint-up(xs) {
+    column-count: 1;
+  }
+
+  @include media-breakpoint-up(md) {
+    column-count: 2;
+  }
+
+  @include media-breakpoint-up(lg) {
+    column-count: 3;
+  }
+}
+
+.org-name {
+  margin-bottom: 0;
+}
+
+.org-title {
+  font-style: italic;
+  font-size: 0.95rem;
+}
