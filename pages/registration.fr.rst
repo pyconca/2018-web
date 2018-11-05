@@ -71,6 +71,6 @@ Les bénéficiaires de l’aide financière paient une partie de leurs dépenses
 .. raw:: html
 
     <div class="btn-group">
-        <a class="btn btn-outline-red btn-lg" style="font-size: 2rem;" href="https://pyconca2018.eventbrite.com" role="button">Achetez un billet pour PyConCA 2018</a>
+        <a class="btn btn-outline-red btn-lg" style="font-size: 2rem;" href="https://pyconca2018.eventbrite.com" role="button">Épuisé</a>
     </div>
 
