@@ -27,11 +27,11 @@
 
 {{% organizer_details
     name='Elaine Wong'
-    pycon_title='PyconCA Leader'
+    pycon_title='Conference Chair'
     photo='/images/organizers/elaine.jpg'
     twitter_url='https://twitter.com/elthenerd'
     github_url='https://github.com/elainewong'
-    description='The organizing lead for this year\'s PyconCA. The event
+    description='The organizing lead for this year\'s PyCon Canada. The event
     wouldn\'t have been possible without her. When she wasn\'t helping out for
     PyCon Canada, Elaine works as a Switcher/Director for the Canadian Broadcasting
     Corporation/Radio-Canada'
@@ -39,7 +39,7 @@
 
 {{% organizer_details
     name='Myles Braithwaite'
-    pycon_title='PyconCA organizer'
+    pycon_title='Organizer'
     photo='/images/organizers/myles-braithwaite.png'
     twitter_url='https://twitter.com/mylesb'
     instagram_url='https://instagram.com/myles'
@@ -51,7 +51,7 @@
 
 {{% organizer_details
     name='Dorian Puła'
-    pycon_title='PyconCA organizer'
+    pycon_title='Organizer'
     photo='/images/organizers/dorian-pula.png'
     bitbucket_url='https://bitbucket.org/dorianpula'
     github_url='https://github.com/dorianpula'
@@ -61,7 +61,7 @@
 
 {{% organizer_details
     name='Alex Volkov'
-    pycon_title='PyconCA organizer'
+    pycon_title='Organizer'
     photo='/images/organizers/alex-volkov.jpg'
     mastodon_url='https://mastodon.xyz/@avolkov'
     gitlab_url='https://gitlab.com/avolkov1'
@@ -71,7 +71,7 @@
 
 {{% organizer_details
     name='Chris Fournier'
-    pycon_title='PyconCA organizer'
+    pycon_title='Organizer'
     photo='/images/organizers/chris-fournier.jpg'
     twitter_url='https://twitter.com/cfournie'
     github_url='https://github.com/cfournie'
@@ -80,7 +80,7 @@
 
 {{% organizer_details
     name='Francis Deslauriers'
-    pycon_title='PyconCA organizer'
+    pycon_title='Organizer'
     photo='/images/organizers/no-photo.png'
     twitter_url='https://twitter.com/frdeso_'
     github_url='https://github.com/frdeso'
@@ -89,7 +89,7 @@
 
 {{% organizer_details
     name='David Cormier'
-    pycon_title='PyconCA organizer'
+    pycon_title='Organizer'
     photo='/images/organizers/no-photo.png'
     github_url='https://github.com/cormier'
     description='He works at Érudit'
@@ -97,7 +97,7 @@
 
 {{% organizer_details
     name='Abraham Varricatt'
-    pycon_title='PyconCA organizer'
+    pycon_title='Organizer'
     photo='/images/organizers/abraham_v.jpg'
     github_url='https://github.com/abrahamvarricatt'
     personal_url='https://blog.abraham-v.com/'

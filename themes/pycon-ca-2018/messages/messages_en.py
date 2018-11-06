@@ -32,8 +32,8 @@ MESSAGES = {
     'Lunch': 'Lunch',
     'Break': 'Break',
     # About organizers
-    'organizing-team': 'The official Pycon CA 2018 Organization Team',
+    'organizing-team': 'The official PyCon Canada 2018 Organization Team',
     'org-team-message': 'Here are the men and women who worked to '
-                        'make PyconCA 2018 a success. Please help us to keep '
+                        'make PyCon Canada 2018 a success. Please help us to keep '
                         'Python a productive and fun language for everyone!',
 }
