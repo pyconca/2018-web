@@ -19,6 +19,7 @@
    * bitbucket_url
    * gitlab_url
    * mastodon_url
+   * linkedin_url
    * personal_url
    If you want another optional URL with a fancy icon, just select an icon from
    https://fontawesome.com/v4.7.0/icons/  and ping @abraham on the #website on
@@ -32,7 +33,7 @@
     github_url='https://github.com/elainewong'
     description='The organizing lead for this year\'s PyconCA. The event
     wouldn\'t have been possible without her. When she wasn\'t helping out for
-    Pycon, Elaine works as a Switcher/Director for the Canadian Broadcasting
+    Pycon Canada, Elaine works as a Switcher/Director for the Canadian Broadcasting
     Corporation/Radio-Canada'
 %}}
 
@@ -40,8 +41,11 @@
     name='Myles Braithwaite'
     pycon_title='PyconCA organizer'
     photo='/images/organizers/myles-braithwaite.png'
+    twitter_url='https://twitter.com/mylesb'
     instagram_url='https://instagram.com/myles'
     github_url='https://github.com/myles'
+    mastodon_url='https://myles.life/@me'
+    linkedin_url='https://linkedin.com/in/mylesbraithwaite'
     description='He works as a Senior Software Developer at GrantMatch'
 %}}
 
@@ -93,10 +97,11 @@
 
 {{% organizer_details
     name='Abraham Varricatt'
-    pycon_title='Website Developer'
+    pycon_title='PyconCA organizer'
     photo='/images/organizers/abraham_v.jpg'
     github_url='https://github.com/abrahamvarricatt'
     personal_url='https://blog.abraham-v.com/'
+    linkedin_url='https://www.linkedin.com/in/abrahamvarricatt/'
     description='Helped to build the website you see. Is a software designer at
     heart. Loves programming and fun challenges. Enjoys teaching others how to
     use computers and code. A family man blessed with a loving wife.'
