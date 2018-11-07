@@ -121,7 +121,7 @@
         "fr": "Citus Data"
       },
       "date": "2018-11-07",
-      "logo": "/images/sponsors/citusdata.png",
+      "logo": "/images/sponsors/citusdata.svg",
       "web_link": "https://www.citusdata.com/",
       "description": {
         "en": "Citus is worry-free Postgres that is built to scale out. Made for SaaS and enterprises, Citus is an extension to Postgres that distributes data and queries across multiple nodes. Whether you need to scale out a multi-tenant app—or are building real-time analytics dashboards that require sub-second responses—Citus makes it simple to shard Postgres. Our Citus distributed database is available as open source, as enterprise software, and as a fully-managed database as a service.",
