@@ -28,7 +28,7 @@
 {{% organizer_details
     name='Elaine Wong'
     pycon_title='Présidente'
-    photo='/images/organizers/elaine.jpg'
+    photo='/images/organizers/elaine.png'
     twitter_url='https://twitter.com/elthenerd'
     github_url='https://github.com/elainewong'
     description='The organizing lead for this year\'s PyCon Canada. The event
