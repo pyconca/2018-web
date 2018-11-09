@@ -96,6 +96,17 @@
 %}}
 
 {{% organizer_details
+    name='Juti Noppornpitak'
+    pycon_title='Organizer, Photographer'
+    photo='/images/organizers/juti.jpeg'
+    github_url='https://github.com/shiroyuki'
+    personal_url='https://www.shiroyuki.com/'
+    twitter_url='https://twitter.com/shiroyuki'
+    description='He works as a senior software developer and team lead
+    at DNAstack.'
+%}}
+
+{{% organizer_details
     name='Abraham Varricatt'
     pycon_title='Organizer'
     photo='/images/organizers/abraham_v.jpg'
