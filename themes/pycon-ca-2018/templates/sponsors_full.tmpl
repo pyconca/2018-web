@@ -46,7 +46,7 @@
 {#      We swapped sponsor positions left and right, but this messes up #}
 {#        mobile view,  #}
 {#      so not doing it. #}
-        {% if loop.index is odd %}
+        {% if loop.index %}
         <div class="col-12 col-md-3">
           <a class="d-flex w-100 justify-content-center" href="{{ sponsor['web_link'] }}">
             <img src="{{ sponsor['logo'] }}" class="img-fluid w-75">
