@@ -41,6 +41,8 @@ talk_details: |
   scaling and automated rollouts and rollbacks. We will end the tutorial with a
   list of resources and next-steps you can take to get up to speed
   with Kubernetes.
+  
+  Code, documentation and slides for the tutorial are available in this [Github repository](https://github.com/bigbitbus/k8s-tutorial-python/).
 
   To sign up for this tutorial, [use this link](https://github.com/pyconca/2018-wiki/wiki/Tutorials/)
 
