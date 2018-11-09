@@ -203,5 +203,20 @@
         "fr": "Top Hat is revolutionizing the world of higher education. We are the leading teaching platform that professors use to create an active learning environment. Using Top Hat, professors can transform students' smartphones and laptops into tools of engagement, leading to increased attendance, higher grades, and a more effective lecture experience. More recently, Top Hat launched its own interactive textbook authoring platform and marketplace. We aim to be the premier way for professors to interact with students both in and out of the classroom."
       }
     }
-  ]
+  ],
+ "Sprints Venue": [
+    {
+      "name": {
+        "en": "Design Exchange",
+        "fr": "Design Exchange"
+      },
+      "date": "2018-11-09",
+      "logo": "/images/sponsors/dx.svg",
+      "web_link": "www.dx.org",
+      "description": {
+        "en": "Design Exchange, a not-for-profit museum funded by its members and donors, is Canada’s only museum dedicated exclusively to the pursuit of design excellence and preservation of design heritage. At the crossroads of multiple disciplines, from furniture and architecture to graphics and fashion, our exhibitions, talks, workshops, and youth education programs are curated to reflect the popular zeitgeist and contemporary culture while demonstrating the relevance and importance of design to everyday life. We are committed to delivering accessible design experiences and education and we aim to provide the tools necessary to connect design learning to the ordinary and extraordinary.",
+        "fr": "Design Exchange, a not-for-profit museum funded by its members and donors, is Canada’s only museum dedicated exclusively to the pursuit of design excellence and preservation of design heritage. At the crossroads of multiple disciplines, from furniture and architecture to graphics and fashion, our exhibitions, talks, workshops, and youth education programs are curated to reflect the popular zeitgeist and contemporary culture while demonstrating the relevance and importance of design to everyday life. We are committed to delivering accessible design experiences and education and we aim to provide the tools necessary to connect design learning to the ordinary and extraordinary."
+      }
+    }
+  ]  
 }
