@@ -188,5 +188,20 @@
         "fr": "The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. The majority of the PSF's work is focused on empowering and supporting people within the Python community. The PSF has active grant programs that support sprints, conferences, meet ups, user groups, and Python development efforts all over the world. In addition, the PSF underwrites and runs PyCon US, the primary Python community conference. Being part of the PSF means being part of the Python community. Recently we changed the PSF to an open membership organization, so that everyone who uses and supports Python can join. To learn more, visit https://www.python.org/psf/membership."
       }
     }
+  ],
+  "party": [
+    {
+      "name": {
+        "en": "Top Hat",
+        "fr": "Top Hat"
+      },
+      "date": "2018-11-08",
+      "logo": "/images/sponsors/tophat.svg",
+      "web_link": "www.tophat.com",
+      "description": {
+        "en": "Top Hat is revolutionizing the world of higher education. We are the leading teaching platform that professors use to create an active learning environment. Using Top Hat, professors can transform students' smartphones and laptops into tools of engagement, leading to increased attendance, higher grades, and a more effective lecture experience. More recently, Top Hat launched its own interactive textbook authoring platform and marketplace. We aim to be the premier way for professors to interact with students both in and out of the classroom.",
+        "fr": "Top Hat is revolutionizing the world of higher education. We are the leading teaching platform that professors use to create an active learning environment. Using Top Hat, professors can transform students' smartphones and laptops into tools of engagement, leading to increased attendance, higher grades, and a more effective lecture experience. More recently, Top Hat launched its own interactive textbook authoring platform and marketplace. We aim to be the premier way for professors to interact with students both in and out of the classroom."
+      }
+    }
   ]
 }

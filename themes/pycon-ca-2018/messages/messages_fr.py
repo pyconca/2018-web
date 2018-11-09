@@ -17,6 +17,7 @@ MESSAGES = {
     'name-lanyard': "Badge",
     'name-diversity': "Diversité",
     'name-community': "Communauté",
+    'name-party': "Fête",
     'Download our sponsorship prospectus.': 'Téléchargez le prospectus de commandites.',
     'Keynote Speakers': 'Présentateurs invités',
     'Contact our Sponsorship Committee': 'Contactez notre équipe de commandites',

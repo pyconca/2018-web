@@ -20,6 +20,7 @@ MESSAGES = {
     'name-lanyard': "Lanyard",
     'name-diversity': "Diversity",
     'name-community': "Community",
+    'name-party': "Party",
     'Download our sponsorship prospectus.': 'Download our sponsorship prospectus.',
     'Keynote Speakers': 'Keynote Speakers',
     'Contact our Sponsorship Committee': 'Contact our Sponsorship Committee',
