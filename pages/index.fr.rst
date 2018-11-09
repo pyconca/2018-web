@@ -10,13 +10,13 @@
     button_link='/schedule-day-1/'
     button1_text='Sprints'
     button1_link='https://github.com/pyconca/2018-wiki/wiki/Sprints'
-    city_banner='Où se tient l'événement?'
+    city_banner='Où se tient l\'événement?'
     city_heading='Toronto, Ontario'
     city_sub_heading='PyCon Canada se tiendra au Chestnut Residence & Conference Centre'
  %}}
 
 {{% speaker_left
-    speaker_name='Où se tient l'événement?'
+    speaker_name='Où se tient l\'événement?'
     speaker_title='Chestnut Residence & Conference Centre'
     speaker_image='/images/chestnut_hotel_logo.png'
     speaker_description='PyCon Canada 2018 se tiendra au magnifique Chesnut
