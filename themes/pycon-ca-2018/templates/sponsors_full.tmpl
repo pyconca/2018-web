@@ -42,13 +42,17 @@
   <div class="card mb-2" id="{{ level }}-{{ loop.index }}">
     <div class="card-body">
       <div class="row">
+{#        {% if loop.index is odd %}#}
+{#      We swapped sponsor positions left and right, but this messes up #}
+{#        mobile view,  #}
+{#      so not doing it. #}
         {% if loop.index is odd %}
-        <div class="col-3">
+        <div class="col-12 col-md-3">
           <a class="d-flex w-100 justify-content-center" href="{{ sponsor['web_link'] }}">
             <img src="{{ sponsor['logo'] }}" class="img-fluid w-75">
           </a>
         </div>
-        <div class="col-9">
+        <div class="col-12 col-md-9">
           <div class="card-block px-2">
             <h4 class="card-title mt-0">
               <a href="{{ sponsor['web_link'] }}">
@@ -59,7 +63,7 @@
           </div>
         </div>
         {% else %}
-        <div class="col-9">
+        <div class="col-12 col-md-9">
           <div class="card-block px-2">
             <a href="{{ sponsor['web_link'] }}">
               <h4 class="card-title mt-3">{{ sponsor['name'][lang] }}</h4>
@@ -67,7 +71,7 @@
             <p class="card-text mb-3">{{ sponsor['description'][lang] }}</p>
           </div>
         </div>
-        <div class="col-3 align-middle">
+        <div class="col-12 col-md-3 align-middle">
           <img src="{{ sponsor['logo'] }}" class="img-fluid w-100">
         </div>
         {% endif %}
