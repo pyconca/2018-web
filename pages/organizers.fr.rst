@@ -46,7 +46,7 @@
     github_url='https://github.com/myles'
     mastodon_url='https://myles.life/@me'
     linkedin_url='https://linkedin.com/in/mylesbraithwaite'
-    description='Il travaille en tant que Développeur logiciel sénior chez GrantMatch'
+    description='Il travaille en tant que Développeur logiciel senior chez GrantMatch'
 %}}
 
 {{% organizer_details
@@ -57,7 +57,7 @@
     github_url='https://github.com/dorianpula'
     twitter_url='https://twitter.com/dorianpula'
     description='Il travaille en tant qu\'ingénieur en développement logiciel
-    sénior chez Points'
+    senior chez Points'
 %}}
 
 {{% organizer_details
@@ -103,7 +103,7 @@
     github_url='https://github.com/shiroyuki'
     personal_url='https://www.shiroyuki.com/'
     twitter_url='https://twitter.com/shiroyuki'
-    description='Il travaille en tant que développeur logiciel sénior et chef
+    description='Il travaille en tant que développeur logiciel senior et chef
     d\'équipe à DNAstack'
 %}}
 
