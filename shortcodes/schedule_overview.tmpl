@@ -220,6 +220,35 @@
                         </div>
                     </div>
                 </div>
+            {% elif event['type'] == 'remarks' %}
+                <!-- Nest outer column with inner row -->
+                <div class="col-12">
+                    <div class="row">
+                        <!-- location column -->
+                        <div class="col-12 schedule-locationdata-sticky">
+                            <div class="row schedule-locationdata schedule-locationdata-talks schedule-locationdata-sticky">
+                                <div class="col-3 location-icon">
+                                    <!-- icon is different between keynotes and talks -->
+                                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                    <p>{{ messages("location") }}</p>
+                                </div>
+                                <div class="col-9 location-text">
+                                    <p>
+                                        &nbsp;&nbsp;&nbsp;
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- talk column -->
+                        <div class="col-12">
+                            <div class="schedule-break">
+                                <p class="break-title">
+                                    {{ event['title'] }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             {% endif %}
         </div>
     {% endfor %}

@@ -9,8 +9,14 @@
         },
         {
             "time_start": "9:00",
+            "time_stop": "9:30",
+            "type": "remarks",
+            "title": "Opening Remarks"
+        },
+        {
+            "time_start": "9:30",
             "time_stop": "10:30",
-            "type": "Opening Remarks and Keynote",
+            "type": "keynote",
             "rooms": [
                 {
                     "location": "Ballroom (2nd Floor)",
