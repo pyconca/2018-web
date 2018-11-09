@@ -31,10 +31,10 @@
     photo='/images/organizers/elaine.png'
     twitter_url='https://twitter.com/elthenerd'
     github_url='https://github.com/elainewong'
-    description='The organizing lead for this year\'s PyCon Canada. The event
-    wouldn\'t have been possible without her. When she wasn\'t helping out for
-    PyCon Canada, Elaine works as a Switcher/Director for the Canadian Broadcasting
-    Corporation/Radio-Canada'
+    description='L\'organisatrice principale de PyCon Canada 2018. L\'événement
+    ne serait pas possible sans elle. Quand elle ne travaille pas sur PyCon
+    Canada elle travaille en tant que Aiguilleuse-directrice pour
+    CBC/Radio-Canada'
 %}}
 
 {{% organizer_details
@@ -46,7 +46,7 @@
     github_url='https://github.com/myles'
     mastodon_url='https://myles.life/@me'
     linkedin_url='https://linkedin.com/in/mylesbraithwaite'
-    description='He works as a Senior Software Developer at GrantMatch'
+    description='Il travaille en tant que Développeur logiciel sénior chez GrantMatch'
 %}}
 
 {{% organizer_details
@@ -56,7 +56,8 @@
     bitbucket_url='https://bitbucket.org/dorianpula'
     github_url='https://github.com/dorianpula'
     twitter_url='https://twitter.com/dorianpula'
-    description='He works as a Software Development Engineer at Points'
+    description='Il travaille en tant qu\'ingénieur en développement logiciel
+    sénior chez Points'
 %}}
 
 {{% organizer_details
@@ -65,8 +66,8 @@
     photo='/images/organizers/alex-volkov.jpg'
     mastodon_url='https://mastodon.xyz/@avolkov'
     gitlab_url='https://gitlab.com/avolkov1'
-    description='He works as a Intermediate Developer at MAG Solutions at
-    Ministry of Attorney General of Ontario'
+    description='Il travaille en tant que développeur intermédiaire chez MAG
+    Solutions aux Ministry of Attorney General of Ontario'
 %}}
 
 {{% organizer_details
@@ -75,7 +76,7 @@
     photo='/images/organizers/chris-fournier.jpg'
     twitter_url='https://twitter.com/cfournie'
     github_url='https://github.com/cfournie'
-    description='He works as a Software Engineering Lead at Shopify'
+    description='Il travaille en tant que chef de développement logiciel chez Shopify'
 %}}
 
 {{% organizer_details
@@ -84,7 +85,7 @@
     photo='/images/organizers/no-photo.png'
     twitter_url='https://twitter.com/frdeso_'
     github_url='https://github.com/frdeso'
-    description='He works as a Ingénieur informatique at EfficiOS'
+    description='Travaille en tant qu\'Ingénieur informatique chez EfficiOS'
 %}}
 
 {{% organizer_details
@@ -92,18 +93,18 @@
     pycon_title='Organisateur'
     photo='/images/organizers/no-photo.png'
     github_url='https://github.com/cormier'
-    description='He works at Érudit'
+    description='Travaille chez Érudit'
 %}}
 
 {{% organizer_details
     name='Juti Noppornpitak'
-    pycon_title='Organizer, Photographer'
+    pycon_title='Organisateur, Photographe'
     photo='/images/organizers/juti.jpeg'
     github_url='https://github.com/shiroyuki'
     personal_url='https://www.shiroyuki.com/'
     twitter_url='https://twitter.com/shiroyuki'
-    description='He works as a senior software developer and team lead
-    at DNAstack.'
+    description='Il travaille en tant que développeur logiciel sénior et chef
+    d\'équipe à DNAstack'
 %}}
 
 {{% organizer_details
@@ -113,7 +114,8 @@
     github_url='https://github.com/abrahamvarricatt'
     personal_url='https://blog.abraham-v.com/'
     linkedin_url='https://www.linkedin.com/in/abrahamvarricatt/'
-    description='Helped to build the website you see. Is a software designer at
-    heart. Loves programming and fun challenges. Enjoys teaching others how to
-    use computers and code. A family man blessed with a loving wife.'
+    description='Il a aidé à la conception du site web que vous naviguez
+    présentement. Il est développeur logiciel chez Heart. Il aime programmer et
+    les défis. Il aime partager son savoir sur le fonctionnement des
+    ordinateurs et la programmation.'
 %}}

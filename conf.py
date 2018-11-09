@@ -182,10 +182,10 @@ NAVIGATION_LINKS = {
         ('Code de conduite', 'fa-graduation-cap', '/fr/code-of-conduct/'),
         ('L\'événement', 'fa-archive', (
             ('À propos', 'fa-eye', '/fr/about/'),
-            ('Organizers', 'fa-id-badge', '/fr/organizers/'),
+            ('Organisateurs', 'fa-id-badge', '/fr/organizers/'),
             ('Commanditaires', 'fa-handshake-o', '/fr/sponsors/'),
-            ('Schedule Day-1', 'fa-calendar', '/fr/schedule-day-1/'),
-            ('Schedule Day-2', 'fa-calendar', '/fr/schedule-day-2/'),
+            ('Horaire Jour-1', 'fa-calendar', '/fr/schedule-day-1/'),
+            ('Horaire Jour-2', 'fa-calendar', '/fr/schedule-day-2/'),
         )),
         ('Participer', 'fa-users', (
             ('Enregistrement', 'fa-address-card', '/fr/registration/'),
