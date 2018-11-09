@@ -84,7 +84,7 @@
     photo='/images/organizers/no-photo.png'
     twitter_url='https://twitter.com/frdeso_'
     github_url='https://github.com/frdeso'
-    description='He works as a Ingénieur informatique at EfficiOS'
+    description='He works as a Computer Engineer at EfficiOS'
 %}}
 
 {{% organizer_details

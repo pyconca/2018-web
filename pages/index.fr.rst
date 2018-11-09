@@ -5,26 +5,26 @@
 .. template: landing_page.tmpl
 
 {{% front_banner
-    event_dates='Conference: 10-11 November 2018<br>Sprints: 12-13 November 2018'
-    button_text='Schedule'
+    event_dates='Conférence: 10-11 novembre 2018<br>Sprints: 12-13 novembre 2018'
+    button_text='Horaire'
     button_link='/schedule-day-1/'
     button1_text='Sprints'
     button1_link='https://github.com/pyconca/2018-wiki/wiki/Sprints'
-    city_banner='Where is the event?'
+    city_banner='Où se tient l'événement?'
     city_heading='Toronto, Ontario'
-    city_sub_heading='Pycon Canada is being held at the Chestnut Residence & Conference Centre'
+    city_sub_heading='PyCon Canada se tiendra au Chestnut Residence & Conference Centre'
  %}}
 
 {{% speaker_left
-    speaker_name='Where is the event?'
+    speaker_name='Où se tient l'événement?'
     speaker_title='Chestnut Residence & Conference Centre'
     speaker_image='/images/chestnut_hotel_logo.png'
-    speaker_description='We are hosting Pycon Canada 2018 at the wonderful
-    Chestnut Residence & Conference Centre. Located adjacent to the city landmark of
-    Yonge and Dundas Square and directly north of the city’s Financial District,
-    Chestnut Conference Centre is in the heart of the downtown core. It is only
-    a 5 minute walk from the St Patrick subway station, 10 minute walk from
-    Eaton Centre and a 10 minute walk from Toronto’s Financial District.'
+    speaker_description='PyCon Canada 2018 se tiendra au magnifique Chesnut
+    Resdidence & Conference Centre. Situé à quelques pas du célèbre Yonge and
+    Dundas Square et juste au nord du quartier financier de la ville. Le
+    Chestnut Conference Centre est au coeur du centre-ville. Il est à seulement
+    5 minutes de marche du la station de métro St. Patrick et 10 minutes du
+    Centre Eaton.'
 %}}
 
 {{% speaker_right
