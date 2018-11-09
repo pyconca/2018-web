@@ -18,7 +18,7 @@ MESSAGES = {
     'name-diversity': "Diversité",
     'name-community': "Communauté",
     'name-party': "Fête",
-    'Sprints Venue': 'Sprints Venue',
+    'name-sprints-venue': 'Sprints Venue',
     'Download our sponsorship prospectus.': 'Téléchargez le prospectus de commandites.',
     'Keynote Speakers': 'Présentateurs invités',
     'Contact our Sponsorship Committee': 'Contactez notre équipe de commandites',
