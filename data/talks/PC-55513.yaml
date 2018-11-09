@@ -9,21 +9,19 @@ talk_title: "What a Bug can Teach You about Python"
 # At least 1 tag is necessary!!
 talk_tags:
 - "bug"
-- "PyIntObject"
+- "PyLongObject"
 - "debugging"
 - "cpython"
-- "dissasembly"
 
+talk_abstract: "We’ll take a look at some Python code that has a strange bug in it. You’ll learn why it’s a bug and why it only occurs with larger numbers. We’ll cover fixes, dive into how Python works and look at some CPython source code. You’ll learn about “is” vs “==” and how to prevent bugs."
 
-talk_abstract: "We’ll take a look at some Python code that has a strange bug in it. You’ll learn why it’s a bug and why it only occurs with larger numbers. We’ll cover fixes, dive into how Python works by disassembling it and looking at PyIntObject’s source. You’ll learn about “is” vs “==” and how to prevent bugs."
-
-talk_details: "We’ll take a look at some Python code that has a strange integer bug in it. You’ll learn about how the bug was discovered, and by the end of the talk you’ll understand why it’s a bug and why the bug only occurs with larger integers. You’ll see a one character fix to the bug, and then an even better fix. We’ll look at CPython's PyIntObject source code  to understand how smaller integers are handled differently than larger ones. We’ll explore the difference between comparing values in Python versus testing for identity. Hopefully you’ll gain an appreciation that bugs can be your best teachers and be able to prevent more bugs."
+talk_details: "We’ll take a look at some Python code that has a strange integer bug in it. You’ll learn about how the bug was discovered, and by the end of the talk you’ll understand why it’s a bug and why the bug only occurs with larger integers. You’ll see a one character fix to the bug, and then an even better fix. We’ll look at CPython's longobject.c source code to understand how smaller integers are handled differently than larger ones. We’ll explore the difference between comparing values in Python versus testing for identity. Hopefully you’ll gain an appreciation that bugs can be your best teachers and be able to prevent more bugs."
 
 
 
 
 # Markdown is supported
-about_author: ''
+about_author: "Brad is a creative, collaborative and outspoken hacker and Software Engineer at Peloton in New York City. He has experience working at Google, Apple and NASA. He recently completed three months at the Recurse Center where he found a wonderful community of programmers."
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: "https://twitter.com/brradical"
