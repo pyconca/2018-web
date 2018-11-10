@@ -15,27 +15,25 @@ talk_tags:
 
 talk_abstract: "This talk will arm you with some tools to design a library that 'just works', but also has obvious escape hatches to handle corner cases. It covers several patterns for cleanly organizing related and overlapping functionality in a way that statisfies both humans and static analysis tools."
 
-talk_details: "What do you do when you have to choose between designing your function for one of two common use cases?
-How about when the same logical operations (say, multiplication or concatenation) need to have different implementations depending on the type of the arguments they are applied to?
-These kinds of questions can be vexing when trying to design a clean, well-scoped API.
-This talk will cover several strategies for grouping related functionality in a way that presents a logically clean interface to both humans and static analysis tools like type checkers and document generators.
+talk_details: |
+  What do you do when you have to choose between designing your function for one of two common use cases?
 
-This talk covers:
+  How about when the same logical operations (say, multiplication or concatenation) need to have different implementations depending on the type of the arguments they are applied to?
 
-- Alternate constructors with @classmethod
+  These kinds of questions can be vexing when trying to design a clean, well-scoped API.
 
-- Namespacing functions under a class with @staticmethod
+  This talk will cover several strategies for grouping related functionality in a way that presents a logically clean interface to both humans and static analysis tools like type checkers and document generators.
 
-- Dispatch by type
+  This talk covers:
 
-- A new convention for namespacing functions: ``variants``
-"
-
-
+  - Alternate constructors with `@classmethod`
+  - Inheritance with ``@staticmethod`` and `@classmethod`
+  - Dispatch by type
+  - A new convention for namespacing functions: `variants`
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Paul Ganssle is a software developer at Bloomberg and a maintainer of several open source libraries including `dateutil` and `setuptools`, and a contributor to many other FOSS projects.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'https://ganssle.io'
