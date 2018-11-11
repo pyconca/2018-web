@@ -16,6 +16,22 @@
 %}}
 
 {{% speaker_left
+    speaker_name='Development Sprints'
+    speaker_title='12th-13th, November, 2018 at <a href="http://dx.org">The Design Exchange</a> 234 Bay Street in Toronto'
+    speaker_image='/images/myles-braithwaite-img-0376.jpg'
+    speaker_description='<p>PyCon Canada Development Sprints are two days of intensive learning and development on an open source project of your choice, in a team environment. It’s a time to come together with colleagues, old and new, to share what you’ve learned and apply it to an open source project.</p><p> PyCon Canada provides the space and infrastructure (network, power, tables & chairs); you bring your skills, humanity, and brainpower (oh! and don’t forget your computer).<br/> Some of things you might end up doing during the sprint: <br/>
+<ul>
+<li>Fix bugs
+<li>Write tests
+<li>Improve documentation
+<li>Write code
+</ul>
+<p>It’s a great way to contribute to the community, learn about coding and open-source contribution, and have fun!<br/> To learn more about some of the projects that are taking place during the Sprint days, check out our wiki: <a href="https://github.com/pyconca/2018-wiki/wiki/Sprints">https://github.com/pyconca/2018-wiki/wiki/Sprints</a></p>'
+%}}
+
+
+
+{{% speaker_right
     speaker_name='Where is the event?'
     speaker_title='Chestnut Residence & Conference Centre'
     speaker_image='/images/chestnut_hotel_logo.png'
@@ -25,27 +41,6 @@
     Chestnut Conference Centre is in the heart of the downtown core. It is only
     a 5 minute walk from the St. Patrick subway station, 10 minute walk from
     Eaton Centre and a 10 minute walk from Toronto’s Financial District.'
-%}}
-
-{{% speaker_right
-    speaker_name='Any accommodations available?'
-    speaker_title='DoubleTree by Hilton Hotel Toronto Downtown'
-    speaker_image='/images/double_tree.jpg'
-    speaker_description='Set in the center of Toronto\'s financial, government, research, medical,
-    education and shopping districts, DoubleTree by Hilton Hotel Toronto Downtown offers a quiet
-    retreat in the heart of a vibrant, urban location. They have generously offered our visitors
-    a special rate of $169+tax/night. <a href="https://secure3.hilton.com/en_US/dt/reservation/book.htm?inputModule=HOTEL&ctyhocn=YTOCSDT&spec_plan=CDTPYC&arrival=20181109&departure=20181111&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">
-    You can use this link to make your reservation.</a>'
-%}}
-
-{{% speaker_left
-    speaker_name='Childcare'
-    speaker_title='provided by improvcare'
-    speaker_image='/images/childcare_image.jpg'
-    speaker_description='Childcare is available for the duration of the conference (Nov 10-11) and included in the ticket price. You need to buy a ticket in order to apply for childcare, when you buy a ticket you\'ll get an option to receive childcare package. Age limit for childcare is 10 years old.
-
-    <a href="http://www.improvcare.ca/">More information about the childcare provider.</a>
-    '
 %}}
 
 {{% post_mid_title
@@ -116,20 +111,6 @@
     mail_text='Receive all event details as they become available'
     mail_button_text='Subscribe'
     mail_link='http://eepurl.com/bs9mG9'
-%}}
-
-{{% speaker_left
-    speaker_name='Development Sprints'
-    speaker_title='12th-13th, November, 2018 at <a href="http://dx.org">The Design Exchange</a> 234 Bay Street in Toronto'
-    speaker_image='/images/myles-braithwaite-img-0376.jpg'
-    speaker_description='<p>PyCon Canada Development Sprints are two days of intensive learning and development on an open source project of your choice, in a team environment. It’s a time to come together with colleagues, old and new, to share what you’ve learned and apply it to an open source project.</p><p> PyCon Canada provides the space and infrastructure (network, power, tables & chairs); you bring your skills, humanity, and brainpower (oh! and don’t forget your computer).<br/> Some of things you might end up doing during the sprint: <br/>
-<ul>
-<li>Fix bugs
-<li>Write tests
-<li>Improve documentation
-<li>Write code
-</ul>
-<p>It’s a great way to contribute to the community, learn about coding and open-source contribution, and have fun!<br/> To learn more about some of the projects that are taking place during the Sprint days, check out our wiki: <a href="https://github.com/pyconca/2018-wiki/wiki/Sprints">https://github.com/pyconca/2018-wiki/wiki/Sprints</a></p>'
 %}}
 
 {{% sponsors_overview %}}
