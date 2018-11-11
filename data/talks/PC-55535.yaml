@@ -23,7 +23,7 @@ This talk is a quick walk-through of lessons learned while developing with Pytho
 
 
 # Markdown is supported
-about_author: ''
+about_author: 'Pippin builds interfaces and tools to help make machine learning more usable at Dessa. He also spends time researching how deep learning techniques can help astronomers with space2vec.'
 
 # web link will only show if about_author section is present
-author_website: ''
+author_website: 'http://www.space2vec.com/'
