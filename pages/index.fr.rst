@@ -7,7 +7,7 @@
 {{% front_banner
     event_dates='Conférence: 10-11 novembre 2018<br>Sprints: 12-13 novembre 2018'
     button_text='Horaire'
-    button_link='/schedule-day-1/'
+    button_link='/schedule-day-2/'
     button1_text='Sprints'
     button1_link='https://github.com/pyconca/2018-wiki/wiki/Sprints'
     city_banner='Où se tient l\'événement?'
