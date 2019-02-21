@@ -12,7 +12,7 @@ talk_tags:
 - "architecture"
 
 
-talk_abstract: "Software design is a tricky to get right, even for experienced developers. There is simply too much choice and too much information to consider. How do we slow the incidental complexity of our systems with every new feature we add? Learn how simpler patterns and more contraints can actually lead to more reliable results."
+talk_abstract: "Software design is a tricky to get right, even for experienced developers. There is simply too much choice and too much information to consider. How do we slow the incidental complexity of our systems with every new feature we add? Learn how simpler patterns and more constraints can actually lead to more reliable results."
 
 talk_details: |
   Using Singleton Services arranged in layers and passing Value objects in between is a predictable way of getting the aspects of design that developers desire. It promotes expressive interface building instead of pure decoupling (unlike Observables / callbacks promoted by frameworks), separation of concerns by responsibility and by type, and keeps code in isolation for easy testing.
