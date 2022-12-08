@@ -3,7 +3,7 @@ argh==0.26.2
 backcall==0.1.0
 bleach==2.1.4
 blinker==1.4
-certifi==2018.8.13
+certifi==2022.12.7
 chardet==3.0.4
 cloudpickle==0.5.3
 decorator==4.3.0
